@@ -1,601 +1,601 @@
 status,duration,credit_history,purpose,credit_amount,savings,employment,installment_rate,other_debtors,residence_since,property,age,other_installment,housing,existing_credits,job,num_dependents,telephone,foreign_worker,good_credit,sex,age_band
-200+ DM,18,paid duly,A43,2100,below 100 DM,1-4 years,4,A102,2,A121,37,A142,own,1,A173,1,A191,yes,0,male,25-44
-no account,15,paid duly,A40,3186,1000+ DM,4-7 years,2,A101,3,A123,20,A143,rent,1,A173,1,A191,yes,1,female,under25
-0-200 DM,30,critical account,A40,2181,unknown,7+ years,4,A101,4,A121,36,A143,own,2,A173,1,A191,yes,1,male,25-44
-no account,15,paid duly,A43,3568,below 100 DM,7+ years,4,A101,2,A123,54,A141,rent,1,A174,1,A192,yes,1,female,45plus
-no account,28,critical account,A43,2743,below 100 DM,7+ years,4,A101,2,A123,29,A143,own,2,A173,1,A191,yes,1,male,25-44
-no account,24,critical account,A42,2028,below 100 DM,4-7 years,2,A101,2,A122,30,A143,own,2,A172,1,A191,yes,1,male,25-44
-0-200 DM,30,past delays,A43,1919,100-500 DM,under 1 year,4,A101,3,A124,30,A142,own,2,A174,1,A191,yes,0,male,25-44
-no account,6,no credits,A40,1204,100-500 DM,1-4 years,4,A101,1,A124,35,A141,rent,1,A173,1,A191,no,1,male,25-44
-0-200 DM,48,all paid here,A40,12169,unknown,unemployed,4,A102,4,A124,36,A143,free,1,A174,1,A192,yes,1,male,25-44
-no account,21,paid duly,A41,5248,unknown,1-4 years,1,A101,3,A123,26,A143,own,1,A173,1,A191,yes,1,male,25-44
-no account,24,critical account,A40,2463,100-500 DM,4-7 years,4,A101,3,A122,27,A143,own,2,A173,1,A192,yes,1,male,25-44
-0-200 DM,36,paid duly,A41,9398,below 100 DM,under 1 year,1,A101,4,A123,28,A143,rent,1,A174,1,A192,yes,0,male,25-44
-below 0 DM,8,critical account,A410,1164,below 100 DM,7+ years,3,A101,4,A124,51,A141,free,2,A174,2,A192,yes,1,male,45plus
-below 0 DM,12,paid duly,A40,2579,below 100 DM,under 1 year,4,A101,1,A121,33,A143,own,1,A172,2,A191,yes,0,male,25-44
-no account,24,past delays,A49,2375,500-1000 DM,1-4 years,4,A101,2,A123,44,A143,own,2,A173,2,A192,yes,1,male,25-44
-0-200 DM,24,all paid here,A46,1837,below 100 DM,4-7 years,4,A101,4,A124,34,A141,free,1,A172,1,A191,yes,0,female,25-44
-no account,12,paid duly,A41,2445,unknown,under 1 year,2,A101,4,A123,26,A143,rent,1,A173,1,A192,yes,1,male,25-44
-below 0 DM,12,paid duly,A42,1620,below 100 DM,1-4 years,2,A102,3,A122,30,A143,own,1,A173,1,A191,yes,1,female,25-44
-200+ DM,18,paid duly,A42,3049,below 100 DM,under 1 year,1,A101,1,A122,45,A142,own,1,A172,1,A191,yes,1,female,25-44
-no account,12,critical account,A43,717,below 100 DM,7+ years,4,A101,4,A121,52,A143,own,3,A173,1,A191,yes,1,male,45plus
-no account,10,critical account,A42,2146,below 100 DM,under 1 year,1,A101,3,A121,23,A143,rent,2,A173,1,A191,yes,1,female,under25
-below 0 DM,24,all paid here,A40,2325,100-500 DM,4-7 years,2,A101,3,A123,32,A141,own,1,A173,1,A191,yes,1,male,25-44
-no account,15,critical account,A43,1360,below 100 DM,1-4 years,4,A101,2,A122,31,A143,own,2,A173,1,A191,yes,1,male,25-44
-below 0 DM,24,critical account,A41,6419,below 100 DM,7+ years,2,A101,4,A124,44,A143,free,2,A174,2,A192,yes,1,female,25-44
-200+ DM,4,paid duly,A40,1494,unknown,under 1 year,1,A101,2,A121,29,A143,own,1,A172,2,A191,no,1,male,25-44
-0-200 DM,18,paid duly,A41,2779,below 100 DM,1-4 years,1,A101,3,A123,21,A143,rent,1,A173,1,A192,yes,1,male,under25
-no account,12,paid duly,A43,2171,below 100 DM,under 1 year,2,A101,2,A123,29,A141,own,1,A173,1,A191,yes,1,female,25-44
-below 0 DM,24,paid duly,A41,2924,below 100 DM,1-4 years,3,A103,4,A124,63,A141,own,1,A173,2,A192,yes,1,male,45plus
-no account,10,paid duly,A40,1309,unknown,1-4 years,4,A103,4,A122,27,A143,own,1,A172,1,A191,yes,0,male,25-44
-no account,24,past delays,A49,8648,below 100 DM,under 1 year,2,A101,2,A123,27,A141,own,2,A173,1,A192,yes,0,male,25-44
-no account,12,critical account,A42,5801,unknown,7+ years,2,A101,4,A122,49,A143,rent,1,A173,1,A192,yes,1,male,45plus
-no account,4,critical account,A40,3380,below 100 DM,4-7 years,1,A101,1,A121,37,A143,own,1,A173,2,A191,yes,1,female,25-44
-below 0 DM,27,paid duly,A43,3416,below 100 DM,1-4 years,3,A101,2,A123,27,A143,own,1,A174,1,A191,yes,1,male,25-44
-0-200 DM,30,paid duly,A43,1715,unknown,1-4 years,4,A101,1,A123,26,A143,own,1,A173,1,A191,yes,1,female,25-44
-no account,24,critical account,A45,2058,below 100 DM,1-4 years,4,A101,2,A121,33,A143,own,2,A173,1,A192,yes,1,male,25-44
-no account,18,critical account,A43,1800,below 100 DM,1-4 years,4,A101,2,A123,24,A143,own,2,A173,1,A191,yes,1,male,under25
-0-200 DM,36,past delays,A40,2225,below 100 DM,7+ years,4,A101,4,A124,57,A141,free,2,A173,1,A192,yes,0,male,45plus
-below 0 DM,24,paid duly,A41,2812,unknown,7+ years,2,A101,4,A121,26,A143,rent,1,A173,1,A191,yes,1,female,25-44
-below 0 DM,18,paid duly,A41,7511,unknown,7+ years,1,A101,4,A122,51,A143,free,1,A173,2,A192,yes,0,male,45plus
-0-200 DM,9,paid duly,A43,1206,below 100 DM,7+ years,4,A101,4,A121,25,A143,own,1,A173,1,A191,yes,1,female,under25
-below 0 DM,6,paid duly,A42,428,below 100 DM,7+ years,2,A101,1,A122,49,A141,own,1,A173,1,A192,yes,1,female,45plus
-below 0 DM,12,paid duly,A43,727,100-500 DM,under 1 year,4,A101,3,A124,33,A143,own,1,A172,1,A192,yes,0,male,25-44
-below 0 DM,6,paid duly,A43,2647,500-1000 DM,1-4 years,2,A101,3,A121,44,A143,rent,1,A173,2,A191,yes,1,male,25-44
-no account,36,paid duly,A46,1819,below 100 DM,1-4 years,4,A101,4,A124,37,A142,free,1,A173,1,A192,yes,0,male,25-44
-0-200 DM,15,critical account,A49,2326,500-1000 DM,1-4 years,2,A101,4,A123,27,A141,own,1,A173,1,A191,yes,1,male,25-44
-0-200 DM,36,paid duly,A43,2323,below 100 DM,4-7 years,4,A101,4,A123,24,A143,rent,1,A173,1,A191,yes,1,male,under25
-0-200 DM,12,critical account,A40,958,below 100 DM,4-7 years,2,A101,3,A121,47,A143,own,2,A172,2,A191,yes,1,male,45plus
-0-200 DM,9,critical account,A43,1154,below 100 DM,7+ years,2,A101,4,A121,37,A143,own,3,A172,1,A191,yes,1,male,25-44
-below 0 DM,12,paid duly,A43,1107,below 100 DM,1-4 years,2,A101,2,A121,20,A143,rent,1,A174,2,A192,yes,1,male,under25
-no account,24,critical account,A43,2611,below 100 DM,7+ years,4,A102,3,A121,46,A143,own,2,A173,1,A191,yes,1,male,45plus
-no account,11,critical account,A43,1154,100-500 DM,unemployed,4,A101,4,A121,57,A143,own,3,A172,1,A191,yes,1,female,45plus
-no account,48,critical account,A43,3578,unknown,7+ years,4,A101,1,A121,47,A143,own,1,A173,1,A192,yes,1,male,45plus
-no account,24,paid duly,A41,6313,unknown,7+ years,3,A101,4,A123,41,A143,own,1,A174,2,A192,yes,1,male,25-44
-0-200 DM,24,past delays,A42,2064,below 100 DM,unemployed,3,A101,2,A122,34,A143,own,1,A174,1,A192,yes,0,female,25-44
-below 0 DM,36,past delays,A49,2145,below 100 DM,4-7 years,2,A101,1,A123,24,A143,own,2,A173,1,A192,yes,0,male,under25
-no account,12,critical account,A43,1934,below 100 DM,7+ years,2,A101,2,A124,26,A143,own,2,A173,1,A191,yes,1,male,25-44
-no account,24,critical account,A40,1287,1000+ DM,7+ years,4,A101,4,A121,37,A143,own,2,A173,1,A192,yes,1,female,25-44
-0-200 DM,24,past delays,A49,4712,unknown,1-4 years,4,A101,2,A122,37,A141,own,2,A174,1,A192,yes,1,male,25-44
-below 0 DM,21,paid duly,A43,1835,below 100 DM,1-4 years,3,A101,2,A121,25,A143,own,2,A173,1,A192,yes,0,female,under25
-0-200 DM,12,paid duly,A43,1092,below 100 DM,1-4 years,4,A103,4,A121,49,A143,own,2,A173,1,A192,yes,1,female,45plus
-no account,21,paid duly,A43,3160,unknown,7+ years,4,A101,3,A122,41,A143,own,1,A173,1,A192,yes,1,male,25-44
-0-200 DM,42,all paid here,A41,9283,below 100 DM,unemployed,1,A101,2,A124,55,A141,free,1,A174,1,A192,yes,1,male,45plus
-below 0 DM,12,paid duly,A43,701,below 100 DM,1-4 years,4,A101,2,A121,40,A143,own,1,A172,1,A191,yes,1,male,25-44
-below 0 DM,45,no credits,A49,11816,below 100 DM,7+ years,2,A101,4,A123,29,A143,rent,2,A173,1,A191,yes,0,male,25-44
-0-200 DM,48,no credits,A410,18424,below 100 DM,1-4 years,1,A101,2,A122,32,A141,own,1,A174,1,A192,no,0,female,25-44
-below 0 DM,12,critical account,A40,3499,below 100 DM,1-4 years,3,A102,2,A121,29,A143,own,2,A173,1,A191,yes,0,female,25-44
-no account,10,critical account,A40,1231,below 100 DM,7+ years,3,A101,4,A121,32,A143,own,2,A172,2,A191,no,1,male,25-44
-below 0 DM,24,paid duly,A42,4169,below 100 DM,1-4 years,4,A101,4,A122,28,A143,own,1,A173,1,A191,yes,1,male,25-44
-no account,21,past delays,A41,2993,below 100 DM,1-4 years,3,A101,2,A121,28,A142,own,2,A172,1,A191,yes,1,male,25-44
-below 0 DM,18,past delays,A46,8471,unknown,1-4 years,1,A101,2,A123,23,A143,rent,2,A173,1,A192,yes,1,female,under25
-below 0 DM,24,no credits,A42,4110,below 100 DM,7+ years,3,A101,4,A124,23,A141,rent,2,A173,2,A191,yes,0,male,under25
-0-200 DM,16,critical account,A40,1175,below 100 DM,unemployed,2,A101,3,A123,68,A143,free,3,A171,1,A192,yes,1,male,45plus
-below 0 DM,9,critical account,A43,1138,below 100 DM,1-4 years,4,A101,4,A121,25,A143,own,2,A172,1,A191,yes,1,male,under25
-below 0 DM,12,critical account,A42,2246,below 100 DM,7+ years,3,A101,3,A122,60,A143,own,2,A173,1,A191,yes,0,male,45plus
-no account,15,paid duly,A43,1386,unknown,1-4 years,4,A101,2,A121,40,A143,rent,1,A173,1,A192,yes,1,male,25-44
-0-200 DM,15,all paid here,A40,1264,100-500 DM,1-4 years,2,A101,2,A122,25,A143,rent,1,A173,1,A191,yes,0,male,under25
-0-200 DM,24,paid duly,A43,5084,unknown,7+ years,2,A101,4,A123,42,A143,own,1,A173,1,A192,yes,1,female,25-44
-below 0 DM,42,paid duly,A43,3965,below 100 DM,under 1 year,4,A101,3,A123,34,A143,own,1,A173,1,A191,yes,0,male,25-44
-0-200 DM,24,critical account,A410,11938,below 100 DM,1-4 years,2,A102,3,A123,39,A143,own,2,A174,2,A192,yes,0,male,25-44
-no account,30,paid duly,A41,4811,unknown,4-7 years,2,A101,4,A122,24,A142,rent,1,A172,1,A191,yes,1,female,under25
-no account,48,paid duly,A49,3914,unknown,1-4 years,4,A101,2,A121,38,A141,own,1,A173,1,A191,yes,0,male,25-44
-0-200 DM,9,paid duly,A42,2030,unknown,4-7 years,2,A101,1,A123,24,A143,own,1,A173,1,A192,yes,1,male,under25
-no account,21,critical account,A40,12680,unknown,7+ years,4,A101,4,A124,30,A143,free,1,A174,1,A192,yes,0,male,25-44
-no account,15,paid duly,A46,4623,100-500 DM,1-4 years,3,A101,2,A122,40,A143,own,1,A174,1,A192,yes,0,male,25-44
-no account,24,paid duly,A40,1393,below 100 DM,1-4 years,2,A103,2,A121,31,A143,own,1,A173,1,A192,yes,1,male,25-44
-0-200 DM,60,paid duly,A40,7408,100-500 DM,under 1 year,4,A101,2,A122,24,A143,own,1,A174,1,A191,yes,0,female,under25
-no account,12,past delays,A45,1555,1000+ DM,7+ years,4,A101,4,A124,55,A143,free,2,A173,2,A191,yes,0,male,45plus
-no account,28,all paid here,A41,7824,unknown,under 1 year,3,A103,4,A121,40,A141,rent,2,A173,2,A192,yes,1,male,25-44
-no account,27,past delays,A41,8613,1000+ DM,1-4 years,2,A101,2,A123,27,A143,own,2,A173,1,A191,yes,1,male,25-44
-below 0 DM,12,paid duly,A46,795,below 100 DM,under 1 year,4,A101,4,A122,53,A143,own,1,A173,1,A191,yes,0,female,45plus
-below 0 DM,24,paid duly,A42,3021,below 100 DM,1-4 years,2,A101,2,A121,24,A143,rent,1,A172,1,A191,yes,1,male,under25
-below 0 DM,12,paid duly,A40,3651,1000+ DM,1-4 years,1,A101,3,A122,31,A143,own,1,A173,2,A191,yes,1,male,25-44
-no account,12,paid duly,A40,2390,unknown,7+ years,4,A101,3,A123,50,A143,own,1,A173,1,A192,yes,1,male,45plus
-below 0 DM,24,all paid here,A41,3632,below 100 DM,1-4 years,1,A103,4,A123,22,A141,rent,1,A173,1,A191,no,1,female,under25
-below 0 DM,24,paid duly,A40,915,unknown,7+ years,4,A101,2,A123,29,A141,own,1,A173,1,A191,yes,0,female,25-44
-0-200 DM,18,paid duly,A46,1239,unknown,1-4 years,4,A101,4,A124,61,A143,free,1,A173,1,A191,yes,1,male,45plus
-no account,12,critical account,A43,618,below 100 DM,7+ years,4,A101,4,A121,56,A143,own,1,A173,1,A191,yes,1,male,45plus
-no account,15,paid duly,A43,1213,500-1000 DM,7+ years,4,A101,3,A122,47,A142,own,1,A173,1,A192,yes,1,male,45plus
-no account,24,critical account,A43,2424,unknown,7+ years,4,A101,4,A122,53,A143,own,2,A173,1,A191,yes,1,male,45plus
-no account,21,critical account,A42,2288,below 100 DM,under 1 year,4,A101,4,A122,23,A143,own,1,A173,1,A192,yes,1,female,under25
-below 0 DM,18,no credits,A49,3104,below 100 DM,4-7 years,3,A101,1,A122,31,A141,own,1,A173,1,A192,yes,1,male,25-44
-below 0 DM,10,critical account,A40,1038,below 100 DM,4-7 years,4,A102,3,A122,49,A143,own,2,A173,1,A192,yes,1,male,45plus
-no account,30,past delays,A49,4272,100-500 DM,1-4 years,2,A101,2,A122,26,A143,own,2,A172,1,A191,yes,1,male,25-44
-below 0 DM,48,paid duly,A41,10297,below 100 DM,4-7 years,4,A101,4,A124,39,A142,free,3,A173,2,A192,yes,0,male,25-44
-no account,18,paid duly,A43,1473,below 100 DM,under 1 year,3,A101,4,A121,39,A143,own,1,A173,1,A192,yes,1,male,25-44
-no account,12,paid duly,A43,1963,below 100 DM,4-7 years,4,A101,2,A123,31,A143,rent,2,A174,2,A192,yes,1,male,25-44
-no account,10,paid duly,A40,1418,100-500 DM,1-4 years,3,A101,2,A121,35,A143,rent,1,A172,1,A191,no,1,male,25-44
-0-200 DM,48,past delays,A410,7582,100-500 DM,unemployed,2,A101,4,A124,31,A143,free,1,A174,1,A192,yes,1,male,25-44
-below 0 DM,6,paid duly,A40,1374,unknown,unemployed,4,A101,3,A122,75,A143,own,1,A174,1,A192,yes,1,female,45plus
-no account,18,critical account,A40,1028,below 100 DM,1-4 years,4,A101,3,A121,36,A143,own,2,A173,1,A191,yes,1,female,25-44
-200+ DM,6,past delays,A43,683,below 100 DM,under 1 year,2,A101,1,A122,29,A141,own,1,A173,1,A191,yes,1,female,25-44
-no account,24,critical account,A49,4139,100-500 DM,1-4 years,3,A101,3,A122,27,A143,own,2,A172,1,A192,yes,1,male,25-44
-no account,12,critical account,A42,3331,below 100 DM,7+ years,2,A101,4,A122,42,A142,own,1,A173,1,A191,yes,1,male,25-44
-0-200 DM,18,critical account,A42,3612,below 100 DM,7+ years,3,A101,4,A122,37,A143,own,1,A173,1,A192,yes,1,female,25-44
-no account,9,paid duly,A42,2301,100-500 DM,under 1 year,2,A101,4,A122,22,A143,rent,1,A173,1,A191,yes,1,female,under25
-200+ DM,15,paid duly,A46,392,below 100 DM,under 1 year,4,A101,4,A122,23,A143,rent,1,A173,1,A192,yes,1,female,under25
-no account,18,critical account,A40,2775,below 100 DM,4-7 years,2,A101,2,A122,31,A141,own,2,A173,1,A191,yes,0,male,25-44
-0-200 DM,48,no credits,A40,8358,500-1000 DM,under 1 year,1,A101,1,A123,30,A143,own,2,A173,1,A191,yes,1,female,25-44
-no account,12,critical account,A42,1258,below 100 DM,under 1 year,2,A101,4,A122,22,A143,rent,2,A172,1,A191,yes,1,female,under25
-0-200 DM,60,past delays,A43,9157,unknown,1-4 years,2,A101,2,A124,27,A143,free,1,A174,1,A191,yes,1,male,25-44
-no account,9,paid duly,A42,1313,below 100 DM,7+ years,1,A101,4,A123,20,A143,own,1,A173,1,A191,yes,1,male,under25
-below 0 DM,36,critical account,A46,8065,below 100 DM,1-4 years,3,A101,2,A124,25,A143,own,2,A174,1,A192,yes,0,female,under25
-below 0 DM,12,paid duly,A40,1228,below 100 DM,1-4 years,4,A101,2,A121,24,A143,own,1,A172,1,A191,yes,0,female,under25
-0-200 DM,6,critical account,A48,932,unknown,4-7 years,1,A101,3,A122,39,A143,own,2,A172,1,A191,yes,1,female,25-44
-no account,6,paid duly,A43,1346,100-500 DM,7+ years,2,A101,4,A124,42,A141,free,1,A173,2,A192,yes,1,male,25-44
-0-200 DM,42,critical account,A49,5954,below 100 DM,4-7 years,2,A101,1,A121,41,A141,own,2,A172,1,A191,yes,1,female,25-44
-no account,24,critical account,A46,1597,below 100 DM,7+ years,4,A101,4,A124,54,A143,free,2,A173,2,A191,yes,1,male,45plus
-no account,36,paid duly,A43,3595,below 100 DM,7+ years,4,A101,2,A123,28,A143,own,1,A173,1,A191,yes,1,male,25-44
-0-200 DM,6,paid duly,A43,1068,below 100 DM,7+ years,4,A101,4,A123,28,A143,own,1,A173,2,A191,yes,1,male,25-44
-below 0 DM,24,paid duly,A42,3345,below 100 DM,7+ years,4,A101,2,A122,39,A143,rent,1,A174,1,A192,yes,0,male,25-44
-no account,24,paid duly,A42,3062,500-1000 DM,7+ years,4,A101,3,A124,32,A143,rent,1,A173,1,A192,yes,1,male,25-44
-no account,15,critical account,A40,5045,unknown,7+ years,1,A101,4,A123,59,A143,own,1,A173,1,A192,yes,1,female,45plus
-no account,24,critical account,A41,6842,unknown,1-4 years,2,A101,4,A122,46,A143,own,2,A174,2,A192,yes,1,male,45plus
-no account,15,paid duly,A41,3029,below 100 DM,4-7 years,2,A101,2,A123,33,A143,own,1,A173,1,A191,yes,1,male,25-44
-0-200 DM,39,critical account,A43,4933,below 100 DM,4-7 years,2,A103,2,A121,25,A143,own,2,A173,1,A191,yes,0,male,under25
-200+ DM,15,critical account,A43,1271,unknown,1-4 years,3,A101,4,A124,39,A143,free,2,A173,1,A192,yes,0,male,25-44
-no account,21,past delays,A42,1591,100-500 DM,4-7 years,4,A101,3,A121,34,A143,own,2,A174,1,A191,yes,1,male,25-44
-no account,12,paid duly,A42,1574,below 100 DM,1-4 years,4,A101,2,A121,50,A143,own,1,A173,1,A191,yes,1,male,45plus
-0-200 DM,24,past delays,A40,1965,unknown,1-4 years,4,A101,4,A123,42,A143,rent,2,A173,1,A192,yes,1,female,25-44
-0-200 DM,15,all paid here,A40,6850,100-500 DM,unemployed,1,A101,2,A122,34,A143,own,1,A174,2,A192,yes,0,male,25-44
-below 0 DM,18,paid duly,A46,750,below 100 DM,unemployed,4,A101,1,A121,27,A143,own,1,A171,1,A191,yes,0,female,25-44
-0-200 DM,9,paid duly,A42,959,below 100 DM,1-4 years,1,A101,2,A123,29,A143,own,1,A173,1,A191,no,0,female,25-44
-0-200 DM,18,no credits,A42,3244,below 100 DM,1-4 years,1,A101,4,A123,33,A141,own,2,A173,1,A192,yes,1,female,25-44
-no account,15,past delays,A43,1478,below 100 DM,1-4 years,4,A101,3,A121,33,A141,own,2,A173,1,A191,yes,1,male,25-44
-below 0 DM,8,critical account,A40,731,below 100 DM,7+ years,4,A101,4,A121,47,A143,own,2,A172,1,A191,yes,1,male,45plus
-no account,9,critical account,A40,1224,below 100 DM,1-4 years,3,A101,1,A121,30,A143,own,2,A173,1,A191,yes,1,male,25-44
-no account,12,critical account,A49,1185,below 100 DM,1-4 years,3,A101,2,A121,27,A143,own,2,A173,1,A191,yes,1,female,25-44
-0-200 DM,6,paid duly,A43,2063,below 100 DM,under 1 year,4,A101,3,A123,30,A143,rent,1,A174,1,A192,yes,1,male,25-44
-below 0 DM,24,paid duly,A42,7721,unknown,under 1 year,1,A101,2,A122,30,A143,own,1,A173,1,A192,no,1,female,25-44
-below 0 DM,48,no credits,A42,7119,below 100 DM,1-4 years,3,A101,4,A124,53,A143,free,2,A173,2,A191,yes,0,male,45plus
-no account,48,critical account,A40,10127,500-1000 DM,1-4 years,2,A101,2,A124,44,A141,free,1,A173,1,A191,yes,0,male,25-44
-no account,24,past delays,A40,2032,below 100 DM,7+ years,4,A101,4,A124,60,A143,free,2,A173,1,A192,yes,1,male,45plus
-no account,6,paid duly,A44,1338,500-1000 DM,1-4 years,1,A101,4,A121,62,A143,own,1,A173,1,A191,yes,1,male,45plus
-no account,24,critical account,A40,1940,1000+ DM,7+ years,4,A101,4,A121,60,A143,own,1,A173,1,A192,yes,1,male,45plus
-no account,15,paid duly,A42,2708,below 100 DM,under 1 year,2,A101,3,A122,27,A141,own,2,A172,1,A191,yes,1,male,25-44
-below 0 DM,6,paid duly,A44,343,below 100 DM,under 1 year,4,A101,1,A121,27,A143,own,1,A173,1,A191,yes,1,female,25-44
-200+ DM,24,paid duly,A42,2892,below 100 DM,7+ years,3,A101,4,A124,51,A143,free,1,A173,1,A191,yes,1,male,45plus
-0-200 DM,36,paid duly,A45,2384,below 100 DM,under 1 year,4,A101,1,A124,33,A143,rent,1,A172,1,A191,yes,0,male,25-44
-below 0 DM,24,paid duly,A42,1747,below 100 DM,under 1 year,4,A102,1,A122,24,A143,own,1,A172,1,A191,no,1,male,under25
-no account,36,critical account,A40,6614,below 100 DM,7+ years,4,A101,4,A123,34,A143,own,2,A174,1,A192,yes,1,male,25-44
-0-200 DM,30,critical account,A40,5234,below 100 DM,unemployed,4,A101,2,A123,28,A143,own,2,A174,1,A191,yes,0,male,25-44
-0-200 DM,12,past delays,A43,585,below 100 DM,1-4 years,4,A102,4,A121,20,A143,rent,2,A173,1,A191,yes,1,male,under25
-below 0 DM,30,no credits,A49,8072,unknown,under 1 year,2,A101,3,A123,25,A141,own,3,A173,1,A191,yes,1,male,under25
-no account,18,critical account,A43,629,500-1000 DM,7+ years,4,A101,3,A122,32,A141,own,2,A174,1,A192,yes,1,male,25-44
-0-200 DM,18,paid duly,A49,2622,100-500 DM,1-4 years,4,A101,4,A123,34,A143,own,1,A173,1,A191,yes,1,male,25-44
-no account,24,paid duly,A41,2670,below 100 DM,7+ years,4,A101,4,A123,35,A143,own,1,A174,1,A192,yes,1,male,25-44
-below 0 DM,6,critical account,A43,338,500-1000 DM,7+ years,4,A101,4,A123,52,A143,own,2,A173,1,A191,yes,1,male,45plus
-no account,18,paid duly,A42,2515,below 100 DM,1-4 years,3,A101,4,A121,43,A143,own,1,A173,1,A192,yes,1,male,25-44
-below 0 DM,12,critical account,A40,2122,below 100 DM,1-4 years,3,A101,2,A121,39,A143,rent,2,A172,2,A191,no,1,male,25-44
-below 0 DM,12,paid duly,A43,709,below 100 DM,7+ years,4,A101,4,A121,57,A142,own,1,A172,1,A191,yes,0,male,45plus
-0-200 DM,9,paid duly,A40,276,below 100 DM,1-4 years,4,A101,4,A121,22,A143,rent,1,A172,1,A191,yes,1,male,under25
-0-200 DM,14,paid duly,A49,1410,500-1000 DM,7+ years,1,A101,2,A121,35,A143,own,1,A173,1,A192,yes,1,male,25-44
-below 0 DM,18,paid duly,A43,3190,below 100 DM,1-4 years,2,A101,2,A121,24,A143,own,1,A173,1,A191,yes,0,female,under25
-no account,12,critical account,A43,1240,unknown,7+ years,4,A101,2,A121,38,A143,own,2,A173,1,A192,yes,1,female,25-44
-below 0 DM,24,past delays,A40,1333,below 100 DM,unemployed,4,A101,2,A121,43,A143,free,2,A173,2,A191,yes,0,male,25-44
-0-200 DM,6,all paid here,A40,931,100-500 DM,under 1 year,1,A101,1,A122,32,A142,own,1,A172,1,A191,yes,0,female,25-44
-no account,15,critical account,A43,1471,below 100 DM,1-4 years,4,A101,4,A124,35,A143,free,2,A173,1,A192,yes,1,male,25-44
-below 0 DM,18,paid duly,A40,4380,100-500 DM,1-4 years,3,A101,4,A123,35,A143,own,1,A172,2,A192,yes,1,male,25-44
-no account,36,paid duly,A46,9055,unknown,1-4 years,2,A101,4,A124,35,A143,free,1,A172,2,A192,yes,1,male,25-44
-200+ DM,12,paid duly,A43,3399,unknown,7+ years,2,A101,3,A123,37,A143,own,1,A174,1,A191,yes,1,male,25-44
-no account,24,critical account,A45,5507,below 100 DM,7+ years,3,A101,4,A124,44,A143,free,2,A173,1,A191,yes,1,male,25-44
-0-200 DM,24,no credits,A49,4241,below 100 DM,1-4 years,1,A101,4,A121,36,A143,own,3,A172,1,A192,yes,0,male,25-44
-0-200 DM,12,paid duly,A42,951,100-500 DM,under 1 year,4,A101,4,A123,27,A141,rent,4,A173,1,A191,yes,0,female,25-44
-no account,12,paid duly,A41,1413,1000+ DM,4-7 years,3,A101,2,A122,55,A143,own,1,A173,1,A191,no,1,male,45plus
-no account,4,critical account,A43,1544,below 100 DM,4-7 years,2,A101,1,A121,42,A143,own,3,A172,2,A191,yes,1,male,25-44
-no account,12,critical account,A42,1402,500-1000 DM,4-7 years,3,A101,4,A123,37,A143,rent,1,A173,1,A192,yes,1,female,25-44
-200+ DM,30,past delays,A49,1908,below 100 DM,7+ years,4,A101,4,A121,66,A143,own,1,A174,1,A192,yes,0,male,45plus
-no account,12,paid duly,A40,1101,below 100 DM,1-4 years,3,A101,2,A121,27,A143,own,2,A173,1,A192,yes,1,male,25-44
-no account,24,critical account,A43,1851,below 100 DM,4-7 years,4,A103,2,A123,33,A143,own,2,A173,1,A192,yes,1,male,25-44
-200+ DM,21,paid duly,A40,2923,100-500 DM,1-4 years,1,A101,1,A123,28,A141,own,1,A174,1,A192,yes,1,female,25-44
-0-200 DM,30,paid duly,A42,3441,100-500 DM,1-4 years,2,A102,4,A123,21,A143,rent,1,A173,1,A191,yes,0,female,under25
-200+ DM,24,paid duly,A42,3749,below 100 DM,under 1 year,2,A101,4,A123,26,A143,own,1,A173,1,A191,yes,1,female,25-44
-0-200 DM,12,paid duly,A40,685,below 100 DM,4-7 years,2,A101,3,A123,25,A141,own,1,A172,1,A191,yes,0,male,under25
-no account,12,critical account,A46,2012,unknown,4-7 years,4,A101,2,A123,61,A143,own,1,A173,1,A191,yes,1,female,45plus
-no account,18,paid duly,A43,4594,below 100 DM,under 1 year,3,A101,2,A123,32,A143,own,1,A173,1,A192,yes,1,male,25-44
-0-200 DM,48,all paid here,A49,6416,below 100 DM,7+ years,4,A101,3,A124,59,A143,rent,1,A173,1,A191,yes,0,female,45plus
-no account,36,past delays,A43,4454,below 100 DM,1-4 years,4,A101,4,A121,34,A143,own,2,A173,1,A191,yes,1,female,25-44
-0-200 DM,10,paid duly,A42,1521,below 100 DM,1-4 years,4,A101,2,A123,31,A143,own,1,A172,1,A191,yes,1,male,25-44
-0-200 DM,30,paid duly,A43,2991,unknown,7+ years,2,A101,4,A123,25,A143,own,1,A173,1,A191,yes,1,female,under25
-200+ DM,12,past delays,A40,2247,below 100 DM,1-4 years,2,A101,2,A123,36,A142,own,2,A173,1,A192,yes,1,female,25-44
-200+ DM,12,paid duly,A43,1297,below 100 DM,1-4 years,3,A101,4,A121,23,A143,rent,1,A173,1,A191,yes,1,male,under25
-below 0 DM,36,paid duly,A42,5179,below 100 DM,4-7 years,4,A101,2,A122,29,A143,own,1,A173,1,A191,yes,0,male,25-44
-no account,6,paid duly,A43,518,below 100 DM,1-4 years,3,A101,1,A121,29,A143,own,1,A173,1,A191,yes,1,female,25-44
-0-200 DM,48,no credits,A49,3844,100-500 DM,4-7 years,4,A101,4,A124,34,A143,free,1,A172,2,A191,yes,0,male,25-44
-no account,15,paid duly,A41,1300,unknown,7+ years,4,A101,4,A124,45,A141,free,1,A173,2,A191,yes,1,male,25-44
-200+ DM,15,paid duly,A49,2687,below 100 DM,4-7 years,2,A101,4,A122,26,A143,rent,1,A173,1,A192,yes,1,male,25-44
-200+ DM,10,critical account,A43,1347,unknown,4-7 years,4,A101,2,A122,27,A143,own,2,A173,1,A192,yes,1,male,25-44
-no account,24,critical account,A410,6314,below 100 DM,unemployed,4,A102,2,A124,27,A141,own,2,A174,1,A192,yes,1,male,25-44
-below 0 DM,48,no credits,A41,4605,below 100 DM,7+ years,3,A101,4,A124,24,A143,free,2,A173,2,A191,yes,0,male,under25
-no account,14,past delays,A40,802,below 100 DM,1-4 years,4,A101,2,A123,27,A143,own,2,A172,1,A191,yes,1,male,25-44
-200+ DM,6,paid duly,A42,2116,below 100 DM,1-4 years,2,A101,2,A121,41,A143,own,1,A173,1,A192,yes,1,male,25-44
-below 0 DM,12,paid duly,A43,2214,below 100 DM,1-4 years,4,A101,3,A122,24,A143,own,1,A172,1,A191,yes,1,male,under25
-below 0 DM,6,critical account,A40,860,below 100 DM,7+ years,1,A101,4,A124,39,A143,own,2,A173,1,A192,yes,1,female,25-44
-no account,12,critical account,A43,930,unknown,7+ years,4,A101,4,A121,65,A143,own,4,A173,1,A191,yes,1,male,45plus
-no account,30,critical account,A43,3077,unknown,7+ years,3,A101,2,A123,40,A143,own,2,A173,2,A192,yes,1,male,25-44
-0-200 DM,12,paid duly,A43,1155,below 100 DM,7+ years,3,A103,3,A121,40,A141,own,2,A172,1,A191,yes,1,male,25-44
-0-200 DM,6,paid duly,A43,753,below 100 DM,1-4 years,2,A103,3,A121,64,A143,own,1,A173,1,A191,yes,1,female,45plus
-0-200 DM,9,critical account,A46,1136,1000+ DM,7+ years,4,A101,3,A124,32,A143,free,2,A173,2,A191,yes,0,male,25-44
-0-200 DM,24,paid duly,A41,12579,below 100 DM,7+ years,4,A101,2,A124,44,A143,free,1,A174,1,A192,yes,0,female,25-44
-no account,24,paid duly,A42,5511,100-500 DM,1-4 years,4,A101,1,A123,25,A142,own,1,A173,1,A191,yes,1,male,under25
-0-200 DM,20,paid duly,A41,6468,unknown,unemployed,1,A101,4,A121,60,A143,own,1,A174,1,A192,yes,1,male,45plus
-below 0 DM,24,past delays,A43,1024,below 100 DM,under 1 year,4,A101,4,A121,48,A142,own,1,A173,1,A191,yes,0,male,45plus
-0-200 DM,15,paid duly,A45,2631,100-500 DM,1-4 years,3,A101,2,A121,25,A143,own,1,A172,1,A191,yes,1,female,under25
-no account,24,paid duly,A43,3235,500-1000 DM,7+ years,3,A101,2,A123,26,A143,own,1,A174,1,A192,yes,1,male,25-44
-no account,20,critical account,A40,3485,unknown,under 1 year,2,A101,4,A121,44,A143,own,2,A173,1,A192,yes,1,male,25-44
-no account,6,critical account,A42,1221,unknown,1-4 years,1,A101,2,A122,27,A143,own,2,A173,1,A191,yes,1,male,25-44
-no account,24,past delays,A41,4679,below 100 DM,4-7 years,3,A101,3,A123,35,A143,own,2,A172,1,A192,yes,1,male,25-44
-no account,15,paid duly,A41,3812,100-500 DM,under 1 year,1,A101,4,A123,23,A143,own,1,A173,1,A192,yes,1,female,under25
-0-200 DM,18,paid duly,A42,1924,unknown,under 1 year,4,A101,3,A121,27,A143,rent,1,A173,1,A191,yes,0,female,25-44
-0-200 DM,12,paid duly,A43,1158,500-1000 DM,1-4 years,3,A101,1,A123,26,A143,own,1,A173,1,A192,yes,1,male,25-44
-0-200 DM,24,paid duly,A43,1967,below 100 DM,7+ years,4,A101,4,A123,20,A143,own,1,A173,1,A192,yes,1,female,under25
-below 0 DM,18,critical account,A43,1880,below 100 DM,4-7 years,4,A101,1,A122,32,A143,own,2,A174,1,A192,yes,1,male,25-44
-no account,18,paid duly,A42,1533,below 100 DM,under 1 year,4,A102,1,A122,43,A143,own,1,A172,2,A191,yes,0,male,25-44
-below 0 DM,18,critical account,A45,1190,below 100 DM,unemployed,2,A101,4,A124,55,A143,free,3,A171,2,A191,yes,0,female,45plus
-0-200 DM,12,paid duly,A40,6078,below 100 DM,4-7 years,2,A101,2,A123,32,A143,own,1,A173,1,A191,yes,1,male,25-44
-below 0 DM,12,paid duly,A43,1498,below 100 DM,1-4 years,4,A101,1,A123,23,A141,own,1,A173,1,A191,yes,1,female,under25
-below 0 DM,21,paid duly,A40,3763,unknown,4-7 years,2,A102,2,A121,24,A143,own,1,A172,1,A191,no,1,male,under25
-0-200 DM,36,paid duly,A46,2273,below 100 DM,4-7 years,3,A101,1,A123,32,A143,own,2,A173,2,A191,yes,1,male,25-44
-no account,24,paid duly,A43,1552,below 100 DM,4-7 years,3,A101,1,A123,32,A141,own,1,A173,2,A191,yes,1,male,25-44
-below 0 DM,42,critical account,A45,3394,below 100 DM,unemployed,4,A102,4,A123,65,A143,own,2,A171,1,A191,yes,1,male,45plus
-below 0 DM,24,past delays,A43,1659,below 100 DM,under 1 year,4,A101,2,A123,29,A143,rent,1,A172,1,A192,yes,0,female,25-44
-below 0 DM,18,paid duly,A43,1345,below 100 DM,1-4 years,4,A101,3,A121,26,A141,own,1,A173,1,A191,yes,0,male,25-44
-0-200 DM,24,paid duly,A42,4351,unknown,1-4 years,1,A101,4,A122,48,A143,own,1,A172,1,A192,yes,1,female,45plus
-no account,60,past delays,A43,15653,below 100 DM,4-7 years,2,A101,4,A123,21,A143,own,2,A173,1,A192,yes,1,male,under25
-0-200 DM,24,past delays,A43,1553,100-500 DM,4-7 years,3,A101,2,A122,23,A143,rent,2,A173,1,A192,yes,1,female,under25
-no account,6,critical account,A43,700,unknown,7+ years,4,A101,4,A124,36,A143,free,2,A173,1,A191,yes,1,male,25-44
-0-200 DM,21,paid duly,A49,2767,100-500 DM,7+ years,4,A101,2,A123,61,A141,rent,2,A172,1,A191,yes,0,male,45plus
-0-200 DM,18,paid duly,A43,1301,below 100 DM,7+ years,4,A103,2,A121,32,A143,own,1,A172,1,A191,yes,1,male,25-44
-below 0 DM,12,all paid here,A40,697,below 100 DM,under 1 year,4,A101,2,A123,46,A141,own,2,A173,1,A192,yes,0,male,45plus
-0-200 DM,18,critical account,A42,7374,below 100 DM,unemployed,4,A101,4,A122,40,A142,own,2,A174,1,A192,yes,1,male,25-44
-0-200 DM,18,paid duly,A40,1042,unknown,1-4 years,4,A101,2,A122,33,A143,own,1,A173,1,A191,yes,0,female,25-44
-below 0 DM,24,paid duly,A41,2910,below 100 DM,4-7 years,2,A101,1,A124,34,A143,free,1,A174,1,A192,yes,1,male,25-44
-no account,12,critical account,A46,2096,below 100 DM,4-7 years,2,A101,3,A121,49,A143,own,1,A172,2,A191,yes,1,male,45plus
-0-200 DM,36,critical account,A41,5800,below 100 DM,1-4 years,3,A101,4,A123,34,A143,own,2,A173,1,A192,yes,1,male,25-44
-0-200 DM,12,no credits,A42,2969,below 100 DM,under 1 year,4,A101,3,A122,25,A143,rent,2,A173,1,A191,yes,0,female,under25
-no account,36,critical account,A41,10477,unknown,7+ years,2,A101,4,A124,42,A143,free,2,A173,1,A191,yes,1,male,25-44
-0-200 DM,30,no credits,A49,4280,100-500 DM,1-4 years,4,A101,4,A123,26,A143,rent,2,A172,1,A191,yes,0,female,25-44
-below 0 DM,6,critical account,A40,609,below 100 DM,4-7 years,4,A101,3,A122,37,A143,own,2,A173,1,A191,no,1,female,25-44
-below 0 DM,21,past delays,A46,3414,below 100 DM,under 1 year,2,A101,1,A122,26,A143,own,2,A173,1,A191,yes,0,male,25-44
-no account,36,no credits,A45,2613,below 100 DM,1-4 years,4,A101,2,A123,27,A143,own,2,A173,1,A191,yes,1,male,25-44
-0-200 DM,9,paid duly,A42,918,below 100 DM,1-4 years,4,A101,1,A122,30,A143,own,1,A173,1,A191,yes,0,female,25-44
-0-200 DM,36,no credits,A49,1953,below 100 DM,7+ years,4,A101,4,A124,61,A143,free,1,A174,1,A192,yes,0,male,45plus
-no account,36,past delays,A40,10875,below 100 DM,7+ years,2,A101,2,A123,45,A143,own,2,A173,2,A192,yes,1,male,25-44
-0-200 DM,15,paid duly,A43,1444,unknown,under 1 year,4,A101,1,A122,23,A143,own,1,A173,1,A191,yes,1,male,under25
-below 0 DM,24,all paid here,A42,2828,500-1000 DM,1-4 years,4,A101,4,A121,22,A142,own,1,A173,1,A192,yes,1,male,under25
-0-200 DM,60,past delays,A43,7418,unknown,1-4 years,1,A101,1,A121,27,A143,own,1,A172,1,A191,yes,1,male,25-44
-below 0 DM,6,critical account,A40,1361,below 100 DM,under 1 year,2,A101,4,A121,40,A143,own,1,A172,2,A191,no,1,male,25-44
-no account,24,critical account,A43,2223,100-500 DM,7+ years,4,A101,4,A122,52,A141,own,2,A173,1,A191,yes,1,male,45plus
-below 0 DM,24,paid duly,A41,6579,below 100 DM,unemployed,4,A101,2,A124,29,A143,free,1,A174,1,A192,yes,1,male,25-44
-no account,24,critical account,A43,2578,1000+ DM,7+ years,2,A101,2,A123,34,A143,own,1,A173,1,A191,yes,1,male,25-44
-no account,36,paid duly,A42,10974,below 100 DM,unemployed,4,A101,2,A123,26,A143,own,2,A174,1,A192,yes,0,female,25-44
-below 0 DM,11,critical account,A40,3905,below 100 DM,1-4 years,2,A101,2,A121,36,A143,rent,2,A173,2,A191,yes,1,male,25-44
-below 0 DM,12,no credits,A43,6199,below 100 DM,1-4 years,4,A101,2,A122,28,A143,rent,2,A173,1,A192,yes,0,male,25-44
-0-200 DM,18,past delays,A40,2899,unknown,7+ years,4,A101,4,A123,43,A143,own,1,A173,2,A191,yes,1,male,25-44
-0-200 DM,48,paid duly,A43,10961,1000+ DM,4-7 years,1,A102,2,A124,27,A141,own,2,A173,1,A192,yes,0,male,25-44
-below 0 DM,18,critical account,A42,2124,below 100 DM,1-4 years,4,A101,4,A121,24,A143,rent,2,A173,1,A191,yes,0,female,under25
-no account,48,past delays,A43,12749,500-1000 DM,4-7 years,4,A101,1,A123,37,A143,own,1,A174,1,A192,yes,1,male,25-44
-below 0 DM,12,paid duly,A48,902,below 100 DM,4-7 years,4,A101,4,A122,21,A143,rent,1,A173,1,A191,yes,0,male,under25
-no account,18,paid duly,A43,433,below 100 DM,unemployed,3,A102,4,A121,22,A143,rent,1,A173,1,A191,yes,0,female,under25
-below 0 DM,48,critical account,A41,6331,below 100 DM,7+ years,4,A101,4,A124,46,A143,free,2,A173,1,A192,yes,0,male,45plus
-below 0 DM,36,paid duly,A46,1977,unknown,7+ years,4,A101,4,A124,40,A143,own,1,A174,1,A192,yes,0,male,25-44
-no account,12,critical account,A40,682,100-500 DM,4-7 years,4,A101,3,A123,51,A143,own,2,A173,1,A192,yes,1,female,45plus
-no account,24,paid duly,A41,7814,below 100 DM,4-7 years,3,A101,3,A123,38,A143,own,1,A174,1,A192,yes,1,male,25-44
-below 0 DM,21,all paid here,A40,1647,unknown,1-4 years,4,A101,2,A122,40,A143,own,2,A172,2,A191,yes,0,male,25-44
-below 0 DM,36,paid duly,A40,3249,below 100 DM,4-7 years,2,A101,4,A124,39,A141,free,1,A174,2,A192,yes,1,male,25-44
-no account,6,paid duly,A42,1766,below 100 DM,1-4 years,1,A101,2,A122,21,A143,rent,1,A173,1,A191,yes,1,male,under25
-no account,18,past delays,A42,1808,below 100 DM,4-7 years,4,A101,1,A121,22,A143,own,1,A173,1,A191,yes,0,female,under25
-below 0 DM,24,paid duly,A40,1371,unknown,1-4 years,4,A101,4,A121,25,A143,rent,1,A173,1,A191,yes,0,female,under25
-no account,30,critical account,A43,4530,below 100 DM,4-7 years,4,A101,4,A123,26,A143,rent,1,A174,1,A192,yes,1,female,25-44
-no account,36,past delays,A49,7980,unknown,under 1 year,4,A101,4,A123,27,A143,rent,2,A173,1,A192,yes,0,male,25-44
-no account,60,paid duly,A40,10366,below 100 DM,7+ years,2,A101,4,A122,42,A143,own,1,A174,1,A192,yes,1,male,25-44
-200+ DM,10,paid duly,A44,1225,below 100 DM,1-4 years,2,A101,2,A123,37,A143,own,1,A173,1,A192,yes,1,male,25-44
-below 0 DM,30,paid duly,A42,3108,below 100 DM,under 1 year,2,A101,4,A122,31,A143,own,1,A172,1,A191,yes,0,male,25-44
-0-200 DM,18,paid duly,A42,3001,below 100 DM,4-7 years,2,A101,4,A121,40,A143,rent,1,A173,1,A191,yes,1,female,25-44
-no account,12,critical account,A43,976,unknown,7+ years,4,A101,4,A123,35,A143,own,2,A173,1,A191,yes,1,male,25-44
-no account,30,critical account,A43,2831,below 100 DM,1-4 years,4,A101,2,A123,33,A143,own,1,A173,1,A192,yes,1,female,25-44
-0-200 DM,24,paid duly,A43,2896,100-500 DM,under 1 year,2,A101,1,A123,29,A143,own,1,A173,1,A191,yes,1,male,25-44
-below 0 DM,24,paid duly,A410,1755,below 100 DM,7+ years,4,A103,4,A121,58,A143,own,1,A172,1,A192,yes,1,female,45plus
-200+ DM,12,paid duly,A43,3016,below 100 DM,1-4 years,3,A101,1,A123,24,A143,own,1,A173,1,A191,yes,1,male,under25
-200+ DM,6,critical account,A46,1047,below 100 DM,1-4 years,2,A101,4,A122,50,A143,own,1,A172,1,A191,yes,1,female,45plus
-below 0 DM,18,critical account,A42,1049,below 100 DM,under 1 year,4,A101,4,A122,21,A143,rent,1,A173,1,A191,yes,1,female,under25
-below 0 DM,15,paid duly,A49,806,below 100 DM,1-4 years,4,A101,4,A122,22,A143,own,1,A172,1,A191,yes,1,female,under25
-no account,12,critical account,A40,1495,below 100 DM,7+ years,4,A101,1,A121,38,A143,own,2,A172,2,A191,yes,1,male,25-44
-no account,21,critical account,A41,3275,below 100 DM,7+ years,1,A101,4,A123,36,A143,own,1,A174,1,A192,yes,1,male,25-44
-0-200 DM,12,paid duly,A40,1223,below 100 DM,7+ years,1,A101,1,A121,46,A143,rent,2,A173,1,A191,yes,0,male,45plus
-0-200 DM,6,past delays,A40,1209,below 100 DM,unemployed,4,A101,4,A122,47,A143,own,1,A174,1,A192,yes,0,male,45plus
-0-200 DM,21,paid duly,A42,3976,unknown,4-7 years,2,A101,3,A123,35,A143,own,1,A173,1,A192,yes,1,male,25-44
-no account,9,paid duly,A43,2697,below 100 DM,1-4 years,1,A101,2,A121,32,A143,own,1,A173,2,A191,yes,1,male,25-44
-no account,30,critical account,A43,5954,below 100 DM,4-7 years,3,A102,2,A123,38,A143,own,1,A173,1,A191,yes,1,male,25-44
-0-200 DM,13,paid duly,A43,2101,below 100 DM,under 1 year,2,A103,4,A122,23,A143,own,1,A172,1,A191,yes,1,female,under25
-no account,12,critical account,A43,522,500-1000 DM,7+ years,4,A101,4,A122,42,A143,own,2,A173,2,A192,yes,1,male,25-44
-below 0 DM,21,critical account,A40,1602,below 100 DM,7+ years,4,A101,3,A123,30,A143,own,2,A173,1,A192,yes,1,male,25-44
-0-200 DM,18,critical account,A49,3590,below 100 DM,unemployed,3,A101,3,A123,40,A143,own,3,A171,2,A192,yes,1,male,25-44
-0-200 DM,12,paid duly,A43,766,500-1000 DM,1-4 years,4,A101,3,A121,66,A143,own,1,A172,1,A191,yes,0,male,45plus
-no account,24,paid duly,A43,1413,below 100 DM,1-4 years,4,A101,2,A122,28,A143,own,1,A173,1,A191,yes,1,male,25-44
-200+ DM,12,critical account,A40,1480,500-1000 DM,unemployed,2,A101,4,A124,66,A141,free,3,A171,1,A191,yes,1,male,45plus
-below 0 DM,12,paid duly,A42,2578,below 100 DM,unemployed,3,A101,4,A124,55,A143,free,1,A174,1,A191,yes,1,female,45plus
-below 0 DM,33,critical account,A42,4281,500-1000 DM,1-4 years,1,A101,4,A123,23,A143,own,2,A173,1,A191,yes,0,female,under25
-200+ DM,6,paid duly,A40,709,1000+ DM,under 1 year,2,A101,2,A121,27,A143,own,1,A171,1,A191,no,1,male,25-44
-below 0 DM,21,paid duly,A43,3357,1000+ DM,under 1 year,4,A101,2,A123,29,A141,own,1,A173,1,A191,yes,1,female,25-44
-no account,24,past delays,A49,2978,unknown,1-4 years,4,A101,4,A121,32,A143,own,2,A173,2,A192,yes,1,male,25-44
-0-200 DM,18,past delays,A45,6204,below 100 DM,1-4 years,2,A101,4,A121,44,A143,own,1,A172,2,A192,yes,1,male,25-44
-0-200 DM,6,past delays,A49,1449,100-500 DM,7+ years,1,A101,2,A123,31,A141,own,2,A173,2,A191,yes,1,male,25-44
-0-200 DM,18,critical account,A43,1795,below 100 DM,7+ years,3,A103,4,A121,48,A141,rent,2,A172,1,A192,yes,1,female,45plus
-no account,18,critical account,A43,1169,unknown,1-4 years,4,A101,3,A122,29,A143,own,2,A173,1,A192,yes,1,male,25-44
-no account,24,paid duly,A43,1901,100-500 DM,1-4 years,4,A101,4,A123,29,A143,rent,1,A174,1,A192,yes,1,male,25-44
-no account,18,critical account,A40,1530,below 100 DM,1-4 years,3,A101,2,A122,32,A141,own,2,A173,1,A191,yes,0,male,25-44
-200+ DM,36,paid duly,A43,4210,below 100 DM,1-4 years,4,A101,2,A123,26,A143,own,1,A173,1,A191,yes,0,male,25-44
-below 0 DM,24,all paid here,A410,1358,unknown,7+ years,4,A101,3,A123,40,A142,own,1,A174,1,A192,yes,0,male,25-44
-no account,10,paid duly,A41,2848,100-500 DM,1-4 years,1,A102,2,A121,32,A143,own,1,A173,2,A191,yes,1,male,25-44
-no account,18,no credits,A49,4165,below 100 DM,1-4 years,2,A101,2,A123,36,A142,own,2,A173,2,A191,yes,0,male,25-44
-no account,30,critical account,A43,5771,below 100 DM,4-7 years,4,A101,2,A123,25,A143,own,2,A173,1,A191,yes,1,female,under25
-no account,24,paid duly,A40,1474,100-500 DM,under 1 year,4,A101,3,A121,33,A143,own,1,A173,1,A192,yes,1,male,25-44
-below 0 DM,12,paid duly,A42,3590,below 100 DM,1-4 years,2,A102,2,A122,29,A143,own,1,A172,2,A191,yes,1,male,25-44
-no account,12,paid duly,A43,2073,100-500 DM,1-4 years,4,A102,2,A121,28,A143,own,1,A173,1,A191,yes,1,female,25-44
-no account,18,paid duly,A45,1943,below 100 DM,under 1 year,4,A101,4,A121,23,A143,own,1,A173,1,A191,yes,0,female,under25
-no account,9,critical account,A43,3074,unknown,1-4 years,1,A101,2,A121,33,A143,own,2,A173,2,A191,yes,1,male,25-44
-no account,15,critical account,A43,1829,below 100 DM,7+ years,4,A101,4,A123,46,A143,own,2,A173,1,A192,yes,1,male,45plus
-no account,12,paid duly,A43,2141,100-500 DM,4-7 years,3,A101,1,A124,35,A143,own,1,A173,1,A191,yes,1,male,25-44
-no account,12,critical account,A43,1655,below 100 DM,7+ years,2,A101,4,A121,63,A143,own,2,A172,1,A192,yes,1,male,45plus
-200+ DM,9,paid duly,A43,745,below 100 DM,1-4 years,3,A101,2,A121,28,A143,own,1,A172,1,A191,yes,0,female,25-44
-200+ DM,36,paid duly,A43,4473,below 100 DM,7+ years,4,A101,2,A123,31,A143,own,1,A173,1,A191,yes,1,male,25-44
-no account,30,paid duly,A43,2333,500-1000 DM,7+ years,4,A101,2,A123,30,A141,own,1,A174,1,A191,yes,1,male,25-44
-0-200 DM,60,paid duly,A46,6288,below 100 DM,1-4 years,4,A101,4,A124,42,A143,free,1,A173,1,A191,yes,0,male,25-44
-below 0 DM,18,paid duly,A40,976,below 100 DM,under 1 year,1,A101,2,A123,23,A143,own,1,A172,1,A191,yes,0,female,under25
-no account,11,critical account,A40,1393,below 100 DM,under 1 year,4,A101,4,A123,35,A143,own,2,A174,1,A191,yes,1,female,25-44
-below 0 DM,28,paid duly,A40,4006,below 100 DM,1-4 years,3,A101,2,A123,45,A143,own,1,A172,1,A191,yes,0,male,25-44
-0-200 DM,54,no credits,A49,15945,below 100 DM,under 1 year,3,A101,4,A124,58,A143,rent,1,A173,1,A192,yes,0,male,45plus
-below 0 DM,6,critical account,A42,3384,below 100 DM,1-4 years,1,A101,4,A121,44,A143,rent,1,A174,1,A192,yes,0,male,25-44
-no account,6,paid duly,A42,4611,below 100 DM,under 1 year,1,A101,4,A122,32,A143,own,1,A173,1,A191,yes,0,female,25-44
-no account,24,critical account,A41,4042,unknown,4-7 years,3,A101,4,A122,43,A143,own,2,A173,1,A192,yes,1,male,25-44
-0-200 DM,12,paid duly,A43,1567,below 100 DM,1-4 years,1,A101,1,A123,22,A143,own,1,A173,1,A192,yes,1,female,under25
-no account,18,past delays,A49,2169,below 100 DM,1-4 years,4,A101,2,A123,28,A143,own,1,A173,1,A192,yes,0,male,25-44
-below 0 DM,12,paid duly,A40,1893,below 100 DM,1-4 years,4,A103,4,A122,29,A143,own,1,A173,1,A192,yes,1,female,25-44
-no account,36,critical account,A40,3535,below 100 DM,4-7 years,4,A101,4,A123,37,A143,own,2,A173,1,A192,yes,1,male,25-44
-200+ DM,12,paid duly,A42,1474,below 100 DM,under 1 year,4,A101,1,A122,33,A141,own,1,A174,1,A192,yes,1,female,25-44
-no account,24,paid duly,A40,1249,below 100 DM,under 1 year,4,A101,2,A121,28,A143,own,1,A173,1,A191,yes,1,male,25-44
-200+ DM,21,critical account,A46,2319,below 100 DM,under 1 year,2,A101,1,A123,33,A143,rent,1,A173,1,A191,yes,0,male,25-44
-below 0 DM,12,paid duly,A44,741,100-500 DM,unemployed,4,A101,3,A122,22,A143,own,1,A173,1,A191,yes,0,female,under25
-no account,24,paid duly,A41,2603,1000+ DM,1-4 years,2,A101,4,A123,28,A143,rent,1,A173,1,A192,yes,1,female,25-44
-below 0 DM,24,all paid here,A42,3552,below 100 DM,4-7 years,3,A101,4,A123,27,A141,own,1,A173,1,A191,yes,0,male,25-44
-0-200 DM,45,critical account,A43,4746,below 100 DM,under 1 year,4,A101,2,A122,25,A143,own,2,A172,1,A191,yes,0,male,under25
-below 0 DM,13,critical account,A49,1797,below 100 DM,under 1 year,3,A101,1,A122,28,A141,own,2,A172,1,A191,yes,1,male,25-44
-below 0 DM,36,critical account,A42,2348,below 100 DM,1-4 years,3,A101,2,A122,46,A143,own,2,A173,1,A192,yes,1,male,45plus
-200+ DM,42,no credits,A49,6289,below 100 DM,under 1 year,2,A101,1,A122,33,A143,own,2,A173,1,A191,yes,1,male,25-44
-0-200 DM,18,critical account,A49,1887,unknown,1-4 years,4,A101,4,A121,28,A141,own,2,A173,1,A191,yes,1,male,25-44
-no account,10,paid duly,A41,2901,unknown,under 1 year,1,A101,4,A121,31,A143,rent,1,A173,1,A191,yes,1,female,25-44
-below 0 DM,9,paid duly,A43,1364,below 100 DM,4-7 years,3,A101,4,A121,59,A143,own,1,A173,1,A191,yes,1,male,45plus
-0-200 DM,12,paid duly,A40,1318,1000+ DM,7+ years,4,A101,4,A121,54,A143,own,1,A173,1,A192,yes,1,male,45plus
-below 0 DM,14,paid duly,A40,8978,below 100 DM,7+ years,1,A101,4,A122,45,A143,own,1,A174,1,A192,no,0,male,25-44
-below 0 DM,24,critical account,A40,1199,below 100 DM,7+ years,4,A101,4,A123,60,A143,own,2,A172,1,A191,yes,0,male,45plus
-0-200 DM,36,past delays,A49,4455,below 100 DM,1-4 years,2,A101,2,A121,30,A142,own,2,A174,1,A192,yes,0,male,25-44
-no account,24,paid duly,A40,3757,below 100 DM,7+ years,4,A102,4,A124,62,A143,free,1,A173,1,A192,yes,1,female,45plus
-below 0 DM,36,paid duly,A42,2712,below 100 DM,7+ years,2,A101,2,A122,41,A141,own,1,A173,2,A191,yes,0,male,25-44
-no account,24,paid duly,A42,3972,below 100 DM,4-7 years,2,A101,4,A122,25,A143,rent,1,A173,1,A192,yes,1,female,under25
-no account,30,paid duly,A43,1867,unknown,7+ years,4,A101,4,A123,58,A143,own,1,A173,1,A192,yes,1,male,45plus
-0-200 DM,12,paid duly,A49,1037,100-500 DM,4-7 years,3,A101,4,A121,39,A143,own,1,A172,1,A191,yes,1,male,25-44
-below 0 DM,12,paid duly,A41,3386,below 100 DM,7+ years,3,A101,4,A124,35,A143,free,1,A173,1,A192,yes,0,male,25-44
-0-200 DM,6,paid duly,A43,484,below 100 DM,4-7 years,3,A103,3,A121,28,A141,own,1,A172,1,A191,yes,1,male,25-44
-below 0 DM,42,past delays,A43,4370,below 100 DM,4-7 years,3,A101,2,A122,26,A141,own,2,A173,2,A192,yes,0,male,25-44
-0-200 DM,9,paid duly,A40,1549,unknown,under 1 year,4,A101,2,A121,35,A143,own,1,A171,1,A191,yes,1,male,25-44
-no account,6,past delays,A43,932,below 100 DM,1-4 years,3,A101,2,A121,24,A143,own,1,A173,1,A191,yes,1,female,under25
-no account,18,critical account,A43,2404,below 100 DM,1-4 years,2,A101,2,A123,26,A143,own,2,A173,1,A191,yes,1,female,25-44
-below 0 DM,48,paid duly,A43,6758,below 100 DM,1-4 years,3,A101,2,A123,31,A143,own,1,A173,1,A192,yes,0,female,25-44
-0-200 DM,48,paid duly,A40,8487,unknown,4-7 years,1,A101,2,A123,24,A143,own,1,A173,1,A191,yes,1,female,under25
-200+ DM,30,critical account,A43,3017,below 100 DM,7+ years,4,A101,4,A122,47,A143,own,1,A173,1,A191,yes,1,male,45plus
-below 0 DM,6,critical account,A42,1872,below 100 DM,unemployed,4,A101,4,A124,36,A143,free,3,A174,1,A192,yes,1,male,25-44
-below 0 DM,30,no credits,A42,4583,below 100 DM,1-4 years,2,A103,2,A121,32,A143,own,2,A173,1,A191,yes,1,male,25-44
-below 0 DM,36,paid duly,A40,9271,below 100 DM,4-7 years,2,A101,1,A123,24,A143,own,1,A173,1,A192,yes,0,male,under25
-0-200 DM,6,paid duly,A43,368,unknown,7+ years,4,A101,4,A122,38,A143,own,1,A173,1,A191,yes,1,male,25-44
-no account,15,critical account,A46,1532,100-500 DM,1-4 years,4,A101,3,A123,31,A143,own,1,A173,1,A191,yes,1,female,25-44
-below 0 DM,24,critical account,A49,1382,100-500 DM,4-7 years,4,A101,1,A121,26,A143,own,2,A173,1,A192,yes,1,male,25-44
-no account,24,critical account,A43,2872,100-500 DM,7+ years,3,A101,4,A121,36,A143,own,1,A173,2,A192,yes,1,male,25-44
-no account,12,critical account,A42,1935,below 100 DM,7+ years,4,A101,4,A121,43,A143,own,3,A173,1,A192,yes,1,male,25-44
-0-200 DM,36,critical account,A40,2820,below 100 DM,under 1 year,4,A101,4,A123,27,A143,own,2,A173,1,A191,yes,0,male,25-44
-below 0 DM,27,critical account,A49,2442,below 100 DM,7+ years,4,A101,4,A123,43,A142,own,4,A174,2,A192,yes,1,male,25-44
-200+ DM,24,paid duly,A40,947,below 100 DM,4-7 years,4,A101,3,A124,38,A141,free,1,A173,2,A191,yes,0,male,25-44
-0-200 DM,12,paid duly,A41,2028,unknown,1-4 years,4,A101,2,A123,30,A143,own,1,A173,1,A191,yes,1,male,25-44
-no account,36,paid duly,A49,5742,100-500 DM,4-7 years,2,A101,2,A123,31,A143,own,2,A173,1,A192,yes,1,male,25-44
-no account,24,critical account,A41,2197,unknown,4-7 years,4,A101,4,A123,43,A143,own,2,A173,2,A192,yes,1,male,25-44
-0-200 DM,9,paid duly,A40,3195,unknown,1-4 years,1,A101,2,A121,33,A143,own,1,A172,1,A191,yes,1,female,25-44
-below 0 DM,24,paid duly,A43,2384,below 100 DM,7+ years,4,A101,4,A121,64,A141,rent,1,A172,1,A191,yes,1,male,45plus
-0-200 DM,9,critical account,A42,1919,below 100 DM,4-7 years,4,A101,3,A123,35,A143,rent,1,A173,1,A192,yes,1,male,25-44
-no account,9,paid duly,A44,1236,below 100 DM,under 1 year,1,A101,4,A121,23,A143,rent,1,A173,1,A192,yes,1,female,under25
-0-200 DM,48,paid duly,A49,15672,below 100 DM,1-4 years,2,A101,2,A123,23,A143,own,1,A173,1,A192,yes,0,male,under25
-below 0 DM,48,paid duly,A43,6999,below 100 DM,4-7 years,1,A103,1,A121,34,A143,own,2,A173,1,A192,yes,0,male,25-44
-no account,18,critical account,A42,3780,below 100 DM,under 1 year,3,A101,2,A123,35,A143,own,2,A174,1,A192,yes,1,male,25-44
-0-200 DM,20,no credits,A41,6148,100-500 DM,7+ years,3,A101,4,A123,31,A141,own,2,A173,1,A192,yes,1,male,25-44
-200+ DM,12,all paid here,A49,609,below 100 DM,under 1 year,4,A101,1,A121,26,A143,own,1,A171,1,A191,yes,0,female,25-44
-no account,60,critical account,A40,13756,unknown,7+ years,2,A101,4,A124,63,A141,free,1,A174,1,A192,yes,1,male,45plus
-below 0 DM,36,paid duly,A42,3620,below 100 DM,1-4 years,1,A103,2,A122,37,A143,own,1,A173,2,A191,yes,1,male,25-44
-no account,10,paid duly,A42,2210,below 100 DM,1-4 years,2,A101,2,A121,25,A141,rent,1,A172,1,A191,yes,0,male,under25
-0-200 DM,24,paid duly,A43,3092,100-500 DM,under 1 year,3,A101,2,A123,22,A143,rent,1,A173,1,A192,yes,0,male,under25
-0-200 DM,48,paid duly,A42,9960,below 100 DM,under 1 year,1,A101,2,A123,26,A143,own,1,A173,1,A192,yes,0,female,25-44
-0-200 DM,24,critical account,A42,4736,below 100 DM,under 1 year,2,A101,4,A123,25,A141,own,1,A172,1,A191,yes,0,female,under25
-200+ DM,24,critical account,A49,1275,1000+ DM,1-4 years,2,A101,4,A121,36,A143,own,2,A173,1,A192,yes,1,male,25-44
-no account,6,critical account,A40,362,100-500 DM,1-4 years,4,A101,4,A123,52,A143,own,2,A172,1,A191,yes,1,female,45plus
-0-200 DM,15,paid duly,A45,1308,below 100 DM,7+ years,4,A101,4,A123,38,A143,own,2,A172,1,A191,yes,1,male,25-44
-no account,12,paid duly,A40,1386,500-1000 DM,1-4 years,2,A101,2,A122,26,A143,own,1,A173,1,A191,yes,0,female,25-44
-0-200 DM,27,past delays,A41,5965,below 100 DM,7+ years,1,A101,2,A123,30,A143,own,2,A174,1,A192,yes,1,male,25-44
-no account,22,paid duly,A40,1283,unknown,4-7 years,4,A101,4,A122,25,A143,rent,1,A173,1,A191,yes,1,female,under25
-200+ DM,12,paid duly,A42,1424,unknown,7+ years,3,A101,4,A121,55,A143,own,1,A174,1,A192,yes,1,female,45plus
-0-200 DM,9,paid duly,A43,1082,below 100 DM,7+ years,4,A101,4,A123,27,A143,own,2,A172,1,A191,yes,1,male,25-44
-below 0 DM,42,paid duly,A43,7174,unknown,4-7 years,4,A101,3,A123,30,A143,own,1,A174,1,A192,yes,0,female,25-44
-no account,15,past delays,A42,960,1000+ DM,4-7 years,3,A101,2,A122,30,A143,own,2,A173,1,A191,yes,1,female,25-44
-no account,48,critical account,A41,2751,unknown,7+ years,4,A101,3,A123,38,A143,own,2,A173,2,A192,yes,1,male,25-44
-0-200 DM,72,paid duly,A43,5595,100-500 DM,1-4 years,2,A101,2,A123,24,A143,own,1,A173,1,A191,yes,0,male,under25
-no account,15,paid duly,A44,874,unknown,under 1 year,4,A101,1,A121,24,A143,own,1,A173,1,A191,yes,1,female,under25
-no account,24,all paid here,A49,1559,below 100 DM,4-7 years,4,A101,4,A123,50,A141,own,1,A173,1,A192,yes,1,male,45plus
-0-200 DM,15,paid duly,A43,802,below 100 DM,7+ years,4,A101,3,A123,37,A143,own,1,A173,2,A191,yes,0,male,25-44
-0-200 DM,48,no credits,A49,14421,below 100 DM,1-4 years,2,A101,2,A123,25,A143,own,1,A173,1,A192,yes,0,male,under25
-0-200 DM,36,past delays,A49,9857,100-500 DM,4-7 years,1,A101,3,A122,31,A143,own,2,A172,2,A192,yes,1,male,25-44
-no account,18,paid duly,A40,2662,unknown,4-7 years,4,A101,3,A122,32,A143,own,1,A173,1,A191,no,1,male,25-44
-no account,15,critical account,A42,1520,unknown,7+ years,4,A101,4,A122,63,A143,own,1,A173,1,A191,yes,1,male,45plus
-below 0 DM,18,paid duly,A42,2473,below 100 DM,unemployed,4,A101,1,A123,25,A143,own,1,A171,1,A191,yes,0,male,under25
-200+ DM,30,critical account,A43,3656,unknown,7+ years,4,A101,4,A122,49,A142,own,2,A172,1,A191,yes,1,male,45plus
-200+ DM,6,critical account,A40,1299,below 100 DM,1-4 years,1,A101,1,A121,74,A143,own,3,A171,2,A191,no,1,male,45plus
-below 0 DM,12,no credits,A45,1108,below 100 DM,4-7 years,4,A101,3,A121,28,A143,own,2,A173,1,A191,yes,0,male,25-44
-below 0 DM,14,paid duly,A40,3973,below 100 DM,unemployed,1,A101,4,A124,22,A143,free,1,A173,1,A191,yes,1,male,under25
-200+ DM,9,paid duly,A43,1126,100-500 DM,7+ years,2,A101,4,A121,49,A143,own,1,A173,1,A191,yes,1,male,45plus
-0-200 DM,18,paid duly,A40,5866,100-500 DM,1-4 years,2,A101,2,A123,30,A143,own,2,A173,1,A192,yes,1,male,25-44
-below 0 DM,30,paid duly,A45,11998,below 100 DM,under 1 year,1,A101,1,A124,34,A143,own,1,A172,1,A192,yes,0,male,25-44
-below 0 DM,10,paid duly,A43,2315,below 100 DM,7+ years,3,A101,4,A121,52,A143,own,1,A172,1,A191,yes,1,male,45plus
-0-200 DM,12,paid duly,A42,3017,below 100 DM,under 1 year,3,A101,1,A121,34,A143,rent,1,A174,1,A191,yes,1,female,25-44
-200+ DM,24,paid duly,A43,1377,100-500 DM,7+ years,4,A101,2,A124,47,A143,free,1,A173,1,A192,yes,1,female,45plus
-no account,24,paid duly,A43,3105,unknown,under 1 year,4,A101,2,A123,25,A143,own,2,A173,1,A191,yes,1,male,under25
-below 0 DM,30,paid duly,A42,3622,1000+ DM,7+ years,4,A101,4,A122,57,A143,rent,2,A173,1,A192,yes,1,female,45plus
-no account,24,critical account,A42,1585,below 100 DM,4-7 years,4,A101,3,A122,40,A143,own,2,A173,1,A191,yes,1,male,25-44
-0-200 DM,12,paid duly,A48,754,unknown,7+ years,4,A101,4,A122,38,A143,own,2,A173,1,A191,yes,1,male,25-44
-0-200 DM,24,paid duly,A43,2039,below 100 DM,under 1 year,1,A101,1,A122,22,A143,own,1,A173,1,A192,yes,0,male,under25
-0-200 DM,48,paid duly,A43,3979,unknown,4-7 years,4,A101,1,A123,41,A143,own,2,A173,2,A192,yes,1,male,25-44
-0-200 DM,24,paid duly,A40,3512,100-500 DM,4-7 years,2,A101,3,A123,38,A141,own,2,A173,1,A192,yes,1,male,25-44
-no account,18,all paid here,A40,6458,below 100 DM,7+ years,2,A101,4,A124,39,A141,own,2,A174,2,A192,yes,0,male,25-44
-0-200 DM,6,past delays,A42,1050,below 100 DM,unemployed,4,A101,1,A122,35,A142,own,2,A174,1,A192,yes,1,male,25-44
-0-200 DM,18,critical account,A42,1295,below 100 DM,under 1 year,4,A101,1,A122,27,A143,own,2,A173,1,A191,yes,1,female,25-44
-0-200 DM,12,paid duly,A43,1484,unknown,1-4 years,2,A101,1,A121,25,A143,own,1,A173,1,A192,yes,0,male,under25
-below 0 DM,15,paid duly,A43,1053,below 100 DM,under 1 year,4,A101,2,A121,27,A143,own,1,A173,1,A191,no,1,male,25-44
-0-200 DM,18,critical account,A42,1928,below 100 DM,under 1 year,2,A101,2,A121,31,A143,own,2,A172,1,A191,yes,0,male,25-44
-0-200 DM,30,no credits,A49,4221,below 100 DM,1-4 years,2,A101,1,A123,28,A143,own,2,A173,1,A191,yes,1,female,25-44
-0-200 DM,18,paid duly,A49,4439,below 100 DM,7+ years,1,A102,1,A121,33,A141,own,1,A174,1,A192,yes,1,male,25-44
-no account,9,paid duly,A46,3832,unknown,7+ years,1,A101,4,A121,64,A143,own,1,A172,1,A191,yes,1,male,45plus
-no account,48,critical account,A49,7629,unknown,7+ years,4,A101,2,A123,46,A141,own,2,A174,2,A191,yes,1,male,45plus
-0-200 DM,24,critical account,A43,1216,100-500 DM,under 1 year,4,A101,4,A124,38,A141,own,2,A173,2,A191,yes,0,male,25-44
-below 0 DM,15,paid duly,A42,1845,below 100 DM,under 1 year,4,A103,1,A122,46,A143,rent,1,A173,1,A191,yes,1,female,45plus
-no account,48,paid duly,A49,4844,below 100 DM,unemployed,3,A101,2,A123,33,A141,rent,1,A174,1,A192,yes,0,male,25-44
-0-200 DM,7,paid duly,A43,2415,below 100 DM,1-4 years,3,A103,2,A121,34,A143,own,1,A173,1,A191,yes,1,male,25-44
-no account,39,paid duly,A41,2569,500-1000 DM,1-4 years,4,A101,4,A123,24,A143,own,1,A173,1,A191,yes,1,male,under25
-no account,6,critical account,A43,1237,100-500 DM,1-4 years,1,A101,1,A122,27,A143,own,2,A173,1,A191,yes,1,female,25-44
-below 0 DM,24,paid duly,A40,1381,unknown,1-4 years,4,A101,2,A122,35,A143,own,1,A173,1,A191,yes,0,female,25-44
-below 0 DM,47,paid duly,A40,10722,below 100 DM,under 1 year,1,A101,1,A121,35,A143,own,1,A172,1,A192,yes,1,female,25-44
-no account,18,critical account,A42,1817,below 100 DM,1-4 years,4,A101,2,A124,28,A143,own,2,A173,1,A191,yes,1,female,25-44
-no account,36,critical account,A42,7127,below 100 DM,under 1 year,2,A101,4,A122,23,A143,rent,2,A173,1,A192,yes,0,female,under25
-no account,9,paid duly,A42,1388,below 100 DM,1-4 years,4,A101,2,A121,26,A143,rent,1,A173,1,A191,yes,1,female,25-44
-below 0 DM,36,paid duly,A41,8335,unknown,7+ years,3,A101,4,A124,47,A143,free,1,A173,1,A191,yes,0,male,45plus
-below 0 DM,36,all paid here,A42,2746,below 100 DM,7+ years,4,A101,4,A123,31,A141,own,1,A173,1,A191,yes,0,male,25-44
-no account,48,all paid here,A49,3609,below 100 DM,1-4 years,1,A101,1,A121,27,A142,own,1,A173,1,A191,yes,1,female,25-44
-no account,18,critical account,A46,1864,100-500 DM,1-4 years,4,A101,2,A121,30,A143,own,2,A173,1,A191,yes,0,female,25-44
-no account,12,paid duly,A43,1262,below 100 DM,1-4 years,3,A101,2,A123,25,A143,own,1,A173,1,A191,yes,1,male,under25
-0-200 DM,8,paid duly,A42,1237,below 100 DM,1-4 years,3,A101,4,A121,24,A143,own,1,A173,1,A191,yes,0,female,under25
-no account,15,critical account,A43,1459,below 100 DM,1-4 years,4,A101,2,A123,43,A143,own,1,A172,1,A191,yes,1,female,25-44
-below 0 DM,6,all paid here,A46,1198,below 100 DM,7+ years,4,A101,4,A124,35,A143,free,1,A173,1,A191,yes,0,female,25-44
-below 0 DM,48,paid duly,A40,7763,below 100 DM,7+ years,4,A101,4,A124,42,A141,free,1,A174,1,A191,yes,0,male,25-44
-no account,24,paid duly,A43,1533,below 100 DM,under 1 year,4,A101,3,A123,38,A142,own,1,A173,1,A192,yes,1,female,25-44
-no account,12,paid duly,A46,719,below 100 DM,7+ years,4,A101,4,A123,41,A141,own,1,A172,2,A191,yes,0,male,25-44
-no account,12,critical account,A46,701,below 100 DM,1-4 years,4,A101,2,A123,32,A143,own,2,A173,1,A191,yes,1,male,25-44
-below 0 DM,12,paid duly,A46,1200,unknown,1-4 years,4,A101,4,A122,23,A141,rent,1,A173,1,A192,yes,1,female,under25
-0-200 DM,30,past delays,A49,2503,100-500 DM,7+ years,4,A101,2,A122,41,A142,own,2,A173,1,A191,yes,1,male,25-44
-no account,60,paid duly,A40,6527,unknown,1-4 years,4,A101,4,A124,34,A143,free,1,A173,2,A192,yes,1,male,25-44
-no account,6,critical account,A43,1554,below 100 DM,4-7 years,1,A101,2,A123,24,A143,rent,2,A173,1,A192,yes,1,female,under25
-0-200 DM,6,paid duly,A40,14555,unknown,unemployed,1,A101,2,A122,23,A143,own,1,A171,1,A192,yes,0,male,under25
-below 0 DM,24,paid duly,A42,3234,below 100 DM,under 1 year,4,A101,4,A121,23,A143,rent,1,A172,1,A192,yes,0,female,under25
-no account,15,critical account,A43,1316,500-1000 DM,1-4 years,2,A101,2,A122,47,A143,own,2,A172,1,A191,yes,1,male,45plus
-no account,6,critical account,A40,250,1000+ DM,1-4 years,2,A101,2,A121,41,A141,own,2,A172,1,A191,yes,1,female,25-44
-no account,12,critical account,A40,1163,500-1000 DM,1-4 years,4,A101,4,A121,44,A143,own,1,A173,1,A192,yes,1,male,25-44
-no account,18,critical account,A43,1582,1000+ DM,7+ years,4,A101,4,A123,46,A143,own,2,A173,1,A191,yes,1,male,45plus
-0-200 DM,12,critical account,A40,1995,100-500 DM,under 1 year,4,A101,1,A123,27,A143,own,1,A173,1,A191,yes,1,male,25-44
-no account,18,critical account,A40,1055,below 100 DM,under 1 year,4,A101,1,A122,30,A143,own,2,A173,1,A191,yes,1,female,25-44
-no account,4,critical account,A43,1503,below 100 DM,4-7 years,2,A101,1,A121,42,A143,own,2,A172,2,A191,yes,1,male,25-44
-no account,12,paid duly,A43,776,below 100 DM,1-4 years,4,A101,2,A121,28,A143,own,1,A173,1,A191,yes,1,male,25-44
-0-200 DM,24,critical account,A49,2825,unknown,4-7 years,4,A101,3,A124,34,A143,own,2,A173,2,A192,yes,1,male,25-44
-no account,9,paid duly,A43,2753,100-500 DM,7+ years,3,A102,4,A123,35,A143,own,1,A173,1,A192,yes,1,male,25-44
-no account,54,no credits,A41,9436,unknown,1-4 years,2,A101,2,A122,39,A143,own,1,A172,2,A191,yes,1,male,25-44
-no account,18,paid duly,A43,1453,below 100 DM,under 1 year,3,A101,1,A121,26,A143,own,1,A173,1,A191,yes,1,female,25-44
-0-200 DM,24,critical account,A40,3878,100-500 DM,under 1 year,4,A101,2,A123,37,A143,own,1,A173,1,A192,yes,1,male,25-44
-below 0 DM,12,paid duly,A43,1680,500-1000 DM,7+ years,3,A101,1,A121,35,A143,own,1,A173,1,A191,yes,1,male,25-44
-below 0 DM,48,paid duly,A46,7476,below 100 DM,4-7 years,4,A101,1,A124,50,A143,free,1,A174,1,A192,yes,1,male,45plus
-no account,15,critical account,A42,3343,below 100 DM,1-4 years,4,A101,2,A124,28,A143,free,1,A173,1,A192,yes,1,male,25-44
-below 0 DM,18,paid duly,A40,2249,100-500 DM,4-7 years,4,A101,3,A123,30,A143,own,1,A174,2,A192,yes,1,male,25-44
-no account,36,critical account,A43,9566,below 100 DM,1-4 years,2,A101,2,A123,31,A142,own,2,A173,1,A191,yes,1,female,25-44
-0-200 DM,48,paid duly,A43,3060,below 100 DM,4-7 years,4,A101,4,A121,28,A143,own,2,A173,1,A191,yes,0,male,25-44
-below 0 DM,9,critical account,A45,1288,100-500 DM,7+ years,3,A103,4,A121,48,A143,own,2,A173,2,A191,no,1,male,45plus
-no account,10,paid duly,A46,727,500-1000 DM,7+ years,4,A101,4,A124,46,A143,free,1,A173,1,A192,yes,1,male,45plus
-below 0 DM,24,paid duly,A40,4817,below 100 DM,4-7 years,2,A102,3,A122,31,A143,own,1,A173,1,A192,yes,0,male,25-44
-no account,12,critical account,A49,2292,below 100 DM,unemployed,4,A101,2,A123,42,A142,own,2,A174,1,A192,yes,0,male,25-44
-below 0 DM,36,critical account,A42,5371,below 100 DM,1-4 years,3,A103,2,A122,28,A143,own,2,A173,1,A191,yes,1,male,25-44
-below 0 DM,18,critical account,A40,3966,below 100 DM,7+ years,1,A101,4,A121,33,A141,rent,3,A173,1,A192,yes,0,female,25-44
-below 0 DM,24,paid duly,A43,1282,100-500 DM,1-4 years,4,A101,2,A123,32,A143,own,1,A172,1,A191,yes,0,female,25-44
-no account,6,critical account,A43,1382,below 100 DM,1-4 years,1,A101,1,A123,28,A143,own,2,A173,1,A192,yes,1,female,25-44
-below 0 DM,24,paid duly,A40,3123,below 100 DM,under 1 year,4,A101,1,A122,27,A143,own,1,A173,1,A191,yes,0,female,25-44
-200+ DM,9,no credits,A43,1337,below 100 DM,under 1 year,4,A101,2,A123,34,A143,own,2,A174,1,A192,yes,0,male,25-44
-0-200 DM,36,paid duly,A41,6948,below 100 DM,1-4 years,2,A101,2,A123,35,A143,rent,1,A174,1,A192,yes,1,male,25-44
-below 0 DM,12,paid duly,A40,759,below 100 DM,4-7 years,4,A101,2,A121,26,A143,own,1,A173,1,A191,yes,0,male,25-44
-below 0 DM,48,all paid here,A49,7685,below 100 DM,4-7 years,2,A103,4,A123,37,A143,rent,1,A173,1,A191,yes,0,female,25-44
-0-200 DM,7,paid duly,A43,2329,below 100 DM,under 1 year,1,A103,1,A121,45,A143,own,1,A173,1,A191,yes,1,female,25-44
-below 0 DM,60,paid duly,A49,7297,below 100 DM,7+ years,4,A102,4,A124,36,A143,rent,1,A173,1,A191,yes,0,male,25-44
-no account,6,paid duly,A48,1238,unknown,unemployed,4,A101,4,A122,36,A143,own,1,A174,2,A192,yes,1,male,25-44
-no account,10,paid duly,A48,894,unknown,4-7 years,4,A101,3,A122,40,A143,own,1,A173,1,A192,yes,1,female,25-44
-no account,6,paid duly,A45,660,500-1000 DM,4-7 years,2,A101,4,A121,23,A143,rent,1,A172,1,A191,yes,1,male,under25
-no account,12,critical account,A40,926,below 100 DM,unemployed,1,A101,2,A122,38,A143,own,1,A171,1,A191,yes,1,female,25-44
-no account,24,paid duly,A43,3181,below 100 DM,under 1 year,4,A101,4,A122,26,A143,own,1,A173,1,A192,yes,1,female,25-44
-below 0 DM,9,paid duly,A40,654,below 100 DM,1-4 years,4,A101,3,A123,28,A143,own,1,A172,1,A191,yes,0,male,25-44
-0-200 DM,30,paid duly,A42,3832,below 100 DM,under 1 year,2,A101,1,A122,22,A143,own,1,A173,1,A191,yes,1,male,under25
-0-200 DM,15,paid duly,A40,2631,100-500 DM,1-4 years,2,A101,4,A123,28,A143,rent,2,A173,1,A192,yes,0,female,25-44
-no account,12,paid duly,A42,763,below 100 DM,1-4 years,4,A101,1,A121,26,A143,own,1,A173,1,A192,yes,1,female,25-44
-no account,24,past delays,A42,4151,100-500 DM,1-4 years,2,A101,3,A122,35,A143,own,2,A173,1,A191,yes,1,male,25-44
-no account,9,critical account,A46,1244,unknown,7+ years,4,A101,4,A122,41,A143,rent,2,A172,1,A191,yes,1,female,25-44
-0-200 DM,12,paid duly,A43,1331,below 100 DM,under 1 year,2,A101,1,A123,22,A142,own,1,A173,1,A191,yes,0,male,under25
-no account,36,past delays,A41,8947,unknown,4-7 years,3,A101,2,A123,31,A142,own,1,A174,2,A192,yes,1,male,25-44
-0-200 DM,27,paid duly,A49,2528,below 100 DM,under 1 year,4,A101,1,A122,32,A143,own,1,A173,2,A192,yes,1,female,25-44
-no account,12,no credits,A42,2759,below 100 DM,7+ years,2,A101,4,A122,34,A143,own,2,A173,1,A191,yes,1,male,25-44
-below 0 DM,12,paid duly,A40,900,unknown,1-4 years,4,A101,2,A123,23,A143,own,1,A173,1,A191,yes,0,male,under25
-no account,24,paid duly,A48,937,below 100 DM,under 1 year,4,A101,3,A123,27,A143,own,2,A172,1,A191,yes,1,male,25-44
-below 0 DM,6,critical account,A43,1169,unknown,7+ years,4,A101,4,A121,67,A143,own,2,A173,1,A192,yes,1,male,45plus
-no account,24,paid duly,A43,1278,below 100 DM,7+ years,4,A101,1,A121,36,A143,own,1,A174,1,A192,yes,1,male,25-44
-no account,42,critical account,A42,4042,500-1000 DM,1-4 years,4,A101,4,A121,36,A143,own,2,A173,1,A192,yes,1,male,25-44
-0-200 DM,18,paid duly,A49,1913,1000+ DM,under 1 year,3,A101,3,A121,36,A141,own,1,A173,1,A192,yes,1,male,25-44
-below 0 DM,18,paid duly,A42,3650,below 100 DM,under 1 year,1,A101,4,A123,22,A143,rent,1,A173,1,A191,yes,1,female,under25
-no account,24,critical account,A42,3777,1000+ DM,1-4 years,4,A101,4,A121,50,A143,own,1,A173,1,A192,yes,1,male,45plus
-0-200 DM,26,paid duly,A41,7966,below 100 DM,under 1 year,2,A101,3,A123,30,A143,own,2,A173,1,A191,yes,1,male,25-44
-no account,21,no credits,A40,5003,unknown,1-4 years,1,A101,4,A122,29,A141,own,2,A173,1,A192,yes,0,female,25-44
-0-200 DM,36,paid duly,A43,2671,100-500 DM,1-4 years,4,A102,4,A124,50,A143,free,1,A173,1,A191,yes,0,female,45plus
-no account,12,critical account,A46,3565,unknown,under 1 year,2,A101,1,A122,37,A143,own,2,A172,2,A191,yes,1,male,25-44
-below 0 DM,24,paid duly,A40,1285,unknown,4-7 years,4,A101,4,A124,32,A143,rent,1,A173,1,A191,yes,0,female,25-44
-below 0 DM,18,paid duly,A42,1131,below 100 DM,unemployed,4,A101,2,A123,33,A143,own,1,A173,1,A191,yes,0,female,25-44
-below 0 DM,18,paid duly,A42,2039,below 100 DM,1-4 years,1,A101,4,A121,20,A141,rent,1,A173,1,A191,yes,0,female,under25
-no account,12,paid duly,A49,1076,below 100 DM,1-4 years,2,A101,2,A121,26,A143,own,1,A173,1,A192,no,1,male,25-44
-below 0 DM,10,critical account,A40,2241,below 100 DM,under 1 year,1,A101,3,A121,48,A143,rent,2,A172,2,A191,no,1,male,45plus
-below 0 DM,30,paid duly,A41,3857,below 100 DM,1-4 years,4,A101,4,A122,40,A143,own,1,A174,1,A192,yes,1,male,25-44
-below 0 DM,12,paid duly,A42,1858,below 100 DM,under 1 year,4,A101,1,A123,22,A143,rent,1,A173,1,A191,yes,1,female,under25
-0-200 DM,12,paid duly,A42,2762,unknown,7+ years,1,A101,2,A122,25,A141,own,1,A173,1,A192,yes,0,female,under25
-no account,21,paid duly,A42,2241,below 100 DM,7+ years,4,A101,2,A121,50,A143,own,2,A173,1,A191,yes,1,male,45plus
-200+ DM,18,paid duly,A40,1961,below 100 DM,7+ years,3,A101,2,A123,23,A143,own,1,A174,1,A191,yes,1,female,under25
-below 0 DM,42,paid duly,A42,7882,below 100 DM,4-7 years,2,A103,4,A122,45,A143,free,1,A173,2,A191,yes,1,male,25-44
-0-200 DM,11,paid duly,A42,1577,1000+ DM,under 1 year,4,A101,1,A121,20,A143,own,1,A173,1,A191,yes,1,female,under25
-no account,9,critical account,A40,2134,below 100 DM,1-4 years,4,A101,4,A123,48,A143,own,3,A173,1,A192,yes,1,male,45plus
-below 0 DM,18,paid duly,A40,1216,below 100 DM,under 1 year,4,A101,3,A123,23,A143,rent,1,A173,1,A192,yes,0,female,under25
-0-200 DM,24,paid duly,A410,11328,below 100 DM,1-4 years,2,A102,3,A123,29,A141,own,2,A174,1,A192,yes,0,male,25-44
-below 0 DM,15,critical account,A42,1478,below 100 DM,7+ years,4,A101,4,A123,44,A143,own,2,A173,2,A192,yes,1,male,25-44
-no account,18,critical account,A43,1149,1000+ DM,1-4 years,4,A101,3,A121,46,A143,own,2,A173,1,A191,yes,1,male,45plus
-0-200 DM,21,paid duly,A49,1188,below 100 DM,7+ years,2,A101,4,A122,39,A143,own,1,A173,2,A191,yes,0,female,25-44
-0-200 DM,18,past delays,A42,4297,below 100 DM,7+ years,4,A101,3,A124,40,A143,own,1,A174,1,A192,yes,0,male,25-44
-0-200 DM,12,paid duly,A43,2930,below 100 DM,4-7 years,2,A101,1,A121,27,A143,own,1,A173,1,A191,yes,1,female,25-44
-below 0 DM,21,paid duly,A43,2606,below 100 DM,under 1 year,4,A101,4,A122,28,A143,rent,1,A174,1,A192,yes,1,female,25-44
-below 0 DM,12,paid duly,A42,1282,below 100 DM,1-4 years,2,A101,4,A123,20,A143,rent,1,A173,1,A191,yes,0,female,under25
-no account,11,paid duly,A49,2142,1000+ DM,7+ years,1,A101,2,A121,28,A143,own,1,A173,1,A192,yes,1,male,25-44
-below 0 DM,24,all paid here,A42,3349,500-1000 DM,under 1 year,4,A101,4,A124,30,A143,free,1,A173,2,A192,yes,0,male,25-44
-below 0 DM,30,critical account,A41,6187,100-500 DM,4-7 years,1,A101,4,A123,24,A143,rent,2,A173,1,A191,yes,1,male,under25
-0-200 DM,12,paid duly,A40,836,100-500 DM,under 1 year,4,A101,2,A122,23,A141,own,1,A172,1,A191,yes,0,female,under25
-no account,36,critical account,A41,5842,below 100 DM,7+ years,2,A101,2,A122,35,A143,own,2,A173,2,A192,yes,1,male,25-44
-below 0 DM,6,critical account,A40,4716,unknown,under 1 year,1,A101,3,A121,44,A143,own,2,A172,2,A191,yes,1,male,25-44
-no account,24,paid duly,A43,1311,100-500 DM,4-7 years,4,A101,3,A122,26,A143,own,1,A173,1,A192,yes,1,male,25-44
-200+ DM,10,paid duly,A40,1240,100-500 DM,7+ years,1,A101,4,A124,48,A143,free,1,A172,2,A191,yes,0,female,45plus
-0-200 DM,18,paid duly,A43,3213,500-1000 DM,under 1 year,1,A101,3,A121,25,A143,rent,1,A173,1,A191,yes,1,male,under25
-below 0 DM,12,paid duly,A42,1289,below 100 DM,1-4 years,4,A103,1,A122,21,A143,own,1,A172,1,A191,yes,1,male,under25
-below 0 DM,12,paid duly,A46,684,below 100 DM,1-4 years,4,A101,4,A123,40,A143,rent,1,A172,2,A191,yes,0,male,25-44
-below 0 DM,24,all paid here,A40,1193,below 100 DM,unemployed,1,A102,4,A124,29,A143,rent,2,A171,1,A191,yes,0,female,25-44
-no account,12,critical account,A49,1412,below 100 DM,1-4 years,4,A103,2,A121,29,A143,own,2,A174,1,A192,yes,1,female,25-44
-200+ DM,10,paid duly,A42,1275,below 100 DM,under 1 year,4,A101,2,A122,23,A143,own,1,A173,1,A191,yes,1,female,under25
-no account,12,paid duly,A43,804,below 100 DM,7+ years,4,A101,4,A123,38,A143,own,1,A173,1,A191,yes,1,male,25-44
-below 0 DM,6,critical account,A43,1957,below 100 DM,4-7 years,1,A101,4,A123,31,A143,own,1,A173,1,A191,yes,1,female,25-44
-below 0 DM,9,paid duly,A42,2136,below 100 DM,1-4 years,3,A101,2,A121,25,A143,own,1,A173,1,A191,yes,1,male,under25
-below 0 DM,48,paid duly,A41,4788,below 100 DM,4-7 years,4,A101,3,A122,26,A143,own,1,A173,2,A191,yes,1,male,25-44
-no account,36,paid duly,A42,3349,below 100 DM,1-4 years,4,A101,2,A123,28,A143,own,1,A174,1,A192,yes,0,female,25-44
-no account,15,paid duly,A42,2186,unknown,4-7 years,1,A101,4,A121,33,A141,rent,1,A172,1,A191,yes,1,female,25-44
-no account,15,paid duly,A43,1979,unknown,7+ years,4,A101,2,A123,35,A143,own,1,A173,1,A191,yes,1,male,25-44
-below 0 DM,12,paid duly,A40,1274,below 100 DM,under 1 year,3,A101,1,A121,37,A143,own,1,A172,1,A191,yes,0,female,25-44
-200+ DM,10,critical account,A40,781,below 100 DM,7+ years,4,A101,4,A124,63,A143,free,2,A173,1,A192,yes,1,male,45plus
-below 0 DM,10,critical account,A42,2132,unknown,under 1 year,2,A102,3,A121,27,A143,rent,2,A173,1,A191,no,1,female,25-44
-200+ DM,10,paid duly,A40,3949,below 100 DM,under 1 year,1,A103,1,A122,37,A143,own,1,A172,2,A191,yes,1,male,25-44
-no account,15,critical account,A42,2788,below 100 DM,4-7 years,2,A102,3,A123,24,A141,own,2,A173,1,A191,yes,1,female,under25
+200+ DM,18,paid duly,radio/TV,2100,below 100 DM,1-4 years,4,co-applicant,2,real estate,37,stores,own,1,skilled,1,none,yes,0,male,25-44
+no account,15,paid duly,new car,3186,1000+ DM,4-7 years,2,none,3,car or other,20,none,rent,1,skilled,1,none,yes,1,female,under25
+0-200 DM,30,critical account,new car,2181,unknown,7+ years,4,none,4,real estate,36,none,own,2,skilled,1,none,yes,1,male,25-44
+no account,15,paid duly,radio/TV,3568,below 100 DM,7+ years,4,none,2,car or other,54,bank,rent,1,highly skilled,1,yes,yes,1,female,45plus
+no account,28,critical account,radio/TV,2743,below 100 DM,7+ years,4,none,2,car or other,29,none,own,2,skilled,1,none,yes,1,male,25-44
+no account,24,critical account,furniture,2028,below 100 DM,4-7 years,2,none,2,savings or insurance,30,none,own,2,unskilled resident,1,none,yes,1,male,25-44
+0-200 DM,30,past delays,radio/TV,1919,100-500 DM,under 1 year,4,none,3,none known,30,stores,own,2,highly skilled,1,none,yes,0,male,25-44
+no account,6,no credits,new car,1204,100-500 DM,1-4 years,4,none,1,none known,35,bank,rent,1,skilled,1,none,no,1,male,25-44
+0-200 DM,48,all paid here,new car,12169,unknown,unemployed,4,co-applicant,4,none known,36,none,free,1,highly skilled,1,yes,yes,1,male,25-44
+no account,21,paid duly,used car,5248,unknown,1-4 years,1,none,3,car or other,26,none,own,1,skilled,1,none,yes,1,male,25-44
+no account,24,critical account,new car,2463,100-500 DM,4-7 years,4,none,3,savings or insurance,27,none,own,2,skilled,1,yes,yes,1,male,25-44
+0-200 DM,36,paid duly,used car,9398,below 100 DM,under 1 year,1,none,4,car or other,28,none,rent,1,highly skilled,1,yes,yes,0,male,25-44
+below 0 DM,8,critical account,other,1164,below 100 DM,7+ years,3,none,4,none known,51,bank,free,2,highly skilled,2,yes,yes,1,male,45plus
+below 0 DM,12,paid duly,new car,2579,below 100 DM,under 1 year,4,none,1,real estate,33,none,own,1,unskilled resident,2,none,yes,0,male,25-44
+no account,24,past delays,business,2375,500-1000 DM,1-4 years,4,none,2,car or other,44,none,own,2,skilled,2,yes,yes,1,male,25-44
+0-200 DM,24,all paid here,education,1837,below 100 DM,4-7 years,4,none,4,none known,34,bank,free,1,unskilled resident,1,none,yes,0,female,25-44
+no account,12,paid duly,used car,2445,unknown,under 1 year,2,none,4,car or other,26,none,rent,1,skilled,1,yes,yes,1,male,25-44
+below 0 DM,12,paid duly,furniture,1620,below 100 DM,1-4 years,2,co-applicant,3,savings or insurance,30,none,own,1,skilled,1,none,yes,1,female,25-44
+200+ DM,18,paid duly,furniture,3049,below 100 DM,under 1 year,1,none,1,savings or insurance,45,stores,own,1,unskilled resident,1,none,yes,1,female,25-44
+no account,12,critical account,radio/TV,717,below 100 DM,7+ years,4,none,4,real estate,52,none,own,3,skilled,1,none,yes,1,male,45plus
+no account,10,critical account,furniture,2146,below 100 DM,under 1 year,1,none,3,real estate,23,none,rent,2,skilled,1,none,yes,1,female,under25
+below 0 DM,24,all paid here,new car,2325,100-500 DM,4-7 years,2,none,3,car or other,32,bank,own,1,skilled,1,none,yes,1,male,25-44
+no account,15,critical account,radio/TV,1360,below 100 DM,1-4 years,4,none,2,savings or insurance,31,none,own,2,skilled,1,none,yes,1,male,25-44
+below 0 DM,24,critical account,used car,6419,below 100 DM,7+ years,2,none,4,none known,44,none,free,2,highly skilled,2,yes,yes,1,female,25-44
+200+ DM,4,paid duly,new car,1494,unknown,under 1 year,1,none,2,real estate,29,none,own,1,unskilled resident,2,none,no,1,male,25-44
+0-200 DM,18,paid duly,used car,2779,below 100 DM,1-4 years,1,none,3,car or other,21,none,rent,1,skilled,1,yes,yes,1,male,under25
+no account,12,paid duly,radio/TV,2171,below 100 DM,under 1 year,2,none,2,car or other,29,bank,own,1,skilled,1,none,yes,1,female,25-44
+below 0 DM,24,paid duly,used car,2924,below 100 DM,1-4 years,3,guarantor,4,none known,63,bank,own,1,skilled,2,yes,yes,1,male,45plus
+no account,10,paid duly,new car,1309,unknown,1-4 years,4,guarantor,4,savings or insurance,27,none,own,1,unskilled resident,1,none,yes,0,male,25-44
+no account,24,past delays,business,8648,below 100 DM,under 1 year,2,none,2,car or other,27,bank,own,2,skilled,1,yes,yes,0,male,25-44
+no account,12,critical account,furniture,5801,unknown,7+ years,2,none,4,savings or insurance,49,none,rent,1,skilled,1,yes,yes,1,male,45plus
+no account,4,critical account,new car,3380,below 100 DM,4-7 years,1,none,1,real estate,37,none,own,1,skilled,2,none,yes,1,female,25-44
+below 0 DM,27,paid duly,radio/TV,3416,below 100 DM,1-4 years,3,none,2,car or other,27,none,own,1,highly skilled,1,none,yes,1,male,25-44
+0-200 DM,30,paid duly,radio/TV,1715,unknown,1-4 years,4,none,1,car or other,26,none,own,1,skilled,1,none,yes,1,female,25-44
+no account,24,critical account,repairs,2058,below 100 DM,1-4 years,4,none,2,real estate,33,none,own,2,skilled,1,yes,yes,1,male,25-44
+no account,18,critical account,radio/TV,1800,below 100 DM,1-4 years,4,none,2,car or other,24,none,own,2,skilled,1,none,yes,1,male,under25
+0-200 DM,36,past delays,new car,2225,below 100 DM,7+ years,4,none,4,none known,57,bank,free,2,skilled,1,yes,yes,0,male,45plus
+below 0 DM,24,paid duly,used car,2812,unknown,7+ years,2,none,4,real estate,26,none,rent,1,skilled,1,none,yes,1,female,25-44
+below 0 DM,18,paid duly,used car,7511,unknown,7+ years,1,none,4,savings or insurance,51,none,free,1,skilled,2,yes,yes,0,male,45plus
+0-200 DM,9,paid duly,radio/TV,1206,below 100 DM,7+ years,4,none,4,real estate,25,none,own,1,skilled,1,none,yes,1,female,under25
+below 0 DM,6,paid duly,furniture,428,below 100 DM,7+ years,2,none,1,savings or insurance,49,bank,own,1,skilled,1,yes,yes,1,female,45plus
+below 0 DM,12,paid duly,radio/TV,727,100-500 DM,under 1 year,4,none,3,none known,33,none,own,1,unskilled resident,1,yes,yes,0,male,25-44
+below 0 DM,6,paid duly,radio/TV,2647,500-1000 DM,1-4 years,2,none,3,real estate,44,none,rent,1,skilled,2,none,yes,1,male,25-44
+no account,36,paid duly,education,1819,below 100 DM,1-4 years,4,none,4,none known,37,stores,free,1,skilled,1,yes,yes,0,male,25-44
+0-200 DM,15,critical account,business,2326,500-1000 DM,1-4 years,2,none,4,car or other,27,bank,own,1,skilled,1,none,yes,1,male,25-44
+0-200 DM,36,paid duly,radio/TV,2323,below 100 DM,4-7 years,4,none,4,car or other,24,none,rent,1,skilled,1,none,yes,1,male,under25
+0-200 DM,12,critical account,new car,958,below 100 DM,4-7 years,2,none,3,real estate,47,none,own,2,unskilled resident,2,none,yes,1,male,45plus
+0-200 DM,9,critical account,radio/TV,1154,below 100 DM,7+ years,2,none,4,real estate,37,none,own,3,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,12,paid duly,radio/TV,1107,below 100 DM,1-4 years,2,none,2,real estate,20,none,rent,1,highly skilled,2,yes,yes,1,male,under25
+no account,24,critical account,radio/TV,2611,below 100 DM,7+ years,4,co-applicant,3,real estate,46,none,own,2,skilled,1,none,yes,1,male,45plus
+no account,11,critical account,radio/TV,1154,100-500 DM,unemployed,4,none,4,real estate,57,none,own,3,unskilled resident,1,none,yes,1,female,45plus
+no account,48,critical account,radio/TV,3578,unknown,7+ years,4,none,1,real estate,47,none,own,1,skilled,1,yes,yes,1,male,45plus
+no account,24,paid duly,used car,6313,unknown,7+ years,3,none,4,car or other,41,none,own,1,highly skilled,2,yes,yes,1,male,25-44
+0-200 DM,24,past delays,furniture,2064,below 100 DM,unemployed,3,none,2,savings or insurance,34,none,own,1,highly skilled,1,yes,yes,0,female,25-44
+below 0 DM,36,past delays,business,2145,below 100 DM,4-7 years,2,none,1,car or other,24,none,own,2,skilled,1,yes,yes,0,male,under25
+no account,12,critical account,radio/TV,1934,below 100 DM,7+ years,2,none,2,none known,26,none,own,2,skilled,1,none,yes,1,male,25-44
+no account,24,critical account,new car,1287,1000+ DM,7+ years,4,none,4,real estate,37,none,own,2,skilled,1,yes,yes,1,female,25-44
+0-200 DM,24,past delays,business,4712,unknown,1-4 years,4,none,2,savings or insurance,37,bank,own,2,highly skilled,1,yes,yes,1,male,25-44
+below 0 DM,21,paid duly,radio/TV,1835,below 100 DM,1-4 years,3,none,2,real estate,25,none,own,2,skilled,1,yes,yes,0,female,under25
+0-200 DM,12,paid duly,radio/TV,1092,below 100 DM,1-4 years,4,guarantor,4,real estate,49,none,own,2,skilled,1,yes,yes,1,female,45plus
+no account,21,paid duly,radio/TV,3160,unknown,7+ years,4,none,3,savings or insurance,41,none,own,1,skilled,1,yes,yes,1,male,25-44
+0-200 DM,42,all paid here,used car,9283,below 100 DM,unemployed,1,none,2,none known,55,bank,free,1,highly skilled,1,yes,yes,1,male,45plus
+below 0 DM,12,paid duly,radio/TV,701,below 100 DM,1-4 years,4,none,2,real estate,40,none,own,1,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,45,no credits,business,11816,below 100 DM,7+ years,2,none,4,car or other,29,none,rent,2,skilled,1,none,yes,0,male,25-44
+0-200 DM,48,no credits,other,18424,below 100 DM,1-4 years,1,none,2,savings or insurance,32,bank,own,1,highly skilled,1,yes,no,0,female,25-44
+below 0 DM,12,critical account,new car,3499,below 100 DM,1-4 years,3,co-applicant,2,real estate,29,none,own,2,skilled,1,none,yes,0,female,25-44
+no account,10,critical account,new car,1231,below 100 DM,7+ years,3,none,4,real estate,32,none,own,2,unskilled resident,2,none,no,1,male,25-44
+below 0 DM,24,paid duly,furniture,4169,below 100 DM,1-4 years,4,none,4,savings or insurance,28,none,own,1,skilled,1,none,yes,1,male,25-44
+no account,21,past delays,used car,2993,below 100 DM,1-4 years,3,none,2,real estate,28,stores,own,2,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,18,past delays,education,8471,unknown,1-4 years,1,none,2,car or other,23,none,rent,2,skilled,1,yes,yes,1,female,under25
+below 0 DM,24,no credits,furniture,4110,below 100 DM,7+ years,3,none,4,none known,23,bank,rent,2,skilled,2,none,yes,0,male,under25
+0-200 DM,16,critical account,new car,1175,below 100 DM,unemployed,2,none,3,car or other,68,none,free,3,unskilled non-resident,1,yes,yes,1,male,45plus
+below 0 DM,9,critical account,radio/TV,1138,below 100 DM,1-4 years,4,none,4,real estate,25,none,own,2,unskilled resident,1,none,yes,1,male,under25
+below 0 DM,12,critical account,furniture,2246,below 100 DM,7+ years,3,none,3,savings or insurance,60,none,own,2,skilled,1,none,yes,0,male,45plus
+no account,15,paid duly,radio/TV,1386,unknown,1-4 years,4,none,2,real estate,40,none,rent,1,skilled,1,yes,yes,1,male,25-44
+0-200 DM,15,all paid here,new car,1264,100-500 DM,1-4 years,2,none,2,savings or insurance,25,none,rent,1,skilled,1,none,yes,0,male,under25
+0-200 DM,24,paid duly,radio/TV,5084,unknown,7+ years,2,none,4,car or other,42,none,own,1,skilled,1,yes,yes,1,female,25-44
+below 0 DM,42,paid duly,radio/TV,3965,below 100 DM,under 1 year,4,none,3,car or other,34,none,own,1,skilled,1,none,yes,0,male,25-44
+0-200 DM,24,critical account,other,11938,below 100 DM,1-4 years,2,co-applicant,3,car or other,39,none,own,2,highly skilled,2,yes,yes,0,male,25-44
+no account,30,paid duly,used car,4811,unknown,4-7 years,2,none,4,savings or insurance,24,stores,rent,1,unskilled resident,1,none,yes,1,female,under25
+no account,48,paid duly,business,3914,unknown,1-4 years,4,none,2,real estate,38,bank,own,1,skilled,1,none,yes,0,male,25-44
+0-200 DM,9,paid duly,furniture,2030,unknown,4-7 years,2,none,1,car or other,24,none,own,1,skilled,1,yes,yes,1,male,under25
+no account,21,critical account,new car,12680,unknown,7+ years,4,none,4,none known,30,none,free,1,highly skilled,1,yes,yes,0,male,25-44
+no account,15,paid duly,education,4623,100-500 DM,1-4 years,3,none,2,savings or insurance,40,none,own,1,highly skilled,1,yes,yes,0,male,25-44
+no account,24,paid duly,new car,1393,below 100 DM,1-4 years,2,guarantor,2,real estate,31,none,own,1,skilled,1,yes,yes,1,male,25-44
+0-200 DM,60,paid duly,new car,7408,100-500 DM,under 1 year,4,none,2,savings or insurance,24,none,own,1,highly skilled,1,none,yes,0,female,under25
+no account,12,past delays,repairs,1555,1000+ DM,7+ years,4,none,4,none known,55,none,free,2,skilled,2,none,yes,0,male,45plus
+no account,28,all paid here,used car,7824,unknown,under 1 year,3,guarantor,4,real estate,40,bank,rent,2,skilled,2,yes,yes,1,male,25-44
+no account,27,past delays,used car,8613,1000+ DM,1-4 years,2,none,2,car or other,27,none,own,2,skilled,1,none,yes,1,male,25-44
+below 0 DM,12,paid duly,education,795,below 100 DM,under 1 year,4,none,4,savings or insurance,53,none,own,1,skilled,1,none,yes,0,female,45plus
+below 0 DM,24,paid duly,furniture,3021,below 100 DM,1-4 years,2,none,2,real estate,24,none,rent,1,unskilled resident,1,none,yes,1,male,under25
+below 0 DM,12,paid duly,new car,3651,1000+ DM,1-4 years,1,none,3,savings or insurance,31,none,own,1,skilled,2,none,yes,1,male,25-44
+no account,12,paid duly,new car,2390,unknown,7+ years,4,none,3,car or other,50,none,own,1,skilled,1,yes,yes,1,male,45plus
+below 0 DM,24,all paid here,used car,3632,below 100 DM,1-4 years,1,guarantor,4,car or other,22,bank,rent,1,skilled,1,none,no,1,female,under25
+below 0 DM,24,paid duly,new car,915,unknown,7+ years,4,none,2,car or other,29,bank,own,1,skilled,1,none,yes,0,female,25-44
+0-200 DM,18,paid duly,education,1239,unknown,1-4 years,4,none,4,none known,61,none,free,1,skilled,1,none,yes,1,male,45plus
+no account,12,critical account,radio/TV,618,below 100 DM,7+ years,4,none,4,real estate,56,none,own,1,skilled,1,none,yes,1,male,45plus
+no account,15,paid duly,radio/TV,1213,500-1000 DM,7+ years,4,none,3,savings or insurance,47,stores,own,1,skilled,1,yes,yes,1,male,45plus
+no account,24,critical account,radio/TV,2424,unknown,7+ years,4,none,4,savings or insurance,53,none,own,2,skilled,1,none,yes,1,male,45plus
+no account,21,critical account,furniture,2288,below 100 DM,under 1 year,4,none,4,savings or insurance,23,none,own,1,skilled,1,yes,yes,1,female,under25
+below 0 DM,18,no credits,business,3104,below 100 DM,4-7 years,3,none,1,savings or insurance,31,bank,own,1,skilled,1,yes,yes,1,male,25-44
+below 0 DM,10,critical account,new car,1038,below 100 DM,4-7 years,4,co-applicant,3,savings or insurance,49,none,own,2,skilled,1,yes,yes,1,male,45plus
+no account,30,past delays,business,4272,100-500 DM,1-4 years,2,none,2,savings or insurance,26,none,own,2,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,48,paid duly,used car,10297,below 100 DM,4-7 years,4,none,4,none known,39,stores,free,3,skilled,2,yes,yes,0,male,25-44
+no account,18,paid duly,radio/TV,1473,below 100 DM,under 1 year,3,none,4,real estate,39,none,own,1,skilled,1,yes,yes,1,male,25-44
+no account,12,paid duly,radio/TV,1963,below 100 DM,4-7 years,4,none,2,car or other,31,none,rent,2,highly skilled,2,yes,yes,1,male,25-44
+no account,10,paid duly,new car,1418,100-500 DM,1-4 years,3,none,2,real estate,35,none,rent,1,unskilled resident,1,none,no,1,male,25-44
+0-200 DM,48,past delays,other,7582,100-500 DM,unemployed,2,none,4,none known,31,none,free,1,highly skilled,1,yes,yes,1,male,25-44
+below 0 DM,6,paid duly,new car,1374,unknown,unemployed,4,none,3,savings or insurance,75,none,own,1,highly skilled,1,yes,yes,1,female,45plus
+no account,18,critical account,new car,1028,below 100 DM,1-4 years,4,none,3,real estate,36,none,own,2,skilled,1,none,yes,1,female,25-44
+200+ DM,6,past delays,radio/TV,683,below 100 DM,under 1 year,2,none,1,savings or insurance,29,bank,own,1,skilled,1,none,yes,1,female,25-44
+no account,24,critical account,business,4139,100-500 DM,1-4 years,3,none,3,savings or insurance,27,none,own,2,unskilled resident,1,yes,yes,1,male,25-44
+no account,12,critical account,furniture,3331,below 100 DM,7+ years,2,none,4,savings or insurance,42,stores,own,1,skilled,1,none,yes,1,male,25-44
+0-200 DM,18,critical account,furniture,3612,below 100 DM,7+ years,3,none,4,savings or insurance,37,none,own,1,skilled,1,yes,yes,1,female,25-44
+no account,9,paid duly,furniture,2301,100-500 DM,under 1 year,2,none,4,savings or insurance,22,none,rent,1,skilled,1,none,yes,1,female,under25
+200+ DM,15,paid duly,education,392,below 100 DM,under 1 year,4,none,4,savings or insurance,23,none,rent,1,skilled,1,yes,yes,1,female,under25
+no account,18,critical account,new car,2775,below 100 DM,4-7 years,2,none,2,savings or insurance,31,bank,own,2,skilled,1,none,yes,0,male,25-44
+0-200 DM,48,no credits,new car,8358,500-1000 DM,under 1 year,1,none,1,car or other,30,none,own,2,skilled,1,none,yes,1,female,25-44
+no account,12,critical account,furniture,1258,below 100 DM,under 1 year,2,none,4,savings or insurance,22,none,rent,2,unskilled resident,1,none,yes,1,female,under25
+0-200 DM,60,past delays,radio/TV,9157,unknown,1-4 years,2,none,2,none known,27,none,free,1,highly skilled,1,none,yes,1,male,25-44
+no account,9,paid duly,furniture,1313,below 100 DM,7+ years,1,none,4,car or other,20,none,own,1,skilled,1,none,yes,1,male,under25
+below 0 DM,36,critical account,education,8065,below 100 DM,1-4 years,3,none,2,none known,25,none,own,2,highly skilled,1,yes,yes,0,female,under25
+below 0 DM,12,paid duly,new car,1228,below 100 DM,1-4 years,4,none,2,real estate,24,none,own,1,unskilled resident,1,none,yes,0,female,under25
+0-200 DM,6,critical account,retraining,932,unknown,4-7 years,1,none,3,savings or insurance,39,none,own,2,unskilled resident,1,none,yes,1,female,25-44
+no account,6,paid duly,radio/TV,1346,100-500 DM,7+ years,2,none,4,none known,42,bank,free,1,skilled,2,yes,yes,1,male,25-44
+0-200 DM,42,critical account,business,5954,below 100 DM,4-7 years,2,none,1,real estate,41,bank,own,2,unskilled resident,1,none,yes,1,female,25-44
+no account,24,critical account,education,1597,below 100 DM,7+ years,4,none,4,none known,54,none,free,2,skilled,2,none,yes,1,male,45plus
+no account,36,paid duly,radio/TV,3595,below 100 DM,7+ years,4,none,2,car or other,28,none,own,1,skilled,1,none,yes,1,male,25-44
+0-200 DM,6,paid duly,radio/TV,1068,below 100 DM,7+ years,4,none,4,car or other,28,none,own,1,skilled,2,none,yes,1,male,25-44
+below 0 DM,24,paid duly,furniture,3345,below 100 DM,7+ years,4,none,2,savings or insurance,39,none,rent,1,highly skilled,1,yes,yes,0,male,25-44
+no account,24,paid duly,furniture,3062,500-1000 DM,7+ years,4,none,3,none known,32,none,rent,1,skilled,1,yes,yes,1,male,25-44
+no account,15,critical account,new car,5045,unknown,7+ years,1,none,4,car or other,59,none,own,1,skilled,1,yes,yes,1,female,45plus
+no account,24,critical account,used car,6842,unknown,1-4 years,2,none,4,savings or insurance,46,none,own,2,highly skilled,2,yes,yes,1,male,45plus
+no account,15,paid duly,used car,3029,below 100 DM,4-7 years,2,none,2,car or other,33,none,own,1,skilled,1,none,yes,1,male,25-44
+0-200 DM,39,critical account,radio/TV,4933,below 100 DM,4-7 years,2,guarantor,2,real estate,25,none,own,2,skilled,1,none,yes,0,male,under25
+200+ DM,15,critical account,radio/TV,1271,unknown,1-4 years,3,none,4,none known,39,none,free,2,skilled,1,yes,yes,0,male,25-44
+no account,21,past delays,furniture,1591,100-500 DM,4-7 years,4,none,3,real estate,34,none,own,2,highly skilled,1,none,yes,1,male,25-44
+no account,12,paid duly,furniture,1574,below 100 DM,1-4 years,4,none,2,real estate,50,none,own,1,skilled,1,none,yes,1,male,45plus
+0-200 DM,24,past delays,new car,1965,unknown,1-4 years,4,none,4,car or other,42,none,rent,2,skilled,1,yes,yes,1,female,25-44
+0-200 DM,15,all paid here,new car,6850,100-500 DM,unemployed,1,none,2,savings or insurance,34,none,own,1,highly skilled,2,yes,yes,0,male,25-44
+below 0 DM,18,paid duly,education,750,below 100 DM,unemployed,4,none,1,real estate,27,none,own,1,unskilled non-resident,1,none,yes,0,female,25-44
+0-200 DM,9,paid duly,furniture,959,below 100 DM,1-4 years,1,none,2,car or other,29,none,own,1,skilled,1,none,no,0,female,25-44
+0-200 DM,18,no credits,furniture,3244,below 100 DM,1-4 years,1,none,4,car or other,33,bank,own,2,skilled,1,yes,yes,1,female,25-44
+no account,15,past delays,radio/TV,1478,below 100 DM,1-4 years,4,none,3,real estate,33,bank,own,2,skilled,1,none,yes,1,male,25-44
+below 0 DM,8,critical account,new car,731,below 100 DM,7+ years,4,none,4,real estate,47,none,own,2,unskilled resident,1,none,yes,1,male,45plus
+no account,9,critical account,new car,1224,below 100 DM,1-4 years,3,none,1,real estate,30,none,own,2,skilled,1,none,yes,1,male,25-44
+no account,12,critical account,business,1185,below 100 DM,1-4 years,3,none,2,real estate,27,none,own,2,skilled,1,none,yes,1,female,25-44
+0-200 DM,6,paid duly,radio/TV,2063,below 100 DM,under 1 year,4,none,3,car or other,30,none,rent,1,highly skilled,1,yes,yes,1,male,25-44
+below 0 DM,24,paid duly,furniture,7721,unknown,under 1 year,1,none,2,savings or insurance,30,none,own,1,skilled,1,yes,no,1,female,25-44
+below 0 DM,48,no credits,furniture,7119,below 100 DM,1-4 years,3,none,4,none known,53,none,free,2,skilled,2,none,yes,0,male,45plus
+no account,48,critical account,new car,10127,500-1000 DM,1-4 years,2,none,2,none known,44,bank,free,1,skilled,1,none,yes,0,male,25-44
+no account,24,past delays,new car,2032,below 100 DM,7+ years,4,none,4,none known,60,none,free,2,skilled,1,yes,yes,1,male,45plus
+no account,6,paid duly,appliances,1338,500-1000 DM,1-4 years,1,none,4,real estate,62,none,own,1,skilled,1,none,yes,1,male,45plus
+no account,24,critical account,new car,1940,1000+ DM,7+ years,4,none,4,real estate,60,none,own,1,skilled,1,yes,yes,1,male,45plus
+no account,15,paid duly,furniture,2708,below 100 DM,under 1 year,2,none,3,savings or insurance,27,bank,own,2,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,6,paid duly,appliances,343,below 100 DM,under 1 year,4,none,1,real estate,27,none,own,1,skilled,1,none,yes,1,female,25-44
+200+ DM,24,paid duly,furniture,2892,below 100 DM,7+ years,3,none,4,none known,51,none,free,1,skilled,1,none,yes,1,male,45plus
+0-200 DM,36,paid duly,repairs,2384,below 100 DM,under 1 year,4,none,1,none known,33,none,rent,1,unskilled resident,1,none,yes,0,male,25-44
+below 0 DM,24,paid duly,furniture,1747,below 100 DM,under 1 year,4,co-applicant,1,savings or insurance,24,none,own,1,unskilled resident,1,none,no,1,male,under25
+no account,36,critical account,new car,6614,below 100 DM,7+ years,4,none,4,car or other,34,none,own,2,highly skilled,1,yes,yes,1,male,25-44
+0-200 DM,30,critical account,new car,5234,below 100 DM,unemployed,4,none,2,car or other,28,none,own,2,highly skilled,1,none,yes,0,male,25-44
+0-200 DM,12,past delays,radio/TV,585,below 100 DM,1-4 years,4,co-applicant,4,real estate,20,none,rent,2,skilled,1,none,yes,1,male,under25
+below 0 DM,30,no credits,business,8072,unknown,under 1 year,2,none,3,car or other,25,bank,own,3,skilled,1,none,yes,1,male,under25
+no account,18,critical account,radio/TV,629,500-1000 DM,7+ years,4,none,3,savings or insurance,32,bank,own,2,highly skilled,1,yes,yes,1,male,25-44
+0-200 DM,18,paid duly,business,2622,100-500 DM,1-4 years,4,none,4,car or other,34,none,own,1,skilled,1,none,yes,1,male,25-44
+no account,24,paid duly,used car,2670,below 100 DM,7+ years,4,none,4,car or other,35,none,own,1,highly skilled,1,yes,yes,1,male,25-44
+below 0 DM,6,critical account,radio/TV,338,500-1000 DM,7+ years,4,none,4,car or other,52,none,own,2,skilled,1,none,yes,1,male,45plus
+no account,18,paid duly,furniture,2515,below 100 DM,1-4 years,3,none,4,real estate,43,none,own,1,skilled,1,yes,yes,1,male,25-44
+below 0 DM,12,critical account,new car,2122,below 100 DM,1-4 years,3,none,2,real estate,39,none,rent,2,unskilled resident,2,none,no,1,male,25-44
+below 0 DM,12,paid duly,radio/TV,709,below 100 DM,7+ years,4,none,4,real estate,57,stores,own,1,unskilled resident,1,none,yes,0,male,45plus
+0-200 DM,9,paid duly,new car,276,below 100 DM,1-4 years,4,none,4,real estate,22,none,rent,1,unskilled resident,1,none,yes,1,male,under25
+0-200 DM,14,paid duly,business,1410,500-1000 DM,7+ years,1,none,2,real estate,35,none,own,1,skilled,1,yes,yes,1,male,25-44
+below 0 DM,18,paid duly,radio/TV,3190,below 100 DM,1-4 years,2,none,2,real estate,24,none,own,1,skilled,1,none,yes,0,female,under25
+no account,12,critical account,radio/TV,1240,unknown,7+ years,4,none,2,real estate,38,none,own,2,skilled,1,yes,yes,1,female,25-44
+below 0 DM,24,past delays,new car,1333,below 100 DM,unemployed,4,none,2,real estate,43,none,free,2,skilled,2,none,yes,0,male,25-44
+0-200 DM,6,all paid here,new car,931,100-500 DM,under 1 year,1,none,1,savings or insurance,32,stores,own,1,unskilled resident,1,none,yes,0,female,25-44
+no account,15,critical account,radio/TV,1471,below 100 DM,1-4 years,4,none,4,none known,35,none,free,2,skilled,1,yes,yes,1,male,25-44
+below 0 DM,18,paid duly,new car,4380,100-500 DM,1-4 years,3,none,4,car or other,35,none,own,1,unskilled resident,2,yes,yes,1,male,25-44
+no account,36,paid duly,education,9055,unknown,1-4 years,2,none,4,none known,35,none,free,1,unskilled resident,2,yes,yes,1,male,25-44
+200+ DM,12,paid duly,radio/TV,3399,unknown,7+ years,2,none,3,car or other,37,none,own,1,highly skilled,1,none,yes,1,male,25-44
+no account,24,critical account,repairs,5507,below 100 DM,7+ years,3,none,4,none known,44,none,free,2,skilled,1,none,yes,1,male,25-44
+0-200 DM,24,no credits,business,4241,below 100 DM,1-4 years,1,none,4,real estate,36,none,own,3,unskilled resident,1,yes,yes,0,male,25-44
+0-200 DM,12,paid duly,furniture,951,100-500 DM,under 1 year,4,none,4,car or other,27,bank,rent,4,skilled,1,none,yes,0,female,25-44
+no account,12,paid duly,used car,1413,1000+ DM,4-7 years,3,none,2,savings or insurance,55,none,own,1,skilled,1,none,no,1,male,45plus
+no account,4,critical account,radio/TV,1544,below 100 DM,4-7 years,2,none,1,real estate,42,none,own,3,unskilled resident,2,none,yes,1,male,25-44
+no account,12,critical account,furniture,1402,500-1000 DM,4-7 years,3,none,4,car or other,37,none,rent,1,skilled,1,yes,yes,1,female,25-44
+200+ DM,30,past delays,business,1908,below 100 DM,7+ years,4,none,4,real estate,66,none,own,1,highly skilled,1,yes,yes,0,male,45plus
+no account,12,paid duly,new car,1101,below 100 DM,1-4 years,3,none,2,real estate,27,none,own,2,skilled,1,yes,yes,1,male,25-44
+no account,24,critical account,radio/TV,1851,below 100 DM,4-7 years,4,guarantor,2,car or other,33,none,own,2,skilled,1,yes,yes,1,male,25-44
+200+ DM,21,paid duly,new car,2923,100-500 DM,1-4 years,1,none,1,car or other,28,bank,own,1,highly skilled,1,yes,yes,1,female,25-44
+0-200 DM,30,paid duly,furniture,3441,100-500 DM,1-4 years,2,co-applicant,4,car or other,21,none,rent,1,skilled,1,none,yes,0,female,under25
+200+ DM,24,paid duly,furniture,3749,below 100 DM,under 1 year,2,none,4,car or other,26,none,own,1,skilled,1,none,yes,1,female,25-44
+0-200 DM,12,paid duly,new car,685,below 100 DM,4-7 years,2,none,3,car or other,25,bank,own,1,unskilled resident,1,none,yes,0,male,under25
+no account,12,critical account,education,2012,unknown,4-7 years,4,none,2,car or other,61,none,own,1,skilled,1,none,yes,1,female,45plus
+no account,18,paid duly,radio/TV,4594,below 100 DM,under 1 year,3,none,2,car or other,32,none,own,1,skilled,1,yes,yes,1,male,25-44
+0-200 DM,48,all paid here,business,6416,below 100 DM,7+ years,4,none,3,none known,59,none,rent,1,skilled,1,none,yes,0,female,45plus
+no account,36,past delays,radio/TV,4454,below 100 DM,1-4 years,4,none,4,real estate,34,none,own,2,skilled,1,none,yes,1,female,25-44
+0-200 DM,10,paid duly,furniture,1521,below 100 DM,1-4 years,4,none,2,car or other,31,none,own,1,unskilled resident,1,none,yes,1,male,25-44
+0-200 DM,30,paid duly,radio/TV,2991,unknown,7+ years,2,none,4,car or other,25,none,own,1,skilled,1,none,yes,1,female,under25
+200+ DM,12,past delays,new car,2247,below 100 DM,1-4 years,2,none,2,car or other,36,stores,own,2,skilled,1,yes,yes,1,female,25-44
+200+ DM,12,paid duly,radio/TV,1297,below 100 DM,1-4 years,3,none,4,real estate,23,none,rent,1,skilled,1,none,yes,1,male,under25
+below 0 DM,36,paid duly,furniture,5179,below 100 DM,4-7 years,4,none,2,savings or insurance,29,none,own,1,skilled,1,none,yes,0,male,25-44
+no account,6,paid duly,radio/TV,518,below 100 DM,1-4 years,3,none,1,real estate,29,none,own,1,skilled,1,none,yes,1,female,25-44
+0-200 DM,48,no credits,business,3844,100-500 DM,4-7 years,4,none,4,none known,34,none,free,1,unskilled resident,2,none,yes,0,male,25-44
+no account,15,paid duly,used car,1300,unknown,7+ years,4,none,4,none known,45,bank,free,1,skilled,2,none,yes,1,male,25-44
+200+ DM,15,paid duly,business,2687,below 100 DM,4-7 years,2,none,4,savings or insurance,26,none,rent,1,skilled,1,yes,yes,1,male,25-44
+200+ DM,10,critical account,radio/TV,1347,unknown,4-7 years,4,none,2,savings or insurance,27,none,own,2,skilled,1,yes,yes,1,male,25-44
+no account,24,critical account,other,6314,below 100 DM,unemployed,4,co-applicant,2,none known,27,bank,own,2,highly skilled,1,yes,yes,1,male,25-44
+below 0 DM,48,no credits,used car,4605,below 100 DM,7+ years,3,none,4,none known,24,none,free,2,skilled,2,none,yes,0,male,under25
+no account,14,past delays,new car,802,below 100 DM,1-4 years,4,none,2,car or other,27,none,own,2,unskilled resident,1,none,yes,1,male,25-44
+200+ DM,6,paid duly,furniture,2116,below 100 DM,1-4 years,2,none,2,real estate,41,none,own,1,skilled,1,yes,yes,1,male,25-44
+below 0 DM,12,paid duly,radio/TV,2214,below 100 DM,1-4 years,4,none,3,savings or insurance,24,none,own,1,unskilled resident,1,none,yes,1,male,under25
+below 0 DM,6,critical account,new car,860,below 100 DM,7+ years,1,none,4,none known,39,none,own,2,skilled,1,yes,yes,1,female,25-44
+no account,12,critical account,radio/TV,930,unknown,7+ years,4,none,4,real estate,65,none,own,4,skilled,1,none,yes,1,male,45plus
+no account,30,critical account,radio/TV,3077,unknown,7+ years,3,none,2,car or other,40,none,own,2,skilled,2,yes,yes,1,male,25-44
+0-200 DM,12,paid duly,radio/TV,1155,below 100 DM,7+ years,3,guarantor,3,real estate,40,bank,own,2,unskilled resident,1,none,yes,1,male,25-44
+0-200 DM,6,paid duly,radio/TV,753,below 100 DM,1-4 years,2,guarantor,3,real estate,64,none,own,1,skilled,1,none,yes,1,female,45plus
+0-200 DM,9,critical account,education,1136,1000+ DM,7+ years,4,none,3,none known,32,none,free,2,skilled,2,none,yes,0,male,25-44
+0-200 DM,24,paid duly,used car,12579,below 100 DM,7+ years,4,none,2,none known,44,none,free,1,highly skilled,1,yes,yes,0,female,25-44
+no account,24,paid duly,furniture,5511,100-500 DM,1-4 years,4,none,1,car or other,25,stores,own,1,skilled,1,none,yes,1,male,under25
+0-200 DM,20,paid duly,used car,6468,unknown,unemployed,1,none,4,real estate,60,none,own,1,highly skilled,1,yes,yes,1,male,45plus
+below 0 DM,24,past delays,radio/TV,1024,below 100 DM,under 1 year,4,none,4,real estate,48,stores,own,1,skilled,1,none,yes,0,male,45plus
+0-200 DM,15,paid duly,repairs,2631,100-500 DM,1-4 years,3,none,2,real estate,25,none,own,1,unskilled resident,1,none,yes,1,female,under25
+no account,24,paid duly,radio/TV,3235,500-1000 DM,7+ years,3,none,2,car or other,26,none,own,1,highly skilled,1,yes,yes,1,male,25-44
+no account,20,critical account,new car,3485,unknown,under 1 year,2,none,4,real estate,44,none,own,2,skilled,1,yes,yes,1,male,25-44
+no account,6,critical account,furniture,1221,unknown,1-4 years,1,none,2,savings or insurance,27,none,own,2,skilled,1,none,yes,1,male,25-44
+no account,24,past delays,used car,4679,below 100 DM,4-7 years,3,none,3,car or other,35,none,own,2,unskilled resident,1,yes,yes,1,male,25-44
+no account,15,paid duly,used car,3812,100-500 DM,under 1 year,1,none,4,car or other,23,none,own,1,skilled,1,yes,yes,1,female,under25
+0-200 DM,18,paid duly,furniture,1924,unknown,under 1 year,4,none,3,real estate,27,none,rent,1,skilled,1,none,yes,0,female,25-44
+0-200 DM,12,paid duly,radio/TV,1158,500-1000 DM,1-4 years,3,none,1,car or other,26,none,own,1,skilled,1,yes,yes,1,male,25-44
+0-200 DM,24,paid duly,radio/TV,1967,below 100 DM,7+ years,4,none,4,car or other,20,none,own,1,skilled,1,yes,yes,1,female,under25
+below 0 DM,18,critical account,radio/TV,1880,below 100 DM,4-7 years,4,none,1,savings or insurance,32,none,own,2,highly skilled,1,yes,yes,1,male,25-44
+no account,18,paid duly,furniture,1533,below 100 DM,under 1 year,4,co-applicant,1,savings or insurance,43,none,own,1,unskilled resident,2,none,yes,0,male,25-44
+below 0 DM,18,critical account,repairs,1190,below 100 DM,unemployed,2,none,4,none known,55,none,free,3,unskilled non-resident,2,none,yes,0,female,45plus
+0-200 DM,12,paid duly,new car,6078,below 100 DM,4-7 years,2,none,2,car or other,32,none,own,1,skilled,1,none,yes,1,male,25-44
+below 0 DM,12,paid duly,radio/TV,1498,below 100 DM,1-4 years,4,none,1,car or other,23,bank,own,1,skilled,1,none,yes,1,female,under25
+below 0 DM,21,paid duly,new car,3763,unknown,4-7 years,2,co-applicant,2,real estate,24,none,own,1,unskilled resident,1,none,no,1,male,under25
+0-200 DM,36,paid duly,education,2273,below 100 DM,4-7 years,3,none,1,car or other,32,none,own,2,skilled,2,none,yes,1,male,25-44
+no account,24,paid duly,radio/TV,1552,below 100 DM,4-7 years,3,none,1,car or other,32,bank,own,1,skilled,2,none,yes,1,male,25-44
+below 0 DM,42,critical account,repairs,3394,below 100 DM,unemployed,4,co-applicant,4,car or other,65,none,own,2,unskilled non-resident,1,none,yes,1,male,45plus
+below 0 DM,24,past delays,radio/TV,1659,below 100 DM,under 1 year,4,none,2,car or other,29,none,rent,1,unskilled resident,1,yes,yes,0,female,25-44
+below 0 DM,18,paid duly,radio/TV,1345,below 100 DM,1-4 years,4,none,3,real estate,26,bank,own,1,skilled,1,none,yes,0,male,25-44
+0-200 DM,24,paid duly,furniture,4351,unknown,1-4 years,1,none,4,savings or insurance,48,none,own,1,unskilled resident,1,yes,yes,1,female,45plus
+no account,60,past delays,radio/TV,15653,below 100 DM,4-7 years,2,none,4,car or other,21,none,own,2,skilled,1,yes,yes,1,male,under25
+0-200 DM,24,past delays,radio/TV,1553,100-500 DM,4-7 years,3,none,2,savings or insurance,23,none,rent,2,skilled,1,yes,yes,1,female,under25
+no account,6,critical account,radio/TV,700,unknown,7+ years,4,none,4,none known,36,none,free,2,skilled,1,none,yes,1,male,25-44
+0-200 DM,21,paid duly,business,2767,100-500 DM,7+ years,4,none,2,car or other,61,bank,rent,2,unskilled resident,1,none,yes,0,male,45plus
+0-200 DM,18,paid duly,radio/TV,1301,below 100 DM,7+ years,4,guarantor,2,real estate,32,none,own,1,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,12,all paid here,new car,697,below 100 DM,under 1 year,4,none,2,car or other,46,bank,own,2,skilled,1,yes,yes,0,male,45plus
+0-200 DM,18,critical account,furniture,7374,below 100 DM,unemployed,4,none,4,savings or insurance,40,stores,own,2,highly skilled,1,yes,yes,1,male,25-44
+0-200 DM,18,paid duly,new car,1042,unknown,1-4 years,4,none,2,savings or insurance,33,none,own,1,skilled,1,none,yes,0,female,25-44
+below 0 DM,24,paid duly,used car,2910,below 100 DM,4-7 years,2,none,1,none known,34,none,free,1,highly skilled,1,yes,yes,1,male,25-44
+no account,12,critical account,education,2096,below 100 DM,4-7 years,2,none,3,real estate,49,none,own,1,unskilled resident,2,none,yes,1,male,45plus
+0-200 DM,36,critical account,used car,5800,below 100 DM,1-4 years,3,none,4,car or other,34,none,own,2,skilled,1,yes,yes,1,male,25-44
+0-200 DM,12,no credits,furniture,2969,below 100 DM,under 1 year,4,none,3,savings or insurance,25,none,rent,2,skilled,1,none,yes,0,female,under25
+no account,36,critical account,used car,10477,unknown,7+ years,2,none,4,none known,42,none,free,2,skilled,1,none,yes,1,male,25-44
+0-200 DM,30,no credits,business,4280,100-500 DM,1-4 years,4,none,4,car or other,26,none,rent,2,unskilled resident,1,none,yes,0,female,25-44
+below 0 DM,6,critical account,new car,609,below 100 DM,4-7 years,4,none,3,savings or insurance,37,none,own,2,skilled,1,none,no,1,female,25-44
+below 0 DM,21,past delays,education,3414,below 100 DM,under 1 year,2,none,1,savings or insurance,26,none,own,2,skilled,1,none,yes,0,male,25-44
+no account,36,no credits,repairs,2613,below 100 DM,1-4 years,4,none,2,car or other,27,none,own,2,skilled,1,none,yes,1,male,25-44
+0-200 DM,9,paid duly,furniture,918,below 100 DM,1-4 years,4,none,1,savings or insurance,30,none,own,1,skilled,1,none,yes,0,female,25-44
+0-200 DM,36,no credits,business,1953,below 100 DM,7+ years,4,none,4,none known,61,none,free,1,highly skilled,1,yes,yes,0,male,45plus
+no account,36,past delays,new car,10875,below 100 DM,7+ years,2,none,2,car or other,45,none,own,2,skilled,2,yes,yes,1,male,25-44
+0-200 DM,15,paid duly,radio/TV,1444,unknown,under 1 year,4,none,1,savings or insurance,23,none,own,1,skilled,1,none,yes,1,male,under25
+below 0 DM,24,all paid here,furniture,2828,500-1000 DM,1-4 years,4,none,4,real estate,22,stores,own,1,skilled,1,yes,yes,1,male,under25
+0-200 DM,60,past delays,radio/TV,7418,unknown,1-4 years,1,none,1,real estate,27,none,own,1,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,6,critical account,new car,1361,below 100 DM,under 1 year,2,none,4,real estate,40,none,own,1,unskilled resident,2,none,no,1,male,25-44
+no account,24,critical account,radio/TV,2223,100-500 DM,7+ years,4,none,4,savings or insurance,52,bank,own,2,skilled,1,none,yes,1,male,45plus
+below 0 DM,24,paid duly,used car,6579,below 100 DM,unemployed,4,none,2,none known,29,none,free,1,highly skilled,1,yes,yes,1,male,25-44
+no account,24,critical account,radio/TV,2578,1000+ DM,7+ years,2,none,2,car or other,34,none,own,1,skilled,1,none,yes,1,male,25-44
+no account,36,paid duly,furniture,10974,below 100 DM,unemployed,4,none,2,car or other,26,none,own,2,highly skilled,1,yes,yes,0,female,25-44
+below 0 DM,11,critical account,new car,3905,below 100 DM,1-4 years,2,none,2,real estate,36,none,rent,2,skilled,2,none,yes,1,male,25-44
+below 0 DM,12,no credits,radio/TV,6199,below 100 DM,1-4 years,4,none,2,savings or insurance,28,none,rent,2,skilled,1,yes,yes,0,male,25-44
+0-200 DM,18,past delays,new car,2899,unknown,7+ years,4,none,4,car or other,43,none,own,1,skilled,2,none,yes,1,male,25-44
+0-200 DM,48,paid duly,radio/TV,10961,1000+ DM,4-7 years,1,co-applicant,2,none known,27,bank,own,2,skilled,1,yes,yes,0,male,25-44
+below 0 DM,18,critical account,furniture,2124,below 100 DM,1-4 years,4,none,4,real estate,24,none,rent,2,skilled,1,none,yes,0,female,under25
+no account,48,past delays,radio/TV,12749,500-1000 DM,4-7 years,4,none,1,car or other,37,none,own,1,highly skilled,1,yes,yes,1,male,25-44
+below 0 DM,12,paid duly,retraining,902,below 100 DM,4-7 years,4,none,4,savings or insurance,21,none,rent,1,skilled,1,none,yes,0,male,under25
+no account,18,paid duly,radio/TV,433,below 100 DM,unemployed,3,co-applicant,4,real estate,22,none,rent,1,skilled,1,none,yes,0,female,under25
+below 0 DM,48,critical account,used car,6331,below 100 DM,7+ years,4,none,4,none known,46,none,free,2,skilled,1,yes,yes,0,male,45plus
+below 0 DM,36,paid duly,education,1977,unknown,7+ years,4,none,4,none known,40,none,own,1,highly skilled,1,yes,yes,0,male,25-44
+no account,12,critical account,new car,682,100-500 DM,4-7 years,4,none,3,car or other,51,none,own,2,skilled,1,yes,yes,1,female,45plus
+no account,24,paid duly,used car,7814,below 100 DM,4-7 years,3,none,3,car or other,38,none,own,1,highly skilled,1,yes,yes,1,male,25-44
+below 0 DM,21,all paid here,new car,1647,unknown,1-4 years,4,none,2,savings or insurance,40,none,own,2,unskilled resident,2,none,yes,0,male,25-44
+below 0 DM,36,paid duly,new car,3249,below 100 DM,4-7 years,2,none,4,none known,39,bank,free,1,highly skilled,2,yes,yes,1,male,25-44
+no account,6,paid duly,furniture,1766,below 100 DM,1-4 years,1,none,2,savings or insurance,21,none,rent,1,skilled,1,none,yes,1,male,under25
+no account,18,past delays,furniture,1808,below 100 DM,4-7 years,4,none,1,real estate,22,none,own,1,skilled,1,none,yes,0,female,under25
+below 0 DM,24,paid duly,new car,1371,unknown,1-4 years,4,none,4,real estate,25,none,rent,1,skilled,1,none,yes,0,female,under25
+no account,30,critical account,radio/TV,4530,below 100 DM,4-7 years,4,none,4,car or other,26,none,rent,1,highly skilled,1,yes,yes,1,female,25-44
+no account,36,past delays,business,7980,unknown,under 1 year,4,none,4,car or other,27,none,rent,2,skilled,1,yes,yes,0,male,25-44
+no account,60,paid duly,new car,10366,below 100 DM,7+ years,2,none,4,savings or insurance,42,none,own,1,highly skilled,1,yes,yes,1,male,25-44
+200+ DM,10,paid duly,appliances,1225,below 100 DM,1-4 years,2,none,2,car or other,37,none,own,1,skilled,1,yes,yes,1,male,25-44
+below 0 DM,30,paid duly,furniture,3108,below 100 DM,under 1 year,2,none,4,savings or insurance,31,none,own,1,unskilled resident,1,none,yes,0,male,25-44
+0-200 DM,18,paid duly,furniture,3001,below 100 DM,4-7 years,2,none,4,real estate,40,none,rent,1,skilled,1,none,yes,1,female,25-44
+no account,12,critical account,radio/TV,976,unknown,7+ years,4,none,4,car or other,35,none,own,2,skilled,1,none,yes,1,male,25-44
+no account,30,critical account,radio/TV,2831,below 100 DM,1-4 years,4,none,2,car or other,33,none,own,1,skilled,1,yes,yes,1,female,25-44
+0-200 DM,24,paid duly,radio/TV,2896,100-500 DM,under 1 year,2,none,1,car or other,29,none,own,1,skilled,1,none,yes,1,male,25-44
+below 0 DM,24,paid duly,other,1755,below 100 DM,7+ years,4,guarantor,4,real estate,58,none,own,1,unskilled resident,1,yes,yes,1,female,45plus
+200+ DM,12,paid duly,radio/TV,3016,below 100 DM,1-4 years,3,none,1,car or other,24,none,own,1,skilled,1,none,yes,1,male,under25
+200+ DM,6,critical account,education,1047,below 100 DM,1-4 years,2,none,4,savings or insurance,50,none,own,1,unskilled resident,1,none,yes,1,female,45plus
+below 0 DM,18,critical account,furniture,1049,below 100 DM,under 1 year,4,none,4,savings or insurance,21,none,rent,1,skilled,1,none,yes,1,female,under25
+below 0 DM,15,paid duly,business,806,below 100 DM,1-4 years,4,none,4,savings or insurance,22,none,own,1,unskilled resident,1,none,yes,1,female,under25
+no account,12,critical account,new car,1495,below 100 DM,7+ years,4,none,1,real estate,38,none,own,2,unskilled resident,2,none,yes,1,male,25-44
+no account,21,critical account,used car,3275,below 100 DM,7+ years,1,none,4,car or other,36,none,own,1,highly skilled,1,yes,yes,1,male,25-44
+0-200 DM,12,paid duly,new car,1223,below 100 DM,7+ years,1,none,1,real estate,46,none,rent,2,skilled,1,none,yes,0,male,45plus
+0-200 DM,6,past delays,new car,1209,below 100 DM,unemployed,4,none,4,savings or insurance,47,none,own,1,highly skilled,1,yes,yes,0,male,45plus
+0-200 DM,21,paid duly,furniture,3976,unknown,4-7 years,2,none,3,car or other,35,none,own,1,skilled,1,yes,yes,1,male,25-44
+no account,9,paid duly,radio/TV,2697,below 100 DM,1-4 years,1,none,2,real estate,32,none,own,1,skilled,2,none,yes,1,male,25-44
+no account,30,critical account,radio/TV,5954,below 100 DM,4-7 years,3,co-applicant,2,car or other,38,none,own,1,skilled,1,none,yes,1,male,25-44
+0-200 DM,13,paid duly,radio/TV,2101,below 100 DM,under 1 year,2,guarantor,4,savings or insurance,23,none,own,1,unskilled resident,1,none,yes,1,female,under25
+no account,12,critical account,radio/TV,522,500-1000 DM,7+ years,4,none,4,savings or insurance,42,none,own,2,skilled,2,yes,yes,1,male,25-44
+below 0 DM,21,critical account,new car,1602,below 100 DM,7+ years,4,none,3,car or other,30,none,own,2,skilled,1,yes,yes,1,male,25-44
+0-200 DM,18,critical account,business,3590,below 100 DM,unemployed,3,none,3,car or other,40,none,own,3,unskilled non-resident,2,yes,yes,1,male,25-44
+0-200 DM,12,paid duly,radio/TV,766,500-1000 DM,1-4 years,4,none,3,real estate,66,none,own,1,unskilled resident,1,none,yes,0,male,45plus
+no account,24,paid duly,radio/TV,1413,below 100 DM,1-4 years,4,none,2,savings or insurance,28,none,own,1,skilled,1,none,yes,1,male,25-44
+200+ DM,12,critical account,new car,1480,500-1000 DM,unemployed,2,none,4,none known,66,bank,free,3,unskilled non-resident,1,none,yes,1,male,45plus
+below 0 DM,12,paid duly,furniture,2578,below 100 DM,unemployed,3,none,4,none known,55,none,free,1,highly skilled,1,none,yes,1,female,45plus
+below 0 DM,33,critical account,furniture,4281,500-1000 DM,1-4 years,1,none,4,car or other,23,none,own,2,skilled,1,none,yes,0,female,under25
+200+ DM,6,paid duly,new car,709,1000+ DM,under 1 year,2,none,2,real estate,27,none,own,1,unskilled non-resident,1,none,no,1,male,25-44
+below 0 DM,21,paid duly,radio/TV,3357,1000+ DM,under 1 year,4,none,2,car or other,29,bank,own,1,skilled,1,none,yes,1,female,25-44
+no account,24,past delays,business,2978,unknown,1-4 years,4,none,4,real estate,32,none,own,2,skilled,2,yes,yes,1,male,25-44
+0-200 DM,18,past delays,repairs,6204,below 100 DM,1-4 years,2,none,4,real estate,44,none,own,1,unskilled resident,2,yes,yes,1,male,25-44
+0-200 DM,6,past delays,business,1449,100-500 DM,7+ years,1,none,2,car or other,31,bank,own,2,skilled,2,none,yes,1,male,25-44
+0-200 DM,18,critical account,radio/TV,1795,below 100 DM,7+ years,3,guarantor,4,real estate,48,bank,rent,2,unskilled resident,1,yes,yes,1,female,45plus
+no account,18,critical account,radio/TV,1169,unknown,1-4 years,4,none,3,savings or insurance,29,none,own,2,skilled,1,yes,yes,1,male,25-44
+no account,24,paid duly,radio/TV,1901,100-500 DM,1-4 years,4,none,4,car or other,29,none,rent,1,highly skilled,1,yes,yes,1,male,25-44
+no account,18,critical account,new car,1530,below 100 DM,1-4 years,3,none,2,savings or insurance,32,bank,own,2,skilled,1,none,yes,0,male,25-44
+200+ DM,36,paid duly,radio/TV,4210,below 100 DM,1-4 years,4,none,2,car or other,26,none,own,1,skilled,1,none,yes,0,male,25-44
+below 0 DM,24,all paid here,other,1358,unknown,7+ years,4,none,3,car or other,40,stores,own,1,highly skilled,1,yes,yes,0,male,25-44
+no account,10,paid duly,used car,2848,100-500 DM,1-4 years,1,co-applicant,2,real estate,32,none,own,1,skilled,2,none,yes,1,male,25-44
+no account,18,no credits,business,4165,below 100 DM,1-4 years,2,none,2,car or other,36,stores,own,2,skilled,2,none,yes,0,male,25-44
+no account,30,critical account,radio/TV,5771,below 100 DM,4-7 years,4,none,2,car or other,25,none,own,2,skilled,1,none,yes,1,female,under25
+no account,24,paid duly,new car,1474,100-500 DM,under 1 year,4,none,3,real estate,33,none,own,1,skilled,1,yes,yes,1,male,25-44
+below 0 DM,12,paid duly,furniture,3590,below 100 DM,1-4 years,2,co-applicant,2,savings or insurance,29,none,own,1,unskilled resident,2,none,yes,1,male,25-44
+no account,12,paid duly,radio/TV,2073,100-500 DM,1-4 years,4,co-applicant,2,real estate,28,none,own,1,skilled,1,none,yes,1,female,25-44
+no account,18,paid duly,repairs,1943,below 100 DM,under 1 year,4,none,4,real estate,23,none,own,1,skilled,1,none,yes,0,female,under25
+no account,9,critical account,radio/TV,3074,unknown,1-4 years,1,none,2,real estate,33,none,own,2,skilled,2,none,yes,1,male,25-44
+no account,15,critical account,radio/TV,1829,below 100 DM,7+ years,4,none,4,car or other,46,none,own,2,skilled,1,yes,yes,1,male,45plus
+no account,12,paid duly,radio/TV,2141,100-500 DM,4-7 years,3,none,1,none known,35,none,own,1,skilled,1,none,yes,1,male,25-44
+no account,12,critical account,radio/TV,1655,below 100 DM,7+ years,2,none,4,real estate,63,none,own,2,unskilled resident,1,yes,yes,1,male,45plus
+200+ DM,9,paid duly,radio/TV,745,below 100 DM,1-4 years,3,none,2,real estate,28,none,own,1,unskilled resident,1,none,yes,0,female,25-44
+200+ DM,36,paid duly,radio/TV,4473,below 100 DM,7+ years,4,none,2,car or other,31,none,own,1,skilled,1,none,yes,1,male,25-44
+no account,30,paid duly,radio/TV,2333,500-1000 DM,7+ years,4,none,2,car or other,30,bank,own,1,highly skilled,1,none,yes,1,male,25-44
+0-200 DM,60,paid duly,education,6288,below 100 DM,1-4 years,4,none,4,none known,42,none,free,1,skilled,1,none,yes,0,male,25-44
+below 0 DM,18,paid duly,new car,976,below 100 DM,under 1 year,1,none,2,car or other,23,none,own,1,unskilled resident,1,none,yes,0,female,under25
+no account,11,critical account,new car,1393,below 100 DM,under 1 year,4,none,4,car or other,35,none,own,2,highly skilled,1,none,yes,1,female,25-44
+below 0 DM,28,paid duly,new car,4006,below 100 DM,1-4 years,3,none,2,car or other,45,none,own,1,unskilled resident,1,none,yes,0,male,25-44
+0-200 DM,54,no credits,business,15945,below 100 DM,under 1 year,3,none,4,none known,58,none,rent,1,skilled,1,yes,yes,0,male,45plus
+below 0 DM,6,critical account,furniture,3384,below 100 DM,1-4 years,1,none,4,real estate,44,none,rent,1,highly skilled,1,yes,yes,0,male,25-44
+no account,6,paid duly,furniture,4611,below 100 DM,under 1 year,1,none,4,savings or insurance,32,none,own,1,skilled,1,none,yes,0,female,25-44
+no account,24,critical account,used car,4042,unknown,4-7 years,3,none,4,savings or insurance,43,none,own,2,skilled,1,yes,yes,1,male,25-44
+0-200 DM,12,paid duly,radio/TV,1567,below 100 DM,1-4 years,1,none,1,car or other,22,none,own,1,skilled,1,yes,yes,1,female,under25
+no account,18,past delays,business,2169,below 100 DM,1-4 years,4,none,2,car or other,28,none,own,1,skilled,1,yes,yes,0,male,25-44
+below 0 DM,12,paid duly,new car,1893,below 100 DM,1-4 years,4,guarantor,4,savings or insurance,29,none,own,1,skilled,1,yes,yes,1,female,25-44
+no account,36,critical account,new car,3535,below 100 DM,4-7 years,4,none,4,car or other,37,none,own,2,skilled,1,yes,yes,1,male,25-44
+200+ DM,12,paid duly,furniture,1474,below 100 DM,under 1 year,4,none,1,savings or insurance,33,bank,own,1,highly skilled,1,yes,yes,1,female,25-44
+no account,24,paid duly,new car,1249,below 100 DM,under 1 year,4,none,2,real estate,28,none,own,1,skilled,1,none,yes,1,male,25-44
+200+ DM,21,critical account,education,2319,below 100 DM,under 1 year,2,none,1,car or other,33,none,rent,1,skilled,1,none,yes,0,male,25-44
+below 0 DM,12,paid duly,appliances,741,100-500 DM,unemployed,4,none,3,savings or insurance,22,none,own,1,skilled,1,none,yes,0,female,under25
+no account,24,paid duly,used car,2603,1000+ DM,1-4 years,2,none,4,car or other,28,none,rent,1,skilled,1,yes,yes,1,female,25-44
+below 0 DM,24,all paid here,furniture,3552,below 100 DM,4-7 years,3,none,4,car or other,27,bank,own,1,skilled,1,none,yes,0,male,25-44
+0-200 DM,45,critical account,radio/TV,4746,below 100 DM,under 1 year,4,none,2,savings or insurance,25,none,own,2,unskilled resident,1,none,yes,0,male,under25
+below 0 DM,13,critical account,business,1797,below 100 DM,under 1 year,3,none,1,savings or insurance,28,bank,own,2,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,36,critical account,furniture,2348,below 100 DM,1-4 years,3,none,2,savings or insurance,46,none,own,2,skilled,1,yes,yes,1,male,45plus
+200+ DM,42,no credits,business,6289,below 100 DM,under 1 year,2,none,1,savings or insurance,33,none,own,2,skilled,1,none,yes,1,male,25-44
+0-200 DM,18,critical account,business,1887,unknown,1-4 years,4,none,4,real estate,28,bank,own,2,skilled,1,none,yes,1,male,25-44
+no account,10,paid duly,used car,2901,unknown,under 1 year,1,none,4,real estate,31,none,rent,1,skilled,1,none,yes,1,female,25-44
+below 0 DM,9,paid duly,radio/TV,1364,below 100 DM,4-7 years,3,none,4,real estate,59,none,own,1,skilled,1,none,yes,1,male,45plus
+0-200 DM,12,paid duly,new car,1318,1000+ DM,7+ years,4,none,4,real estate,54,none,own,1,skilled,1,yes,yes,1,male,45plus
+below 0 DM,14,paid duly,new car,8978,below 100 DM,7+ years,1,none,4,savings or insurance,45,none,own,1,highly skilled,1,yes,no,0,male,25-44
+below 0 DM,24,critical account,new car,1199,below 100 DM,7+ years,4,none,4,car or other,60,none,own,2,unskilled resident,1,none,yes,0,male,45plus
+0-200 DM,36,past delays,business,4455,below 100 DM,1-4 years,2,none,2,real estate,30,stores,own,2,highly skilled,1,yes,yes,0,male,25-44
+no account,24,paid duly,new car,3757,below 100 DM,7+ years,4,co-applicant,4,none known,62,none,free,1,skilled,1,yes,yes,1,female,45plus
+below 0 DM,36,paid duly,furniture,2712,below 100 DM,7+ years,2,none,2,savings or insurance,41,bank,own,1,skilled,2,none,yes,0,male,25-44
+no account,24,paid duly,furniture,3972,below 100 DM,4-7 years,2,none,4,savings or insurance,25,none,rent,1,skilled,1,yes,yes,1,female,under25
+no account,30,paid duly,radio/TV,1867,unknown,7+ years,4,none,4,car or other,58,none,own,1,skilled,1,yes,yes,1,male,45plus
+0-200 DM,12,paid duly,business,1037,100-500 DM,4-7 years,3,none,4,real estate,39,none,own,1,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,12,paid duly,used car,3386,below 100 DM,7+ years,3,none,4,none known,35,none,free,1,skilled,1,yes,yes,0,male,25-44
+0-200 DM,6,paid duly,radio/TV,484,below 100 DM,4-7 years,3,guarantor,3,real estate,28,bank,own,1,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,42,past delays,radio/TV,4370,below 100 DM,4-7 years,3,none,2,savings or insurance,26,bank,own,2,skilled,2,yes,yes,0,male,25-44
+0-200 DM,9,paid duly,new car,1549,unknown,under 1 year,4,none,2,real estate,35,none,own,1,unskilled non-resident,1,none,yes,1,male,25-44
+no account,6,past delays,radio/TV,932,below 100 DM,1-4 years,3,none,2,real estate,24,none,own,1,skilled,1,none,yes,1,female,under25
+no account,18,critical account,radio/TV,2404,below 100 DM,1-4 years,2,none,2,car or other,26,none,own,2,skilled,1,none,yes,1,female,25-44
+below 0 DM,48,paid duly,radio/TV,6758,below 100 DM,1-4 years,3,none,2,car or other,31,none,own,1,skilled,1,yes,yes,0,female,25-44
+0-200 DM,48,paid duly,new car,8487,unknown,4-7 years,1,none,2,car or other,24,none,own,1,skilled,1,none,yes,1,female,under25
+200+ DM,30,critical account,radio/TV,3017,below 100 DM,7+ years,4,none,4,savings or insurance,47,none,own,1,skilled,1,none,yes,1,male,45plus
+below 0 DM,6,critical account,furniture,1872,below 100 DM,unemployed,4,none,4,none known,36,none,free,3,highly skilled,1,yes,yes,1,male,25-44
+below 0 DM,30,no credits,furniture,4583,below 100 DM,1-4 years,2,guarantor,2,real estate,32,none,own,2,skilled,1,none,yes,1,male,25-44
+below 0 DM,36,paid duly,new car,9271,below 100 DM,4-7 years,2,none,1,car or other,24,none,own,1,skilled,1,yes,yes,0,male,under25
+0-200 DM,6,paid duly,radio/TV,368,unknown,7+ years,4,none,4,savings or insurance,38,none,own,1,skilled,1,none,yes,1,male,25-44
+no account,15,critical account,education,1532,100-500 DM,1-4 years,4,none,3,car or other,31,none,own,1,skilled,1,none,yes,1,female,25-44
+below 0 DM,24,critical account,business,1382,100-500 DM,4-7 years,4,none,1,real estate,26,none,own,2,skilled,1,yes,yes,1,male,25-44
+no account,24,critical account,radio/TV,2872,100-500 DM,7+ years,3,none,4,real estate,36,none,own,1,skilled,2,yes,yes,1,male,25-44
+no account,12,critical account,furniture,1935,below 100 DM,7+ years,4,none,4,real estate,43,none,own,3,skilled,1,yes,yes,1,male,25-44
+0-200 DM,36,critical account,new car,2820,below 100 DM,under 1 year,4,none,4,car or other,27,none,own,2,skilled,1,none,yes,0,male,25-44
+below 0 DM,27,critical account,business,2442,below 100 DM,7+ years,4,none,4,car or other,43,stores,own,4,highly skilled,2,yes,yes,1,male,25-44
+200+ DM,24,paid duly,new car,947,below 100 DM,4-7 years,4,none,3,none known,38,bank,free,1,skilled,2,none,yes,0,male,25-44
+0-200 DM,12,paid duly,used car,2028,unknown,1-4 years,4,none,2,car or other,30,none,own,1,skilled,1,none,yes,1,male,25-44
+no account,36,paid duly,business,5742,100-500 DM,4-7 years,2,none,2,car or other,31,none,own,2,skilled,1,yes,yes,1,male,25-44
+no account,24,critical account,used car,2197,unknown,4-7 years,4,none,4,car or other,43,none,own,2,skilled,2,yes,yes,1,male,25-44
+0-200 DM,9,paid duly,new car,3195,unknown,1-4 years,1,none,2,real estate,33,none,own,1,unskilled resident,1,none,yes,1,female,25-44
+below 0 DM,24,paid duly,radio/TV,2384,below 100 DM,7+ years,4,none,4,real estate,64,bank,rent,1,unskilled resident,1,none,yes,1,male,45plus
+0-200 DM,9,critical account,furniture,1919,below 100 DM,4-7 years,4,none,3,car or other,35,none,rent,1,skilled,1,yes,yes,1,male,25-44
+no account,9,paid duly,appliances,1236,below 100 DM,under 1 year,1,none,4,real estate,23,none,rent,1,skilled,1,yes,yes,1,female,under25
+0-200 DM,48,paid duly,business,15672,below 100 DM,1-4 years,2,none,2,car or other,23,none,own,1,skilled,1,yes,yes,0,male,under25
+below 0 DM,48,paid duly,radio/TV,6999,below 100 DM,4-7 years,1,guarantor,1,real estate,34,none,own,2,skilled,1,yes,yes,0,male,25-44
+no account,18,critical account,furniture,3780,below 100 DM,under 1 year,3,none,2,car or other,35,none,own,2,highly skilled,1,yes,yes,1,male,25-44
+0-200 DM,20,no credits,used car,6148,100-500 DM,7+ years,3,none,4,car or other,31,bank,own,2,skilled,1,yes,yes,1,male,25-44
+200+ DM,12,all paid here,business,609,below 100 DM,under 1 year,4,none,1,real estate,26,none,own,1,unskilled non-resident,1,none,yes,0,female,25-44
+no account,60,critical account,new car,13756,unknown,7+ years,2,none,4,none known,63,bank,free,1,highly skilled,1,yes,yes,1,male,45plus
+below 0 DM,36,paid duly,furniture,3620,below 100 DM,1-4 years,1,guarantor,2,savings or insurance,37,none,own,1,skilled,2,none,yes,1,male,25-44
+no account,10,paid duly,furniture,2210,below 100 DM,1-4 years,2,none,2,real estate,25,bank,rent,1,unskilled resident,1,none,yes,0,male,under25
+0-200 DM,24,paid duly,radio/TV,3092,100-500 DM,under 1 year,3,none,2,car or other,22,none,rent,1,skilled,1,yes,yes,0,male,under25
+0-200 DM,48,paid duly,furniture,9960,below 100 DM,under 1 year,1,none,2,car or other,26,none,own,1,skilled,1,yes,yes,0,female,25-44
+0-200 DM,24,critical account,furniture,4736,below 100 DM,under 1 year,2,none,4,car or other,25,bank,own,1,unskilled resident,1,none,yes,0,female,under25
+200+ DM,24,critical account,business,1275,1000+ DM,1-4 years,2,none,4,real estate,36,none,own,2,skilled,1,yes,yes,1,male,25-44
+no account,6,critical account,new car,362,100-500 DM,1-4 years,4,none,4,car or other,52,none,own,2,unskilled resident,1,none,yes,1,female,45plus
+0-200 DM,15,paid duly,repairs,1308,below 100 DM,7+ years,4,none,4,car or other,38,none,own,2,unskilled resident,1,none,yes,1,male,25-44
+no account,12,paid duly,new car,1386,500-1000 DM,1-4 years,2,none,2,savings or insurance,26,none,own,1,skilled,1,none,yes,0,female,25-44
+0-200 DM,27,past delays,used car,5965,below 100 DM,7+ years,1,none,2,car or other,30,none,own,2,highly skilled,1,yes,yes,1,male,25-44
+no account,22,paid duly,new car,1283,unknown,4-7 years,4,none,4,savings or insurance,25,none,rent,1,skilled,1,none,yes,1,female,under25
+200+ DM,12,paid duly,furniture,1424,unknown,7+ years,3,none,4,real estate,55,none,own,1,highly skilled,1,yes,yes,1,female,45plus
+0-200 DM,9,paid duly,radio/TV,1082,below 100 DM,7+ years,4,none,4,car or other,27,none,own,2,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,42,paid duly,radio/TV,7174,unknown,4-7 years,4,none,3,car or other,30,none,own,1,highly skilled,1,yes,yes,0,female,25-44
+no account,15,past delays,furniture,960,1000+ DM,4-7 years,3,none,2,savings or insurance,30,none,own,2,skilled,1,none,yes,1,female,25-44
+no account,48,critical account,used car,2751,unknown,7+ years,4,none,3,car or other,38,none,own,2,skilled,2,yes,yes,1,male,25-44
+0-200 DM,72,paid duly,radio/TV,5595,100-500 DM,1-4 years,2,none,2,car or other,24,none,own,1,skilled,1,none,yes,0,male,under25
+no account,15,paid duly,appliances,874,unknown,under 1 year,4,none,1,real estate,24,none,own,1,skilled,1,none,yes,1,female,under25
+no account,24,all paid here,business,1559,below 100 DM,4-7 years,4,none,4,car or other,50,bank,own,1,skilled,1,yes,yes,1,male,45plus
+0-200 DM,15,paid duly,radio/TV,802,below 100 DM,7+ years,4,none,3,car or other,37,none,own,1,skilled,2,none,yes,0,male,25-44
+0-200 DM,48,no credits,business,14421,below 100 DM,1-4 years,2,none,2,car or other,25,none,own,1,skilled,1,yes,yes,0,male,under25
+0-200 DM,36,past delays,business,9857,100-500 DM,4-7 years,1,none,3,savings or insurance,31,none,own,2,unskilled resident,2,yes,yes,1,male,25-44
+no account,18,paid duly,new car,2662,unknown,4-7 years,4,none,3,savings or insurance,32,none,own,1,skilled,1,none,no,1,male,25-44
+no account,15,critical account,furniture,1520,unknown,7+ years,4,none,4,savings or insurance,63,none,own,1,skilled,1,none,yes,1,male,45plus
+below 0 DM,18,paid duly,furniture,2473,below 100 DM,unemployed,4,none,1,car or other,25,none,own,1,unskilled non-resident,1,none,yes,0,male,under25
+200+ DM,30,critical account,radio/TV,3656,unknown,7+ years,4,none,4,savings or insurance,49,stores,own,2,unskilled resident,1,none,yes,1,male,45plus
+200+ DM,6,critical account,new car,1299,below 100 DM,1-4 years,1,none,1,real estate,74,none,own,3,unskilled non-resident,2,none,no,1,male,45plus
+below 0 DM,12,no credits,repairs,1108,below 100 DM,4-7 years,4,none,3,real estate,28,none,own,2,skilled,1,none,yes,0,male,25-44
+below 0 DM,14,paid duly,new car,3973,below 100 DM,unemployed,1,none,4,none known,22,none,free,1,skilled,1,none,yes,1,male,under25
+200+ DM,9,paid duly,radio/TV,1126,100-500 DM,7+ years,2,none,4,real estate,49,none,own,1,skilled,1,none,yes,1,male,45plus
+0-200 DM,18,paid duly,new car,5866,100-500 DM,1-4 years,2,none,2,car or other,30,none,own,2,skilled,1,yes,yes,1,male,25-44
+below 0 DM,30,paid duly,repairs,11998,below 100 DM,under 1 year,1,none,1,none known,34,none,own,1,unskilled resident,1,yes,yes,0,male,25-44
+below 0 DM,10,paid duly,radio/TV,2315,below 100 DM,7+ years,3,none,4,real estate,52,none,own,1,unskilled resident,1,none,yes,1,male,45plus
+0-200 DM,12,paid duly,furniture,3017,below 100 DM,under 1 year,3,none,1,real estate,34,none,rent,1,highly skilled,1,none,yes,1,female,25-44
+200+ DM,24,paid duly,radio/TV,1377,100-500 DM,7+ years,4,none,2,none known,47,none,free,1,skilled,1,yes,yes,1,female,45plus
+no account,24,paid duly,radio/TV,3105,unknown,under 1 year,4,none,2,car or other,25,none,own,2,skilled,1,none,yes,1,male,under25
+below 0 DM,30,paid duly,furniture,3622,1000+ DM,7+ years,4,none,4,savings or insurance,57,none,rent,2,skilled,1,yes,yes,1,female,45plus
+no account,24,critical account,furniture,1585,below 100 DM,4-7 years,4,none,3,savings or insurance,40,none,own,2,skilled,1,none,yes,1,male,25-44
+0-200 DM,12,paid duly,retraining,754,unknown,7+ years,4,none,4,savings or insurance,38,none,own,2,skilled,1,none,yes,1,male,25-44
+0-200 DM,24,paid duly,radio/TV,2039,below 100 DM,under 1 year,1,none,1,savings or insurance,22,none,own,1,skilled,1,yes,yes,0,male,under25
+0-200 DM,48,paid duly,radio/TV,3979,unknown,4-7 years,4,none,1,car or other,41,none,own,2,skilled,2,yes,yes,1,male,25-44
+0-200 DM,24,paid duly,new car,3512,100-500 DM,4-7 years,2,none,3,car or other,38,bank,own,2,skilled,1,yes,yes,1,male,25-44
+no account,18,all paid here,new car,6458,below 100 DM,7+ years,2,none,4,none known,39,bank,own,2,highly skilled,2,yes,yes,0,male,25-44
+0-200 DM,6,past delays,furniture,1050,below 100 DM,unemployed,4,none,1,savings or insurance,35,stores,own,2,highly skilled,1,yes,yes,1,male,25-44
+0-200 DM,18,critical account,furniture,1295,below 100 DM,under 1 year,4,none,1,savings or insurance,27,none,own,2,skilled,1,none,yes,1,female,25-44
+0-200 DM,12,paid duly,radio/TV,1484,unknown,1-4 years,2,none,1,real estate,25,none,own,1,skilled,1,yes,yes,0,male,under25
+below 0 DM,15,paid duly,radio/TV,1053,below 100 DM,under 1 year,4,none,2,real estate,27,none,own,1,skilled,1,none,no,1,male,25-44
+0-200 DM,18,critical account,furniture,1928,below 100 DM,under 1 year,2,none,2,real estate,31,none,own,2,unskilled resident,1,none,yes,0,male,25-44
+0-200 DM,30,no credits,business,4221,below 100 DM,1-4 years,2,none,1,car or other,28,none,own,2,skilled,1,none,yes,1,female,25-44
+0-200 DM,18,paid duly,business,4439,below 100 DM,7+ years,1,co-applicant,1,real estate,33,bank,own,1,highly skilled,1,yes,yes,1,male,25-44
+no account,9,paid duly,education,3832,unknown,7+ years,1,none,4,real estate,64,none,own,1,unskilled resident,1,none,yes,1,male,45plus
+no account,48,critical account,business,7629,unknown,7+ years,4,none,2,car or other,46,bank,own,2,highly skilled,2,none,yes,1,male,45plus
+0-200 DM,24,critical account,radio/TV,1216,100-500 DM,under 1 year,4,none,4,none known,38,bank,own,2,skilled,2,none,yes,0,male,25-44
+below 0 DM,15,paid duly,furniture,1845,below 100 DM,under 1 year,4,guarantor,1,savings or insurance,46,none,rent,1,skilled,1,none,yes,1,female,45plus
+no account,48,paid duly,business,4844,below 100 DM,unemployed,3,none,2,car or other,33,bank,rent,1,highly skilled,1,yes,yes,0,male,25-44
+0-200 DM,7,paid duly,radio/TV,2415,below 100 DM,1-4 years,3,guarantor,2,real estate,34,none,own,1,skilled,1,none,yes,1,male,25-44
+no account,39,paid duly,used car,2569,500-1000 DM,1-4 years,4,none,4,car or other,24,none,own,1,skilled,1,none,yes,1,male,under25
+no account,6,critical account,radio/TV,1237,100-500 DM,1-4 years,1,none,1,savings or insurance,27,none,own,2,skilled,1,none,yes,1,female,25-44
+below 0 DM,24,paid duly,new car,1381,unknown,1-4 years,4,none,2,savings or insurance,35,none,own,1,skilled,1,none,yes,0,female,25-44
+below 0 DM,47,paid duly,new car,10722,below 100 DM,under 1 year,1,none,1,real estate,35,none,own,1,unskilled resident,1,yes,yes,1,female,25-44
+no account,18,critical account,furniture,1817,below 100 DM,1-4 years,4,none,2,none known,28,none,own,2,skilled,1,none,yes,1,female,25-44
+no account,36,critical account,furniture,7127,below 100 DM,under 1 year,2,none,4,savings or insurance,23,none,rent,2,skilled,1,yes,yes,0,female,under25
+no account,9,paid duly,furniture,1388,below 100 DM,1-4 years,4,none,2,real estate,26,none,rent,1,skilled,1,none,yes,1,female,25-44
+below 0 DM,36,paid duly,used car,8335,unknown,7+ years,3,none,4,none known,47,none,free,1,skilled,1,none,yes,0,male,45plus
+below 0 DM,36,all paid here,furniture,2746,below 100 DM,7+ years,4,none,4,car or other,31,bank,own,1,skilled,1,none,yes,0,male,25-44
+no account,48,all paid here,business,3609,below 100 DM,1-4 years,1,none,1,real estate,27,stores,own,1,skilled,1,none,yes,1,female,25-44
+no account,18,critical account,education,1864,100-500 DM,1-4 years,4,none,2,real estate,30,none,own,2,skilled,1,none,yes,0,female,25-44
+no account,12,paid duly,radio/TV,1262,below 100 DM,1-4 years,3,none,2,car or other,25,none,own,1,skilled,1,none,yes,1,male,under25
+0-200 DM,8,paid duly,furniture,1237,below 100 DM,1-4 years,3,none,4,real estate,24,none,own,1,skilled,1,none,yes,0,female,under25
+no account,15,critical account,radio/TV,1459,below 100 DM,1-4 years,4,none,2,car or other,43,none,own,1,unskilled resident,1,none,yes,1,female,25-44
+below 0 DM,6,all paid here,education,1198,below 100 DM,7+ years,4,none,4,none known,35,none,free,1,skilled,1,none,yes,0,female,25-44
+below 0 DM,48,paid duly,new car,7763,below 100 DM,7+ years,4,none,4,none known,42,bank,free,1,highly skilled,1,none,yes,0,male,25-44
+no account,24,paid duly,radio/TV,1533,below 100 DM,under 1 year,4,none,3,car or other,38,stores,own,1,skilled,1,yes,yes,1,female,25-44
+no account,12,paid duly,education,719,below 100 DM,7+ years,4,none,4,car or other,41,bank,own,1,unskilled resident,2,none,yes,0,male,25-44
+no account,12,critical account,education,701,below 100 DM,1-4 years,4,none,2,car or other,32,none,own,2,skilled,1,none,yes,1,male,25-44
+below 0 DM,12,paid duly,education,1200,unknown,1-4 years,4,none,4,savings or insurance,23,bank,rent,1,skilled,1,yes,yes,1,female,under25
+0-200 DM,30,past delays,business,2503,100-500 DM,7+ years,4,none,2,savings or insurance,41,stores,own,2,skilled,1,none,yes,1,male,25-44
+no account,60,paid duly,new car,6527,unknown,1-4 years,4,none,4,none known,34,none,free,1,skilled,2,yes,yes,1,male,25-44
+no account,6,critical account,radio/TV,1554,below 100 DM,4-7 years,1,none,2,car or other,24,none,rent,2,skilled,1,yes,yes,1,female,under25
+0-200 DM,6,paid duly,new car,14555,unknown,unemployed,1,none,2,savings or insurance,23,none,own,1,unskilled non-resident,1,yes,yes,0,male,under25
+below 0 DM,24,paid duly,furniture,3234,below 100 DM,under 1 year,4,none,4,real estate,23,none,rent,1,unskilled resident,1,yes,yes,0,female,under25
+no account,15,critical account,radio/TV,1316,500-1000 DM,1-4 years,2,none,2,savings or insurance,47,none,own,2,unskilled resident,1,none,yes,1,male,45plus
+no account,6,critical account,new car,250,1000+ DM,1-4 years,2,none,2,real estate,41,bank,own,2,unskilled resident,1,none,yes,1,female,25-44
+no account,12,critical account,new car,1163,500-1000 DM,1-4 years,4,none,4,real estate,44,none,own,1,skilled,1,yes,yes,1,male,25-44
+no account,18,critical account,radio/TV,1582,1000+ DM,7+ years,4,none,4,car or other,46,none,own,2,skilled,1,none,yes,1,male,45plus
+0-200 DM,12,critical account,new car,1995,100-500 DM,under 1 year,4,none,1,car or other,27,none,own,1,skilled,1,none,yes,1,male,25-44
+no account,18,critical account,new car,1055,below 100 DM,under 1 year,4,none,1,savings or insurance,30,none,own,2,skilled,1,none,yes,1,female,25-44
+no account,4,critical account,radio/TV,1503,below 100 DM,4-7 years,2,none,1,real estate,42,none,own,2,unskilled resident,2,none,yes,1,male,25-44
+no account,12,paid duly,radio/TV,776,below 100 DM,1-4 years,4,none,2,real estate,28,none,own,1,skilled,1,none,yes,1,male,25-44
+0-200 DM,24,critical account,business,2825,unknown,4-7 years,4,none,3,none known,34,none,own,2,skilled,2,yes,yes,1,male,25-44
+no account,9,paid duly,radio/TV,2753,100-500 DM,7+ years,3,co-applicant,4,car or other,35,none,own,1,skilled,1,yes,yes,1,male,25-44
+no account,54,no credits,used car,9436,unknown,1-4 years,2,none,2,savings or insurance,39,none,own,1,unskilled resident,2,none,yes,1,male,25-44
+no account,18,paid duly,radio/TV,1453,below 100 DM,under 1 year,3,none,1,real estate,26,none,own,1,skilled,1,none,yes,1,female,25-44
+0-200 DM,24,critical account,new car,3878,100-500 DM,under 1 year,4,none,2,car or other,37,none,own,1,skilled,1,yes,yes,1,male,25-44
+below 0 DM,12,paid duly,radio/TV,1680,500-1000 DM,7+ years,3,none,1,real estate,35,none,own,1,skilled,1,none,yes,1,male,25-44
+below 0 DM,48,paid duly,education,7476,below 100 DM,4-7 years,4,none,1,none known,50,none,free,1,highly skilled,1,yes,yes,1,male,45plus
+no account,15,critical account,furniture,3343,below 100 DM,1-4 years,4,none,2,none known,28,none,free,1,skilled,1,yes,yes,1,male,25-44
+below 0 DM,18,paid duly,new car,2249,100-500 DM,4-7 years,4,none,3,car or other,30,none,own,1,highly skilled,2,yes,yes,1,male,25-44
+no account,36,critical account,radio/TV,9566,below 100 DM,1-4 years,2,none,2,car or other,31,stores,own,2,skilled,1,none,yes,1,female,25-44
+0-200 DM,48,paid duly,radio/TV,3060,below 100 DM,4-7 years,4,none,4,real estate,28,none,own,2,skilled,1,none,yes,0,male,25-44
+below 0 DM,9,critical account,repairs,1288,100-500 DM,7+ years,3,guarantor,4,real estate,48,none,own,2,skilled,2,none,no,1,male,45plus
+no account,10,paid duly,education,727,500-1000 DM,7+ years,4,none,4,none known,46,none,free,1,skilled,1,yes,yes,1,male,45plus
+below 0 DM,24,paid duly,new car,4817,below 100 DM,4-7 years,2,co-applicant,3,savings or insurance,31,none,own,1,skilled,1,yes,yes,0,male,25-44
+no account,12,critical account,business,2292,below 100 DM,unemployed,4,none,2,car or other,42,stores,own,2,highly skilled,1,yes,yes,0,male,25-44
+below 0 DM,36,critical account,furniture,5371,below 100 DM,1-4 years,3,guarantor,2,savings or insurance,28,none,own,2,skilled,1,none,yes,1,male,25-44
+below 0 DM,18,critical account,new car,3966,below 100 DM,7+ years,1,none,4,real estate,33,bank,rent,3,skilled,1,yes,yes,0,female,25-44
+below 0 DM,24,paid duly,radio/TV,1282,100-500 DM,1-4 years,4,none,2,car or other,32,none,own,1,unskilled resident,1,none,yes,0,female,25-44
+no account,6,critical account,radio/TV,1382,below 100 DM,1-4 years,1,none,1,car or other,28,none,own,2,skilled,1,yes,yes,1,female,25-44
+below 0 DM,24,paid duly,new car,3123,below 100 DM,under 1 year,4,none,1,savings or insurance,27,none,own,1,skilled,1,none,yes,0,female,25-44
+200+ DM,9,no credits,radio/TV,1337,below 100 DM,under 1 year,4,none,2,car or other,34,none,own,2,highly skilled,1,yes,yes,0,male,25-44
+0-200 DM,36,paid duly,used car,6948,below 100 DM,1-4 years,2,none,2,car or other,35,none,rent,1,highly skilled,1,yes,yes,1,male,25-44
+below 0 DM,12,paid duly,new car,759,below 100 DM,4-7 years,4,none,2,real estate,26,none,own,1,skilled,1,none,yes,0,male,25-44
+below 0 DM,48,all paid here,business,7685,below 100 DM,4-7 years,2,guarantor,4,car or other,37,none,rent,1,skilled,1,none,yes,0,female,25-44
+0-200 DM,7,paid duly,radio/TV,2329,below 100 DM,under 1 year,1,guarantor,1,real estate,45,none,own,1,skilled,1,none,yes,1,female,25-44
+below 0 DM,60,paid duly,business,7297,below 100 DM,7+ years,4,co-applicant,4,none known,36,none,rent,1,skilled,1,none,yes,0,male,25-44
+no account,6,paid duly,retraining,1238,unknown,unemployed,4,none,4,savings or insurance,36,none,own,1,highly skilled,2,yes,yes,1,male,25-44
+no account,10,paid duly,retraining,894,unknown,4-7 years,4,none,3,savings or insurance,40,none,own,1,skilled,1,yes,yes,1,female,25-44
+no account,6,paid duly,repairs,660,500-1000 DM,4-7 years,2,none,4,real estate,23,none,rent,1,unskilled resident,1,none,yes,1,male,under25
+no account,12,critical account,new car,926,below 100 DM,unemployed,1,none,2,savings or insurance,38,none,own,1,unskilled non-resident,1,none,yes,1,female,25-44
+no account,24,paid duly,radio/TV,3181,below 100 DM,under 1 year,4,none,4,savings or insurance,26,none,own,1,skilled,1,yes,yes,1,female,25-44
+below 0 DM,9,paid duly,new car,654,below 100 DM,1-4 years,4,none,3,car or other,28,none,own,1,unskilled resident,1,none,yes,0,male,25-44
+0-200 DM,30,paid duly,furniture,3832,below 100 DM,under 1 year,2,none,1,savings or insurance,22,none,own,1,skilled,1,none,yes,1,male,under25
+0-200 DM,15,paid duly,new car,2631,100-500 DM,1-4 years,2,none,4,car or other,28,none,rent,2,skilled,1,yes,yes,0,female,25-44
+no account,12,paid duly,furniture,763,below 100 DM,1-4 years,4,none,1,real estate,26,none,own,1,skilled,1,yes,yes,1,female,25-44
+no account,24,past delays,furniture,4151,100-500 DM,1-4 years,2,none,3,savings or insurance,35,none,own,2,skilled,1,none,yes,1,male,25-44
+no account,9,critical account,education,1244,unknown,7+ years,4,none,4,savings or insurance,41,none,rent,2,unskilled resident,1,none,yes,1,female,25-44
+0-200 DM,12,paid duly,radio/TV,1331,below 100 DM,under 1 year,2,none,1,car or other,22,stores,own,1,skilled,1,none,yes,0,male,under25
+no account,36,past delays,used car,8947,unknown,4-7 years,3,none,2,car or other,31,stores,own,1,highly skilled,2,yes,yes,1,male,25-44
+0-200 DM,27,paid duly,business,2528,below 100 DM,under 1 year,4,none,1,savings or insurance,32,none,own,1,skilled,2,yes,yes,1,female,25-44
+no account,12,no credits,furniture,2759,below 100 DM,7+ years,2,none,4,savings or insurance,34,none,own,2,skilled,1,none,yes,1,male,25-44
+below 0 DM,12,paid duly,new car,900,unknown,1-4 years,4,none,2,car or other,23,none,own,1,skilled,1,none,yes,0,male,under25
+no account,24,paid duly,retraining,937,below 100 DM,under 1 year,4,none,3,car or other,27,none,own,2,unskilled resident,1,none,yes,1,male,25-44
+below 0 DM,6,critical account,radio/TV,1169,unknown,7+ years,4,none,4,real estate,67,none,own,2,skilled,1,yes,yes,1,male,45plus
+no account,24,paid duly,radio/TV,1278,below 100 DM,7+ years,4,none,1,real estate,36,none,own,1,highly skilled,1,yes,yes,1,male,25-44
+no account,42,critical account,furniture,4042,500-1000 DM,1-4 years,4,none,4,real estate,36,none,own,2,skilled,1,yes,yes,1,male,25-44
+0-200 DM,18,paid duly,business,1913,1000+ DM,under 1 year,3,none,3,real estate,36,bank,own,1,skilled,1,yes,yes,1,male,25-44
+below 0 DM,18,paid duly,furniture,3650,below 100 DM,under 1 year,1,none,4,car or other,22,none,rent,1,skilled,1,none,yes,1,female,under25
+no account,24,critical account,furniture,3777,1000+ DM,1-4 years,4,none,4,real estate,50,none,own,1,skilled,1,yes,yes,1,male,45plus
+0-200 DM,26,paid duly,used car,7966,below 100 DM,under 1 year,2,none,3,car or other,30,none,own,2,skilled,1,none,yes,1,male,25-44
+no account,21,no credits,new car,5003,unknown,1-4 years,1,none,4,savings or insurance,29,bank,own,2,skilled,1,yes,yes,0,female,25-44
+0-200 DM,36,paid duly,radio/TV,2671,100-500 DM,1-4 years,4,co-applicant,4,none known,50,none,free,1,skilled,1,none,yes,0,female,45plus
+no account,12,critical account,education,3565,unknown,under 1 year,2,none,1,savings or insurance,37,none,own,2,unskilled resident,2,none,yes,1,male,25-44
+below 0 DM,24,paid duly,new car,1285,unknown,4-7 years,4,none,4,none known,32,none,rent,1,skilled,1,none,yes,0,female,25-44
+below 0 DM,18,paid duly,furniture,1131,below 100 DM,unemployed,4,none,2,car or other,33,none,own,1,skilled,1,none,yes,0,female,25-44
+below 0 DM,18,paid duly,furniture,2039,below 100 DM,1-4 years,1,none,4,real estate,20,bank,rent,1,skilled,1,none,yes,0,female,under25
+no account,12,paid duly,business,1076,below 100 DM,1-4 years,2,none,2,real estate,26,none,own,1,skilled,1,yes,no,1,male,25-44
+below 0 DM,10,critical account,new car,2241,below 100 DM,under 1 year,1,none,3,real estate,48,none,rent,2,unskilled resident,2,none,no,1,male,45plus
+below 0 DM,30,paid duly,used car,3857,below 100 DM,1-4 years,4,none,4,savings or insurance,40,none,own,1,highly skilled,1,yes,yes,1,male,25-44
+below 0 DM,12,paid duly,furniture,1858,below 100 DM,under 1 year,4,none,1,car or other,22,none,rent,1,skilled,1,none,yes,1,female,under25
+0-200 DM,12,paid duly,furniture,2762,unknown,7+ years,1,none,2,savings or insurance,25,bank,own,1,skilled,1,yes,yes,0,female,under25
+no account,21,paid duly,furniture,2241,below 100 DM,7+ years,4,none,2,real estate,50,none,own,2,skilled,1,none,yes,1,male,45plus
+200+ DM,18,paid duly,new car,1961,below 100 DM,7+ years,3,none,2,car or other,23,none,own,1,highly skilled,1,none,yes,1,female,under25
+below 0 DM,42,paid duly,furniture,7882,below 100 DM,4-7 years,2,guarantor,4,savings or insurance,45,none,free,1,skilled,2,none,yes,1,male,25-44
+0-200 DM,11,paid duly,furniture,1577,1000+ DM,under 1 year,4,none,1,real estate,20,none,own,1,skilled,1,none,yes,1,female,under25
+no account,9,critical account,new car,2134,below 100 DM,1-4 years,4,none,4,car or other,48,none,own,3,skilled,1,yes,yes,1,male,45plus
+below 0 DM,18,paid duly,new car,1216,below 100 DM,under 1 year,4,none,3,car or other,23,none,rent,1,skilled,1,yes,yes,0,female,under25
+0-200 DM,24,paid duly,other,11328,below 100 DM,1-4 years,2,co-applicant,3,car or other,29,bank,own,2,highly skilled,1,yes,yes,0,male,25-44
+below 0 DM,15,critical account,furniture,1478,below 100 DM,7+ years,4,none,4,car or other,44,none,own,2,skilled,2,yes,yes,1,male,25-44
+no account,18,critical account,radio/TV,1149,1000+ DM,1-4 years,4,none,3,real estate,46,none,own,2,skilled,1,none,yes,1,male,45plus
+0-200 DM,21,paid duly,business,1188,below 100 DM,7+ years,2,none,4,savings or insurance,39,none,own,1,skilled,2,none,yes,0,female,25-44
+0-200 DM,18,past delays,furniture,4297,below 100 DM,7+ years,4,none,3,none known,40,none,own,1,highly skilled,1,yes,yes,0,male,25-44
+0-200 DM,12,paid duly,radio/TV,2930,below 100 DM,4-7 years,2,none,1,real estate,27,none,own,1,skilled,1,none,yes,1,female,25-44
+below 0 DM,21,paid duly,radio/TV,2606,below 100 DM,under 1 year,4,none,4,savings or insurance,28,none,rent,1,highly skilled,1,yes,yes,1,female,25-44
+below 0 DM,12,paid duly,furniture,1282,below 100 DM,1-4 years,2,none,4,car or other,20,none,rent,1,skilled,1,none,yes,0,female,under25
+no account,11,paid duly,business,2142,1000+ DM,7+ years,1,none,2,real estate,28,none,own,1,skilled,1,yes,yes,1,male,25-44
+below 0 DM,24,all paid here,furniture,3349,500-1000 DM,under 1 year,4,none,4,none known,30,none,free,1,skilled,2,yes,yes,0,male,25-44
+below 0 DM,30,critical account,used car,6187,100-500 DM,4-7 years,1,none,4,car or other,24,none,rent,2,skilled,1,none,yes,1,male,under25
+0-200 DM,12,paid duly,new car,836,100-500 DM,under 1 year,4,none,2,savings or insurance,23,bank,own,1,unskilled resident,1,none,yes,0,female,under25
+no account,36,critical account,used car,5842,below 100 DM,7+ years,2,none,2,savings or insurance,35,none,own,2,skilled,2,yes,yes,1,male,25-44
+below 0 DM,6,critical account,new car,4716,unknown,under 1 year,1,none,3,real estate,44,none,own,2,unskilled resident,2,none,yes,1,male,25-44
+no account,24,paid duly,radio/TV,1311,100-500 DM,4-7 years,4,none,3,savings or insurance,26,none,own,1,skilled,1,yes,yes,1,male,25-44
+200+ DM,10,paid duly,new car,1240,100-500 DM,7+ years,1,none,4,none known,48,none,free,1,unskilled resident,2,none,yes,0,female,45plus
+0-200 DM,18,paid duly,radio/TV,3213,500-1000 DM,under 1 year,1,none,3,real estate,25,none,rent,1,skilled,1,none,yes,1,male,under25
+below 0 DM,12,paid duly,furniture,1289,below 100 DM,1-4 years,4,guarantor,1,savings or insurance,21,none,own,1,unskilled resident,1,none,yes,1,male,under25
+below 0 DM,12,paid duly,education,684,below 100 DM,1-4 years,4,none,4,car or other,40,none,rent,1,unskilled resident,2,none,yes,0,male,25-44
+below 0 DM,24,all paid here,new car,1193,below 100 DM,unemployed,1,co-applicant,4,none known,29,none,rent,2,unskilled non-resident,1,none,yes,0,female,25-44
+no account,12,critical account,business,1412,below 100 DM,1-4 years,4,guarantor,2,real estate,29,none,own,2,highly skilled,1,yes,yes,1,female,25-44
+200+ DM,10,paid duly,furniture,1275,below 100 DM,under 1 year,4,none,2,savings or insurance,23,none,own,1,skilled,1,none,yes,1,female,under25
+no account,12,paid duly,radio/TV,804,below 100 DM,7+ years,4,none,4,car or other,38,none,own,1,skilled,1,none,yes,1,male,25-44
+below 0 DM,6,critical account,radio/TV,1957,below 100 DM,4-7 years,1,none,4,car or other,31,none,own,1,skilled,1,none,yes,1,female,25-44
+below 0 DM,9,paid duly,furniture,2136,below 100 DM,1-4 years,3,none,2,real estate,25,none,own,1,skilled,1,none,yes,1,male,under25
+below 0 DM,48,paid duly,used car,4788,below 100 DM,4-7 years,4,none,3,savings or insurance,26,none,own,1,skilled,2,none,yes,1,male,25-44
+no account,36,paid duly,furniture,3349,below 100 DM,1-4 years,4,none,2,car or other,28,none,own,1,highly skilled,1,yes,yes,0,female,25-44
+no account,15,paid duly,furniture,2186,unknown,4-7 years,1,none,4,real estate,33,bank,rent,1,unskilled resident,1,none,yes,1,female,25-44
+no account,15,paid duly,radio/TV,1979,unknown,7+ years,4,none,2,car or other,35,none,own,1,skilled,1,none,yes,1,male,25-44
+below 0 DM,12,paid duly,new car,1274,below 100 DM,under 1 year,3,none,1,real estate,37,none,own,1,unskilled resident,1,none,yes,0,female,25-44
+200+ DM,10,critical account,new car,781,below 100 DM,7+ years,4,none,4,none known,63,none,free,2,skilled,1,yes,yes,1,male,45plus
+below 0 DM,10,critical account,furniture,2132,unknown,under 1 year,2,co-applicant,3,real estate,27,none,rent,2,skilled,1,none,no,1,female,25-44
+200+ DM,10,paid duly,new car,3949,below 100 DM,under 1 year,1,guarantor,1,savings or insurance,37,none,own,1,unskilled resident,2,none,yes,1,male,25-44
+no account,15,critical account,furniture,2788,below 100 DM,4-7 years,2,co-applicant,3,car or other,24,bank,own,2,skilled,1,none,yes,1,female,under25

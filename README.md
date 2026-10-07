@@ -68,12 +68,20 @@ press `Ctrl+C` to stop the server.
 
 ### Demo files
 
-| Scenario | Field 1 | Field 2 | Field 3 | Field 4 | Field 5 | Field 8 |
-|---|---|---|---|---|---|---|
-| Biased public model (predictions) | `demo/adult_income_predictions.csv` | | `income_over_50k` | `predicted_high_income` | `sex`, `race` | `demo/adult_income_reference.csv` |
-| Fair public model (model upload) | `demo/german_credit_test.csv` | `demo/models/german_credit.joblib`* | `good_credit` | `model_prediction` | `sex`, `age_band` | `demo/german_credit_reference.csv` |
-| Drift demonstration | `demo/sample_loan_predictions.csv` | | `loan_repaid` | `predicted_approval` | `gender`, `age_band` | `demo/sample_loan_reference.csv` |
-| Simple hiring example | `demo/sample_hiring.csv` | | `truly_qualified` | `predicted_hire` | `gender`, `age_band` | |
+| Scenario | Field 1 | Field 2 | Field 3 | Field 4 | Field 5 | Field 6 | Field 8 |
+|---|---|---|---|---|---|---|---|
+| Biased public model (predictions) | `demo/adult_income_predictions.csv` | | `income_over_50k` | `predicted_high_income` | `sex`, `race` | Lending | `demo/adult_income_reference.csv` |
+| Fair public model (model upload) | `demo/german_credit_test.csv` | `demo/models/german_credit.joblib`* | `good_credit` | `model_prediction` | `sex`, `age_band` | Lending | `demo/german_credit_reference.csv` |
+| Drift demonstration | `demo/sample_loan_predictions.csv` | | `loan_repaid` | `predicted_approval` | `gender`, `age_band` | Lending | `demo/sample_loan_reference.csv` |
+| Simple hiring example | `demo/sample_hiring.csv` | | `truly_qualified` | `predicted_hire` | `gender`, `age_band`, `race` | Screening or hiring | |
+
+The scores in the results table above use the *Lending* use case (equal
+opportunity). With *Screening or hiring* (demographic parity), the Adult model
+scores far lower (about 9/100) because its selection rates differ even more
+than its true-positive rates.
+
+Columns you do not tick as sensitive are treated as ordinary model features and
+can appear in explanations, so tick every protected attribute you want excluded.
 
 \*Model files are created on your machine, so they always match your installed
 scikit-learn version. Run `python3 demo/audit_german_credit.py` (or
