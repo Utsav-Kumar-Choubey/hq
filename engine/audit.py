@@ -1,92 +1,131 @@
 """
 audit.py
 --------
-Orchestrator: ties every module together into one call. The FastAPI /audit
-endpoint and the standalone test script both use run_full_audit().
+Orchestrator: combines fairness, drift, explanations and reporting into one
+call, and provides the metric-selection guidance shown in the UI.
 """
 
 from __future__ import annotations
 
+from typing import List, Optional
+
 import pandas as pd
 
-from . import fairness as fairness_mod
 from . import drift as drift_mod
 from . import explain as explain_mod
+from . import fairness as fairness_mod
 from . import report as report_mod
 from .data_loader import feature_columns
 
-
-# Guidance table: which fairness metric fits which situation.
+# Which fairness metric fits which situation. Each entry links to a metric id
+# in fairness.METRICS so the advisor's choice drives the audit directly.
 METRIC_ADVICE = {
     "hiring": {
+        "metric_id": "demographic_parity",
         "metric": "Demographic parity (80% rule)",
-        "why": "Groups should be selected at similar rates when screening.",
+        "best_for": "Hiring, screening and shortlisting",
+        "why": ("Candidates from every group should be shortlisted at similar "
+                "rates. This mirrors the four-fifths rule used in employment law."),
         "watch": "Ignores whether candidates were actually qualified.",
         "backup": "Equal opportunity",
     },
     "lending": {
+        "metric_id": "equal_opportunity",
         "metric": "Equal opportunity",
-        "why": "Qualified applicants must not be missed across groups.",
-        "watch": "Needs reliable ground-truth outcomes.",
-        "backup": "Equalized odds",
+        "best_for": "Lending, admissions and benefits",
+        "why": ("Applicants who would have repaid or succeeded must be approved "
+                "at similar rates, whatever their group."),
+        "watch": "Requires reliable historical outcomes, which can themselves be biased.",
+        "backup": "Demographic parity",
     },
     "triage": {
+        "metric_id": "equalized_odds",
         "metric": "Equalized odds",
-        "why": "Both false alarms and misses are costly in medical/risk use.",
-        "watch": "Hard to satisfy fully; expect trade-offs.",
-        "backup": "Calibration",
+        "best_for": "Medical triage, fraud and risk flags",
+        "why": ("Both missed cases and false alarms cause harm, so both error "
+                "rates should be similar across groups."),
+        "watch": "Strict; usually requires a trade-off with overall accuracy.",
+        "backup": "Equal opportunity",
     },
     "scoring": {
+        "metric_id": "predictive_parity",
         "metric": "Predictive parity",
-        "why": "A given score should mean the same thing for every group.",
-        "watch": "Can conflict with equal opportunity.",
-        "backup": "Calibration by group",
+        "best_for": "Credit scores, risk scores and rankings",
+        "why": ("A positive decision or high score should be equally reliable "
+                "for every group."),
+        "watch": ("Cannot generally hold together with equal opportunity when "
+                  "base rates differ between groups."),
+        "backup": "Equalized odds",
     },
 }
 
+METRIC_GUIDE = [
+    {"question": "Do you have the real outcome (e.g. repaid, hired, diagnosed)?",
+     "no": "Use demographic parity: it only needs the model's decisions."},
+    {"question": "Is missing a qualified person the main harm?",
+     "yes": "Use equal opportunity."},
+    {"question": "Are false alarms harmful as well as misses?",
+     "yes": "Use equalized odds."},
+    {"question": "Will people act on the score as a probability or ranking?",
+     "yes": "Use predictive parity."},
+    {"note": ("Metrics can conflict mathematically when groups have different "
+              "base rates. Choose the one that matches the harm you most need "
+              "to prevent and report the others for context.")},
+]
+
 
 def advise_metric(usecase: str) -> dict:
-    """Return the recommended metric for a use case (powers the UI advisor)."""
-    return METRIC_ADVICE.get(usecase, METRIC_ADVICE["hiring"])
+    """Recommended metric for a use case (powers the UI advisor)."""
+    advice = METRIC_ADVICE.get(usecase, METRIC_ADVICE["hiring"])
+    definition = fairness_mod.METRICS[advice["metric_id"]]
+    return {**advice, "use_case": usecase if usecase in METRIC_ADVICE else "hiring",
+            "question": definition["question"], "threshold": definition["threshold"]}
 
 
-def run_full_audit(df: pd.DataFrame, sensitive: list[str], pred_col: str,
-                   outcome_col: str | None = None,
+def metric_catalogue() -> dict:
+    return {"metrics": [{"id": k, **v} for k, v in fairness_mod.METRICS.items()],
+            "use_cases": {k: advise_metric(k) for k in METRIC_ADVICE},
+            "guide": METRIC_GUIDE}
+
+
+def run_full_audit(df: pd.DataFrame, sensitive: List[str], pred_col: str,
+                   outcome_col: Optional[str] = None,
                    intersectional: bool = True,
-                   reference: pd.DataFrame | None = None,
-                   model_name: str = "Uploaded model") -> dict:
-    """Run fairness + drift + explanations + report in one shot."""
-    # 1. Fairness
-    fairness = fairness_mod.audit_fairness(
-        df, sensitive, pred_col, outcome_col, intersectional)
+                   reference: Optional[pd.DataFrame] = None,
+                   model_name: str = "Uploaded model",
+                   metric: Optional[str] = None,
+                   use_case: Optional[str] = None) -> dict:
+    """Run fairness, drift, explanations and the report in one call."""
+    if not metric and use_case in METRIC_ADVICE:
+        metric = METRIC_ADVICE[use_case]["metric_id"]
 
-    # 2. Drift (only if a reference dataset was supplied)
+    fairness = fairness_mod.audit_fairness(
+        df, sensitive, pred_col, outcome_col, intersectional, metric)
+
+    features = feature_columns(df, sensitive + [pred_col, outcome_col])
     if reference is not None:
-        feats = feature_columns(df, sensitive + [pred_col, outcome_col])
-        drift = drift_mod.audit_drift(reference, df, feats)
+        drift = drift_mod.audit_drift(reference, df, features)
     else:
         drift = {"features": [], "overall_band": "not_tested",
                  "worst_psi": 0.0, "n_drifted": 0}
 
-    # 3. Explanations for a couple of sample individuals
-    feature_cols = feature_columns(df, sensitive + [pred_col, outcome_col])
     explanations = []
-    if feature_cols:
+    if features:
         try:
-            ex = explain_mod.build_explainer(df, feature_cols, pred_col)
-            # explain the first rejected and first approved person we find
+            ex = explain_mod.build_explainer(df, features, pred_col)
             preds = ex["y"]
             for target in (0, 1):
                 idx = next((i for i, v in enumerate(preds) if v == target), None)
                 if idx is not None:
                     explanations.append(explain_mod.explain_row(ex, idx))
-        except Exception as e:
-            explanations = [{"error": f"Explanation unavailable: {e}"}]
+        except Exception as exc:  # explanations must never break the audit
+            explanations = [{"error": f"Explanation unavailable: {exc}"}]
 
-    # 4. Recommendations + report
     recommendations = report_mod.build_recommendations(fairness, drift)
     dataset_info = {"rows": int(len(df)), "columns": list(df.columns),
-                    "sensitive_attributes": sensitive}
+                    "sensitive_attributes": sensitive,
+                    "prediction_column": pred_col, "outcome_column": outcome_col,
+                    "use_case": use_case}
     report = report_mod.build_report(
         model_name, dataset_info, fairness, drift, recommendations)
 

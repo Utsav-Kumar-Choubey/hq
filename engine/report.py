@@ -16,19 +16,28 @@ def build_recommendations(fairness: dict, drift: dict) -> list[dict]:
     recs = []
     s = fairness["summary"]
 
-    # Flag the worst-performing group.
-    worst_group = None
-    for rows in list(fairness["single"].values()) + [fairness["intersectional"]]:
-        for r in rows:
-            if r["status"] == "fail":
-                if worst_group is None or r["dp_ratio"] < worst_group["dp_ratio"]:
-                    worst_group = r
-    if worst_group:
+    metric = fairness["metric"]
+    rows = [r for g in fairness["single"].values() for r in g] + fairness["intersectional"]
+    failing = sorted((r for r in rows if r["status"] == "fail"),
+                     key=lambda r: r["compliance"])
+    for r in failing[:3]:
         recs.append({
             "priority": "high",
-            "text": (f"Review the selection gap for '{worst_group['group']}' "
-                     f"(ratio {worst_group['dp_ratio']} vs the 0.80 threshold)."),
+            "text": (f"Investigate the {metric['name'].lower()} gap for "
+                     f"'{r['group']}' ({r['grouping']}): value {r['primary_value']} "
+                     f"against the threshold ({metric['threshold'].lower()})."),
         })
+    review = [r for r in rows if r["status"] == "review"]
+    if review:
+        recs.append({
+            "priority": "medium",
+            "text": (f"{len(review)} small group(s) fall below the threshold but have "
+                     f"fewer than 100 people, for example '{review[0]['group']}'. "
+                     "Validate with more data before drawing conclusions."),
+        })
+    if metric.get("note"):
+        recs.append({"priority": "medium",
+                     "text": metric["note"] + " Supply the actual outcome to test it."})
 
     if drift["n_drifted"] > 0:
         top = drift["features"][0]
@@ -38,11 +47,11 @@ def build_recommendations(fairness: dict, drift: dict) -> list[dict]:
                      f"(PSI {top['psi']}, {top['band']})."),
         })
 
-    if s["small_sample_groups"] > 0:
+    if s["small_sample_groups"] > 0 and not review:
         recs.append({
-            "priority": "medium",
-            "text": (f"Collect more data for {s['small_sample_groups']} group(s) "
-                     f"with fewer than 100 people; results there are low-confidence."),
+            "priority": "low",
+            "text": (f"{s['small_sample_groups']} group(s) have fewer than 100 people; "
+                     "their results are low-confidence."),
         })
 
     recs.append({"priority": "low",

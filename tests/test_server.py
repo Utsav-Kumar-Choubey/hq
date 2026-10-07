@@ -83,3 +83,16 @@ def test_audit_validation_errors(loans, fields, fragment):
 
 def test_advisor_endpoint():
     assert client.get("/advisor/lending").json()["metric"] == "Equal opportunity"
+
+
+def test_metrics_catalogue_endpoint():
+    body = client.get("/metrics").json()
+    assert {m["id"] for m in body["metrics"]} == {
+        "demographic_parity", "equal_opportunity", "equalized_odds", "predictive_parity"}
+    assert set(body["use_cases"]) == {"hiring", "lending", "triage", "scoring"}
+
+
+def test_audit_honours_metric_field(loans):
+    r = _audit(loans, metric="predictive_parity")
+    assert r.status_code == 200
+    assert r.json()["fairness"]["metric"]["id"] == "predictive_parity"

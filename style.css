@@ -280,3 +280,20 @@ select:hover, .file-input:hover { border-color: var(--navy-2); }
   .factors li { grid-template-columns: 110px 1fr 46px; }
   .facts div { grid-template-columns: 1fr; gap: 0; }
 }
+
+/* ===== Metric guide & audit status ===== */
+.guide { margin-top: 1.25rem; }
+.guide-list { padding-left: 1.2rem; margin: .8rem 0 1rem; }
+.guide-list li { padding: .35rem 0; }
+#audit-status { min-height: 1.2em; margin: 1rem 0 0; font-size: .92rem; }
+#audit-status.is-error { color: var(--bad); font-weight: 600; }
+#audit-status.is-ok { color: var(--ok); font-weight: 600; }
+.btn[disabled] { opacity: .65; cursor: progress; transform: none; }
+.metric-note { margin-top: .8rem; padding: .7rem 1rem; border-radius: 10px; background: var(--warn-bg); color: var(--warn); font-size: .9rem; }
+.group-tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 0; }
+.group-tabs button { font: inherit; font-size: .85rem; padding: .35rem .85rem; border-radius: 999px; border: 1px solid var(--border); background: #fff; cursor: pointer; }
+.group-tabs button[aria-pressed="true"] { background: var(--navy); color: #fff; border-color: var(--navy); }
+.ci { color: var(--muted); font-size: .78rem; display: block; }
+.drift-list li.muted { display: block; }
+#groups-body td:first-child { min-width: 170px; }
+#groups-body .badge { white-space: normal; }
