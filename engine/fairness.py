@@ -21,23 +21,12 @@ classic legal "adverse impact" flag.
 
 from __future__ import annotations
 
-import itertools
 import pandas as pd
+
+from .data_loader import to_binary, prepare_sensitive
 
 FOUR_FIFTHS = 0.8          # legal "adverse impact" threshold
 MIN_GROUP_SIZE = 100       # below this, we flag "small sample / low confidence"
-
-
-def _to_binary(series: pd.Series) -> pd.Series:
-    """
-    Coerce a yes/no-ish column into 1/0. Handles 'yes'/'no', 'true'/'false',
-    'approved'/'denied', and already-numeric 1/0 columns.
-    """
-    if pd.api.types.is_numeric_dtype(series):
-        return (series > 0).astype(int)
-    positives = {"yes", "y", "true", "1", "approved", "hired",
-                 "repaid", "positive", "good", "accept", "accepted"}
-    return series.astype(str).str.strip().str.lower().isin(positives).astype(int)
 
 
 def _group_rate(frame: pd.DataFrame, pred_col: str) -> float:
@@ -111,10 +100,10 @@ def audit_fairness(df: pd.DataFrame, sensitive: list[str], pred_col: str,
       - intersectional: [group rows] for the combined attributes (if >=2)
       - summary: counts of groups tested / flagged, and an overall 0-100 score
     """
-    work = df.copy()
-    work[pred_col] = _to_binary(work[pred_col])
+    work = prepare_sensitive(df, sensitive)
+    work[pred_col] = to_binary(work[pred_col])
     if outcome_col:
-        work[outcome_col] = _to_binary(work[outcome_col])
+        work[outcome_col] = to_binary(work[outcome_col])
 
     single = {attr: _analyze_grouping(work, [attr], pred_col, outcome_col)
               for attr in sensitive}

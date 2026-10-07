@@ -248,6 +248,10 @@ function renderReport(result) {
 async function onDownloadReport(e) {
   e.preventDefault();
   const res = await fetch(`${API}/report`, { method: "POST" });
+  if (!res.ok) {
+    alert("No report is available yet. Run an audit first.");
+    return;
+  }
   const blob = await res.blob();
   const url = URL.createObjectURL(blob);
   const a = el("a");
