@@ -1,0 +1,29 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>Fairness Audit: German Credit - LogisticRegression</title>
+<style>
+ body{font-family:system-ui,sans-serif;max-width:820px;margin:40px auto;color:#1c2433;line-height:1.6}
+ h1{border-top:5px solid #14213d;padding-top:12px}
+ table{border-collapse:collapse;width:100%;margin:12px 0}
+ th,td{border:1px solid #dfe4ec;padding:8px 10px;text-align:left;font-size:14px}
+ th{background:#f3f6fb} li{margin:8px 0;list-style:none}
+ .score{font-size:42px;font-weight:700;color:#14213d}
+</style></head><body>
+<h1>Model Fairness Audit: German Credit - LogisticRegression</h1>
+<p>Generated 2026-10-07 &middot; FairLens Bias Auditing &amp; Explainability Toolkit</p>
+<h2>1. Executive summary</h2>
+<p class="score">84/100</p>
+<p>Verdict: <strong>pass</strong>.
+11 groups tested, 0 flagged,
+drift level not_tested.</p>
+<h2>2. Fairness results (single &amp; intersectional)</h2>
+<table><thead><tr><th>Group</th><th>Size</th><th>Selection rate</th>
+<th>Ratio to top group</th><th>Status</th></tr></thead><tbody><tr><td>male</td><td>204</td><td>77%</td><td>1.0</td><td>pass</td></tr><tr><td>female</td><td>96</td><td>68%</td><td>0.88</td><td>small_sample</td></tr><tr><td>45plus</td><td>60</td><td>77%</td><td>1.0</td><td>small_sample</td></tr><tr><td>25-44</td><td>181</td><td>76%</td><td>0.987</td><td>pass</td></tr><tr><td>under25</td><td>59</td><td>66%</td><td>0.862</td><td>small_sample</td></tr><tr><td>male, under25</td><td>21</td><td>86%</td><td>1.0</td><td>small_sample</td></tr><tr><td>female, 45plus</td><td>16</td><td>81%</td><td>0.948</td><td>small_sample</td></tr><tr><td>male, 25-44</td><td>139</td><td>76%</td><td>0.89</td><td>pass</td></tr><tr><td>male, 45plus</td><td>44</td><td>75%</td><td>0.875</td><td>small_sample</td></tr><tr><td>female, 25-44</td><td>42</td><td>74%</td><td>0.861</td><td>small_sample</td></tr><tr><td>female, under25</td><td>38</td><td>55%</td><td>0.645</td><td>small_sample</td></tr></tbody></table>
+<h2>3. Drift analysis</h2>
+<table><thead><tr><th>Feature</th><th>PSI</th><th>Band</th></tr></thead>
+<tbody></tbody></table>
+<h2>4. Limitations</h2>
+<p>Fairness metrics can conflict; explanations describe model behaviour, not
+ground-truth fairness. Groups under 100 people are low-confidence.</p>
+<h2>5. Recommendations</h2>
+<ul><li><span style="background:#9a6200;color:#fff;padding:2px 8px;border-radius:999px;font-size:12px">MEDIUM</span> Collect more data for 8 group(s) with fewer than 100 people; results there are low-confidence.</li><li><span style="background:#1a7f4b;color:#fff;padding:2px 8px;border-radius:999px;font-size:12px">LOW</span> Schedule a fairness and drift re-check every quarter.</li></ul>
+</body></html>
