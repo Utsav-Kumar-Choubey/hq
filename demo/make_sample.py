@@ -71,3 +71,21 @@ reference["income"] = (reference["income"] * 0.75).round(0)
 reference["loan_amount"] = (reference["loan_amount"] * 0.9).round(0)
 reference.to_csv("demo/sample_loan_reference.csv", index=False)
 print(f"Wrote demo/sample_loan_reference.csv with {len(reference)} rows.")
+
+# ---------------------------------------------------------------------------
+# Sample report for the synthetic loan model, including the drift check.
+# ---------------------------------------------------------------------------
+import sys  # noqa: E402
+from pathlib import Path  # noqa: E402
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from engine.audit import run_full_audit  # noqa: E402
+
+result = run_full_audit(
+    loans, sensitive=["gender", "age_band"], pred_col="predicted_approval",
+    outcome_col="loan_repaid", reference=reference, use_case="lending",
+    model_name="Loan Approval v2 (synthetic)")
+Path("demo/sample_loan_report.html").write_text(result["report"]["html"], encoding="utf-8")
+print("Wrote demo/sample_loan_report.html "
+      f"(score {result['fairness']['summary']['fairness_score']}/100, "
+      f"drift {result['drift']['overall_band']}).")

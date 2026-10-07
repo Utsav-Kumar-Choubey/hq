@@ -388,17 +388,24 @@
         <div class="grid grid-2">
           <article class="card paper">
             <p class="eyebrow">Report preview</p>
-            <h3>Model Fairness Audit: Loan Approval v2</h3>
-            <p class="muted">Generated 7 October 2026</p>
-            <ol class="toc">
+            <h3 id="report-title">Model Fairness Audit: Loan Approval v2</h3>
+            <p class="muted" id="report-generated">Sample preview. Run an audit to generate your report.</p>
+            <ol class="toc" id="report-toc">
               <li>Executive summary</li>
-              <li>Data and model description</li>
-              <li>Fairness results (single and intersectional)</li>
+              <li>Scope: data and model</li>
+              <li>Method and metric selection</li>
+              <li>Fairness results: single attributes</li>
+              <li>Fairness results: intersectional groups</li>
               <li>Drift analysis</li>
-              <li>Explainability summary</li>
+              <li>Explainability</li>
               <li>Limitations</li>
               <li>Recommendations</li>
+              <li>Audit trail and sign-off</li>
             </ol>
+            <h4>Key findings</h4>
+            <ul class="check-list" id="report-findings">
+              <li>Two intersectional groups fall below the four-fifths threshold.</li>
+            </ul>
           </article>
 
           <article class="card">
@@ -410,9 +417,11 @@
               <li><span class="badge badge-ok">Low</span> Schedule a fairness re-check every quarter.</li>
             </ul>
             <div class="form-actions">
-              <a href="#" class="btn btn-primary">Download PDF</a>
-              <a href="#" class="btn btn-ghost">Download HTML</a>
+              <button type="button" class="btn btn-primary" data-report="pdf">Print / save as PDF</button>
+              <button type="button" class="btn btn-ghost" data-report="html">Download HTML</button>
+              <button type="button" class="btn btn-ghost" data-report="json">Download JSON evidence</button>
             </div>
+            <p class="hint">In the print dialog, choose "Save as PDF" as the destination.</p>
           </article>
         </div>
       </div>
