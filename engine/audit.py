@@ -94,7 +94,8 @@ def run_full_audit(df: pd.DataFrame, sensitive: List[str], pred_col: str,
                    reference: Optional[pd.DataFrame] = None,
                    model_name: str = "Uploaded model",
                    metric: Optional[str] = None,
-                   use_case: Optional[str] = None) -> dict:
+                   use_case: Optional[str] = None,
+                   return_explainer: bool = False):
     """Run fairness, drift, explanations and the report in one call."""
     if not metric and use_case in METRIC_ADVICE:
         metric = METRIC_ADVICE[use_case]["metric_id"]
@@ -109,32 +110,41 @@ def run_full_audit(df: pd.DataFrame, sensitive: List[str], pred_col: str,
         drift = {"features": [], "overall_band": "not_tested",
                  "worst_psi": 0.0, "n_drifted": 0}
 
-    explanations = []
+    explanations: List[dict] = []
+    explainer = None
+    explainability = {"available": False, "reason": "No usable feature columns."}
     if features:
         try:
-            ex = explain_mod.build_explainer(df, features, pred_col)
-            preds = ex["y"]
-            for target in (0, 1):
-                idx = next((i for i, v in enumerate(preds) if v == target), None)
-                if idx is not None:
-                    explanations.append(explain_mod.explain_row(ex, idx))
+            explainer = explain_mod.build_explainer(df, features, pred_col)
+            samples = explainer.sample_records(1)
+            for idx in samples["rejected"] + samples["approved"]:
+                explanations.append(explainer.explain(idx))
+            explainability = {"available": True, **explainer.summary()}
         except Exception as exc:  # explanations must never break the audit
-            explanations = [{"error": f"Explanation unavailable: {exc}"}]
+            explainability = {"available": False,
+                              "reason": f"Explanations unavailable: {exc}"}
+            explanations = [{"error": explainability["reason"]}]
+    explainability["proxies"] = explain_mod.find_proxies(df, sensitive, features)
 
-    recommendations = report_mod.build_recommendations(fairness, drift)
+    recommendations = report_mod.build_recommendations(fairness, drift, explainability)
     dataset_info = {"rows": int(len(df)), "columns": list(df.columns),
                     "sensitive_attributes": sensitive,
                     "prediction_column": pred_col, "outcome_column": outcome_col,
                     "use_case": use_case}
     report = report_mod.build_report(
-        model_name, dataset_info, fairness, drift, recommendations)
+        model_name, dataset_info, fairness, drift, recommendations,
+        explainability, explanations)
 
-    return {
+    result = {
         "model_name": model_name,
         "dataset": dataset_info,
         "fairness": fairness,
         "drift": drift,
+        "explainability": explainability,
         "explanations": explanations,
         "recommendations": recommendations,
         "report": report,
     }
+    if return_explainer:
+        return result, explainer
+    return result

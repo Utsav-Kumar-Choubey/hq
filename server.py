@@ -8,6 +8,7 @@ Endpoints:
   GET  /health          -> liveness check
   POST /upload          -> read a CSV, return its columns and suggested roles
   POST /audit           -> run the full audit and return JSON results
+  GET  /explain/{row}   -> plain-language explanation for one record
   GET  /advisor/{case}  -> recommended fairness metric for a use case
   GET  /metrics         -> metric definitions and selection guide
   POST /report          -> the latest compliance report as an HTML file
@@ -36,6 +37,7 @@ app = FastAPI(title="FairLens Bias Audit API", version="1.1.0")
 # Latest generated report. Adequate for a single-user local tool; a multi-user
 # deployment would key reports by session.
 _LAST_REPORT_HTML = {"html": None}
+_LAST_EXPLAINER = {"explainer": None}
 
 
 # --------------------------------------------------------------------------
@@ -150,10 +152,24 @@ async def audit(
         df, sensitive=sensitive_list, pred_col=prediction_col,
         outcome_col=outcome, intersectional=intersectional,
         reference=ref_df, model_name=model_name or "Uploaded model",
-        metric=metric or None, use_case=use_case or None)
+        metric=metric or None, use_case=use_case or None, return_explainer=True)
+    result, explainer = result
 
+    _LAST_EXPLAINER["explainer"] = explainer
     _LAST_REPORT_HTML["html"] = result["report"].pop("html", None)
     return JSONResponse(result)
+
+
+@app.get("/explain/{index}")
+def explain(index: int):
+    """Plain-language explanation for one record of the last audited dataset."""
+    explainer = _LAST_EXPLAINER["explainer"]
+    if explainer is None:
+        raise HTTPException(404, "No explanations yet. Run an audit first.")
+    try:
+        return JSONResponse(explainer.explain(index))
+    except IndexError as exc:
+        raise HTTPException(404, str(exc))
 
 
 @app.get("/advisor/{usecase}")

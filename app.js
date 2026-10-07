@@ -207,7 +207,7 @@ function renderResults(result) {
   renderTabs(keys);
   renderGrouping();
   renderDrift(d);
-  renderExplanations(result.explanations);
+  renderExplainability(result);
   renderReport(result);
 }
 
@@ -279,23 +279,90 @@ function renderDrift(d) {
 }
 
 /* -- explanations ---------------------------------------------------------- */
-function renderExplanations(explanations) {
+function renderExplanation(ex) {
   const card = $("#explain .decision");
-  const ex = (explanations || []).find((e) => !e.error);
   if (!card || !ex) return;
-
   card.querySelector(".decision-head").innerHTML = `<div><p class="muted">Record #${esc(ex.index)}</p>`
     + `<h3>Decision: ${esc(ex.decision)}</h3></div>${badge(ex.decision)}`;
   card.querySelector(".plain").textContent = ex.plain_language;
 
   const max = Math.max(...ex.factors.map((f) => f.weight), 0.001);
-  card.querySelector(".factors").innerHTML = ex.factors.map((f) => `<li><span>${esc(f.feature)}</span>`
+  card.querySelector(".factors").innerHTML = ex.factors.map((f) => `<li><span>${esc(f.label)}`
+    + `<span class="factor-value">${esc(f.value)}</span></span>`
     + `<div class="factor-track"><div class="factor ${f.effect === "helped" ? "factor-pos" : "factor-neg"}" `
     + `style="width:${Math.round((f.weight / max) * 100)}%"></div></div>`
     + `<span class="factor-note">${f.effect === "helped" ? "Helped" : "Hurt"}</span></li>`).join("");
+  $("#explain-caveat").textContent = ex.caveat
+    || `The explanation model agrees with the audited model on ${pct(ex.fidelity)} of records.`;
 
-  const cf = $("#explain .counterfactual .check-list");
-  if (cf) cf.innerHTML = `<li>${esc(ex.counterfactual)}</li>`;
+  const target = ex.decision === "approved" ? "rejected" : "approved";
+  $("#cf-title").textContent = ex.counterfactuals.length
+    ? `Changes that would likely make this ${target}`
+    : "No single small change flips this decision";
+  $("#cf-list").innerHTML = ex.counterfactuals.length
+    ? ex.counterfactuals.map((c) => `<li>${esc(c.text)}</li>`).join("")
+    : `<li class="muted">The outcome is driven by several factors together, so no single realistic change reverses it.</li>`;
+  const input = $("#record-index");
+  if (input) input.value = ex.index;
+}
+
+function renderExplainability(result) {
+  const info = result.explainability || {};
+  const status = $("#explain-status");
+  const input = $("#record-index");
+  const btn = $("#explain-btn");
+  if (!info.available) {
+    if (status) { status.textContent = info.reason || "Explanations are unavailable."; status.className = "hint is-error"; }
+    return;
+  }
+  if (input) { input.disabled = false; input.max = info.records - 1; }
+  if (btn) btn.disabled = false;
+  if (status) { status.textContent = `Enter a record number from 0 to ${(info.records - 1).toLocaleString()}.`; status.className = "hint"; }
+
+  const samples = $("#sample-records");
+  if (samples) {
+    const items = [...info.samples.rejected.slice(0, 2).map((i) => [i, "rejected"]),
+      ...info.samples.approved.slice(0, 2).map((i) => [i, "approved"])];
+    samples.innerHTML = items.map(([i, d]) => `<button type="button" data-index="${i}">#${i} (${d})</button>`).join("");
+    samples.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => explainRecord(b.dataset.index)));
+  }
+
+  $("#fidelity-note").textContent = `Share of influence across all ${info.records.toLocaleString()} records. `
+    + `The explanation model reproduces the audited model's decisions ${pct(info.fidelity)} of the time.`;
+  const top = Math.max(...info.global_importance.map((g) => g.share), 0.001);
+  $("#global-importance").innerHTML = info.global_importance.map((g) => `<li><span>${esc(g.label)}</span>`
+    + `<div class="factor-track"><div class="factor factor-pos" style="width:${Math.round((g.share / top) * 100)}%"></div></div>`
+    + `<span class="factor-note">${pct(g.share)}</span></li>`).join("");
+
+  const proxies = info.proxies || [];
+  $("#proxy-list").innerHTML = proxies.length
+    ? proxies.map((p) => `<li><strong>${esc(p.feature)}</strong> is strongly associated with `
+      + `<strong>${esc(p.sensitive)}</strong> (Cramer's V ${num(p.strength)}).</li>`).join("")
+    : `<li>No feature is strongly associated with the sensitive attributes.</li>`;
+
+  const first = (result.explanations || []).find((e) => !e.error);
+  if (first) renderExplanation(first);
+}
+
+async function explainRecord(index) {
+  const status = $("#explain-status");
+  const value = Number(index);
+  if (!Number.isInteger(value) || value < 0) {
+    status.textContent = "Enter a whole record number of 0 or more.";
+    status.className = "hint is-error";
+    return;
+  }
+  status.textContent = `Explaining record #${value}...`;
+  status.className = "hint";
+  try {
+    const res = await fetch(`${API}/explain/${value}`);
+    if (!res.ok) throw new Error(await apiError(res));
+    renderExplanation(await res.json());
+    status.textContent = `Showing record #${value}.`;
+  } catch (err) {
+    status.textContent = err.message;
+    status.className = "hint is-error";
+  }
 }
 
 /* -- report ---------------------------------------------------------------- */
@@ -386,6 +453,11 @@ document.addEventListener("DOMContentLoaded", () => {
   $$('input[name="usecase"]').forEach((r) => r.addEventListener("change", () => showAdvice(r.value)));
   $("#use-recommendation")?.addEventListener("click", applyAdviceToAudit);
   showAdvice("hiring");
+
+  $("#explain-btn")?.addEventListener("click", () => explainRecord($("#record-index").value));
+  $("#record-index")?.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") { e.preventDefault(); explainRecord(e.target.value); }
+  });
 
   $$("#report .btn").forEach((b) => b.addEventListener("click", onDownloadReport));
 });
