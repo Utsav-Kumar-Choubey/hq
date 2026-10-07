@@ -49,6 +49,18 @@ def home():
         return f.read()
 
 
+@app.get("/style.css")
+def style():
+    """Serve the stylesheet so the page is styled."""
+    return FileResponse("style.css", media_type="text/css")
+
+
+@app.get("/app.js")
+def appjs():
+    """Serve the front-end JavaScript that makes the page interactive."""
+    return FileResponse("app.js", media_type="application/javascript")
+
+
 @app.post("/upload")
 async def upload(dataset: UploadFile = File(...)):
     """Read a CSV and return its columns + smart role suggestions for the form."""
