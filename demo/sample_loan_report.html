@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Model Fairness Audit: Loan Approval v2 (synthetic)</title>
+<style>
+ :root { --navy:#14213d; --muted:#5b6678; --line:#dfe4ec; }
+ body { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; color:#1c2433;
+        max-width: 960px; margin: 40px auto; padding: 0 24px; line-height: 1.55; font-size: 14px; }
+ h1 { font-size: 26px; color: var(--navy); border-top: 6px solid var(--navy); padding-top: 14px; margin-bottom: 4px; }
+ h2 { font-size: 19px; color: var(--navy); margin-top: 34px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+ h3 { font-size: 15px; color: var(--navy); margin: 18px 0 6px; }
+ table { border-collapse: collapse; width: 100%; margin: 8px 0 14px; font-size: 12.5px; }
+ th, td { border: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+ thead th { background: #f3f6fb; }
+ .scope th { width: 34%; background: #f8fafc; }
+ .muted { color: var(--muted); font-size: 12px; }
+ .pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+ .pill.ok { background: #e3f4ea; color: #1a7f4b; } .pill.warn { background: #fdf0d5; color: #9a6200; }
+ .pill.bad { background: #fbe6e4; color: #b3261e; }
+ .summary { display: flex; gap: 24px; align-items: center; padding: 16px; border: 1px solid var(--line); border-radius: 10px; }
+ .score { font-size: 44px; font-weight: 800; color: var(--navy); line-height: 1; }
+ .note { background: #fdf0d5; color: #9a6200; padding: 8px 12px; border-radius: 8px; }
+ .case { border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; margin: 10px 0; }
+ ul.recs li, ul.plain li { margin: 6px 0; }
+ .sign td { height: 34px; }
+ @media print { body { margin: 0; max-width: none; } h2 { page-break-after: avoid; }
+   table, .case { page-break-inside: avoid; } .noprint { display: none; } }
+ @page { margin: 16mm; }
+</style></head><body>
+<h1>Model Fairness Audit: Loan Approval v2 (synthetic)</h1>
+<p class="muted">Generated 2026-10-07 12:14 UTC by FairLens 1.2. Bias auditing and explainability report.</p>
+<p class="muted">Contents:</p><ol class="muted"><li>Executive summary</li><li>Scope: data and model</li><li>Method and metric selection</li><li>Fairness results: single attributes</li><li>Fairness results: intersectional groups</li><li>Drift analysis</li><li>Explainability</li><li>Limitations</li><li>Recommendations</li><li>Audit trail and sign-off</li></ol>
+
+<h2>1. Executive summary</h2>
+<div class="summary"><div><div class="score">69<span class="muted">/100</span></div>
+<div class="muted">Fairness score</div></div>
+<div><p><strong>Verdict:</strong> <span class="pill warn">Needs attention</span></p>
+<p><strong>Primary metric:</strong> Equal opportunity. Are truly qualified people approved at similar rates?<br>
+<span class="muted">Pass threshold: True-positive-rate ratio of at least 0.80.</span></p></div></div>
+
+<h3>Key findings</h3><ul class="plain"><li>1 of 11 groups fail equal opportunity; the most affected is &#x27;Female, 45plus&#x27; (value 0.667).</li><li>For context, the lowest selection-rate ratio is 0.614 (the four-fifths rule requires 0.80).</li><li>Overall drift is significant (highest PSI 0.6844); 1 feature(s) shifted.</li><li>Decision explanations reproduce the model&#x27;s decisions on 85% of records.</li></ul>
+<h3>Priority actions</h3><ul class="recs"><li><span class="pill bad">High</span> Investigate the equal opportunity gap for &#x27;Female, 45plus&#x27; (gender x age_band): measured 0.667; required: true-positive-rate ratio of at least 0.80.</li><li><span class="pill warn">Medium</span> Retrain with recent data: &#x27;income&#x27; has drifted (PSI 0.6844, significant).</li><li><span class="pill ok">Low</span> Schedule a fairness and drift re-check every quarter.</li></ul>
+
+<h2>2. Scope: data and model</h2>
+<table class="scope"><tbody><tr><th>Model</th><td>Loan Approval v2 (synthetic)</td></tr><tr><th>Intended use</th><td>Lending</td></tr><tr><th>Records audited</th><td>4,000</td></tr><tr><th>Columns</th><td>7</td></tr><tr><th>Model decision column</th><td>predicted_approval</td></tr><tr><th>Actual outcome column</th><td>loan_repaid</td></tr><tr><th>Sensitive attributes</th><td>gender, age_band</td></tr><tr><th>Overall selection rate</th><td>74%</td></tr><tr><th>Overall accuracy</th><td>80%</td></tr><tr><th>Positive outcome base rate</th><td>84%</td></tr></tbody></table>
+
+<h2>3. Method and metric selection</h2>
+<p>Records are grouped by each sensitive attribute and by every combination of two or more
+attributes (intersectional groups). Each group is compared with a reference group: the
+best-off group with at least 100 records. The primary metric, <strong>Equal opportunity</strong>,
+decides pass or fail; the other metrics are reported for context.</p>
+<table><thead><tr><th>Metric</th><th>Question answered</th><th>Pass threshold</th></tr></thead><tbody>
+<tr><td>Demographic parity</td><td>Are groups selected at similar rates?</td><td>Selection-rate ratio of at least 0.80</td></tr>
+<tr><td>Equal opportunity</td><td>Are truly qualified people approved at similar rates?</td><td>TPR ratio of at least 0.80</td></tr>
+<tr><td>Equalized odds</td><td>Are misses and false alarms similar across groups?</td><td>TPR and FPR gaps of at most 0.10</td></tr>
+<tr><td>Predictive parity</td><td>Does a positive decision mean the same for every group?</td><td>Precision ratio of at least 0.80</td></tr>
+</tbody></table>
+<p class="muted">Groups below 100 records are marked low confidence; if they fail they are marked
+"Review" rather than "Fail". Selection rates include 95% Wilson confidence intervals. The
+fairness score blends average and worst-group compliance with the primary metric, minus a
+penalty per failing group, and is capped below 70 whenever any group fails.</p>
+
+<h2>4. Fairness results: single attributes</h2><h3>gender</h3><table><thead><tr><th>Group</th><th>Size</th><th>Selection rate (95% CI)</th><th>Selection ratio</th><th>TPR</th><th>FPR</th><th>TPR ratio</th><th>Odds gap</th><th>Precision ratio</th><th>Equal opportunity</th><th>Status</th></tr></thead><tbody><tr><td>Male <span class="muted">(reference)</span></td><td>2,215</td><td>81% <span class='muted'>(80%-83%)</span></td><td>1.00</td><td>89%</td><td>45%</td><td>1.00</td><td>0.00</td><td>0.96</td><td><strong>1.00</strong></td><td><span class="pill ok">Pass</span></td></tr><tr><td>Female</td><td>1,785</td><td>66% <span class='muted'>(64%-68%)</span></td><td>0.81</td><td>75%</td><td>21%</td><td>0.84</td><td>0.23</td><td>1.00</td><td><strong>0.84</strong></td><td><span class="pill ok">Pass</span></td></tr></tbody></table><h3>age_band</h3><table><thead><tr><th>Group</th><th>Size</th><th>Selection rate (95% CI)</th><th>Selection ratio</th><th>TPR</th><th>FPR</th><th>TPR ratio</th><th>Odds gap</th><th>Precision ratio</th><th>Equal opportunity</th><th>Status</th></tr></thead><tbody><tr><td>25-44 <span class="muted">(reference)</span></td><td>2,027</td><td>79% <span class='muted'>(77%-81%)</span></td><td>1.00</td><td>87%</td><td>40%</td><td>1.00</td><td>0.00</td><td>0.97</td><td><strong>1.00</strong></td><td><span class="pill ok">Pass</span></td></tr><tr><td>under25</td><td>817</td><td>78% <span class='muted'>(75%-81%)</span></td><td>0.99</td><td>86%</td><td>37%</td><td>0.99</td><td>0.04</td><td>0.98</td><td><strong>0.99</strong></td><td><span class="pill ok">Pass</span></td></tr><tr><td>45plus</td><td>1,156</td><td>64% <span class='muted'>(61%-66%)</span></td><td>0.81</td><td>72%</td><td>21%</td><td>0.83</td><td>0.19</td><td>1.00</td><td><strong>0.83</strong></td><td><span class="pill ok">Pass</span></td></tr></tbody></table>
+<h2>5. Fairness results: intersectional groups</h2><h3>gender x age_band</h3><table><thead><tr><th>Group</th><th>Size</th><th>Selection rate (95% CI)</th><th>Selection ratio</th><th>TPR</th><th>FPR</th><th>TPR ratio</th><th>Odds gap</th><th>Precision ratio</th><th>Equal opportunity</th><th>Status</th></tr></thead><tbody><tr><td>Male, 25-44 <span class="muted">(reference)</span></td><td>1,116</td><td>86% <span class='muted'>(83%-88%)</span></td><td>1.00</td><td>92%</td><td>52%</td><td>1.00</td><td>0.00</td><td>0.93</td><td><strong>1.00</strong></td><td><span class="pill ok">Pass</span></td></tr><tr><td>Male, under25</td><td>455</td><td>84% <span class='muted'>(80%-87%)</span></td><td>0.98</td><td>90%</td><td>47%</td><td>0.98</td><td>0.04</td><td>0.94</td><td><strong>0.98</strong></td><td><span class="pill ok">Pass</span></td></tr><tr><td>Male, 45plus</td><td>644</td><td>73% <span class='muted'>(69%-76%)</span></td><td>0.85</td><td>81%</td><td>30%</td><td>0.88</td><td>0.21</td><td>0.96</td><td><strong>0.88</strong></td><td><span class="pill ok">Pass</span></td></tr><tr><td>Female, under25</td><td>362</td><td>71% <span class='muted'>(66%-76%)</span></td><td>0.83</td><td>80%</td><td>23%</td><td>0.87</td><td>0.28</td><td>0.98</td><td><strong>0.87</strong></td><td><span class="pill ok">Pass</span></td></tr><tr><td>Female, 25-44</td><td>911</td><td>71% <span class='muted'>(68%-74%)</span></td><td>0.83</td><td>80%</td><td>27%</td><td>0.87</td><td>0.25</td><td>0.97</td><td><strong>0.87</strong></td><td><span class="pill ok">Pass</span></td></tr><tr><td>Female, 45plus</td><td>512</td><td>53% <span class='muted'>(48%-57%)</span></td><td>0.61</td><td>61%</td><td>10%</td><td>0.67</td><td>0.41</td><td>1.00</td><td><strong>0.67</strong></td><td><span class="pill bad">Fail</span></td></tr></tbody></table>
+<h2>6. Drift analysis</h2><p>Population Stability Index (PSI): below 0.10 stable, 0.10 to 0.25 moderate, above 0.25 significant. The Kolmogorov-Smirnov p-value is given for numeric features (below 0.05 indicates a significant shift).</p><table><thead><tr><th>Feature</th><th>PSI</th><th>KS p-value</th><th>Band</th></tr></thead><tbody><tr><td>income</td><td>0.684</td><td>0.0</td><td><span class="pill bad">Significant</span></td></tr><tr><td>loan_amount</td><td>0.086</td><td>0.0</td><td><span class="pill ok">Stable</span></td></tr><tr><td>employment_years</td><td>0.000</td><td>1.0</td><td><span class="pill ok">Stable</span></td></tr></tbody></table>
+<h2>7. Explainability</h2><p>Explanations are produced by a transparent surrogate model that reproduces the audited model's decisions on <strong>85%</strong> of records. Sensitive attributes are excluded from explanations and counterfactuals.</p><h3>Overall drivers of the model's decisions</h3><table><thead><tr><th>Feature</th><th>Share of influence</th></tr></thead><tbody><tr><td>income</td><td>42%</td></tr><tr><td>employment years</td><td>37%</td></tr><tr><td>loan amount</td><td>21%</td></tr></tbody></table><h3>Example decisions</h3><div class='case'><p><strong>Record #0</strong> <span class="pill bad">Rejected</span></p><p>The model rejected this record, mainly because of income (26,091) and employment years (3), compared with a typical record.</p><p class='muted'>Main factors: income = 26,091 (hurt), employment years = 3 (hurt), loan amount = 17,262 (hurt)</p><p><strong>What would change the outcome</strong></p><ul><li>If income were increased from 26,091 to 46,432, the decision would likely be approved.</li><li>If employment years were increased from 3 to 15, the decision would likely be approved.</li></ul></div><div class='case'><p><strong>Record #1</strong> <span class="pill ok">Approved</span></p><p>The model approved this record, mainly because of loan amount (6,851) and income (50,880), compared with a typical record. Employment years (6) counted against it, but not enough to change the outcome.</p><p class='muted'>Main factors: loan amount = 6,851 (helped), employment years = 6 (hurt), income = 50,880 (helped)</p><p><strong>What would change the outcome</strong></p><ul><li>If income were reduced from 50,880 to 27,149, the decision would likely be rejected.</li><li>If loan amount were increased from 6,851 to 27,144, the decision would likely be rejected.</li></ul></div><h3>Possible proxy features</h3><p>No feature is strongly associated (Cramer's V of 0.5 or more) with a sensitive attribute.</p>
+<h2>8. Limitations</h2><ul class="plain"><li>Fairness metrics can conflict mathematically when groups have different base rates; passing the primary metric does not imply passing every metric.</li><li>Results describe the supplied data only. If outcomes were recorded under a biased historical process, outcome-based metrics inherit that bias.</li><li>Groups with fewer than 100 records are reported with low confidence and are not counted as firm failures.</li><li>Per-decision explanations come from a transparent surrogate model that approximates the audited model; its agreement rate is stated in section 6.</li><li>Counterfactuals change one feature at a time within the observed range and indicate sensitivity; they are not guaranteed routes to a different outcome.</li><li>Proxy detection measures statistical association only and does not show that the model relies on the feature.</li><li>This report supports, but does not replace, legal and domain review.</li></ul>
+<h2>9. Recommendations</h2><ul class="recs"><li><span class="pill bad">High</span> Investigate the equal opportunity gap for &#x27;Female, 45plus&#x27; (gender x age_band): measured 0.667; required: true-positive-rate ratio of at least 0.80.</li><li><span class="pill warn">Medium</span> Retrain with recent data: &#x27;income&#x27; has drifted (PSI 0.6844, significant).</li><li><span class="pill ok">Low</span> Schedule a fairness and drift re-check every quarter.</li></ul>
+
+<h2>10. Audit trail and sign-off</h2>
+<table class="scope"><tbody>
+<tr><th>Report generated</th><td>2026-10-07 12:14 UTC</td></tr>
+<tr><th>Tool</th><td>FairLens 1.2 (Python 3.11.15)</td></tr>
+<tr><th>Groups tested</th><td>11 (0 with fewer than 100 records)</td></tr>
+</tbody></table>
+<table class="sign"><thead><tr><th>Role</th><th>Name</th><th>Signature</th><th>Date</th></tr></thead><tbody>
+<tr><td>Model owner</td><td></td><td></td><td></td></tr>
+<tr><td>Independent reviewer</td><td></td><td></td><td></td></tr>
+<tr><td>Compliance / risk</td><td></td><td></td><td></td></tr>
+</tbody></table>
+</body></html>

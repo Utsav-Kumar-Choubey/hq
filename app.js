@@ -389,28 +389,42 @@ async function explainRecord(index) {
 
 /* -- report ---------------------------------------------------------------- */
 function renderReport(result) {
-  const list = $("#report .reco");
-  if (list) {
-    list.innerHTML = result.recommendations
-      .map((r) => `<li>${badge(r.priority)} <span>${esc(r.text)}</span></li>`).join("");
+  const report = result.report || {};
+  $("#report .reco").innerHTML = result.recommendations
+    .map((r) => `<li>${badge(r.priority)} <span>${esc(r.text)}</span></li>`).join("");
+  $("#report-title").textContent = report.title || `Model Fairness Audit: ${result.model_name}`;
+  $("#report-generated").textContent = `Generated ${report.generated || ""} by ${report.tool_version || "FairLens"}.`;
+  if (report.sections) $("#report-toc").innerHTML = report.sections.map((x) => `<li>${esc(x)}</li>`).join("");
+  if (report.key_findings) {
+    $("#report-findings").innerHTML = report.key_findings.map((x) => `<li>${esc(x)}</li>`).join("");
   }
-  const title = $("#report .paper h3");
-  if (title) title.textContent = `Model Fairness Audit: ${result.model_name}`;
 }
 
-async function onDownloadReport(event) {
+async function onReportAction(event) {
   event.preventDefault();
-  const res = await fetch(`${API}/report`, { method: "POST" });
-  if (!res.ok) {
+  const kind = event.currentTarget.dataset.report;
+  if (!state.result) {
     alert("No report is available yet. Run an audit first.");
     return;
   }
-  const url = URL.createObjectURL(await res.blob());
+  if (kind === "pdf") {
+    window.open(`${API}/report/view?print_dialog=true`, "_blank", "noopener");
+    return;
+  }
+  const url = kind === "json" ? `${API}/report.json` : `${API}/report/download`;
+  const res = await fetch(url);
+  if (!res.ok) {
+    alert(await apiError(res));
+    return;
+  }
+  const href = URL.createObjectURL(await res.blob());
   const a = document.createElement("a");
-  a.href = url;
-  a.download = "fairlens_report.html";
+  a.href = href;
+  a.download = kind === "json" ? "fairlens_audit.json" : "fairlens_report.html";
+  document.body.appendChild(a);
   a.click();
-  URL.revokeObjectURL(url);
+  a.remove();
+  URL.revokeObjectURL(href);
 }
 
 /* ===========================================================================
@@ -482,5 +496,5 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.key === "Enter") { e.preventDefault(); explainRecord(e.target.value); }
   });
 
-  $$("#report .btn").forEach((b) => b.addEventListener("click", onDownloadReport));
+  $$("#report [data-report]").forEach((b) => b.addEventListener("click", onReportAction));
 });

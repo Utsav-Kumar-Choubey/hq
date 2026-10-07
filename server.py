@@ -12,6 +12,8 @@ Endpoints:
   GET  /advisor/{case}  -> recommended fairness metric for a use case
   GET  /metrics         -> metric definitions and selection guide
   POST /report          -> the latest compliance report as an HTML file
+  GET  /report/view     -> the report in the browser (print to PDF)
+  GET  /report.json     -> full audit results as JSON evidence
 
 Run:  python3 -m uvicorn server:app --host 127.0.0.1 --port 8000
 """
@@ -36,7 +38,7 @@ app = FastAPI(title="FairLens Bias Audit API", version="1.1.0")
 
 # Latest generated report. Adequate for a single-user local tool; a multi-user
 # deployment would key reports by session.
-_LAST_REPORT_HTML = {"html": None}
+_LAST_REPORT_HTML = {"html": None, "json": None}
 _LAST_EXPLAINER = {"explainer": None}
 
 
@@ -196,6 +198,7 @@ async def audit(
 
     _LAST_EXPLAINER["explainer"] = explainer
     _LAST_REPORT_HTML["html"] = result["report"].pop("html", None)
+    _LAST_REPORT_HTML["json"] = result
     return JSONResponse(result)
 
 
@@ -223,13 +226,38 @@ def metrics():
     return JSONResponse(metric_catalogue())
 
 
-@app.post("/report")
-def report():
-    """Return the latest report as a downloadable HTML file."""
+def _require_report() -> str:
     if not _LAST_REPORT_HTML["html"]:
         raise HTTPException(404, "No report yet. Run an audit first.")
+    return _LAST_REPORT_HTML["html"]
+
+
+@app.post("/report")
+@app.get("/report/download")
+def report():
+    """The latest report as a downloadable HTML file."""
     return Response(
-        content=_LAST_REPORT_HTML["html"],
-        media_type="text/html",
-        headers={"Content-Disposition": "attachment; filename=fairlens_report.html"},
-    )
+        content=_require_report(), media_type="text/html",
+        headers={"Content-Disposition": "attachment; filename=fairlens_report.html"})
+
+
+@app.get("/report/view", response_class=HTMLResponse)
+def report_view(print_dialog: bool = False):
+    """The latest report shown in the browser; print_dialog=true opens the
+    print dialog so it can be saved as a PDF."""
+    page = _require_report()
+    if print_dialog:
+        page = page.replace("</body>", "<script>window.addEventListener('load', "
+                                       "() => setTimeout(() => window.print(), 300));"
+                                       "</script></body>")
+    return HTMLResponse(page)
+
+
+@app.get("/report.json")
+def report_json():
+    """Full audit results as JSON evidence (for audit files or regulators)."""
+    _require_report()
+    return Response(
+        content=json.dumps(_LAST_REPORT_HTML["json"], indent=2, default=str),
+        media_type="application/json",
+        headers={"Content-Disposition": "attachment; filename=fairlens_audit.json"})
