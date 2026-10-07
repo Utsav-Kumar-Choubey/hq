@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import io
 import json
+from typing import Optional
 
 import pandas as pd
 from fastapi import FastAPI, File, Form, UploadFile, HTTPException
@@ -68,7 +69,7 @@ async def audit(
     outcome_col: str = Form(""),
     intersectional: bool = Form(True),
     model_name: str = Form("Uploaded model"),
-    reference: UploadFile | None = File(None),
+    reference: Optional[UploadFile] = File(None),
 ):
     """Run the full bias/drift/explainability audit and return JSON."""
     df = _read_upload(dataset)
