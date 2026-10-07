@@ -13,6 +13,7 @@ from . import fairness as fairness_mod
 from . import drift as drift_mod
 from . import explain as explain_mod
 from . import report as report_mod
+from .data_loader import feature_columns
 
 
 # Guidance table: which fairness metric fits which situation.
@@ -61,16 +62,14 @@ def run_full_audit(df: pd.DataFrame, sensitive: list[str], pred_col: str,
 
     # 2. Drift (only if a reference dataset was supplied)
     if reference is not None:
-        feats = [c for c in df.columns
-                 if c not in sensitive + [pred_col, outcome_col]]
+        feats = feature_columns(df, sensitive + [pred_col, outcome_col])
         drift = drift_mod.audit_drift(reference, df, feats)
     else:
         drift = {"features": [], "overall_band": "not_tested",
                  "worst_psi": 0.0, "n_drifted": 0}
 
     # 3. Explanations for a couple of sample individuals
-    feature_cols = [c for c in df.columns
-                    if c not in sensitive + [pred_col, outcome_col]]
+    feature_cols = feature_columns(df, sensitive + [pred_col, outcome_col])
     explanations = []
     if feature_cols:
         try:

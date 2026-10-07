@@ -20,10 +20,12 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 
+from .data_loader import to_binary, clean_features
+
 
 def _prep_features(df: pd.DataFrame, feature_cols: list[str]):
     """One-hot encode categoricals and standardize; return X, names, scaler."""
-    X = pd.get_dummies(df[feature_cols], drop_first=True)
+    X = pd.get_dummies(clean_features(df[feature_cols]), drop_first=True)
     names = list(X.columns)
     scaler = StandardScaler()
     Xs = scaler.fit_transform(X.astype(float))
@@ -32,10 +34,7 @@ def _prep_features(df: pd.DataFrame, feature_cols: list[str]):
 
 def build_explainer(df: pd.DataFrame, feature_cols: list[str], pred_col: str):
     """Fit the surrogate model once; reuse it to explain many individuals."""
-    y = df[pred_col]
-    if not pd.api.types.is_numeric_dtype(y):
-        y = (y.astype(str).str.lower()
-             .isin({"yes", "1", "true", "approved", "hired"}).astype(int))
+    y = to_binary(df[pred_col])
     Xs, names, X_raw = _prep_features(df, feature_cols)
     model = LogisticRegression(max_iter=1000)
     model.fit(Xs, y)

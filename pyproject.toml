@@ -12,6 +12,7 @@ dependencies = [
     "numpy>=1.23",
     "scikit-learn>=1.1",
     "scipy>=1.9",
-    "fairlearn>=0.9",
+    "joblib>=1.2",
     "httpx>=0.24",
+    "pytest>=7.0",
 ]
