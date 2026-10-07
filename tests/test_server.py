@@ -96,3 +96,19 @@ def test_audit_honours_metric_field(loans):
     r = _audit(loans, metric="predictive_parity")
     assert r.status_code == 200
     assert r.json()["fairness"]["metric"]["id"] == "predictive_parity"
+
+
+def test_explain_endpoint_after_audit(loans):
+    assert _audit(loans).status_code == 200
+    r = client.get("/explain/5")
+    assert r.status_code == 200
+    body = r.json()
+    assert body["index"] == 5 and body["plain_language"]
+    assert client.get(f"/explain/{len(loans) + 10}").status_code == 404
+
+
+def test_audit_returns_explainability_summary(loans):
+    body = _audit(loans).json()
+    info = body["explainability"]
+    assert info["available"] and info["global_importance"]
+    assert "applicant_id" not in info["features"]

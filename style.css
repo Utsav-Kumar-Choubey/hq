@@ -297,3 +297,14 @@ select:hover, .file-input:hover { border-color: var(--navy-2); }
 .drift-list li.muted { display: block; }
 #groups-body td:first-child { min-width: 170px; }
 #groups-body .badge { white-space: normal; }
+
+/* ===== Explanation picker ===== */
+.explain-picker { margin-bottom: 1.25rem; padding: 1rem 1.5rem; }
+.picker-row { display: flex; flex-wrap: wrap; align-items: center; gap: .7rem; }
+.picker-input { width: 120px; }
+.sample-records { display: flex; flex-wrap: wrap; gap: .4rem; }
+.sample-records button { font: inherit; font-size: .85rem; padding: .3rem .8rem; border-radius: 999px; border: 1px solid var(--border); background: #fff; cursor: pointer; }
+.sample-records button:hover { border-color: var(--teal); }
+#explain-status { margin: .5rem 0 0; }
+#explain-status.is-error { color: var(--bad); font-weight: 600; }
+.factor-value { display: block; color: var(--muted); font-size: .78rem; }

@@ -320,13 +320,24 @@
     <section id="explain" class="section">
       <div class="container">
         <h2 class="section-title">Explain a single decision</h2>
-        <p class="section-sub">Pick an applicant and see why the model decided what it did.</p>
+        <p class="section-sub">Pick any record and see, in plain language, why the model decided what it did and what would change the outcome.</p>
+
+        <div class="card explain-picker">
+          <div class="picker-row">
+            <label for="record-index"><strong>Record number</strong></label>
+            <input type="number" id="record-index" min="0" value="0" class="file-input picker-input" disabled>
+            <button type="button" id="explain-btn" class="btn btn-primary btn-sm" disabled>Explain</button>
+            <span class="muted">or try</span>
+            <span id="sample-records" class="sample-records"><span class="muted">a sample record after running an audit</span></span>
+          </div>
+          <p id="explain-status" class="hint" role="status" aria-live="polite"></p>
+        </div>
 
         <div class="grid grid-2">
           <article class="card decision">
             <div class="decision-head">
               <div>
-                <p class="muted">Applicant #4821</p>
+                <p class="muted">Applicant #4821 (sample)</p>
                 <h3>Loan rejected</h3>
               </div>
               <span class="badge badge-bad">Rejected</span>
@@ -339,16 +350,30 @@
               <li><span>Employment years</span><div class="factor-track"><div class="factor factor-neg" style="width:35%"></div></div><span class="factor-note">Hurt</span></li>
               <li><span>Credit history</span><div class="factor-track"><div class="factor factor-pos" style="width:45%"></div></div><span class="factor-note">Helped</span></li>
             </ul>
+            <p class="muted" id="explain-caveat"></p>
           </article>
 
           <article class="card counterfactual">
             <p class="eyebrow">What would change the decision</p>
-            <h3>Two small changes flip this to approved</h3>
-            <ul class="check-list">
+            <h3 id="cf-title">Two small changes flip this to approved</h3>
+            <ul class="check-list" id="cf-list">
               <li>Reduce the loan amount from <strong>$18,000</strong> to <strong>$14,500</strong></li>
               <li>Or raise verified income from <strong>$32,000</strong> to <strong>$38,000</strong></li>
             </ul>
-            <p class="muted">Explanations show how the model behaved. They do not prove the decision was fair, so check the group results above too.</p>
+            <p class="muted">Explanations show how the model behaved. They do not prove the decision was fair, so check the group results above too. Sensitive attributes are never suggested as changes.</p>
+          </article>
+        </div>
+
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>What drives the model overall</h3>
+            <p class="muted" id="fidelity-note">Share of influence across all records. Run an audit to see your model.</p>
+            <ul class="factors" id="global-importance"></ul>
+          </article>
+          <article class="card">
+            <h3>Possible proxy features</h3>
+            <p class="muted">Features strongly associated with a sensitive attribute can carry bias even when that attribute is excluded from the model.</p>
+            <ul class="check-list" id="proxy-list"><li class="muted">Run an audit to check for proxies.</li></ul>
           </article>
         </div>
       </div>

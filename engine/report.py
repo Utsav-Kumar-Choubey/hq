@@ -11,7 +11,8 @@ from __future__ import annotations
 from datetime import date
 
 
-def build_recommendations(fairness: dict, drift: dict) -> list[dict]:
+def build_recommendations(fairness: dict, drift: dict,
+                          explainability: dict = None) -> list[dict]:
     """Produce prioritised, human recommendations from the numbers."""
     recs = []
     s = fairness["summary"]
@@ -47,6 +48,22 @@ def build_recommendations(fairness: dict, drift: dict) -> list[dict]:
                      f"(PSI {top['psi']}, {top['band']})."),
         })
 
+    ex = explainability or {}
+    for proxy in ex.get("proxies", [])[:2]:
+        recs.append({
+            "priority": "medium",
+            "text": (f"'{proxy['feature']}' is strongly associated with "
+                     f"'{proxy['sensitive']}' (Cramer's V {proxy['strength']}). It may act "
+                     "as a proxy; review whether the model should use it."),
+        })
+    if ex.get("available") and ex.get("fidelity", 1) < 0.85:
+        recs.append({
+            "priority": "medium",
+            "text": (f"The explanation surrogate matches the model on only "
+                     f"{ex['fidelity']:.0%} of records; treat per-decision explanations "
+                     "as indicative and consider a model-specific explainer."),
+        })
+
     if s["small_sample_groups"] > 0 and not review:
         recs.append({
             "priority": "low",
@@ -60,7 +77,8 @@ def build_recommendations(fairness: dict, drift: dict) -> list[dict]:
 
 
 def build_report(model_name: str, dataset_info: dict, fairness: dict,
-                 drift: dict, recommendations: list[dict]) -> dict:
+                 drift: dict, recommendations: list[dict],
+                 explainability: dict = None, explanations: list = None) -> dict:
     """Return a structured report (JSON) plus a rendered HTML string."""
     s = fairness["summary"]
     report = {
