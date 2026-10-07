@@ -1,27 +1,17 @@
 [project]
-name = "hq"
+name = "fairlens"
 version = "0.1.0"
-description = "Add your description here"
+description = "FairLens - Bias Auditing & Explainability Toolkit (Problem 17)"
 readme = "README.md"
-authors = [
-    { name = "Kiro Agent", email = "244629292+kiro-agent@users.noreply.github.com" }
-]
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
-    "fairlearn>=0.14.0",
-    "fastapi>=0.142.2",
-    "httpx>=0.28.1",
-    "numpy>=2.4.6",
-    "pandas>=3.0.6",
-    "python-multipart>=0.0.32",
-    "scikit-learn>=1.9.1",
-    "scipy>=1.17.1",
-    "uvicorn[standard]>=0.54.0",
+    "fastapi>=0.100",
+    "uvicorn[standard]>=0.23",
+    "python-multipart>=0.0.6",
+    "pandas>=1.5",
+    "numpy>=1.23",
+    "scikit-learn>=1.1",
+    "scipy>=1.9",
+    "fairlearn>=0.9",
+    "httpx>=0.24",
 ]
-
-[project.scripts]
-hq = "hq:main"
-
-[build-system]
-requires = ["uv_build>=0.12.18,<0.13.0"]
-build-backend = "uv_build"
