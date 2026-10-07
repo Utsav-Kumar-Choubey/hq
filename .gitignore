@@ -4,3 +4,4 @@ __pycache__/
 server.log
 .python-version
 .pytest_cache/
+demo/models/

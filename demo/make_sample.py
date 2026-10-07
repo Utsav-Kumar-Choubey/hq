@@ -56,3 +56,18 @@ with open("demo/sample_hiring.csv", "w", newline="") as f:
     writer.writerows(rows)
 
 print(f"Wrote demo/sample_hiring.csv with {len(rows)} rows.")
+
+
+# ---------------------------------------------------------------------------
+# Drift demo: a "training-time" reference for sample_loan_predictions.csv.
+# Applicant incomes were about 25% lower and loans about 10% smaller when the
+# model was trained, so the drift check should flag both features.
+# ---------------------------------------------------------------------------
+import pandas as pd  # noqa: E402
+
+loans = pd.read_csv("demo/sample_loan_predictions.csv")
+reference = loans.drop(columns=["predicted_approval"]).copy()
+reference["income"] = (reference["income"] * 0.75).round(0)
+reference["loan_amount"] = (reference["loan_amount"] * 0.9).round(0)
+reference.to_csv("demo/sample_loan_reference.csv", index=False)
+print(f"Wrote demo/sample_loan_reference.csv with {len(reference)} rows.")

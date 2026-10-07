@@ -12,7 +12,8 @@
 "use strict";
 
 const API = "";
-const state = { dataset: null, reference: null, result: null, grouping: null };
+const state = { dataset: null, model: null, reference: null, result: null, grouping: null };
+const MODEL_RE = /\.(csv|pkl|pickle|joblib|onnx)$/i;
 
 /* -- helpers --------------------------------------------------------------- */
 const $ = (sel) => document.querySelector(sel);
@@ -77,20 +78,40 @@ async function onDatasetChosen(event) {
   }
   state.dataset = file;
   setDropzoneLabel("dataset", file.name);
-  setStatus("Reading columns...");
+  await refreshColumns();
+}
 
+async function onModelChosen(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  if (!MODEL_RE.test(file.name)) {
+    setStatus("The model must be a .pkl, .joblib or .onnx file, or a predictions .csv.", "error");
+    event.target.value = "";
+    return;
+  }
+  state.model = file;
+  setDropzoneLabel("predictions", file.name);
+  if (state.dataset) await refreshColumns();
+  else setStatus("Model received. Now upload the dataset it should be applied to.");
+}
+
+async function refreshColumns() {
+  const file = state.dataset;
+  setStatus(state.model ? "Reading columns and applying the model..." : "Reading columns...");
   const fd = new FormData();
   fd.append("dataset", file);
+  if (state.model) fd.append("model", state.model);
   try {
     const res = await fetch(`${API}/upload`, { method: "POST", body: fd });
     if (!res.ok) throw new Error(await apiError(res));
     const info = await res.json();
     fillColumnControls(info);
-    setStatus(`Loaded ${info.rows.toLocaleString()} rows and ${info.columns.length} columns. `
+    const applied = info.model_applied
+      ? " The model was applied and its decisions are in the 'model_prediction' column." : "";
+    setStatus(`Loaded ${info.rows.toLocaleString()} rows and ${info.columns.length} columns.${applied} `
       + "Check the selections below, then run the audit.", "ok");
   } catch (err) {
-    state.dataset = null;
-    setStatus(`Could not read that CSV: ${err.message}`, "error");
+    setStatus(`Could not read the files: ${err.message}`, "error");
   }
 }
 
@@ -142,6 +163,7 @@ async function onRunAudit(event) {
   fd.append("use_case", $("#use-case")?.value || "");
   fd.append("metric", $("#metric")?.value || "");
   if (state.reference) fd.append("reference", state.reference);
+  if (state.model) fd.append("model", state.model);
 
   const btn = $("#run-audit");
   const label = btn.textContent;
@@ -436,15 +458,16 @@ function updateMetricHint() {
    wiring
    =========================================================================== */
 document.addEventListener("DOMContentLoaded", () => {
+  $$("label.dropzone").forEach((l) => { l.dataset.original = l.innerHTML; });
   $("#dataset")?.addEventListener("change", onDatasetChosen);
-  $("#predictions")?.addEventListener("change", (e) => {
-    if (e.target.files[0]) setDropzoneLabel("predictions", e.target.files[0].name);
-  });
+  $("#predictions")?.addEventListener("change", onModelChosen);
   $("#reference")?.addEventListener("change", (e) => { state.reference = e.target.files[0] || null; });
   $("#audit-form")?.addEventListener("submit", onRunAudit);
   $("#audit-form")?.addEventListener("reset", () => {
     state.dataset = null;
+    state.model = null;
     state.reference = null;
+    $$("label.dropzone").forEach((l) => { if (l.dataset.original) l.innerHTML = l.dataset.original; });
     setStatus("");
   });
   $("#metric")?.addEventListener("change", updateMetricHint);

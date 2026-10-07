@@ -27,7 +27,7 @@ import pandas as pd
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, Response
 
-from engine import data_loader
+from engine import data_loader, model_loader
 from engine.audit import advise_metric, metric_catalogue, run_full_audit
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -43,7 +43,8 @@ _LAST_EXPLAINER = {"explainer": None}
 # --------------------------------------------------------------------------
 # helpers
 # --------------------------------------------------------------------------
-def _read_csv_upload(file: UploadFile, label: str = "dataset") -> pd.DataFrame:
+def _read_csv_upload(file: UploadFile, label: str = "dataset",
+                     min_columns: int = 2) -> pd.DataFrame:
     name = file.filename or label
     if not name.lower().endswith(".csv"):
         raise HTTPException(400, f"The {label} must be a .csv file (received '{name}').")
@@ -51,9 +52,34 @@ def _read_csv_upload(file: UploadFile, label: str = "dataset") -> pd.DataFrame:
     if len(raw) > data_loader.MAX_UPLOAD_BYTES:
         raise HTTPException(413, f"The {label} exceeds the 50 MB limit.")
     try:
-        return data_loader.load_csv(io.BytesIO(raw))
+        return data_loader.load_csv(io.BytesIO(raw), min_columns)
     except ValueError as exc:
         raise HTTPException(400, f"Could not read '{name}': {exc}")
+
+
+def _attach_model_or_predictions(df: pd.DataFrame, upload: Optional[UploadFile],
+                                 exclude: List[Optional[str]]) -> pd.DataFrame:
+    """Apply an uploaded model, or join an uploaded predictions CSV, to df."""
+    if upload is None or not upload.filename:
+        return df
+    name = upload.filename
+    if name.lower().endswith(".csv"):
+        preds = _read_csv_upload(upload, "predictions file", min_columns=1)
+        try:
+            return model_loader.merge_predictions(df, preds)
+        except model_loader.ModelError as exc:
+            raise HTTPException(400, str(exc))
+    if not model_loader.is_model_file(name):
+        raise HTTPException(400, "The model must be a .pkl, .joblib or .onnx file, "
+                                 f"or a predictions .csv (received '{name}').")
+    raw = upload.file.read()
+    if len(raw) > data_loader.MAX_UPLOAD_BYTES:
+        raise HTTPException(413, "The model file exceeds the 50 MB limit.")
+    try:
+        model = model_loader.load_model(raw, name)
+        return model_loader.apply_model(model, df, exclude)
+    except model_loader.ModelError as exc:
+        raise HTTPException(400, str(exc))
 
 
 def _parse_list(value: str) -> List[str]:
@@ -115,14 +141,23 @@ def health():
 # API
 # --------------------------------------------------------------------------
 @app.post("/upload")
-async def upload(dataset: UploadFile = File(...)):
-    """Read a CSV and return its columns plus suggested roles for the form."""
+async def upload(dataset: UploadFile = File(...),
+                 model: Optional[UploadFile] = File(None)):
+    """Read a CSV (plus an optional model or predictions file) and return the
+    columns and suggested roles for the form."""
     df = _read_csv_upload(dataset)
+    hints = data_loader.suggest_roles(df)
+    df = _attach_model_or_predictions(df, model, [hints["suggested_outcome"],
+                                                  hints["suggested_prediction"]])
+    suggestions = data_loader.suggest_roles(df)
+    if model_loader.PRED_COL in df.columns:
+        suggestions["suggested_prediction"] = model_loader.PRED_COL
     return JSONResponse({
         "filename": dataset.filename,
         "rows": int(len(df)),
         "columns": data_loader.describe_columns(df),
-        "suggestions": data_loader.suggest_roles(df),
+        "suggestions": suggestions,
+        "model_applied": model_loader.PRED_COL in df.columns,
     })
 
 
@@ -137,11 +172,15 @@ async def audit(
     use_case: str = Form(""),
     metric: str = Form(""),
     reference: Optional[UploadFile] = File(None),
+    model: Optional[UploadFile] = File(None),
 ):
     """Run the bias, drift and explainability audit and return JSON."""
     df = _read_csv_upload(dataset)
     sensitive_list = _parse_list(sensitive)
     outcome = outcome_col or None
+    df = _attach_model_or_predictions(df, model, [outcome, prediction_col])
+    if not prediction_col and model_loader.PRED_COL in df.columns:
+        prediction_col = model_loader.PRED_COL
     _validate_roles(df, sensitive_list, prediction_col, outcome)
 
     ref_df = None

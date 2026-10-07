@@ -245,14 +245,20 @@ def audit_fairness(df: pd.DataFrame, sensitive: List[str], pred_col: str,
     scored = [r for r in all_rows
               if r["compliance"] is not None and r["confidence"] == "high"]
     scored = scored or [r for r in all_rows if r["compliance"] is not None]
+    flagged = [r for r in all_rows if r["status"] == "fail"]
+    # Score: weighted towards the worst group (squared, so large gaps hurt
+    # more), minus a penalty per firm failure. Any firm failure caps the
+    # score below 70 so a failing audit never reads as healthy.
     if scored:
         mean_c = sum(r["compliance"] for r in scored) / len(scored)
         worst_c = min(r["compliance"] for r in scored)
-        score = int(round(100 * (0.5 * mean_c + 0.5 * worst_c)))
+        score = 100 * (0.4 * mean_c + 0.6 * worst_c ** 2) - 4 * len(flagged)
+        if flagged:
+            score = min(score, 69)
+        score = int(max(0, min(100, round(score))))
     else:
         score = 100
 
-    flagged = [r for r in all_rows if r["status"] == "fail"]
     review = [r for r in all_rows if r["status"] == "review"]
     worst = min(scored, key=lambda r: r["compliance"]) if scored else None
     dp_values = [r["dp_ratio"] for r in all_rows if r["dp_ratio"] is not None]
