@@ -35,9 +35,11 @@ POSITIVE_LABELS = {"yes", "y", "true", "1", "1.0", "approved", "approve",
 
 MAX_GROUPS_PER_ATTRIBUTE = 12   # above this a numeric attribute is binned
 MAX_UPLOAD_BYTES = 50 * 1024 * 1024
+# Columns written by model_loader; never use them as model features.
+MODEL_OUTPUT_COLUMNS = {"model_prediction", "model_score"}
 
 
-def load_csv(path_or_buffer) -> pd.DataFrame:
+def load_csv(path_or_buffer, min_columns: int = 2) -> pd.DataFrame:
     """Read a CSV into a DataFrame. Accepts a file path or a file-like object."""
     try:
         df = pd.read_csv(path_or_buffer)
@@ -48,8 +50,8 @@ def load_csv(path_or_buffer) -> pd.DataFrame:
     df.columns = [str(c).strip() for c in df.columns]
     if df.empty:
         raise ValueError("The uploaded CSV has a header but no rows.")
-    if len(df.columns) < 2:
-        raise ValueError("The CSV must contain at least two columns.")
+    if len(df.columns) < min_columns:
+        raise ValueError(f"The CSV must contain at least {min_columns} columns.")
     return df
 
 
@@ -164,7 +166,7 @@ def suggest_roles(df: pd.DataFrame) -> dict:
 def feature_columns(df: pd.DataFrame, exclude: List[Optional[str]]) -> List[str]:
     """Columns usable as model features (everything except excluded roles and
     obvious identifiers)."""
-    skip = {c for c in exclude if c}
+    skip = {c for c in exclude if c} | MODEL_OUTPUT_COLUMNS
     feats = []
     for c in df.columns:
         if c in skip:

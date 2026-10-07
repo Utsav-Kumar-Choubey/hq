@@ -50,12 +50,16 @@ def build_recommendations(fairness: dict, drift: dict,
 
     ex = explainability or {}
     for proxy in ex.get("proxies", [])[:2]:
-        recs.append({
-            "priority": "medium",
-            "text": (f"'{proxy['feature']}' is strongly associated with "
-                     f"'{proxy['sensitive']}' (Cramer's V {proxy['strength']}). It may act "
-                     "as a proxy; review whether the model should use it."),
-        })
+        if proxy["strength"] >= 0.9:
+            text = (f"'{proxy['feature']}' carries essentially the same information as "
+                    f"'{proxy['sensitive']}' (Cramer's V {proxy['strength']}). If the model "
+                    "uses it, the sensitive attribute is effectively a direct input; "
+                    "confirm this is lawful and justified for the use case.")
+        else:
+            text = (f"'{proxy['feature']}' is strongly associated with "
+                    f"'{proxy['sensitive']}' (Cramer's V {proxy['strength']}). It may act "
+                    "as a proxy; review whether the model should use it.")
+        recs.append({"priority": "medium", "text": text})
     if ex.get("available") and ex.get("fidelity", 1) < 0.85:
         recs.append({
             "priority": "medium",

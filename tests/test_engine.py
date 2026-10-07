@@ -127,3 +127,10 @@ def test_use_case_selects_metric(loans):
     result = run_full_audit(loans, ["gender"], "predicted_approval", "loan_repaid",
                             use_case="triage")
     assert result["fairness"]["metric"]["id"] == "equalized_odds"
+
+
+def test_failing_audit_never_scores_as_healthy(loans):
+    result = audit_fairness(loans, ["gender", "age_band"], "predicted_approval",
+                            "loan_repaid", intersectional=True)
+    assert result["summary"]["groups_flagged"] >= 1
+    assert result["summary"]["fairness_score"] < 70

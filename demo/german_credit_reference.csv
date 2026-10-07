@@ -1,0 +1,601 @@
+status,duration,credit_history,purpose,credit_amount,savings,employment,installment_rate,other_debtors,residence_since,property,age,other_installment,housing,existing_credits,job,num_dependents,telephone,foreign_worker,good_credit,sex,age_band
+200+ DM,18,paid duly,A43,2100,below 100 DM,1-4 years,4,A102,2,A121,37,A142,own,1,A173,1,A191,yes,0,male,25-44
+no account,15,paid duly,A40,3186,1000+ DM,4-7 years,2,A101,3,A123,20,A143,rent,1,A173,1,A191,yes,1,female,under25
+0-200 DM,30,critical account,A40,2181,unknown,7+ years,4,A101,4,A121,36,A143,own,2,A173,1,A191,yes,1,male,25-44
+no account,15,paid duly,A43,3568,below 100 DM,7+ years,4,A101,2,A123,54,A141,rent,1,A174,1,A192,yes,1,female,45plus
+no account,28,critical account,A43,2743,below 100 DM,7+ years,4,A101,2,A123,29,A143,own,2,A173,1,A191,yes,1,male,25-44
+no account,24,critical account,A42,2028,below 100 DM,4-7 years,2,A101,2,A122,30,A143,own,2,A172,1,A191,yes,1,male,25-44
+0-200 DM,30,past delays,A43,1919,100-500 DM,under 1 year,4,A101,3,A124,30,A142,own,2,A174,1,A191,yes,0,male,25-44
+no account,6,no credits,A40,1204,100-500 DM,1-4 years,4,A101,1,A124,35,A141,rent,1,A173,1,A191,no,1,male,25-44
+0-200 DM,48,all paid here,A40,12169,unknown,unemployed,4,A102,4,A124,36,A143,free,1,A174,1,A192,yes,1,male,25-44
+no account,21,paid duly,A41,5248,unknown,1-4 years,1,A101,3,A123,26,A143,own,1,A173,1,A191,yes,1,male,25-44
+no account,24,critical account,A40,2463,100-500 DM,4-7 years,4,A101,3,A122,27,A143,own,2,A173,1,A192,yes,1,male,25-44
+0-200 DM,36,paid duly,A41,9398,below 100 DM,under 1 year,1,A101,4,A123,28,A143,rent,1,A174,1,A192,yes,0,male,25-44
+below 0 DM,8,critical account,A410,1164,below 100 DM,7+ years,3,A101,4,A124,51,A141,free,2,A174,2,A192,yes,1,male,45plus
+below 0 DM,12,paid duly,A40,2579,below 100 DM,under 1 year,4,A101,1,A121,33,A143,own,1,A172,2,A191,yes,0,male,25-44
+no account,24,past delays,A49,2375,500-1000 DM,1-4 years,4,A101,2,A123,44,A143,own,2,A173,2,A192,yes,1,male,25-44
+0-200 DM,24,all paid here,A46,1837,below 100 DM,4-7 years,4,A101,4,A124,34,A141,free,1,A172,1,A191,yes,0,female,25-44
+no account,12,paid duly,A41,2445,unknown,under 1 year,2,A101,4,A123,26,A143,rent,1,A173,1,A192,yes,1,male,25-44
+below 0 DM,12,paid duly,A42,1620,below 100 DM,1-4 years,2,A102,3,A122,30,A143,own,1,A173,1,A191,yes,1,female,25-44
+200+ DM,18,paid duly,A42,3049,below 100 DM,under 1 year,1,A101,1,A122,45,A142,own,1,A172,1,A191,yes,1,female,25-44
+no account,12,critical account,A43,717,below 100 DM,7+ years,4,A101,4,A121,52,A143,own,3,A173,1,A191,yes,1,male,45plus
+no account,10,critical account,A42,2146,below 100 DM,under 1 year,1,A101,3,A121,23,A143,rent,2,A173,1,A191,yes,1,female,under25
+below 0 DM,24,all paid here,A40,2325,100-500 DM,4-7 years,2,A101,3,A123,32,A141,own,1,A173,1,A191,yes,1,male,25-44
+no account,15,critical account,A43,1360,below 100 DM,1-4 years,4,A101,2,A122,31,A143,own,2,A173,1,A191,yes,1,male,25-44
+below 0 DM,24,critical account,A41,6419,below 100 DM,7+ years,2,A101,4,A124,44,A143,free,2,A174,2,A192,yes,1,female,25-44
+200+ DM,4,paid duly,A40,1494,unknown,under 1 year,1,A101,2,A121,29,A143,own,1,A172,2,A191,no,1,male,25-44
+0-200 DM,18,paid duly,A41,2779,below 100 DM,1-4 years,1,A101,3,A123,21,A143,rent,1,A173,1,A192,yes,1,male,under25
+no account,12,paid duly,A43,2171,below 100 DM,under 1 year,2,A101,2,A123,29,A141,own,1,A173,1,A191,yes,1,female,25-44
+below 0 DM,24,paid duly,A41,2924,below 100 DM,1-4 years,3,A103,4,A124,63,A141,own,1,A173,2,A192,yes,1,male,45plus
+no account,10,paid duly,A40,1309,unknown,1-4 years,4,A103,4,A122,27,A143,own,1,A172,1,A191,yes,0,male,25-44
+no account,24,past delays,A49,8648,below 100 DM,under 1 year,2,A101,2,A123,27,A141,own,2,A173,1,A192,yes,0,male,25-44
+no account,12,critical account,A42,5801,unknown,7+ years,2,A101,4,A122,49,A143,rent,1,A173,1,A192,yes,1,male,45plus
+no account,4,critical account,A40,3380,below 100 DM,4-7 years,1,A101,1,A121,37,A143,own,1,A173,2,A191,yes,1,female,25-44
+below 0 DM,27,paid duly,A43,3416,below 100 DM,1-4 years,3,A101,2,A123,27,A143,own,1,A174,1,A191,yes,1,male,25-44
+0-200 DM,30,paid duly,A43,1715,unknown,1-4 years,4,A101,1,A123,26,A143,own,1,A173,1,A191,yes,1,female,25-44
+no account,24,critical account,A45,2058,below 100 DM,1-4 years,4,A101,2,A121,33,A143,own,2,A173,1,A192,yes,1,male,25-44
+no account,18,critical account,A43,1800,below 100 DM,1-4 years,4,A101,2,A123,24,A143,own,2,A173,1,A191,yes,1,male,under25
+0-200 DM,36,past delays,A40,2225,below 100 DM,7+ years,4,A101,4,A124,57,A141,free,2,A173,1,A192,yes,0,male,45plus
+below 0 DM,24,paid duly,A41,2812,unknown,7+ years,2,A101,4,A121,26,A143,rent,1,A173,1,A191,yes,1,female,25-44
+below 0 DM,18,paid duly,A41,7511,unknown,7+ years,1,A101,4,A122,51,A143,free,1,A173,2,A192,yes,0,male,45plus
+0-200 DM,9,paid duly,A43,1206,below 100 DM,7+ years,4,A101,4,A121,25,A143,own,1,A173,1,A191,yes,1,female,under25
+below 0 DM,6,paid duly,A42,428,below 100 DM,7+ years,2,A101,1,A122,49,A141,own,1,A173,1,A192,yes,1,female,45plus
+below 0 DM,12,paid duly,A43,727,100-500 DM,under 1 year,4,A101,3,A124,33,A143,own,1,A172,1,A192,yes,0,male,25-44
+below 0 DM,6,paid duly,A43,2647,500-1000 DM,1-4 years,2,A101,3,A121,44,A143,rent,1,A173,2,A191,yes,1,male,25-44
+no account,36,paid duly,A46,1819,below 100 DM,1-4 years,4,A101,4,A124,37,A142,free,1,A173,1,A192,yes,0,male,25-44
+0-200 DM,15,critical account,A49,2326,500-1000 DM,1-4 years,2,A101,4,A123,27,A141,own,1,A173,1,A191,yes,1,male,25-44
+0-200 DM,36,paid duly,A43,2323,below 100 DM,4-7 years,4,A101,4,A123,24,A143,rent,1,A173,1,A191,yes,1,male,under25
+0-200 DM,12,critical account,A40,958,below 100 DM,4-7 years,2,A101,3,A121,47,A143,own,2,A172,2,A191,yes,1,male,45plus
+0-200 DM,9,critical account,A43,1154,below 100 DM,7+ years,2,A101,4,A121,37,A143,own,3,A172,1,A191,yes,1,male,25-44
+below 0 DM,12,paid duly,A43,1107,below 100 DM,1-4 years,2,A101,2,A121,20,A143,rent,1,A174,2,A192,yes,1,male,under25
+no account,24,critical account,A43,2611,below 100 DM,7+ years,4,A102,3,A121,46,A143,own,2,A173,1,A191,yes,1,male,45plus
+no account,11,critical account,A43,1154,100-500 DM,unemployed,4,A101,4,A121,57,A143,own,3,A172,1,A191,yes,1,female,45plus
+no account,48,critical account,A43,3578,unknown,7+ years,4,A101,1,A121,47,A143,own,1,A173,1,A192,yes,1,male,45plus
+no account,24,paid duly,A41,6313,unknown,7+ years,3,A101,4,A123,41,A143,own,1,A174,2,A192,yes,1,male,25-44
+0-200 DM,24,past delays,A42,2064,below 100 DM,unemployed,3,A101,2,A122,34,A143,own,1,A174,1,A192,yes,0,female,25-44
+below 0 DM,36,past delays,A49,2145,below 100 DM,4-7 years,2,A101,1,A123,24,A143,own,2,A173,1,A192,yes,0,male,under25
+no account,12,critical account,A43,1934,below 100 DM,7+ years,2,A101,2,A124,26,A143,own,2,A173,1,A191,yes,1,male,25-44
+no account,24,critical account,A40,1287,1000+ DM,7+ years,4,A101,4,A121,37,A143,own,2,A173,1,A192,yes,1,female,25-44
+0-200 DM,24,past delays,A49,4712,unknown,1-4 years,4,A101,2,A122,37,A141,own,2,A174,1,A192,yes,1,male,25-44
+below 0 DM,21,paid duly,A43,1835,below 100 DM,1-4 years,3,A101,2,A121,25,A143,own,2,A173,1,A192,yes,0,female,under25
+0-200 DM,12,paid duly,A43,1092,below 100 DM,1-4 years,4,A103,4,A121,49,A143,own,2,A173,1,A192,yes,1,female,45plus
+no account,21,paid duly,A43,3160,unknown,7+ years,4,A101,3,A122,41,A143,own,1,A173,1,A192,yes,1,male,25-44
+0-200 DM,42,all paid here,A41,9283,below 100 DM,unemployed,1,A101,2,A124,55,A141,free,1,A174,1,A192,yes,1,male,45plus
+below 0 DM,12,paid duly,A43,701,below 100 DM,1-4 years,4,A101,2,A121,40,A143,own,1,A172,1,A191,yes,1,male,25-44
+below 0 DM,45,no credits,A49,11816,below 100 DM,7+ years,2,A101,4,A123,29,A143,rent,2,A173,1,A191,yes,0,male,25-44
+0-200 DM,48,no credits,A410,18424,below 100 DM,1-4 years,1,A101,2,A122,32,A141,own,1,A174,1,A192,no,0,female,25-44
+below 0 DM,12,critical account,A40,3499,below 100 DM,1-4 years,3,A102,2,A121,29,A143,own,2,A173,1,A191,yes,0,female,25-44
+no account,10,critical account,A40,1231,below 100 DM,7+ years,3,A101,4,A121,32,A143,own,2,A172,2,A191,no,1,male,25-44
+below 0 DM,24,paid duly,A42,4169,below 100 DM,1-4 years,4,A101,4,A122,28,A143,own,1,A173,1,A191,yes,1,male,25-44
+no account,21,past delays,A41,2993,below 100 DM,1-4 years,3,A101,2,A121,28,A142,own,2,A172,1,A191,yes,1,male,25-44
+below 0 DM,18,past delays,A46,8471,unknown,1-4 years,1,A101,2,A123,23,A143,rent,2,A173,1,A192,yes,1,female,under25
+below 0 DM,24,no credits,A42,4110,below 100 DM,7+ years,3,A101,4,A124,23,A141,rent,2,A173,2,A191,yes,0,male,under25
+0-200 DM,16,critical account,A40,1175,below 100 DM,unemployed,2,A101,3,A123,68,A143,free,3,A171,1,A192,yes,1,male,45plus
+below 0 DM,9,critical account,A43,1138,below 100 DM,1-4 years,4,A101,4,A121,25,A143,own,2,A172,1,A191,yes,1,male,under25
+below 0 DM,12,critical account,A42,2246,below 100 DM,7+ years,3,A101,3,A122,60,A143,own,2,A173,1,A191,yes,0,male,45plus
+no account,15,paid duly,A43,1386,unknown,1-4 years,4,A101,2,A121,40,A143,rent,1,A173,1,A192,yes,1,male,25-44
+0-200 DM,15,all paid here,A40,1264,100-500 DM,1-4 years,2,A101,2,A122,25,A143,rent,1,A173,1,A191,yes,0,male,under25
+0-200 DM,24,paid duly,A43,5084,unknown,7+ years,2,A101,4,A123,42,A143,own,1,A173,1,A192,yes,1,female,25-44
+below 0 DM,42,paid duly,A43,3965,below 100 DM,under 1 year,4,A101,3,A123,34,A143,own,1,A173,1,A191,yes,0,male,25-44
+0-200 DM,24,critical account,A410,11938,below 100 DM,1-4 years,2,A102,3,A123,39,A143,own,2,A174,2,A192,yes,0,male,25-44
+no account,30,paid duly,A41,4811,unknown,4-7 years,2,A101,4,A122,24,A142,rent,1,A172,1,A191,yes,1,female,under25
+no account,48,paid duly,A49,3914,unknown,1-4 years,4,A101,2,A121,38,A141,own,1,A173,1,A191,yes,0,male,25-44
+0-200 DM,9,paid duly,A42,2030,unknown,4-7 years,2,A101,1,A123,24,A143,own,1,A173,1,A192,yes,1,male,under25
+no account,21,critical account,A40,12680,unknown,7+ years,4,A101,4,A124,30,A143,free,1,A174,1,A192,yes,0,male,25-44
+no account,15,paid duly,A46,4623,100-500 DM,1-4 years,3,A101,2,A122,40,A143,own,1,A174,1,A192,yes,0,male,25-44
+no account,24,paid duly,A40,1393,below 100 DM,1-4 years,2,A103,2,A121,31,A143,own,1,A173,1,A192,yes,1,male,25-44
+0-200 DM,60,paid duly,A40,7408,100-500 DM,under 1 year,4,A101,2,A122,24,A143,own,1,A174,1,A191,yes,0,female,under25
+no account,12,past delays,A45,1555,1000+ DM,7+ years,4,A101,4,A124,55,A143,free,2,A173,2,A191,yes,0,male,45plus
+no account,28,all paid here,A41,7824,unknown,under 1 year,3,A103,4,A121,40,A141,rent,2,A173,2,A192,yes,1,male,25-44
+no account,27,past delays,A41,8613,1000+ DM,1-4 years,2,A101,2,A123,27,A143,own,2,A173,1,A191,yes,1,male,25-44
+below 0 DM,12,paid duly,A46,795,below 100 DM,under 1 year,4,A101,4,A122,53,A143,own,1,A173,1,A191,yes,0,female,45plus
+below 0 DM,24,paid duly,A42,3021,below 100 DM,1-4 years,2,A101,2,A121,24,A143,rent,1,A172,1,A191,yes,1,male,under25
+below 0 DM,12,paid duly,A40,3651,1000+ DM,1-4 years,1,A101,3,A122,31,A143,own,1,A173,2,A191,yes,1,male,25-44
+no account,12,paid duly,A40,2390,unknown,7+ years,4,A101,3,A123,50,A143,own,1,A173,1,A192,yes,1,male,45plus
+below 0 DM,24,all paid here,A41,3632,below 100 DM,1-4 years,1,A103,4,A123,22,A141,rent,1,A173,1,A191,no,1,female,under25
+below 0 DM,24,paid duly,A40,915,unknown,7+ years,4,A101,2,A123,29,A141,own,1,A173,1,A191,yes,0,female,25-44
+0-200 DM,18,paid duly,A46,1239,unknown,1-4 years,4,A101,4,A124,61,A143,free,1,A173,1,A191,yes,1,male,45plus
+no account,12,critical account,A43,618,below 100 DM,7+ years,4,A101,4,A121,56,A143,own,1,A173,1,A191,yes,1,male,45plus
+no account,15,paid duly,A43,1213,500-1000 DM,7+ years,4,A101,3,A122,47,A142,own,1,A173,1,A192,yes,1,male,45plus
+no account,24,critical account,A43,2424,unknown,7+ years,4,A101,4,A122,53,A143,own,2,A173,1,A191,yes,1,male,45plus
+no account,21,critical account,A42,2288,below 100 DM,under 1 year,4,A101,4,A122,23,A143,own,1,A173,1,A192,yes,1,female,under25
+below 0 DM,18,no credits,A49,3104,below 100 DM,4-7 years,3,A101,1,A122,31,A141,own,1,A173,1,A192,yes,1,male,25-44
+below 0 DM,10,critical account,A40,1038,below 100 DM,4-7 years,4,A102,3,A122,49,A143,own,2,A173,1,A192,yes,1,male,45plus
+no account,30,past delays,A49,4272,100-500 DM,1-4 years,2,A101,2,A122,26,A143,own,2,A172,1,A191,yes,1,male,25-44
+below 0 DM,48,paid duly,A41,10297,below 100 DM,4-7 years,4,A101,4,A124,39,A142,free,3,A173,2,A192,yes,0,male,25-44
+no account,18,paid duly,A43,1473,below 100 DM,under 1 year,3,A101,4,A121,39,A143,own,1,A173,1,A192,yes,1,male,25-44
+no account,12,paid duly,A43,1963,below 100 DM,4-7 years,4,A101,2,A123,31,A143,rent,2,A174,2,A192,yes,1,male,25-44
+no account,10,paid duly,A40,1418,100-500 DM,1-4 years,3,A101,2,A121,35,A143,rent,1,A172,1,A191,no,1,male,25-44
+0-200 DM,48,past delays,A410,7582,100-500 DM,unemployed,2,A101,4,A124,31,A143,free,1,A174,1,A192,yes,1,male,25-44
+below 0 DM,6,paid duly,A40,1374,unknown,unemployed,4,A101,3,A122,75,A143,own,1,A174,1,A192,yes,1,female,45plus
+no account,18,critical account,A40,1028,below 100 DM,1-4 years,4,A101,3,A121,36,A143,own,2,A173,1,A191,yes,1,female,25-44
+200+ DM,6,past delays,A43,683,below 100 DM,under 1 year,2,A101,1,A122,29,A141,own,1,A173,1,A191,yes,1,female,25-44
+no account,24,critical account,A49,4139,100-500 DM,1-4 years,3,A101,3,A122,27,A143,own,2,A172,1,A192,yes,1,male,25-44
+no account,12,critical account,A42,3331,below 100 DM,7+ years,2,A101,4,A122,42,A142,own,1,A173,1,A191,yes,1,male,25-44
+0-200 DM,18,critical account,A42,3612,below 100 DM,7+ years,3,A101,4,A122,37,A143,own,1,A173,1,A192,yes,1,female,25-44
+no account,9,paid duly,A42,2301,100-500 DM,under 1 year,2,A101,4,A122,22,A143,rent,1,A173,1,A191,yes,1,female,under25
+200+ DM,15,paid duly,A46,392,below 100 DM,under 1 year,4,A101,4,A122,23,A143,rent,1,A173,1,A192,yes,1,female,under25
+no account,18,critical account,A40,2775,below 100 DM,4-7 years,2,A101,2,A122,31,A141,own,2,A173,1,A191,yes,0,male,25-44
+0-200 DM,48,no credits,A40,8358,500-1000 DM,under 1 year,1,A101,1,A123,30,A143,own,2,A173,1,A191,yes,1,female,25-44
+no account,12,critical account,A42,1258,below 100 DM,under 1 year,2,A101,4,A122,22,A143,rent,2,A172,1,A191,yes,1,female,under25
+0-200 DM,60,past delays,A43,9157,unknown,1-4 years,2,A101,2,A124,27,A143,free,1,A174,1,A191,yes,1,male,25-44
+no account,9,paid duly,A42,1313,below 100 DM,7+ years,1,A101,4,A123,20,A143,own,1,A173,1,A191,yes,1,male,under25
+below 0 DM,36,critical account,A46,8065,below 100 DM,1-4 years,3,A101,2,A124,25,A143,own,2,A174,1,A192,yes,0,female,under25
+below 0 DM,12,paid duly,A40,1228,below 100 DM,1-4 years,4,A101,2,A121,24,A143,own,1,A172,1,A191,yes,0,female,under25
+0-200 DM,6,critical account,A48,932,unknown,4-7 years,1,A101,3,A122,39,A143,own,2,A172,1,A191,yes,1,female,25-44
+no account,6,paid duly,A43,1346,100-500 DM,7+ years,2,A101,4,A124,42,A141,free,1,A173,2,A192,yes,1,male,25-44
+0-200 DM,42,critical account,A49,5954,below 100 DM,4-7 years,2,A101,1,A121,41,A141,own,2,A172,1,A191,yes,1,female,25-44
+no account,24,critical account,A46,1597,below 100 DM,7+ years,4,A101,4,A124,54,A143,free,2,A173,2,A191,yes,1,male,45plus
+no account,36,paid duly,A43,3595,below 100 DM,7+ years,4,A101,2,A123,28,A143,own,1,A173,1,A191,yes,1,male,25-44
+0-200 DM,6,paid duly,A43,1068,below 100 DM,7+ years,4,A101,4,A123,28,A143,own,1,A173,2,A191,yes,1,male,25-44
+below 0 DM,24,paid duly,A42,3345,below 100 DM,7+ years,4,A101,2,A122,39,A143,rent,1,A174,1,A192,yes,0,male,25-44
+no account,24,paid duly,A42,3062,500-1000 DM,7+ years,4,A101,3,A124,32,A143,rent,1,A173,1,A192,yes,1,male,25-44
+no account,15,critical account,A40,5045,unknown,7+ years,1,A101,4,A123,59,A143,own,1,A173,1,A192,yes,1,female,45plus
+no account,24,critical account,A41,6842,unknown,1-4 years,2,A101,4,A122,46,A143,own,2,A174,2,A192,yes,1,male,45plus
+no account,15,paid duly,A41,3029,below 100 DM,4-7 years,2,A101,2,A123,33,A143,own,1,A173,1,A191,yes,1,male,25-44
+0-200 DM,39,critical account,A43,4933,below 100 DM,4-7 years,2,A103,2,A121,25,A143,own,2,A173,1,A191,yes,0,male,under25
+200+ DM,15,critical account,A43,1271,unknown,1-4 years,3,A101,4,A124,39,A143,free,2,A173,1,A192,yes,0,male,25-44
+no account,21,past delays,A42,1591,100-500 DM,4-7 years,4,A101,3,A121,34,A143,own,2,A174,1,A191,yes,1,male,25-44
+no account,12,paid duly,A42,1574,below 100 DM,1-4 years,4,A101,2,A121,50,A143,own,1,A173,1,A191,yes,1,male,45plus
+0-200 DM,24,past delays,A40,1965,unknown,1-4 years,4,A101,4,A123,42,A143,rent,2,A173,1,A192,yes,1,female,25-44
+0-200 DM,15,all paid here,A40,6850,100-500 DM,unemployed,1,A101,2,A122,34,A143,own,1,A174,2,A192,yes,0,male,25-44
+below 0 DM,18,paid duly,A46,750,below 100 DM,unemployed,4,A101,1,A121,27,A143,own,1,A171,1,A191,yes,0,female,25-44
+0-200 DM,9,paid duly,A42,959,below 100 DM,1-4 years,1,A101,2,A123,29,A143,own,1,A173,1,A191,no,0,female,25-44
+0-200 DM,18,no credits,A42,3244,below 100 DM,1-4 years,1,A101,4,A123,33,A141,own,2,A173,1,A192,yes,1,female,25-44
+no account,15,past delays,A43,1478,below 100 DM,1-4 years,4,A101,3,A121,33,A141,own,2,A173,1,A191,yes,1,male,25-44
+below 0 DM,8,critical account,A40,731,below 100 DM,7+ years,4,A101,4,A121,47,A143,own,2,A172,1,A191,yes,1,male,45plus
+no account,9,critical account,A40,1224,below 100 DM,1-4 years,3,A101,1,A121,30,A143,own,2,A173,1,A191,yes,1,male,25-44
+no account,12,critical account,A49,1185,below 100 DM,1-4 years,3,A101,2,A121,27,A143,own,2,A173,1,A191,yes,1,female,25-44
+0-200 DM,6,paid duly,A43,2063,below 100 DM,under 1 year,4,A101,3,A123,30,A143,rent,1,A174,1,A192,yes,1,male,25-44
+below 0 DM,24,paid duly,A42,7721,unknown,under 1 year,1,A101,2,A122,30,A143,own,1,A173,1,A192,no,1,female,25-44
+below 0 DM,48,no credits,A42,7119,below 100 DM,1-4 years,3,A101,4,A124,53,A143,free,2,A173,2,A191,yes,0,male,45plus
+no account,48,critical account,A40,10127,500-1000 DM,1-4 years,2,A101,2,A124,44,A141,free,1,A173,1,A191,yes,0,male,25-44
+no account,24,past delays,A40,2032,below 100 DM,7+ years,4,A101,4,A124,60,A143,free,2,A173,1,A192,yes,1,male,45plus
+no account,6,paid duly,A44,1338,500-1000 DM,1-4 years,1,A101,4,A121,62,A143,own,1,A173,1,A191,yes,1,male,45plus
+no account,24,critical account,A40,1940,1000+ DM,7+ years,4,A101,4,A121,60,A143,own,1,A173,1,A192,yes,1,male,45plus
+no account,15,paid duly,A42,2708,below 100 DM,under 1 year,2,A101,3,A122,27,A141,own,2,A172,1,A191,yes,1,male,25-44
+below 0 DM,6,paid duly,A44,343,below 100 DM,under 1 year,4,A101,1,A121,27,A143,own,1,A173,1,A191,yes,1,female,25-44
+200+ DM,24,paid duly,A42,2892,below 100 DM,7+ years,3,A101,4,A124,51,A143,free,1,A173,1,A191,yes,1,male,45plus
+0-200 DM,36,paid duly,A45,2384,below 100 DM,under 1 year,4,A101,1,A124,33,A143,rent,1,A172,1,A191,yes,0,male,25-44
+below 0 DM,24,paid duly,A42,1747,below 100 DM,under 1 year,4,A102,1,A122,24,A143,own,1,A172,1,A191,no,1,male,under25
+no account,36,critical account,A40,6614,below 100 DM,7+ years,4,A101,4,A123,34,A143,own,2,A174,1,A192,yes,1,male,25-44
+0-200 DM,30,critical account,A40,5234,below 100 DM,unemployed,4,A101,2,A123,28,A143,own,2,A174,1,A191,yes,0,male,25-44
+0-200 DM,12,past delays,A43,585,below 100 DM,1-4 years,4,A102,4,A121,20,A143,rent,2,A173,1,A191,yes,1,male,under25
+below 0 DM,30,no credits,A49,8072,unknown,under 1 year,2,A101,3,A123,25,A141,own,3,A173,1,A191,yes,1,male,under25
+no account,18,critical account,A43,629,500-1000 DM,7+ years,4,A101,3,A122,32,A141,own,2,A174,1,A192,yes,1,male,25-44
+0-200 DM,18,paid duly,A49,2622,100-500 DM,1-4 years,4,A101,4,A123,34,A143,own,1,A173,1,A191,yes,1,male,25-44
+no account,24,paid duly,A41,2670,below 100 DM,7+ years,4,A101,4,A123,35,A143,own,1,A174,1,A192,yes,1,male,25-44
+below 0 DM,6,critical account,A43,338,500-1000 DM,7+ years,4,A101,4,A123,52,A143,own,2,A173,1,A191,yes,1,male,45plus
+no account,18,paid duly,A42,2515,below 100 DM,1-4 years,3,A101,4,A121,43,A143,own,1,A173,1,A192,yes,1,male,25-44
+below 0 DM,12,critical account,A40,2122,below 100 DM,1-4 years,3,A101,2,A121,39,A143,rent,2,A172,2,A191,no,1,male,25-44
+below 0 DM,12,paid duly,A43,709,below 100 DM,7+ years,4,A101,4,A121,57,A142,own,1,A172,1,A191,yes,0,male,45plus
+0-200 DM,9,paid duly,A40,276,below 100 DM,1-4 years,4,A101,4,A121,22,A143,rent,1,A172,1,A191,yes,1,male,under25
+0-200 DM,14,paid duly,A49,1410,500-1000 DM,7+ years,1,A101,2,A121,35,A143,own,1,A173,1,A192,yes,1,male,25-44
+below 0 DM,18,paid duly,A43,3190,below 100 DM,1-4 years,2,A101,2,A121,24,A143,own,1,A173,1,A191,yes,0,female,under25
+no account,12,critical account,A43,1240,unknown,7+ years,4,A101,2,A121,38,A143,own,2,A173,1,A192,yes,1,female,25-44
+below 0 DM,24,past delays,A40,1333,below 100 DM,unemployed,4,A101,2,A121,43,A143,free,2,A173,2,A191,yes,0,male,25-44
+0-200 DM,6,all paid here,A40,931,100-500 DM,under 1 year,1,A101,1,A122,32,A142,own,1,A172,1,A191,yes,0,female,25-44
+no account,15,critical account,A43,1471,below 100 DM,1-4 years,4,A101,4,A124,35,A143,free,2,A173,1,A192,yes,1,male,25-44
+below 0 DM,18,paid duly,A40,4380,100-500 DM,1-4 years,3,A101,4,A123,35,A143,own,1,A172,2,A192,yes,1,male,25-44
+no account,36,paid duly,A46,9055,unknown,1-4 years,2,A101,4,A124,35,A143,free,1,A172,2,A192,yes,1,male,25-44
+200+ DM,12,paid duly,A43,3399,unknown,7+ years,2,A101,3,A123,37,A143,own,1,A174,1,A191,yes,1,male,25-44
+no account,24,critical account,A45,5507,below 100 DM,7+ years,3,A101,4,A124,44,A143,free,2,A173,1,A191,yes,1,male,25-44
+0-200 DM,24,no credits,A49,4241,below 100 DM,1-4 years,1,A101,4,A121,36,A143,own,3,A172,1,A192,yes,0,male,25-44
+0-200 DM,12,paid duly,A42,951,100-500 DM,under 1 year,4,A101,4,A123,27,A141,rent,4,A173,1,A191,yes,0,female,25-44
+no account,12,paid duly,A41,1413,1000+ DM,4-7 years,3,A101,2,A122,55,A143,own,1,A173,1,A191,no,1,male,45plus
+no account,4,critical account,A43,1544,below 100 DM,4-7 years,2,A101,1,A121,42,A143,own,3,A172,2,A191,yes,1,male,25-44
+no account,12,critical account,A42,1402,500-1000 DM,4-7 years,3,A101,4,A123,37,A143,rent,1,A173,1,A192,yes,1,female,25-44
+200+ DM,30,past delays,A49,1908,below 100 DM,7+ years,4,A101,4,A121,66,A143,own,1,A174,1,A192,yes,0,male,45plus
+no account,12,paid duly,A40,1101,below 100 DM,1-4 years,3,A101,2,A121,27,A143,own,2,A173,1,A192,yes,1,male,25-44
+no account,24,critical account,A43,1851,below 100 DM,4-7 years,4,A103,2,A123,33,A143,own,2,A173,1,A192,yes,1,male,25-44
+200+ DM,21,paid duly,A40,2923,100-500 DM,1-4 years,1,A101,1,A123,28,A141,own,1,A174,1,A192,yes,1,female,25-44
+0-200 DM,30,paid duly,A42,3441,100-500 DM,1-4 years,2,A102,4,A123,21,A143,rent,1,A173,1,A191,yes,0,female,under25
+200+ DM,24,paid duly,A42,3749,below 100 DM,under 1 year,2,A101,4,A123,26,A143,own,1,A173,1,A191,yes,1,female,25-44
+0-200 DM,12,paid duly,A40,685,below 100 DM,4-7 years,2,A101,3,A123,25,A141,own,1,A172,1,A191,yes,0,male,under25
+no account,12,critical account,A46,2012,unknown,4-7 years,4,A101,2,A123,61,A143,own,1,A173,1,A191,yes,1,female,45plus
+no account,18,paid duly,A43,4594,below 100 DM,under 1 year,3,A101,2,A123,32,A143,own,1,A173,1,A192,yes,1,male,25-44
+0-200 DM,48,all paid here,A49,6416,below 100 DM,7+ years,4,A101,3,A124,59,A143,rent,1,A173,1,A191,yes,0,female,45plus
+no account,36,past delays,A43,4454,below 100 DM,1-4 years,4,A101,4,A121,34,A143,own,2,A173,1,A191,yes,1,female,25-44
+0-200 DM,10,paid duly,A42,1521,below 100 DM,1-4 years,4,A101,2,A123,31,A143,own,1,A172,1,A191,yes,1,male,25-44
+0-200 DM,30,paid duly,A43,2991,unknown,7+ years,2,A101,4,A123,25,A143,own,1,A173,1,A191,yes,1,female,under25
+200+ DM,12,past delays,A40,2247,below 100 DM,1-4 years,2,A101,2,A123,36,A142,own,2,A173,1,A192,yes,1,female,25-44
+200+ DM,12,paid duly,A43,1297,below 100 DM,1-4 years,3,A101,4,A121,23,A143,rent,1,A173,1,A191,yes,1,male,under25
+below 0 DM,36,paid duly,A42,5179,below 100 DM,4-7 years,4,A101,2,A122,29,A143,own,1,A173,1,A191,yes,0,male,25-44
+no account,6,paid duly,A43,518,below 100 DM,1-4 years,3,A101,1,A121,29,A143,own,1,A173,1,A191,yes,1,female,25-44
+0-200 DM,48,no credits,A49,3844,100-500 DM,4-7 years,4,A101,4,A124,34,A143,free,1,A172,2,A191,yes,0,male,25-44
+no account,15,paid duly,A41,1300,unknown,7+ years,4,A101,4,A124,45,A141,free,1,A173,2,A191,yes,1,male,25-44
+200+ DM,15,paid duly,A49,2687,below 100 DM,4-7 years,2,A101,4,A122,26,A143,rent,1,A173,1,A192,yes,1,male,25-44
+200+ DM,10,critical account,A43,1347,unknown,4-7 years,4,A101,2,A122,27,A143,own,2,A173,1,A192,yes,1,male,25-44
+no account,24,critical account,A410,6314,below 100 DM,unemployed,4,A102,2,A124,27,A141,own,2,A174,1,A192,yes,1,male,25-44
+below 0 DM,48,no credits,A41,4605,below 100 DM,7+ years,3,A101,4,A124,24,A143,free,2,A173,2,A191,yes,0,male,under25
+no account,14,past delays,A40,802,below 100 DM,1-4 years,4,A101,2,A123,27,A143,own,2,A172,1,A191,yes,1,male,25-44
+200+ DM,6,paid duly,A42,2116,below 100 DM,1-4 years,2,A101,2,A121,41,A143,own,1,A173,1,A192,yes,1,male,25-44
+below 0 DM,12,paid duly,A43,2214,below 100 DM,1-4 years,4,A101,3,A122,24,A143,own,1,A172,1,A191,yes,1,male,under25
+below 0 DM,6,critical account,A40,860,below 100 DM,7+ years,1,A101,4,A124,39,A143,own,2,A173,1,A192,yes,1,female,25-44
+no account,12,critical account,A43,930,unknown,7+ years,4,A101,4,A121,65,A143,own,4,A173,1,A191,yes,1,male,45plus
+no account,30,critical account,A43,3077,unknown,7+ years,3,A101,2,A123,40,A143,own,2,A173,2,A192,yes,1,male,25-44
+0-200 DM,12,paid duly,A43,1155,below 100 DM,7+ years,3,A103,3,A121,40,A141,own,2,A172,1,A191,yes,1,male,25-44
+0-200 DM,6,paid duly,A43,753,below 100 DM,1-4 years,2,A103,3,A121,64,A143,own,1,A173,1,A191,yes,1,female,45plus
+0-200 DM,9,critical account,A46,1136,1000+ DM,7+ years,4,A101,3,A124,32,A143,free,2,A173,2,A191,yes,0,male,25-44
+0-200 DM,24,paid duly,A41,12579,below 100 DM,7+ years,4,A101,2,A124,44,A143,free,1,A174,1,A192,yes,0,female,25-44
+no account,24,paid duly,A42,5511,100-500 DM,1-4 years,4,A101,1,A123,25,A142,own,1,A173,1,A191,yes,1,male,under25
+0-200 DM,20,paid duly,A41,6468,unknown,unemployed,1,A101,4,A121,60,A143,own,1,A174,1,A192,yes,1,male,45plus
+below 0 DM,24,past delays,A43,1024,below 100 DM,under 1 year,4,A101,4,A121,48,A142,own,1,A173,1,A191,yes,0,male,45plus
+0-200 DM,15,paid duly,A45,2631,100-500 DM,1-4 years,3,A101,2,A121,25,A143,own,1,A172,1,A191,yes,1,female,under25
+no account,24,paid duly,A43,3235,500-1000 DM,7+ years,3,A101,2,A123,26,A143,own,1,A174,1,A192,yes,1,male,25-44
+no account,20,critical account,A40,3485,unknown,under 1 year,2,A101,4,A121,44,A143,own,2,A173,1,A192,yes,1,male,25-44
+no account,6,critical account,A42,1221,unknown,1-4 years,1,A101,2,A122,27,A143,own,2,A173,1,A191,yes,1,male,25-44
+no account,24,past delays,A41,4679,below 100 DM,4-7 years,3,A101,3,A123,35,A143,own,2,A172,1,A192,yes,1,male,25-44
+no account,15,paid duly,A41,3812,100-500 DM,under 1 year,1,A101,4,A123,23,A143,own,1,A173,1,A192,yes,1,female,under25
+0-200 DM,18,paid duly,A42,1924,unknown,under 1 year,4,A101,3,A121,27,A143,rent,1,A173,1,A191,yes,0,female,25-44
+0-200 DM,12,paid duly,A43,1158,500-1000 DM,1-4 years,3,A101,1,A123,26,A143,own,1,A173,1,A192,yes,1,male,25-44
+0-200 DM,24,paid duly,A43,1967,below 100 DM,7+ years,4,A101,4,A123,20,A143,own,1,A173,1,A192,yes,1,female,under25
+below 0 DM,18,critical account,A43,1880,below 100 DM,4-7 years,4,A101,1,A122,32,A143,own,2,A174,1,A192,yes,1,male,25-44
+no account,18,paid duly,A42,1533,below 100 DM,under 1 year,4,A102,1,A122,43,A143,own,1,A172,2,A191,yes,0,male,25-44
+below 0 DM,18,critical account,A45,1190,below 100 DM,unemployed,2,A101,4,A124,55,A143,free,3,A171,2,A191,yes,0,female,45plus
+0-200 DM,12,paid duly,A40,6078,below 100 DM,4-7 years,2,A101,2,A123,32,A143,own,1,A173,1,A191,yes,1,male,25-44
+below 0 DM,12,paid duly,A43,1498,below 100 DM,1-4 years,4,A101,1,A123,23,A141,own,1,A173,1,A191,yes,1,female,under25
+below 0 DM,21,paid duly,A40,3763,unknown,4-7 years,2,A102,2,A121,24,A143,own,1,A172,1,A191,no,1,male,under25
+0-200 DM,36,paid duly,A46,2273,below 100 DM,4-7 years,3,A101,1,A123,32,A143,own,2,A173,2,A191,yes,1,male,25-44
+no account,24,paid duly,A43,1552,below 100 DM,4-7 years,3,A101,1,A123,32,A141,own,1,A173,2,A191,yes,1,male,25-44
+below 0 DM,42,critical account,A45,3394,below 100 DM,unemployed,4,A102,4,A123,65,A143,own,2,A171,1,A191,yes,1,male,45plus
+below 0 DM,24,past delays,A43,1659,below 100 DM,under 1 year,4,A101,2,A123,29,A143,rent,1,A172,1,A192,yes,0,female,25-44
+below 0 DM,18,paid duly,A43,1345,below 100 DM,1-4 years,4,A101,3,A121,26,A141,own,1,A173,1,A191,yes,0,male,25-44
+0-200 DM,24,paid duly,A42,4351,unknown,1-4 years,1,A101,4,A122,48,A143,own,1,A172,1,A192,yes,1,female,45plus
+no account,60,past delays,A43,15653,below 100 DM,4-7 years,2,A101,4,A123,21,A143,own,2,A173,1,A192,yes,1,male,under25
+0-200 DM,24,past delays,A43,1553,100-500 DM,4-7 years,3,A101,2,A122,23,A143,rent,2,A173,1,A192,yes,1,female,under25
+no account,6,critical account,A43,700,unknown,7+ years,4,A101,4,A124,36,A143,free,2,A173,1,A191,yes,1,male,25-44
+0-200 DM,21,paid duly,A49,2767,100-500 DM,7+ years,4,A101,2,A123,61,A141,rent,2,A172,1,A191,yes,0,male,45plus
+0-200 DM,18,paid duly,A43,1301,below 100 DM,7+ years,4,A103,2,A121,32,A143,own,1,A172,1,A191,yes,1,male,25-44
+below 0 DM,12,all paid here,A40,697,below 100 DM,under 1 year,4,A101,2,A123,46,A141,own,2,A173,1,A192,yes,0,male,45plus
+0-200 DM,18,critical account,A42,7374,below 100 DM,unemployed,4,A101,4,A122,40,A142,own,2,A174,1,A192,yes,1,male,25-44
+0-200 DM,18,paid duly,A40,1042,unknown,1-4 years,4,A101,2,A122,33,A143,own,1,A173,1,A191,yes,0,female,25-44
+below 0 DM,24,paid duly,A41,2910,below 100 DM,4-7 years,2,A101,1,A124,34,A143,free,1,A174,1,A192,yes,1,male,25-44
+no account,12,critical account,A46,2096,below 100 DM,4-7 years,2,A101,3,A121,49,A143,own,1,A172,2,A191,yes,1,male,45plus
+0-200 DM,36,critical account,A41,5800,below 100 DM,1-4 years,3,A101,4,A123,34,A143,own,2,A173,1,A192,yes,1,male,25-44
+0-200 DM,12,no credits,A42,2969,below 100 DM,under 1 year,4,A101,3,A122,25,A143,rent,2,A173,1,A191,yes,0,female,under25
+no account,36,critical account,A41,10477,unknown,7+ years,2,A101,4,A124,42,A143,free,2,A173,1,A191,yes,1,male,25-44
+0-200 DM,30,no credits,A49,4280,100-500 DM,1-4 years,4,A101,4,A123,26,A143,rent,2,A172,1,A191,yes,0,female,25-44
+below 0 DM,6,critical account,A40,609,below 100 DM,4-7 years,4,A101,3,A122,37,A143,own,2,A173,1,A191,no,1,female,25-44
+below 0 DM,21,past delays,A46,3414,below 100 DM,under 1 year,2,A101,1,A122,26,A143,own,2,A173,1,A191,yes,0,male,25-44
+no account,36,no credits,A45,2613,below 100 DM,1-4 years,4,A101,2,A123,27,A143,own,2,A173,1,A191,yes,1,male,25-44
+0-200 DM,9,paid duly,A42,918,below 100 DM,1-4 years,4,A101,1,A122,30,A143,own,1,A173,1,A191,yes,0,female,25-44
+0-200 DM,36,no credits,A49,1953,below 100 DM,7+ years,4,A101,4,A124,61,A143,free,1,A174,1,A192,yes,0,male,45plus
+no account,36,past delays,A40,10875,below 100 DM,7+ years,2,A101,2,A123,45,A143,own,2,A173,2,A192,yes,1,male,25-44
+0-200 DM,15,paid duly,A43,1444,unknown,under 1 year,4,A101,1,A122,23,A143,own,1,A173,1,A191,yes,1,male,under25
+below 0 DM,24,all paid here,A42,2828,500-1000 DM,1-4 years,4,A101,4,A121,22,A142,own,1,A173,1,A192,yes,1,male,under25
+0-200 DM,60,past delays,A43,7418,unknown,1-4 years,1,A101,1,A121,27,A143,own,1,A172,1,A191,yes,1,male,25-44
+below 0 DM,6,critical account,A40,1361,below 100 DM,under 1 year,2,A101,4,A121,40,A143,own,1,A172,2,A191,no,1,male,25-44
+no account,24,critical account,A43,2223,100-500 DM,7+ years,4,A101,4,A122,52,A141,own,2,A173,1,A191,yes,1,male,45plus
+below 0 DM,24,paid duly,A41,6579,below 100 DM,unemployed,4,A101,2,A124,29,A143,free,1,A174,1,A192,yes,1,male,25-44
+no account,24,critical account,A43,2578,1000+ DM,7+ years,2,A101,2,A123,34,A143,own,1,A173,1,A191,yes,1,male,25-44
+no account,36,paid duly,A42,10974,below 100 DM,unemployed,4,A101,2,A123,26,A143,own,2,A174,1,A192,yes,0,female,25-44
+below 0 DM,11,critical account,A40,3905,below 100 DM,1-4 years,2,A101,2,A121,36,A143,rent,2,A173,2,A191,yes,1,male,25-44
+below 0 DM,12,no credits,A43,6199,below 100 DM,1-4 years,4,A101,2,A122,28,A143,rent,2,A173,1,A192,yes,0,male,25-44
+0-200 DM,18,past delays,A40,2899,unknown,7+ years,4,A101,4,A123,43,A143,own,1,A173,2,A191,yes,1,male,25-44
+0-200 DM,48,paid duly,A43,10961,1000+ DM,4-7 years,1,A102,2,A124,27,A141,own,2,A173,1,A192,yes,0,male,25-44
+below 0 DM,18,critical account,A42,2124,below 100 DM,1-4 years,4,A101,4,A121,24,A143,rent,2,A173,1,A191,yes,0,female,under25
+no account,48,past delays,A43,12749,500-1000 DM,4-7 years,4,A101,1,A123,37,A143,own,1,A174,1,A192,yes,1,male,25-44
+below 0 DM,12,paid duly,A48,902,below 100 DM,4-7 years,4,A101,4,A122,21,A143,rent,1,A173,1,A191,yes,0,male,under25
+no account,18,paid duly,A43,433,below 100 DM,unemployed,3,A102,4,A121,22,A143,rent,1,A173,1,A191,yes,0,female,under25
+below 0 DM,48,critical account,A41,6331,below 100 DM,7+ years,4,A101,4,A124,46,A143,free,2,A173,1,A192,yes,0,male,45plus
+below 0 DM,36,paid duly,A46,1977,unknown,7+ years,4,A101,4,A124,40,A143,own,1,A174,1,A192,yes,0,male,25-44
+no account,12,critical account,A40,682,100-500 DM,4-7 years,4,A101,3,A123,51,A143,own,2,A173,1,A192,yes,1,female,45plus
+no account,24,paid duly,A41,7814,below 100 DM,4-7 years,3,A101,3,A123,38,A143,own,1,A174,1,A192,yes,1,male,25-44
+below 0 DM,21,all paid here,A40,1647,unknown,1-4 years,4,A101,2,A122,40,A143,own,2,A172,2,A191,yes,0,male,25-44
+below 0 DM,36,paid duly,A40,3249,below 100 DM,4-7 years,2,A101,4,A124,39,A141,free,1,A174,2,A192,yes,1,male,25-44
+no account,6,paid duly,A42,1766,below 100 DM,1-4 years,1,A101,2,A122,21,A143,rent,1,A173,1,A191,yes,1,male,under25
+no account,18,past delays,A42,1808,below 100 DM,4-7 years,4,A101,1,A121,22,A143,own,1,A173,1,A191,yes,0,female,under25
+below 0 DM,24,paid duly,A40,1371,unknown,1-4 years,4,A101,4,A121,25,A143,rent,1,A173,1,A191,yes,0,female,under25
+no account,30,critical account,A43,4530,below 100 DM,4-7 years,4,A101,4,A123,26,A143,rent,1,A174,1,A192,yes,1,female,25-44
+no account,36,past delays,A49,7980,unknown,under 1 year,4,A101,4,A123,27,A143,rent,2,A173,1,A192,yes,0,male,25-44
+no account,60,paid duly,A40,10366,below 100 DM,7+ years,2,A101,4,A122,42,A143,own,1,A174,1,A192,yes,1,male,25-44
+200+ DM,10,paid duly,A44,1225,below 100 DM,1-4 years,2,A101,2,A123,37,A143,own,1,A173,1,A192,yes,1,male,25-44
+below 0 DM,30,paid duly,A42,3108,below 100 DM,under 1 year,2,A101,4,A122,31,A143,own,1,A172,1,A191,yes,0,male,25-44
+0-200 DM,18,paid duly,A42,3001,below 100 DM,4-7 years,2,A101,4,A121,40,A143,rent,1,A173,1,A191,yes,1,female,25-44
+no account,12,critical account,A43,976,unknown,7+ years,4,A101,4,A123,35,A143,own,2,A173,1,A191,yes,1,male,25-44
+no account,30,critical account,A43,2831,below 100 DM,1-4 years,4,A101,2,A123,33,A143,own,1,A173,1,A192,yes,1,female,25-44
+0-200 DM,24,paid duly,A43,2896,100-500 DM,under 1 year,2,A101,1,A123,29,A143,own,1,A173,1,A191,yes,1,male,25-44
+below 0 DM,24,paid duly,A410,1755,below 100 DM,7+ years,4,A103,4,A121,58,A143,own,1,A172,1,A192,yes,1,female,45plus
+200+ DM,12,paid duly,A43,3016,below 100 DM,1-4 years,3,A101,1,A123,24,A143,own,1,A173,1,A191,yes,1,male,under25
+200+ DM,6,critical account,A46,1047,below 100 DM,1-4 years,2,A101,4,A122,50,A143,own,1,A172,1,A191,yes,1,female,45plus
+below 0 DM,18,critical account,A42,1049,below 100 DM,under 1 year,4,A101,4,A122,21,A143,rent,1,A173,1,A191,yes,1,female,under25
+below 0 DM,15,paid duly,A49,806,below 100 DM,1-4 years,4,A101,4,A122,22,A143,own,1,A172,1,A191,yes,1,female,under25
+no account,12,critical account,A40,1495,below 100 DM,7+ years,4,A101,1,A121,38,A143,own,2,A172,2,A191,yes,1,male,25-44
+no account,21,critical account,A41,3275,below 100 DM,7+ years,1,A101,4,A123,36,A143,own,1,A174,1,A192,yes,1,male,25-44
+0-200 DM,12,paid duly,A40,1223,below 100 DM,7+ years,1,A101,1,A121,46,A143,rent,2,A173,1,A191,yes,0,male,45plus
+0-200 DM,6,past delays,A40,1209,below 100 DM,unemployed,4,A101,4,A122,47,A143,own,1,A174,1,A192,yes,0,male,45plus
+0-200 DM,21,paid duly,A42,3976,unknown,4-7 years,2,A101,3,A123,35,A143,own,1,A173,1,A192,yes,1,male,25-44
+no account,9,paid duly,A43,2697,below 100 DM,1-4 years,1,A101,2,A121,32,A143,own,1,A173,2,A191,yes,1,male,25-44
+no account,30,critical account,A43,5954,below 100 DM,4-7 years,3,A102,2,A123,38,A143,own,1,A173,1,A191,yes,1,male,25-44
+0-200 DM,13,paid duly,A43,2101,below 100 DM,under 1 year,2,A103,4,A122,23,A143,own,1,A172,1,A191,yes,1,female,under25
+no account,12,critical account,A43,522,500-1000 DM,7+ years,4,A101,4,A122,42,A143,own,2,A173,2,A192,yes,1,male,25-44
+below 0 DM,21,critical account,A40,1602,below 100 DM,7+ years,4,A101,3,A123,30,A143,own,2,A173,1,A192,yes,1,male,25-44
+0-200 DM,18,critical account,A49,3590,below 100 DM,unemployed,3,A101,3,A123,40,A143,own,3,A171,2,A192,yes,1,male,25-44
+0-200 DM,12,paid duly,A43,766,500-1000 DM,1-4 years,4,A101,3,A121,66,A143,own,1,A172,1,A191,yes,0,male,45plus
+no account,24,paid duly,A43,1413,below 100 DM,1-4 years,4,A101,2,A122,28,A143,own,1,A173,1,A191,yes,1,male,25-44
+200+ DM,12,critical account,A40,1480,500-1000 DM,unemployed,2,A101,4,A124,66,A141,free,3,A171,1,A191,yes,1,male,45plus
+below 0 DM,12,paid duly,A42,2578,below 100 DM,unemployed,3,A101,4,A124,55,A143,free,1,A174,1,A191,yes,1,female,45plus
+below 0 DM,33,critical account,A42,4281,500-1000 DM,1-4 years,1,A101,4,A123,23,A143,own,2,A173,1,A191,yes,0,female,under25
+200+ DM,6,paid duly,A40,709,1000+ DM,under 1 year,2,A101,2,A121,27,A143,own,1,A171,1,A191,no,1,male,25-44
+below 0 DM,21,paid duly,A43,3357,1000+ DM,under 1 year,4,A101,2,A123,29,A141,own,1,A173,1,A191,yes,1,female,25-44
+no account,24,past delays,A49,2978,unknown,1-4 years,4,A101,4,A121,32,A143,own,2,A173,2,A192,yes,1,male,25-44
+0-200 DM,18,past delays,A45,6204,below 100 DM,1-4 years,2,A101,4,A121,44,A143,own,1,A172,2,A192,yes,1,male,25-44
+0-200 DM,6,past delays,A49,1449,100-500 DM,7+ years,1,A101,2,A123,31,A141,own,2,A173,2,A191,yes,1,male,25-44
+0-200 DM,18,critical account,A43,1795,below 100 DM,7+ years,3,A103,4,A121,48,A141,rent,2,A172,1,A192,yes,1,female,45plus
+no account,18,critical account,A43,1169,unknown,1-4 years,4,A101,3,A122,29,A143,own,2,A173,1,A192,yes,1,male,25-44
+no account,24,paid duly,A43,1901,100-500 DM,1-4 years,4,A101,4,A123,29,A143,rent,1,A174,1,A192,yes,1,male,25-44
+no account,18,critical account,A40,1530,below 100 DM,1-4 years,3,A101,2,A122,32,A141,own,2,A173,1,A191,yes,0,male,25-44
+200+ DM,36,paid duly,A43,4210,below 100 DM,1-4 years,4,A101,2,A123,26,A143,own,1,A173,1,A191,yes,0,male,25-44
+below 0 DM,24,all paid here,A410,1358,unknown,7+ years,4,A101,3,A123,40,A142,own,1,A174,1,A192,yes,0,male,25-44
+no account,10,paid duly,A41,2848,100-500 DM,1-4 years,1,A102,2,A121,32,A143,own,1,A173,2,A191,yes,1,male,25-44
+no account,18,no credits,A49,4165,below 100 DM,1-4 years,2,A101,2,A123,36,A142,own,2,A173,2,A191,yes,0,male,25-44
+no account,30,critical account,A43,5771,below 100 DM,4-7 years,4,A101,2,A123,25,A143,own,2,A173,1,A191,yes,1,female,under25
+no account,24,paid duly,A40,1474,100-500 DM,under 1 year,4,A101,3,A121,33,A143,own,1,A173,1,A192,yes,1,male,25-44
+below 0 DM,12,paid duly,A42,3590,below 100 DM,1-4 years,2,A102,2,A122,29,A143,own,1,A172,2,A191,yes,1,male,25-44
+no account,12,paid duly,A43,2073,100-500 DM,1-4 years,4,A102,2,A121,28,A143,own,1,A173,1,A191,yes,1,female,25-44
+no account,18,paid duly,A45,1943,below 100 DM,under 1 year,4,A101,4,A121,23,A143,own,1,A173,1,A191,yes,0,female,under25
+no account,9,critical account,A43,3074,unknown,1-4 years,1,A101,2,A121,33,A143,own,2,A173,2,A191,yes,1,male,25-44
+no account,15,critical account,A43,1829,below 100 DM,7+ years,4,A101,4,A123,46,A143,own,2,A173,1,A192,yes,1,male,45plus
+no account,12,paid duly,A43,2141,100-500 DM,4-7 years,3,A101,1,A124,35,A143,own,1,A173,1,A191,yes,1,male,25-44
+no account,12,critical account,A43,1655,below 100 DM,7+ years,2,A101,4,A121,63,A143,own,2,A172,1,A192,yes,1,male,45plus
+200+ DM,9,paid duly,A43,745,below 100 DM,1-4 years,3,A101,2,A121,28,A143,own,1,A172,1,A191,yes,0,female,25-44
+200+ DM,36,paid duly,A43,4473,below 100 DM,7+ years,4,A101,2,A123,31,A143,own,1,A173,1,A191,yes,1,male,25-44
+no account,30,paid duly,A43,2333,500-1000 DM,7+ years,4,A101,2,A123,30,A141,own,1,A174,1,A191,yes,1,male,25-44
+0-200 DM,60,paid duly,A46,6288,below 100 DM,1-4 years,4,A101,4,A124,42,A143,free,1,A173,1,A191,yes,0,male,25-44
+below 0 DM,18,paid duly,A40,976,below 100 DM,under 1 year,1,A101,2,A123,23,A143,own,1,A172,1,A191,yes,0,female,under25
+no account,11,critical account,A40,1393,below 100 DM,under 1 year,4,A101,4,A123,35,A143,own,2,A174,1,A191,yes,1,female,25-44
+below 0 DM,28,paid duly,A40,4006,below 100 DM,1-4 years,3,A101,2,A123,45,A143,own,1,A172,1,A191,yes,0,male,25-44
+0-200 DM,54,no credits,A49,15945,below 100 DM,under 1 year,3,A101,4,A124,58,A143,rent,1,A173,1,A192,yes,0,male,45plus
+below 0 DM,6,critical account,A42,3384,below 100 DM,1-4 years,1,A101,4,A121,44,A143,rent,1,A174,1,A192,yes,0,male,25-44
+no account,6,paid duly,A42,4611,below 100 DM,under 1 year,1,A101,4,A122,32,A143,own,1,A173,1,A191,yes,0,female,25-44
+no account,24,critical account,A41,4042,unknown,4-7 years,3,A101,4,A122,43,A143,own,2,A173,1,A192,yes,1,male,25-44
+0-200 DM,12,paid duly,A43,1567,below 100 DM,1-4 years,1,A101,1,A123,22,A143,own,1,A173,1,A192,yes,1,female,under25
+no account,18,past delays,A49,2169,below 100 DM,1-4 years,4,A101,2,A123,28,A143,own,1,A173,1,A192,yes,0,male,25-44
+below 0 DM,12,paid duly,A40,1893,below 100 DM,1-4 years,4,A103,4,A122,29,A143,own,1,A173,1,A192,yes,1,female,25-44
+no account,36,critical account,A40,3535,below 100 DM,4-7 years,4,A101,4,A123,37,A143,own,2,A173,1,A192,yes,1,male,25-44
+200+ DM,12,paid duly,A42,1474,below 100 DM,under 1 year,4,A101,1,A122,33,A141,own,1,A174,1,A192,yes,1,female,25-44
+no account,24,paid duly,A40,1249,below 100 DM,under 1 year,4,A101,2,A121,28,A143,own,1,A173,1,A191,yes,1,male,25-44
+200+ DM,21,critical account,A46,2319,below 100 DM,under 1 year,2,A101,1,A123,33,A143,rent,1,A173,1,A191,yes,0,male,25-44
+below 0 DM,12,paid duly,A44,741,100-500 DM,unemployed,4,A101,3,A122,22,A143,own,1,A173,1,A191,yes,0,female,under25
+no account,24,paid duly,A41,2603,1000+ DM,1-4 years,2,A101,4,A123,28,A143,rent,1,A173,1,A192,yes,1,female,25-44
+below 0 DM,24,all paid here,A42,3552,below 100 DM,4-7 years,3,A101,4,A123,27,A141,own,1,A173,1,A191,yes,0,male,25-44
+0-200 DM,45,critical account,A43,4746,below 100 DM,under 1 year,4,A101,2,A122,25,A143,own,2,A172,1,A191,yes,0,male,under25
+below 0 DM,13,critical account,A49,1797,below 100 DM,under 1 year,3,A101,1,A122,28,A141,own,2,A172,1,A191,yes,1,male,25-44
+below 0 DM,36,critical account,A42,2348,below 100 DM,1-4 years,3,A101,2,A122,46,A143,own,2,A173,1,A192,yes,1,male,45plus
+200+ DM,42,no credits,A49,6289,below 100 DM,under 1 year,2,A101,1,A122,33,A143,own,2,A173,1,A191,yes,1,male,25-44
+0-200 DM,18,critical account,A49,1887,unknown,1-4 years,4,A101,4,A121,28,A141,own,2,A173,1,A191,yes,1,male,25-44
+no account,10,paid duly,A41,2901,unknown,under 1 year,1,A101,4,A121,31,A143,rent,1,A173,1,A191,yes,1,female,25-44
+below 0 DM,9,paid duly,A43,1364,below 100 DM,4-7 years,3,A101,4,A121,59,A143,own,1,A173,1,A191,yes,1,male,45plus
+0-200 DM,12,paid duly,A40,1318,1000+ DM,7+ years,4,A101,4,A121,54,A143,own,1,A173,1,A192,yes,1,male,45plus
+below 0 DM,14,paid duly,A40,8978,below 100 DM,7+ years,1,A101,4,A122,45,A143,own,1,A174,1,A192,no,0,male,25-44
+below 0 DM,24,critical account,A40,1199,below 100 DM,7+ years,4,A101,4,A123,60,A143,own,2,A172,1,A191,yes,0,male,45plus
+0-200 DM,36,past delays,A49,4455,below 100 DM,1-4 years,2,A101,2,A121,30,A142,own,2,A174,1,A192,yes,0,male,25-44
+no account,24,paid duly,A40,3757,below 100 DM,7+ years,4,A102,4,A124,62,A143,free,1,A173,1,A192,yes,1,female,45plus
+below 0 DM,36,paid duly,A42,2712,below 100 DM,7+ years,2,A101,2,A122,41,A141,own,1,A173,2,A191,yes,0,male,25-44
+no account,24,paid duly,A42,3972,below 100 DM,4-7 years,2,A101,4,A122,25,A143,rent,1,A173,1,A192,yes,1,female,under25
+no account,30,paid duly,A43,1867,unknown,7+ years,4,A101,4,A123,58,A143,own,1,A173,1,A192,yes,1,male,45plus
+0-200 DM,12,paid duly,A49,1037,100-500 DM,4-7 years,3,A101,4,A121,39,A143,own,1,A172,1,A191,yes,1,male,25-44
+below 0 DM,12,paid duly,A41,3386,below 100 DM,7+ years,3,A101,4,A124,35,A143,free,1,A173,1,A192,yes,0,male,25-44
+0-200 DM,6,paid duly,A43,484,below 100 DM,4-7 years,3,A103,3,A121,28,A141,own,1,A172,1,A191,yes,1,male,25-44
+below 0 DM,42,past delays,A43,4370,below 100 DM,4-7 years,3,A101,2,A122,26,A141,own,2,A173,2,A192,yes,0,male,25-44
+0-200 DM,9,paid duly,A40,1549,unknown,under 1 year,4,A101,2,A121,35,A143,own,1,A171,1,A191,yes,1,male,25-44
+no account,6,past delays,A43,932,below 100 DM,1-4 years,3,A101,2,A121,24,A143,own,1,A173,1,A191,yes,1,female,under25
+no account,18,critical account,A43,2404,below 100 DM,1-4 years,2,A101,2,A123,26,A143,own,2,A173,1,A191,yes,1,female,25-44
+below 0 DM,48,paid duly,A43,6758,below 100 DM,1-4 years,3,A101,2,A123,31,A143,own,1,A173,1,A192,yes,0,female,25-44
+0-200 DM,48,paid duly,A40,8487,unknown,4-7 years,1,A101,2,A123,24,A143,own,1,A173,1,A191,yes,1,female,under25
+200+ DM,30,critical account,A43,3017,below 100 DM,7+ years,4,A101,4,A122,47,A143,own,1,A173,1,A191,yes,1,male,45plus
+below 0 DM,6,critical account,A42,1872,below 100 DM,unemployed,4,A101,4,A124,36,A143,free,3,A174,1,A192,yes,1,male,25-44
+below 0 DM,30,no credits,A42,4583,below 100 DM,1-4 years,2,A103,2,A121,32,A143,own,2,A173,1,A191,yes,1,male,25-44
+below 0 DM,36,paid duly,A40,9271,below 100 DM,4-7 years,2,A101,1,A123,24,A143,own,1,A173,1,A192,yes,0,male,under25
+0-200 DM,6,paid duly,A43,368,unknown,7+ years,4,A101,4,A122,38,A143,own,1,A173,1,A191,yes,1,male,25-44
+no account,15,critical account,A46,1532,100-500 DM,1-4 years,4,A101,3,A123,31,A143,own,1,A173,1,A191,yes,1,female,25-44
+below 0 DM,24,critical account,A49,1382,100-500 DM,4-7 years,4,A101,1,A121,26,A143,own,2,A173,1,A192,yes,1,male,25-44
+no account,24,critical account,A43,2872,100-500 DM,7+ years,3,A101,4,A121,36,A143,own,1,A173,2,A192,yes,1,male,25-44
+no account,12,critical account,A42,1935,below 100 DM,7+ years,4,A101,4,A121,43,A143,own,3,A173,1,A192,yes,1,male,25-44
+0-200 DM,36,critical account,A40,2820,below 100 DM,under 1 year,4,A101,4,A123,27,A143,own,2,A173,1,A191,yes,0,male,25-44
+below 0 DM,27,critical account,A49,2442,below 100 DM,7+ years,4,A101,4,A123,43,A142,own,4,A174,2,A192,yes,1,male,25-44
+200+ DM,24,paid duly,A40,947,below 100 DM,4-7 years,4,A101,3,A124,38,A141,free,1,A173,2,A191,yes,0,male,25-44
+0-200 DM,12,paid duly,A41,2028,unknown,1-4 years,4,A101,2,A123,30,A143,own,1,A173,1,A191,yes,1,male,25-44
+no account,36,paid duly,A49,5742,100-500 DM,4-7 years,2,A101,2,A123,31,A143,own,2,A173,1,A192,yes,1,male,25-44
+no account,24,critical account,A41,2197,unknown,4-7 years,4,A101,4,A123,43,A143,own,2,A173,2,A192,yes,1,male,25-44
+0-200 DM,9,paid duly,A40,3195,unknown,1-4 years,1,A101,2,A121,33,A143,own,1,A172,1,A191,yes,1,female,25-44
+below 0 DM,24,paid duly,A43,2384,below 100 DM,7+ years,4,A101,4,A121,64,A141,rent,1,A172,1,A191,yes,1,male,45plus
+0-200 DM,9,critical account,A42,1919,below 100 DM,4-7 years,4,A101,3,A123,35,A143,rent,1,A173,1,A192,yes,1,male,25-44
+no account,9,paid duly,A44,1236,below 100 DM,under 1 year,1,A101,4,A121,23,A143,rent,1,A173,1,A192,yes,1,female,under25
+0-200 DM,48,paid duly,A49,15672,below 100 DM,1-4 years,2,A101,2,A123,23,A143,own,1,A173,1,A192,yes,0,male,under25
+below 0 DM,48,paid duly,A43,6999,below 100 DM,4-7 years,1,A103,1,A121,34,A143,own,2,A173,1,A192,yes,0,male,25-44
+no account,18,critical account,A42,3780,below 100 DM,under 1 year,3,A101,2,A123,35,A143,own,2,A174,1,A192,yes,1,male,25-44
+0-200 DM,20,no credits,A41,6148,100-500 DM,7+ years,3,A101,4,A123,31,A141,own,2,A173,1,A192,yes,1,male,25-44
+200+ DM,12,all paid here,A49,609,below 100 DM,under 1 year,4,A101,1,A121,26,A143,own,1,A171,1,A191,yes,0,female,25-44
+no account,60,critical account,A40,13756,unknown,7+ years,2,A101,4,A124,63,A141,free,1,A174,1,A192,yes,1,male,45plus
+below 0 DM,36,paid duly,A42,3620,below 100 DM,1-4 years,1,A103,2,A122,37,A143,own,1,A173,2,A191,yes,1,male,25-44
+no account,10,paid duly,A42,2210,below 100 DM,1-4 years,2,A101,2,A121,25,A141,rent,1,A172,1,A191,yes,0,male,under25
+0-200 DM,24,paid duly,A43,3092,100-500 DM,under 1 year,3,A101,2,A123,22,A143,rent,1,A173,1,A192,yes,0,male,under25
+0-200 DM,48,paid duly,A42,9960,below 100 DM,under 1 year,1,A101,2,A123,26,A143,own,1,A173,1,A192,yes,0,female,25-44
+0-200 DM,24,critical account,A42,4736,below 100 DM,under 1 year,2,A101,4,A123,25,A141,own,1,A172,1,A191,yes,0,female,under25
+200+ DM,24,critical account,A49,1275,1000+ DM,1-4 years,2,A101,4,A121,36,A143,own,2,A173,1,A192,yes,1,male,25-44
+no account,6,critical account,A40,362,100-500 DM,1-4 years,4,A101,4,A123,52,A143,own,2,A172,1,A191,yes,1,female,45plus
+0-200 DM,15,paid duly,A45,1308,below 100 DM,7+ years,4,A101,4,A123,38,A143,own,2,A172,1,A191,yes,1,male,25-44
+no account,12,paid duly,A40,1386,500-1000 DM,1-4 years,2,A101,2,A122,26,A143,own,1,A173,1,A191,yes,0,female,25-44
+0-200 DM,27,past delays,A41,5965,below 100 DM,7+ years,1,A101,2,A123,30,A143,own,2,A174,1,A192,yes,1,male,25-44
+no account,22,paid duly,A40,1283,unknown,4-7 years,4,A101,4,A122,25,A143,rent,1,A173,1,A191,yes,1,female,under25
+200+ DM,12,paid duly,A42,1424,unknown,7+ years,3,A101,4,A121,55,A143,own,1,A174,1,A192,yes,1,female,45plus
+0-200 DM,9,paid duly,A43,1082,below 100 DM,7+ years,4,A101,4,A123,27,A143,own,2,A172,1,A191,yes,1,male,25-44
+below 0 DM,42,paid duly,A43,7174,unknown,4-7 years,4,A101,3,A123,30,A143,own,1,A174,1,A192,yes,0,female,25-44
+no account,15,past delays,A42,960,1000+ DM,4-7 years,3,A101,2,A122,30,A143,own,2,A173,1,A191,yes,1,female,25-44
+no account,48,critical account,A41,2751,unknown,7+ years,4,A101,3,A123,38,A143,own,2,A173,2,A192,yes,1,male,25-44
+0-200 DM,72,paid duly,A43,5595,100-500 DM,1-4 years,2,A101,2,A123,24,A143,own,1,A173,1,A191,yes,0,male,under25
+no account,15,paid duly,A44,874,unknown,under 1 year,4,A101,1,A121,24,A143,own,1,A173,1,A191,yes,1,female,under25
+no account,24,all paid here,A49,1559,below 100 DM,4-7 years,4,A101,4,A123,50,A141,own,1,A173,1,A192,yes,1,male,45plus
+0-200 DM,15,paid duly,A43,802,below 100 DM,7+ years,4,A101,3,A123,37,A143,own,1,A173,2,A191,yes,0,male,25-44
+0-200 DM,48,no credits,A49,14421,below 100 DM,1-4 years,2,A101,2,A123,25,A143,own,1,A173,1,A192,yes,0,male,under25
+0-200 DM,36,past delays,A49,9857,100-500 DM,4-7 years,1,A101,3,A122,31,A143,own,2,A172,2,A192,yes,1,male,25-44
+no account,18,paid duly,A40,2662,unknown,4-7 years,4,A101,3,A122,32,A143,own,1,A173,1,A191,no,1,male,25-44
+no account,15,critical account,A42,1520,unknown,7+ years,4,A101,4,A122,63,A143,own,1,A173,1,A191,yes,1,male,45plus
+below 0 DM,18,paid duly,A42,2473,below 100 DM,unemployed,4,A101,1,A123,25,A143,own,1,A171,1,A191,yes,0,male,under25
+200+ DM,30,critical account,A43,3656,unknown,7+ years,4,A101,4,A122,49,A142,own,2,A172,1,A191,yes,1,male,45plus
+200+ DM,6,critical account,A40,1299,below 100 DM,1-4 years,1,A101,1,A121,74,A143,own,3,A171,2,A191,no,1,male,45plus
+below 0 DM,12,no credits,A45,1108,below 100 DM,4-7 years,4,A101,3,A121,28,A143,own,2,A173,1,A191,yes,0,male,25-44
+below 0 DM,14,paid duly,A40,3973,below 100 DM,unemployed,1,A101,4,A124,22,A143,free,1,A173,1,A191,yes,1,male,under25
+200+ DM,9,paid duly,A43,1126,100-500 DM,7+ years,2,A101,4,A121,49,A143,own,1,A173,1,A191,yes,1,male,45plus
+0-200 DM,18,paid duly,A40,5866,100-500 DM,1-4 years,2,A101,2,A123,30,A143,own,2,A173,1,A192,yes,1,male,25-44
+below 0 DM,30,paid duly,A45,11998,below 100 DM,under 1 year,1,A101,1,A124,34,A143,own,1,A172,1,A192,yes,0,male,25-44
+below 0 DM,10,paid duly,A43,2315,below 100 DM,7+ years,3,A101,4,A121,52,A143,own,1,A172,1,A191,yes,1,male,45plus
+0-200 DM,12,paid duly,A42,3017,below 100 DM,under 1 year,3,A101,1,A121,34,A143,rent,1,A174,1,A191,yes,1,female,25-44
+200+ DM,24,paid duly,A43,1377,100-500 DM,7+ years,4,A101,2,A124,47,A143,free,1,A173,1,A192,yes,1,female,45plus
+no account,24,paid duly,A43,3105,unknown,under 1 year,4,A101,2,A123,25,A143,own,2,A173,1,A191,yes,1,male,under25
+below 0 DM,30,paid duly,A42,3622,1000+ DM,7+ years,4,A101,4,A122,57,A143,rent,2,A173,1,A192,yes,1,female,45plus
+no account,24,critical account,A42,1585,below 100 DM,4-7 years,4,A101,3,A122,40,A143,own,2,A173,1,A191,yes,1,male,25-44
+0-200 DM,12,paid duly,A48,754,unknown,7+ years,4,A101,4,A122,38,A143,own,2,A173,1,A191,yes,1,male,25-44
+0-200 DM,24,paid duly,A43,2039,below 100 DM,under 1 year,1,A101,1,A122,22,A143,own,1,A173,1,A192,yes,0,male,under25
+0-200 DM,48,paid duly,A43,3979,unknown,4-7 years,4,A101,1,A123,41,A143,own,2,A173,2,A192,yes,1,male,25-44
+0-200 DM,24,paid duly,A40,3512,100-500 DM,4-7 years,2,A101,3,A123,38,A141,own,2,A173,1,A192,yes,1,male,25-44
+no account,18,all paid here,A40,6458,below 100 DM,7+ years,2,A101,4,A124,39,A141,own,2,A174,2,A192,yes,0,male,25-44
+0-200 DM,6,past delays,A42,1050,below 100 DM,unemployed,4,A101,1,A122,35,A142,own,2,A174,1,A192,yes,1,male,25-44
+0-200 DM,18,critical account,A42,1295,below 100 DM,under 1 year,4,A101,1,A122,27,A143,own,2,A173,1,A191,yes,1,female,25-44
+0-200 DM,12,paid duly,A43,1484,unknown,1-4 years,2,A101,1,A121,25,A143,own,1,A173,1,A192,yes,0,male,under25
+below 0 DM,15,paid duly,A43,1053,below 100 DM,under 1 year,4,A101,2,A121,27,A143,own,1,A173,1,A191,no,1,male,25-44
+0-200 DM,18,critical account,A42,1928,below 100 DM,under 1 year,2,A101,2,A121,31,A143,own,2,A172,1,A191,yes,0,male,25-44
+0-200 DM,30,no credits,A49,4221,below 100 DM,1-4 years,2,A101,1,A123,28,A143,own,2,A173,1,A191,yes,1,female,25-44
+0-200 DM,18,paid duly,A49,4439,below 100 DM,7+ years,1,A102,1,A121,33,A141,own,1,A174,1,A192,yes,1,male,25-44
+no account,9,paid duly,A46,3832,unknown,7+ years,1,A101,4,A121,64,A143,own,1,A172,1,A191,yes,1,male,45plus
+no account,48,critical account,A49,7629,unknown,7+ years,4,A101,2,A123,46,A141,own,2,A174,2,A191,yes,1,male,45plus
+0-200 DM,24,critical account,A43,1216,100-500 DM,under 1 year,4,A101,4,A124,38,A141,own,2,A173,2,A191,yes,0,male,25-44
+below 0 DM,15,paid duly,A42,1845,below 100 DM,under 1 year,4,A103,1,A122,46,A143,rent,1,A173,1,A191,yes,1,female,45plus
+no account,48,paid duly,A49,4844,below 100 DM,unemployed,3,A101,2,A123,33,A141,rent,1,A174,1,A192,yes,0,male,25-44
+0-200 DM,7,paid duly,A43,2415,below 100 DM,1-4 years,3,A103,2,A121,34,A143,own,1,A173,1,A191,yes,1,male,25-44
+no account,39,paid duly,A41,2569,500-1000 DM,1-4 years,4,A101,4,A123,24,A143,own,1,A173,1,A191,yes,1,male,under25
+no account,6,critical account,A43,1237,100-500 DM,1-4 years,1,A101,1,A122,27,A143,own,2,A173,1,A191,yes,1,female,25-44
+below 0 DM,24,paid duly,A40,1381,unknown,1-4 years,4,A101,2,A122,35,A143,own,1,A173,1,A191,yes,0,female,25-44
+below 0 DM,47,paid duly,A40,10722,below 100 DM,under 1 year,1,A101,1,A121,35,A143,own,1,A172,1,A192,yes,1,female,25-44
+no account,18,critical account,A42,1817,below 100 DM,1-4 years,4,A101,2,A124,28,A143,own,2,A173,1,A191,yes,1,female,25-44
+no account,36,critical account,A42,7127,below 100 DM,under 1 year,2,A101,4,A122,23,A143,rent,2,A173,1,A192,yes,0,female,under25
+no account,9,paid duly,A42,1388,below 100 DM,1-4 years,4,A101,2,A121,26,A143,rent,1,A173,1,A191,yes,1,female,25-44
+below 0 DM,36,paid duly,A41,8335,unknown,7+ years,3,A101,4,A124,47,A143,free,1,A173,1,A191,yes,0,male,45plus
+below 0 DM,36,all paid here,A42,2746,below 100 DM,7+ years,4,A101,4,A123,31,A141,own,1,A173,1,A191,yes,0,male,25-44
+no account,48,all paid here,A49,3609,below 100 DM,1-4 years,1,A101,1,A121,27,A142,own,1,A173,1,A191,yes,1,female,25-44
+no account,18,critical account,A46,1864,100-500 DM,1-4 years,4,A101,2,A121,30,A143,own,2,A173,1,A191,yes,0,female,25-44
+no account,12,paid duly,A43,1262,below 100 DM,1-4 years,3,A101,2,A123,25,A143,own,1,A173,1,A191,yes,1,male,under25
+0-200 DM,8,paid duly,A42,1237,below 100 DM,1-4 years,3,A101,4,A121,24,A143,own,1,A173,1,A191,yes,0,female,under25
+no account,15,critical account,A43,1459,below 100 DM,1-4 years,4,A101,2,A123,43,A143,own,1,A172,1,A191,yes,1,female,25-44
+below 0 DM,6,all paid here,A46,1198,below 100 DM,7+ years,4,A101,4,A124,35,A143,free,1,A173,1,A191,yes,0,female,25-44
+below 0 DM,48,paid duly,A40,7763,below 100 DM,7+ years,4,A101,4,A124,42,A141,free,1,A174,1,A191,yes,0,male,25-44
+no account,24,paid duly,A43,1533,below 100 DM,under 1 year,4,A101,3,A123,38,A142,own,1,A173,1,A192,yes,1,female,25-44
+no account,12,paid duly,A46,719,below 100 DM,7+ years,4,A101,4,A123,41,A141,own,1,A172,2,A191,yes,0,male,25-44
+no account,12,critical account,A46,701,below 100 DM,1-4 years,4,A101,2,A123,32,A143,own,2,A173,1,A191,yes,1,male,25-44
+below 0 DM,12,paid duly,A46,1200,unknown,1-4 years,4,A101,4,A122,23,A141,rent,1,A173,1,A192,yes,1,female,under25
+0-200 DM,30,past delays,A49,2503,100-500 DM,7+ years,4,A101,2,A122,41,A142,own,2,A173,1,A191,yes,1,male,25-44
+no account,60,paid duly,A40,6527,unknown,1-4 years,4,A101,4,A124,34,A143,free,1,A173,2,A192,yes,1,male,25-44
+no account,6,critical account,A43,1554,below 100 DM,4-7 years,1,A101,2,A123,24,A143,rent,2,A173,1,A192,yes,1,female,under25
+0-200 DM,6,paid duly,A40,14555,unknown,unemployed,1,A101,2,A122,23,A143,own,1,A171,1,A192,yes,0,male,under25
+below 0 DM,24,paid duly,A42,3234,below 100 DM,under 1 year,4,A101,4,A121,23,A143,rent,1,A172,1,A192,yes,0,female,under25
+no account,15,critical account,A43,1316,500-1000 DM,1-4 years,2,A101,2,A122,47,A143,own,2,A172,1,A191,yes,1,male,45plus
+no account,6,critical account,A40,250,1000+ DM,1-4 years,2,A101,2,A121,41,A141,own,2,A172,1,A191,yes,1,female,25-44
+no account,12,critical account,A40,1163,500-1000 DM,1-4 years,4,A101,4,A121,44,A143,own,1,A173,1,A192,yes,1,male,25-44
+no account,18,critical account,A43,1582,1000+ DM,7+ years,4,A101,4,A123,46,A143,own,2,A173,1,A191,yes,1,male,45plus
+0-200 DM,12,critical account,A40,1995,100-500 DM,under 1 year,4,A101,1,A123,27,A143,own,1,A173,1,A191,yes,1,male,25-44
+no account,18,critical account,A40,1055,below 100 DM,under 1 year,4,A101,1,A122,30,A143,own,2,A173,1,A191,yes,1,female,25-44
+no account,4,critical account,A43,1503,below 100 DM,4-7 years,2,A101,1,A121,42,A143,own,2,A172,2,A191,yes,1,male,25-44
+no account,12,paid duly,A43,776,below 100 DM,1-4 years,4,A101,2,A121,28,A143,own,1,A173,1,A191,yes,1,male,25-44
+0-200 DM,24,critical account,A49,2825,unknown,4-7 years,4,A101,3,A124,34,A143,own,2,A173,2,A192,yes,1,male,25-44
+no account,9,paid duly,A43,2753,100-500 DM,7+ years,3,A102,4,A123,35,A143,own,1,A173,1,A192,yes,1,male,25-44
+no account,54,no credits,A41,9436,unknown,1-4 years,2,A101,2,A122,39,A143,own,1,A172,2,A191,yes,1,male,25-44
+no account,18,paid duly,A43,1453,below 100 DM,under 1 year,3,A101,1,A121,26,A143,own,1,A173,1,A191,yes,1,female,25-44
+0-200 DM,24,critical account,A40,3878,100-500 DM,under 1 year,4,A101,2,A123,37,A143,own,1,A173,1,A192,yes,1,male,25-44
+below 0 DM,12,paid duly,A43,1680,500-1000 DM,7+ years,3,A101,1,A121,35,A143,own,1,A173,1,A191,yes,1,male,25-44
+below 0 DM,48,paid duly,A46,7476,below 100 DM,4-7 years,4,A101,1,A124,50,A143,free,1,A174,1,A192,yes,1,male,45plus
+no account,15,critical account,A42,3343,below 100 DM,1-4 years,4,A101,2,A124,28,A143,free,1,A173,1,A192,yes,1,male,25-44
+below 0 DM,18,paid duly,A40,2249,100-500 DM,4-7 years,4,A101,3,A123,30,A143,own,1,A174,2,A192,yes,1,male,25-44
+no account,36,critical account,A43,9566,below 100 DM,1-4 years,2,A101,2,A123,31,A142,own,2,A173,1,A191,yes,1,female,25-44
+0-200 DM,48,paid duly,A43,3060,below 100 DM,4-7 years,4,A101,4,A121,28,A143,own,2,A173,1,A191,yes,0,male,25-44
+below 0 DM,9,critical account,A45,1288,100-500 DM,7+ years,3,A103,4,A121,48,A143,own,2,A173,2,A191,no,1,male,45plus
+no account,10,paid duly,A46,727,500-1000 DM,7+ years,4,A101,4,A124,46,A143,free,1,A173,1,A192,yes,1,male,45plus
+below 0 DM,24,paid duly,A40,4817,below 100 DM,4-7 years,2,A102,3,A122,31,A143,own,1,A173,1,A192,yes,0,male,25-44
+no account,12,critical account,A49,2292,below 100 DM,unemployed,4,A101,2,A123,42,A142,own,2,A174,1,A192,yes,0,male,25-44
+below 0 DM,36,critical account,A42,5371,below 100 DM,1-4 years,3,A103,2,A122,28,A143,own,2,A173,1,A191,yes,1,male,25-44
+below 0 DM,18,critical account,A40,3966,below 100 DM,7+ years,1,A101,4,A121,33,A141,rent,3,A173,1,A192,yes,0,female,25-44
+below 0 DM,24,paid duly,A43,1282,100-500 DM,1-4 years,4,A101,2,A123,32,A143,own,1,A172,1,A191,yes,0,female,25-44
+no account,6,critical account,A43,1382,below 100 DM,1-4 years,1,A101,1,A123,28,A143,own,2,A173,1,A192,yes,1,female,25-44
+below 0 DM,24,paid duly,A40,3123,below 100 DM,under 1 year,4,A101,1,A122,27,A143,own,1,A173,1,A191,yes,0,female,25-44
+200+ DM,9,no credits,A43,1337,below 100 DM,under 1 year,4,A101,2,A123,34,A143,own,2,A174,1,A192,yes,0,male,25-44
+0-200 DM,36,paid duly,A41,6948,below 100 DM,1-4 years,2,A101,2,A123,35,A143,rent,1,A174,1,A192,yes,1,male,25-44
+below 0 DM,12,paid duly,A40,759,below 100 DM,4-7 years,4,A101,2,A121,26,A143,own,1,A173,1,A191,yes,0,male,25-44
+below 0 DM,48,all paid here,A49,7685,below 100 DM,4-7 years,2,A103,4,A123,37,A143,rent,1,A173,1,A191,yes,0,female,25-44
+0-200 DM,7,paid duly,A43,2329,below 100 DM,under 1 year,1,A103,1,A121,45,A143,own,1,A173,1,A191,yes,1,female,25-44
+below 0 DM,60,paid duly,A49,7297,below 100 DM,7+ years,4,A102,4,A124,36,A143,rent,1,A173,1,A191,yes,0,male,25-44
+no account,6,paid duly,A48,1238,unknown,unemployed,4,A101,4,A122,36,A143,own,1,A174,2,A192,yes,1,male,25-44
+no account,10,paid duly,A48,894,unknown,4-7 years,4,A101,3,A122,40,A143,own,1,A173,1,A192,yes,1,female,25-44
+no account,6,paid duly,A45,660,500-1000 DM,4-7 years,2,A101,4,A121,23,A143,rent,1,A172,1,A191,yes,1,male,under25
+no account,12,critical account,A40,926,below 100 DM,unemployed,1,A101,2,A122,38,A143,own,1,A171,1,A191,yes,1,female,25-44
+no account,24,paid duly,A43,3181,below 100 DM,under 1 year,4,A101,4,A122,26,A143,own,1,A173,1,A192,yes,1,female,25-44
+below 0 DM,9,paid duly,A40,654,below 100 DM,1-4 years,4,A101,3,A123,28,A143,own,1,A172,1,A191,yes,0,male,25-44
+0-200 DM,30,paid duly,A42,3832,below 100 DM,under 1 year,2,A101,1,A122,22,A143,own,1,A173,1,A191,yes,1,male,under25
+0-200 DM,15,paid duly,A40,2631,100-500 DM,1-4 years,2,A101,4,A123,28,A143,rent,2,A173,1,A192,yes,0,female,25-44
+no account,12,paid duly,A42,763,below 100 DM,1-4 years,4,A101,1,A121,26,A143,own,1,A173,1,A192,yes,1,female,25-44
+no account,24,past delays,A42,4151,100-500 DM,1-4 years,2,A101,3,A122,35,A143,own,2,A173,1,A191,yes,1,male,25-44
+no account,9,critical account,A46,1244,unknown,7+ years,4,A101,4,A122,41,A143,rent,2,A172,1,A191,yes,1,female,25-44
+0-200 DM,12,paid duly,A43,1331,below 100 DM,under 1 year,2,A101,1,A123,22,A142,own,1,A173,1,A191,yes,0,male,under25
+no account,36,past delays,A41,8947,unknown,4-7 years,3,A101,2,A123,31,A142,own,1,A174,2,A192,yes,1,male,25-44
+0-200 DM,27,paid duly,A49,2528,below 100 DM,under 1 year,4,A101,1,A122,32,A143,own,1,A173,2,A192,yes,1,female,25-44
+no account,12,no credits,A42,2759,below 100 DM,7+ years,2,A101,4,A122,34,A143,own,2,A173,1,A191,yes,1,male,25-44
+below 0 DM,12,paid duly,A40,900,unknown,1-4 years,4,A101,2,A123,23,A143,own,1,A173,1,A191,yes,0,male,under25
+no account,24,paid duly,A48,937,below 100 DM,under 1 year,4,A101,3,A123,27,A143,own,2,A172,1,A191,yes,1,male,25-44
+below 0 DM,6,critical account,A43,1169,unknown,7+ years,4,A101,4,A121,67,A143,own,2,A173,1,A192,yes,1,male,45plus
+no account,24,paid duly,A43,1278,below 100 DM,7+ years,4,A101,1,A121,36,A143,own,1,A174,1,A192,yes,1,male,25-44
+no account,42,critical account,A42,4042,500-1000 DM,1-4 years,4,A101,4,A121,36,A143,own,2,A173,1,A192,yes,1,male,25-44
+0-200 DM,18,paid duly,A49,1913,1000+ DM,under 1 year,3,A101,3,A121,36,A141,own,1,A173,1,A192,yes,1,male,25-44
+below 0 DM,18,paid duly,A42,3650,below 100 DM,under 1 year,1,A101,4,A123,22,A143,rent,1,A173,1,A191,yes,1,female,under25
+no account,24,critical account,A42,3777,1000+ DM,1-4 years,4,A101,4,A121,50,A143,own,1,A173,1,A192,yes,1,male,45plus
+0-200 DM,26,paid duly,A41,7966,below 100 DM,under 1 year,2,A101,3,A123,30,A143,own,2,A173,1,A191,yes,1,male,25-44
+no account,21,no credits,A40,5003,unknown,1-4 years,1,A101,4,A122,29,A141,own,2,A173,1,A192,yes,0,female,25-44
+0-200 DM,36,paid duly,A43,2671,100-500 DM,1-4 years,4,A102,4,A124,50,A143,free,1,A173,1,A191,yes,0,female,45plus
+no account,12,critical account,A46,3565,unknown,under 1 year,2,A101,1,A122,37,A143,own,2,A172,2,A191,yes,1,male,25-44
+below 0 DM,24,paid duly,A40,1285,unknown,4-7 years,4,A101,4,A124,32,A143,rent,1,A173,1,A191,yes,0,female,25-44
+below 0 DM,18,paid duly,A42,1131,below 100 DM,unemployed,4,A101,2,A123,33,A143,own,1,A173,1,A191,yes,0,female,25-44
+below 0 DM,18,paid duly,A42,2039,below 100 DM,1-4 years,1,A101,4,A121,20,A141,rent,1,A173,1,A191,yes,0,female,under25
+no account,12,paid duly,A49,1076,below 100 DM,1-4 years,2,A101,2,A121,26,A143,own,1,A173,1,A192,no,1,male,25-44
+below 0 DM,10,critical account,A40,2241,below 100 DM,under 1 year,1,A101,3,A121,48,A143,rent,2,A172,2,A191,no,1,male,45plus
+below 0 DM,30,paid duly,A41,3857,below 100 DM,1-4 years,4,A101,4,A122,40,A143,own,1,A174,1,A192,yes,1,male,25-44
+below 0 DM,12,paid duly,A42,1858,below 100 DM,under 1 year,4,A101,1,A123,22,A143,rent,1,A173,1,A191,yes,1,female,under25
+0-200 DM,12,paid duly,A42,2762,unknown,7+ years,1,A101,2,A122,25,A141,own,1,A173,1,A192,yes,0,female,under25
+no account,21,paid duly,A42,2241,below 100 DM,7+ years,4,A101,2,A121,50,A143,own,2,A173,1,A191,yes,1,male,45plus
+200+ DM,18,paid duly,A40,1961,below 100 DM,7+ years,3,A101,2,A123,23,A143,own,1,A174,1,A191,yes,1,female,under25
+below 0 DM,42,paid duly,A42,7882,below 100 DM,4-7 years,2,A103,4,A122,45,A143,free,1,A173,2,A191,yes,1,male,25-44
+0-200 DM,11,paid duly,A42,1577,1000+ DM,under 1 year,4,A101,1,A121,20,A143,own,1,A173,1,A191,yes,1,female,under25
+no account,9,critical account,A40,2134,below 100 DM,1-4 years,4,A101,4,A123,48,A143,own,3,A173,1,A192,yes,1,male,45plus
+below 0 DM,18,paid duly,A40,1216,below 100 DM,under 1 year,4,A101,3,A123,23,A143,rent,1,A173,1,A192,yes,0,female,under25
+0-200 DM,24,paid duly,A410,11328,below 100 DM,1-4 years,2,A102,3,A123,29,A141,own,2,A174,1,A192,yes,0,male,25-44
+below 0 DM,15,critical account,A42,1478,below 100 DM,7+ years,4,A101,4,A123,44,A143,own,2,A173,2,A192,yes,1,male,25-44
+no account,18,critical account,A43,1149,1000+ DM,1-4 years,4,A101,3,A121,46,A143,own,2,A173,1,A191,yes,1,male,45plus
+0-200 DM,21,paid duly,A49,1188,below 100 DM,7+ years,2,A101,4,A122,39,A143,own,1,A173,2,A191,yes,0,female,25-44
+0-200 DM,18,past delays,A42,4297,below 100 DM,7+ years,4,A101,3,A124,40,A143,own,1,A174,1,A192,yes,0,male,25-44
+0-200 DM,12,paid duly,A43,2930,below 100 DM,4-7 years,2,A101,1,A121,27,A143,own,1,A173,1,A191,yes,1,female,25-44
+below 0 DM,21,paid duly,A43,2606,below 100 DM,under 1 year,4,A101,4,A122,28,A143,rent,1,A174,1,A192,yes,1,female,25-44
+below 0 DM,12,paid duly,A42,1282,below 100 DM,1-4 years,2,A101,4,A123,20,A143,rent,1,A173,1,A191,yes,0,female,under25
+no account,11,paid duly,A49,2142,1000+ DM,7+ years,1,A101,2,A121,28,A143,own,1,A173,1,A192,yes,1,male,25-44
+below 0 DM,24,all paid here,A42,3349,500-1000 DM,under 1 year,4,A101,4,A124,30,A143,free,1,A173,2,A192,yes,0,male,25-44
+below 0 DM,30,critical account,A41,6187,100-500 DM,4-7 years,1,A101,4,A123,24,A143,rent,2,A173,1,A191,yes,1,male,under25
+0-200 DM,12,paid duly,A40,836,100-500 DM,under 1 year,4,A101,2,A122,23,A141,own,1,A172,1,A191,yes,0,female,under25
+no account,36,critical account,A41,5842,below 100 DM,7+ years,2,A101,2,A122,35,A143,own,2,A173,2,A192,yes,1,male,25-44
+below 0 DM,6,critical account,A40,4716,unknown,under 1 year,1,A101,3,A121,44,A143,own,2,A172,2,A191,yes,1,male,25-44
+no account,24,paid duly,A43,1311,100-500 DM,4-7 years,4,A101,3,A122,26,A143,own,1,A173,1,A192,yes,1,male,25-44
+200+ DM,10,paid duly,A40,1240,100-500 DM,7+ years,1,A101,4,A124,48,A143,free,1,A172,2,A191,yes,0,female,45plus
+0-200 DM,18,paid duly,A43,3213,500-1000 DM,under 1 year,1,A101,3,A121,25,A143,rent,1,A173,1,A191,yes,1,male,under25
+below 0 DM,12,paid duly,A42,1289,below 100 DM,1-4 years,4,A103,1,A122,21,A143,own,1,A172,1,A191,yes,1,male,under25
+below 0 DM,12,paid duly,A46,684,below 100 DM,1-4 years,4,A101,4,A123,40,A143,rent,1,A172,2,A191,yes,0,male,25-44
+below 0 DM,24,all paid here,A40,1193,below 100 DM,unemployed,1,A102,4,A124,29,A143,rent,2,A171,1,A191,yes,0,female,25-44
+no account,12,critical account,A49,1412,below 100 DM,1-4 years,4,A103,2,A121,29,A143,own,2,A174,1,A192,yes,1,female,25-44
+200+ DM,10,paid duly,A42,1275,below 100 DM,under 1 year,4,A101,2,A122,23,A143,own,1,A173,1,A191,yes,1,female,under25
+no account,12,paid duly,A43,804,below 100 DM,7+ years,4,A101,4,A123,38,A143,own,1,A173,1,A191,yes,1,male,25-44
+below 0 DM,6,critical account,A43,1957,below 100 DM,4-7 years,1,A101,4,A123,31,A143,own,1,A173,1,A191,yes,1,female,25-44
+below 0 DM,9,paid duly,A42,2136,below 100 DM,1-4 years,3,A101,2,A121,25,A143,own,1,A173,1,A191,yes,1,male,under25
+below 0 DM,48,paid duly,A41,4788,below 100 DM,4-7 years,4,A101,3,A122,26,A143,own,1,A173,2,A191,yes,1,male,25-44
+no account,36,paid duly,A42,3349,below 100 DM,1-4 years,4,A101,2,A123,28,A143,own,1,A174,1,A192,yes,0,female,25-44
+no account,15,paid duly,A42,2186,unknown,4-7 years,1,A101,4,A121,33,A141,rent,1,A172,1,A191,yes,1,female,25-44
+no account,15,paid duly,A43,1979,unknown,7+ years,4,A101,2,A123,35,A143,own,1,A173,1,A191,yes,1,male,25-44
+below 0 DM,12,paid duly,A40,1274,below 100 DM,under 1 year,3,A101,1,A121,37,A143,own,1,A172,1,A191,yes,0,female,25-44
+200+ DM,10,critical account,A40,781,below 100 DM,7+ years,4,A101,4,A124,63,A143,free,2,A173,1,A192,yes,1,male,45plus
+below 0 DM,10,critical account,A42,2132,unknown,under 1 year,2,A102,3,A121,27,A143,rent,2,A173,1,A191,no,1,female,25-44
+200+ DM,10,paid duly,A40,3949,below 100 DM,under 1 year,1,A103,1,A122,37,A143,own,1,A172,2,A191,yes,1,male,25-44
+no account,15,critical account,A42,2788,below 100 DM,4-7 years,2,A102,3,A123,24,A141,own,2,A173,1,A191,yes,1,female,under25
