@@ -101,7 +101,7 @@
         <h2 class="section-title">Run an audit</h2>
         <p class="section-sub">Your files stay on this session. Nothing is shared.</p>
 
-        <form class="card form" action="#" method="post" enctype="multipart/form-data">
+        <form id="audit-form" class="card form" action="#" method="post" enctype="multipart/form-data">
           <div class="form-grid">
 
             <div class="field">
@@ -159,15 +159,39 @@
               </label>
             </div>
 
+            <div class="field">
+              <label for="use-case">6. What is the model used for?</label>
+              <select id="use-case" name="use_case">
+                <option value="hiring">Screening or hiring</option>
+                <option value="lending">Lending or admissions</option>
+                <option value="triage">Medical triage or risk flags</option>
+                <option value="scoring">Scoring or ranking</option>
+              </select>
+              <small class="hint">Sets the recommended fairness metric.</small>
+            </div>
+
+            <div class="field">
+              <label for="metric">7. Primary fairness metric</label>
+              <select id="metric" name="metric">
+                <option value="">Recommended for this use case</option>
+                <option value="demographic_parity">Demographic parity (80% rule)</option>
+                <option value="equal_opportunity">Equal opportunity</option>
+                <option value="equalized_odds">Equalized odds</option>
+                <option value="predictive_parity">Predictive parity</option>
+              </select>
+              <small class="hint" id="metric-hint">Not sure? See the metric advisor below.</small>
+            </div>
+
             <div class="field field-wide">
-              <label for="reference">6. Reference dataset for drift (optional)</label>
+              <label for="reference">8. Reference dataset for drift (optional)</label>
               <input type="file" id="reference" name="reference" accept=".csv" class="file-input">
               <small class="hint">Upload the original training data to compare against your current data.</small>
             </div>
           </div>
 
+          <p id="audit-status" class="hint" role="status" aria-live="polite"></p>
           <div class="form-actions">
-            <button type="submit" class="btn btn-primary">Run audit</button>
+            <button type="submit" id="run-audit" class="btn btn-primary">Run audit</button>
             <button type="reset" class="btn btn-ghost">Clear</button>
           </div>
         </form>
@@ -184,22 +208,24 @@
           <article class="card advisor">
             <h3>What is the model used for?</h3>
             <form action="#" class="advisor-form">
-              <label class="option"><input type="radio" name="usecase" checked><span><strong>Screening or hiring</strong><small>Groups should be selected at similar rates.</small></span></label>
-              <label class="option"><input type="radio" name="usecase"><span><strong>Lending or admissions</strong><small>Qualified people must not be missed.</small></span></label>
-              <label class="option"><input type="radio" name="usecase"><span><strong>Medical triage or risk</strong><small>Both false alarms and misses are costly.</small></span></label>
-              <label class="option"><input type="radio" name="usecase"><span><strong>Scoring or ranking</strong><small>A score should mean the same for every group.</small></span></label>
+              <label class="option"><input type="radio" name="usecase" value="hiring" checked><span><strong>Screening or hiring</strong><small>Groups should be selected at similar rates.</small></span></label>
+              <label class="option"><input type="radio" name="usecase" value="lending"><span><strong>Lending or admissions</strong><small>Qualified people must not be missed.</small></span></label>
+              <label class="option"><input type="radio" name="usecase" value="triage"><span><strong>Medical triage or risk</strong><small>Both false alarms and misses are costly.</small></span></label>
+              <label class="option"><input type="radio" name="usecase" value="scoring"><span><strong>Scoring or ranking</strong><small>A score should mean the same for every group.</small></span></label>
               <button type="submit" class="btn btn-primary">Recommend a metric</button>
+              <button type="button" id="use-recommendation" class="btn btn-ghost">Use this metric in my audit</button>
             </form>
           </article>
 
-          <article class="card recommend">
+          <article class="card recommend" id="recommendation" aria-live="polite">
             <p class="eyebrow">Recommended</p>
-            <h3>Demographic parity (80% rule)</h3>
-            <p>The share of people selected should be similar across groups. A group's rate below 80% of the highest group's rate is flagged.</p>
+            <h3 id="rec-metric">Demographic parity (80% rule)</h3>
+            <p id="rec-why">The share of people selected should be similar across groups. A group's rate below 80% of the highest group's rate is flagged.</p>
             <dl class="facts">
-              <div><dt>Best for</dt><dd>Hiring, screening, shortlisting</dd></div>
-              <div><dt>Watch out</dt><dd>Ignores whether people were actually qualified</dd></div>
-              <div><dt>Backup metric</dt><dd>Equal opportunity</dd></div>
+              <div><dt>Best for</dt><dd id="rec-best">Hiring, screening and shortlisting</dd></div>
+              <div><dt>Passes when</dt><dd id="rec-threshold">Ratio to the reference group of at least 0.80 (four-fifths rule)</dd></div>
+              <div><dt>Watch out</dt><dd id="rec-watch">Ignores whether candidates were actually qualified.</dd></div>
+              <div><dt>Backup metric</dt><dd id="rec-backup">Equal opportunity</dd></div>
             </dl>
           </article>
         </div>
@@ -207,15 +233,26 @@
         <div class="table-wrap">
           <table class="table">
             <caption class="visually-hidden">Fairness metrics and when to use them</caption>
-            <thead><tr><th>Metric</th><th>Asks</th><th>Use when</th></tr></thead>
+            <thead><tr><th>Metric</th><th>Asks</th><th>Use when</th><th>Passes when</th><th>Needs actual outcome</th></tr></thead>
             <tbody>
-              <tr><td>Demographic parity</td><td>Are groups selected at similar rates?</td><td>Hiring, screening</td></tr>
-              <tr><td>Equal opportunity</td><td>Are qualified people in each group approved equally?</td><td>Lending, admissions</td></tr>
-              <tr><td>Equalized odds</td><td>Are both error types similar across groups?</td><td>Triage, risk scoring</td></tr>
-              <tr><td>Predictive parity</td><td>Does a "yes" mean the same for every group?</td><td>Scores and rankings</td></tr>
+              <tr><td>Demographic parity</td><td>Are groups selected at similar rates?</td><td>Hiring, screening</td><td>Ratio &ge; 0.80</td><td>No</td></tr>
+              <tr><td>Equal opportunity</td><td>Are qualified people in each group approved equally?</td><td>Lending, admissions</td><td>TPR ratio &ge; 0.80</td><td>Yes</td></tr>
+              <tr><td>Equalized odds</td><td>Are both error types similar across groups?</td><td>Triage, risk scoring</td><td>TPR and FPR gap &le; 0.10</td><td>Yes</td></tr>
+              <tr><td>Predictive parity</td><td>Does a "yes" mean the same for every group?</td><td>Scores and rankings</td><td>Precision ratio &ge; 0.80</td><td>Yes</td></tr>
             </tbody>
           </table>
         </div>
+
+        <article class="card guide">
+          <h3>Quick decision guide</h3>
+          <ol class="guide-list">
+            <li><strong>No actual outcomes available?</strong> Use demographic parity; it only needs the model's decisions.</li>
+            <li><strong>Missing a qualified person is the main harm?</strong> Use equal opportunity.</li>
+            <li><strong>False alarms are as harmful as misses?</strong> Use equalized odds.</li>
+            <li><strong>People act on the score as a probability or rank?</strong> Use predictive parity.</li>
+          </ol>
+          <p class="muted">These metrics can conflict mathematically when groups have different base rates. Choose the one that matches the harm you most need to prevent; FairLens reports the others for context. Intersectional groups (for example gender &times; age band) are always checked because bias often hides in combinations that single-attribute checks miss.</p>
+        </article>
       </div>
     </section>
 
@@ -223,7 +260,7 @@
     <section id="results" class="section section-alt">
       <div class="container">
         <h2 class="section-title">Audit results</h2>
-        <p class="section-sub">Sample output: Loan Approval v2, 12,480 applicants.</p>
+        <p class="section-sub" id="results-sub">Sample output: Loan Approval v2, 12,480 applicants. Run an audit to replace it with your results.</p>
 
         <div class="grid grid-4 stats">
           <div class="card stat"><span class="stat-label">Fairness score</span><span class="stat-value">72<small>/100</small></span></div>
@@ -236,7 +273,7 @@
           <!-- Bias by group -->
           <article class="card">
             <h3>Approval rate by group</h3>
-            <p class="muted">Bars show approval rate. The dashed line marks 80% of the top group.</p>
+            <p class="muted" id="bars-note">Bars show approval rate. The dashed line marks 80% of the top group.</p>
             <div class="bars">
               <div class="bar-row"><span class="bar-label">Men, 25 to 44</span><div class="bar-track"><div class="bar bar-ok" style="width:78%"></div><span class="threshold"></span></div><span class="bar-value">78%</span></div>
               <div class="bar-row"><span class="bar-label">Women, 25 to 44</span><div class="bar-track"><div class="bar bar-ok" style="width:66%"></div><span class="threshold"></span></div><span class="bar-value">66%</span></div>
@@ -260,13 +297,15 @@
         </div>
 
         <!-- Fairness table -->
+        <div id="metric-note" class="metric-note" hidden></div>
+        <div class="group-tabs" id="group-tabs" role="toolbar" aria-label="Choose a grouping"></div>
         <div class="table-wrap">
           <table class="table">
-            <caption>Intersectional fairness detail</caption>
+            <caption id="groups-caption">Intersectional fairness detail</caption>
             <thead>
               <tr><th>Group</th><th>Size</th><th>Approval rate</th><th>Ratio to top group</th><th>Confidence</th><th>Status</th></tr>
             </thead>
-            <tbody>
+            <tbody id="groups-body">
               <tr><td>Men, 25 to 44</td><td>3,920</td><td>78%</td><td>1.00</td><td>High</td><td><span class="badge badge-ok">Pass</span></td></tr>
               <tr><td>Women, 25 to 44</td><td>3,310</td><td>66%</td><td>0.85</td><td>High</td><td><span class="badge badge-ok">Pass</span></td></tr>
               <tr><td>Women, 45+</td><td>1,240</td><td>49%</td><td>0.63</td><td>High</td><td><span class="badge badge-bad">Fail</span></td></tr>

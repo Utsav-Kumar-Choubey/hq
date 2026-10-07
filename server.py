@@ -9,6 +9,7 @@ Endpoints:
   POST /upload          -> read a CSV, return its columns and suggested roles
   POST /audit           -> run the full audit and return JSON results
   GET  /advisor/{case}  -> recommended fairness metric for a use case
+  GET  /metrics         -> metric definitions and selection guide
   POST /report          -> the latest compliance report as an HTML file
 
 Run:  python3 -m uvicorn server:app --host 127.0.0.1 --port 8000
@@ -26,7 +27,7 @@ from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, Response
 
 from engine import data_loader
-from engine.audit import advise_metric, run_full_audit
+from engine.audit import advise_metric, metric_catalogue, run_full_audit
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -131,6 +132,8 @@ async def audit(
     outcome_col: str = Form(""),
     intersectional: bool = Form(True),
     model_name: str = Form("Uploaded model"),
+    use_case: str = Form(""),
+    metric: str = Form(""),
     reference: Optional[UploadFile] = File(None),
 ):
     """Run the bias, drift and explainability audit and return JSON."""
@@ -146,7 +149,8 @@ async def audit(
     result = run_full_audit(
         df, sensitive=sensitive_list, pred_col=prediction_col,
         outcome_col=outcome, intersectional=intersectional,
-        reference=ref_df, model_name=model_name or "Uploaded model")
+        reference=ref_df, model_name=model_name or "Uploaded model",
+        metric=metric or None, use_case=use_case or None)
 
     _LAST_REPORT_HTML["html"] = result["report"].pop("html", None)
     return JSONResponse(result)
@@ -156,6 +160,12 @@ async def audit(
 def advisor(usecase: str):
     """Return the recommended fairness metric for a use case."""
     return JSONResponse(advise_metric(usecase))
+
+
+@app.get("/metrics")
+def metrics():
+    """All supported fairness metrics, use-case advice and the decision guide."""
+    return JSONResponse(metric_catalogue())
 
 
 @app.post("/report")
