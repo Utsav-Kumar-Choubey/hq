@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FairLens | Bias Audit &amp; Explainability Toolkit</title>
+  <meta name="description" content="Upload a dataset and model predictions to get a bias, drift and explainability audit in plain language.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo"><span class="logo-mark">F</span>FairLens</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#how">How it works</a>
+        <a href="#audit">Run audit</a>
+        <a href="#advisor">Metric advisor</a>
+        <a href="#results">Results</a>
+        <a href="#explain">Explanations</a>
+        <a href="#report">Report</a>
+      </nav>
+      <a href="#audit" class="btn btn-primary btn-sm">Start an audit</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Model governance toolkit</p>
+          <h1>Is your model fair? Prove it, and explain it.</h1>
+          <p class="lead">Upload your dataset and predictions. FairLens checks for bias across single and intersectional groups, detects drift, explains individual decisions in plain language, and writes the compliance report for you.</p>
+          <div class="hero-actions">
+            <a href="#audit" class="btn btn-primary">Upload data</a>
+            <a href="#results" class="btn btn-ghost">See a sample audit</a>
+          </div>
+          <ul class="hero-points">
+            <li>No ML expertise needed</li>
+            <li>Hiring, lending and triage use cases</li>
+            <li>Regulator-ready report</li>
+          </ul>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="hero-card-head">
+            <span>Audit summary</span>
+            <span class="badge badge-warn">Needs attention</span>
+          </div>
+          <div class="score-row">
+            <div class="score-ring"><span>72</span><small>/100</small></div>
+            <p>Fairness score for <strong>Loan Approval v2</strong></p>
+          </div>
+          <ul class="mini-list">
+            <li><span>Demographic parity</span><span class="badge badge-bad">Fail</span></li>
+            <li><span>Equal opportunity</span><span class="badge badge-ok">Pass</span></li>
+            <li><span>Drift (PSI)</span><span class="badge badge-warn">Moderate</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS ===== -->
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">How it works</h2>
+        <p class="section-sub">Four steps from raw files to a report you can hand to a regulator.</p>
+        <div class="grid grid-4">
+          <article class="card step">
+            <span class="step-num">1</span>
+            <h3>Upload</h3>
+            <p>Add your dataset and either the model's predictions or the model file.</p>
+          </article>
+          <article class="card step">
+            <span class="step-num">2</span>
+            <h3>Choose a metric</h3>
+            <p>Answer a few questions and we recommend the fairness metric that fits your situation.</p>
+          </article>
+          <article class="card step">
+            <span class="step-num">3</span>
+            <h3>Audit</h3>
+            <p>Bias, intersectional, drift and explainability checks run automatically.</p>
+          </article>
+          <article class="card step">
+            <span class="step-num">4</span>
+            <h3>Report</h3>
+            <p>Download a compliance-style report with findings and recommendations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== UPLOAD / RUN AUDIT ===== -->
+    <section id="audit" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Run an audit</h2>
+        <p class="section-sub">Your files stay on this session. Nothing is shared.</p>
+
+        <form class="card form" action="#" method="post" enctype="multipart/form-data">
+          <div class="form-grid">
+
+            <div class="field">
+              <label for="dataset">1. Dataset (CSV)</label>
+              <label class="dropzone" for="dataset">
+                <span class="dropzone-icon">&#8679;</span>
+                <strong>Click to upload</strong> or drag a file here
+                <small>CSV, up to 50 MB</small>
+              </label>
+              <input type="file" id="dataset" name="dataset" accept=".csv" class="visually-hidden">
+            </div>
+
+            <div class="field">
+              <label for="predictions">2. Model or predictions</label>
+              <label class="dropzone" for="predictions">
+                <span class="dropzone-icon">&#8679;</span>
+                <strong>Click to upload</strong> or drag a file here
+                <small>Predictions CSV, or model (.pkl / .joblib / .onnx)</small>
+              </label>
+              <input type="file" id="predictions" name="predictions" accept=".csv,.pkl,.joblib,.onnx" class="visually-hidden">
+            </div>
+
+            <div class="field">
+              <label for="target">3. Actual outcome column</label>
+              <select id="target" name="target">
+                <option>Select a column</option>
+                <option>loan_repaid</option>
+                <option>hired</option>
+                <option>income_over_50k</option>
+              </select>
+              <small class="hint">The real result, used to check accuracy by group.</small>
+            </div>
+
+            <div class="field">
+              <label for="prediction-col">4. Model decision column</label>
+              <select id="prediction-col" name="prediction-col">
+                <option>Select a column</option>
+                <option>predicted_approval</option>
+                <option>predicted_hire</option>
+              </select>
+              <small class="hint">What the model decided (yes/no or score).</small>
+            </div>
+
+            <div class="field field-wide">
+              <label for="sensitive">5. Sensitive attributes to audit</label>
+              <div class="chips" id="sensitive">
+                <label class="chip"><input type="checkbox" name="sensitive" value="gender" checked><span>gender</span></label>
+                <label class="chip"><input type="checkbox" name="sensitive" value="age_band" checked><span>age_band</span></label>
+                <label class="chip"><input type="checkbox" name="sensitive" value="race"><span>race</span></label>
+                <label class="chip"><input type="checkbox" name="sensitive" value="disability"><span>disability</span></label>
+              </div>
+              <label class="check">
+                <input type="checkbox" name="intersectional" checked>
+                <span>Include intersectional groups (for example gender &times; age band)</span>
+              </label>
+            </div>
+
+            <div class="field field-wide">
+              <label for="reference">6. Reference dataset for drift (optional)</label>
+              <input type="file" id="reference" name="reference" accept=".csv" class="file-input">
+              <small class="hint">Upload the original training data to compare against your current data.</small>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Run audit</button>
+            <button type="reset" class="btn btn-ghost">Clear</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== METRIC ADVISOR ===== -->
+    <section id="advisor" class="section">
+      <div class="container">
+        <h2 class="section-title">Which fairness metric should I use?</h2>
+        <p class="section-sub">Metrics can conflict, so pick the one that matches what your model does.</p>
+
+        <div class="grid grid-2">
+          <article class="card advisor">
+            <h3>What is the model used for?</h3>
+            <form action="#" class="advisor-form">
+              <label class="option"><input type="radio" name="usecase" checked><span><strong>Screening or hiring</strong><small>Groups should be selected at similar rates.</small></span></label>
+              <label class="option"><input type="radio" name="usecase"><span><strong>Lending or admissions</strong><small>Qualified people must not be missed.</small></span></label>
+              <label class="option"><input type="radio" name="usecase"><span><strong>Medical triage or risk</strong><small>Both false alarms and misses are costly.</small></span></label>
+              <label class="option"><input type="radio" name="usecase"><span><strong>Scoring or ranking</strong><small>A score should mean the same for every group.</small></span></label>
+              <button type="submit" class="btn btn-primary">Recommend a metric</button>
+            </form>
+          </article>
+
+          <article class="card recommend">
+            <p class="eyebrow">Recommended</p>
+            <h3>Demographic parity (80% rule)</h3>
+            <p>The share of people selected should be similar across groups. A group's rate below 80% of the highest group's rate is flagged.</p>
+            <dl class="facts">
+              <div><dt>Best for</dt><dd>Hiring, screening, shortlisting</dd></div>
+              <div><dt>Watch out</dt><dd>Ignores whether people were actually qualified</dd></div>
+              <div><dt>Backup metric</dt><dd>Equal opportunity</dd></div>
+            </dl>
+          </article>
+        </div>
+
+        <div class="table-wrap">
+          <table class="table">
+            <caption class="visually-hidden">Fairness metrics and when to use them</caption>
+            <thead><tr><th>Metric</th><th>Asks</th><th>Use when</th></tr></thead>
+            <tbody>
+              <tr><td>Demographic parity</td><td>Are groups selected at similar rates?</td><td>Hiring, screening</td></tr>
+              <tr><td>Equal opportunity</td><td>Are qualified people in each group approved equally?</td><td>Lending, admissions</td></tr>
+              <tr><td>Equalized odds</td><td>Are both error types similar across groups?</td><td>Triage, risk scoring</td></tr>
+              <tr><td>Predictive parity</td><td>Does a "yes" mean the same for every group?</td><td>Scores and rankings</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESULTS ===== -->
+    <section id="results" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Audit results</h2>
+        <p class="section-sub">Sample output: Loan Approval v2, 12,480 applicants.</p>
+
+        <div class="grid grid-4 stats">
+          <div class="card stat"><span class="stat-label">Fairness score</span><span class="stat-value">72<small>/100</small></span></div>
+          <div class="card stat"><span class="stat-label">Groups tested</span><span class="stat-value">14</span></div>
+          <div class="card stat stat-bad"><span class="stat-label">Groups flagged</span><span class="stat-value">3</span></div>
+          <div class="card stat stat-warn"><span class="stat-label">Drift level</span><span class="stat-value">Moderate</span></div>
+        </div>
+
+        <div class="grid grid-2">
+          <!-- Bias by group -->
+          <article class="card">
+            <h3>Approval rate by group</h3>
+            <p class="muted">Bars show approval rate. The dashed line marks 80% of the top group.</p>
+            <div class="bars">
+              <div class="bar-row"><span class="bar-label">Men, 25 to 44</span><div class="bar-track"><div class="bar bar-ok" style="width:78%"></div><span class="threshold"></span></div><span class="bar-value">78%</span></div>
+              <div class="bar-row"><span class="bar-label">Women, 25 to 44</span><div class="bar-track"><div class="bar bar-ok" style="width:66%"></div><span class="threshold"></span></div><span class="bar-value">66%</span></div>
+              <div class="bar-row"><span class="bar-label">Men, 45+</span><div class="bar-track"><div class="bar bar-ok" style="width:65%"></div><span class="threshold"></span></div><span class="bar-value">65%</span></div>
+              <div class="bar-row"><span class="bar-label">Women, 45+</span><div class="bar-track"><div class="bar bar-bad" style="width:49%"></div><span class="threshold"></span></div><span class="bar-value">49%</span></div>
+              <div class="bar-row"><span class="bar-label">Women, under 25</span><div class="bar-track"><div class="bar bar-bad" style="width:44%"></div><span class="threshold"></span></div><span class="bar-value">44%</span></div>
+            </div>
+          </article>
+
+          <!-- Drift -->
+          <article class="card">
+            <h3>Drift by feature</h3>
+            <p class="muted">Population Stability Index (PSI): under 0.1 is stable, 0.1 to 0.25 is moderate, above 0.25 is high.</p>
+            <ul class="drift-list">
+              <li><span>income</span><div class="meter"><div class="meter-fill bar-bad" style="width:80%"></div></div><span class="badge badge-bad">0.31</span></li>
+              <li><span>loan_amount</span><div class="meter"><div class="meter-fill bar-warn" style="width:50%"></div></div><span class="badge badge-warn">0.17</span></li>
+              <li><span>age</span><div class="meter"><div class="meter-fill bar-ok" style="width:20%"></div></div><span class="badge badge-ok">0.04</span></li>
+              <li><span>employment_years</span><div class="meter"><div class="meter-fill bar-ok" style="width:12%"></div></div><span class="badge badge-ok">0.02</span></li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Fairness table -->
+        <div class="table-wrap">
+          <table class="table">
+            <caption>Intersectional fairness detail</caption>
+            <thead>
+              <tr><th>Group</th><th>Size</th><th>Approval rate</th><th>Ratio to top group</th><th>Confidence</th><th>Status</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Men, 25 to 44</td><td>3,920</td><td>78%</td><td>1.00</td><td>High</td><td><span class="badge badge-ok">Pass</span></td></tr>
+              <tr><td>Women, 25 to 44</td><td>3,310</td><td>66%</td><td>0.85</td><td>High</td><td><span class="badge badge-ok">Pass</span></td></tr>
+              <tr><td>Women, 45+</td><td>1,240</td><td>49%</td><td>0.63</td><td>High</td><td><span class="badge badge-bad">Fail</span></td></tr>
+              <tr><td>Women, under 25</td><td>86</td><td>44%</td><td>0.56</td><td>Low</td><td><span class="badge badge-warn">Small sample</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPLANATIONS ===== -->
+    <section id="explain" class="section">
+      <div class="container">
+        <h2 class="section-title">Explain a single decision</h2>
+        <p class="section-sub">Pick an applicant and see why the model decided what it did.</p>
+
+        <div class="grid grid-2">
+          <article class="card decision">
+            <div class="decision-head">
+              <div>
+                <p class="muted">Applicant #4821</p>
+                <h3>Loan rejected</h3>
+              </div>
+              <span class="badge badge-bad">Rejected</span>
+            </div>
+            <p class="plain">This application was rejected mainly because <strong>income is low compared with the loan amount requested</strong>. A short employment history also lowered the chance of approval.</p>
+
+            <h4>What pushed the decision</h4>
+            <ul class="factors">
+              <li><span>Income vs loan amount</span><div class="factor-track"><div class="factor factor-neg" style="width:70%"></div></div><span class="factor-note">Hurt</span></li>
+              <li><span>Employment years</span><div class="factor-track"><div class="factor factor-neg" style="width:35%"></div></div><span class="factor-note">Hurt</span></li>
+              <li><span>Credit history</span><div class="factor-track"><div class="factor factor-pos" style="width:45%"></div></div><span class="factor-note">Helped</span></li>
+            </ul>
+          </article>
+
+          <article class="card counterfactual">
+            <p class="eyebrow">What would change the decision</p>
+            <h3>Two small changes flip this to approved</h3>
+            <ul class="check-list">
+              <li>Reduce the loan amount from <strong>$18,000</strong> to <strong>$14,500</strong></li>
+              <li>Or raise verified income from <strong>$32,000</strong> to <strong>$38,000</strong></li>
+            </ul>
+            <p class="muted">Explanations show how the model behaved. They do not prove the decision was fair, so check the group results above too.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== REPORT ===== -->
+    <section id="report" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Compliance report</h2>
+        <p class="section-sub">One click produces a shareable report with evidence and next steps.</p>
+
+        <div class="grid grid-2">
+          <article class="card paper">
+            <p class="eyebrow">Report preview</p>
+            <h3>Model Fairness Audit: Loan Approval v2</h3>
+            <p class="muted">Generated 7 October 2026</p>
+            <ol class="toc">
+              <li>Executive summary</li>
+              <li>Data and model description</li>
+              <li>Fairness results (single and intersectional)</li>
+              <li>Drift analysis</li>
+              <li>Explainability summary</li>
+              <li>Limitations</li>
+              <li>Recommendations</li>
+            </ol>
+          </article>
+
+          <article class="card">
+            <h3>Key recommendations</h3>
+            <ul class="reco">
+              <li><span class="badge badge-bad">High</span> Review the approval gap for women aged 45+ (ratio 0.63).</li>
+              <li><span class="badge badge-warn">Medium</span> Retrain with recent data. Income has drifted (PSI 0.31).</li>
+              <li><span class="badge badge-warn">Medium</span> Collect more data for groups with fewer than 100 people.</li>
+              <li><span class="badge badge-ok">Low</span> Schedule a fairness re-check every quarter.</li>
+            </ul>
+            <div class="form-actions">
+              <a href="#" class="btn btn-primary">Download PDF</a>
+              <a href="#" class="btn btn-ghost">Download HTML</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>FairLens</strong> &middot; Bias Auditing and Explainability Toolkit</p>
+      <p class="muted">Problem 17 &middot; AI / Machine Learning &middot; Track 02: Model Governance</p>
+    </div>
+  </footer>
+
+</body>
+</html>
